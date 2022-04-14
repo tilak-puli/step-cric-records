@@ -18,10 +18,22 @@ function ScoreRow(props: { name: String; score: Score }) {
   );
 }
 
-function MatchCard(props: { match: Match }) {
+export function MatchCard(props: {
+  match: Match;
+  id: number;
+  p?: string;
+  boxShadow?: string;
+  disableLink?: boolean;
+}) {
   return (
-    <CustomBox p={"0.5em"} mb={5} width="100%" height={120} boxShadow={"md"}>
-      <Link href={"/matches"}>
+    <CustomBox
+      p={props.p || "0.5em"}
+      mb={5}
+      width="100%"
+      height={120}
+      boxShadow={props.boxShadow || "md"}
+    >
+      <Link href={"/matches/" + props.id}>
         <Flex direction={"column"} gap={2}>
           <Text fontSize="xs">{props.match.matchFileNameDate}</Text>
           <Flex direction={"column"}>
@@ -44,8 +56,8 @@ function MatchCard(props: { match: Match }) {
 export function Matches(props: { data: Match[] }) {
   return (
     <Box maxHeight="500" overflow={"auto"} p={"1em"}>
-      {_.map(props.data, (match: Match) => {
-        return <MatchCard match={match} />;
+      {_.map(props.data, (match: Match, i) => {
+        return <MatchCard id={i + 1} match={match} />;
       })}
     </Box>
   );

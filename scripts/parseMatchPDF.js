@@ -51,8 +51,8 @@ function getBatting(lines, i) {
     }
     const batsman = { name: lines[i] };
     batsman.outReason = lines[i + 1];
-    batsman.balls = +lines[i + 2];
-    batsman.runs = +lines[i + 3];
+    batsman.runs = +lines[i + 2];
+    batsman.balls = +lines[i + 3];
     batsman.fours = +lines[i + 4];
     batsman.sixes = +lines[i + 5];
     batsman.runRate = +lines[i + 6];
@@ -86,7 +86,7 @@ function getBowling(lines, i) {
     bowler.maidens = +lines[i + 2];
     bowler.runs = +lines[i + 3];
     bowler.wickets = +lines[i + 4];
-    bowler.bowlingRunRate = +lines[i + 5];
+    bowler.economy = +lines[i + 5];
 
     i = i + 6;
 

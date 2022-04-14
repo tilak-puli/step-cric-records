@@ -9,7 +9,7 @@ export interface Match {
   matchFileNameDate: string;
 }
 
-interface TeamData {
+export interface TeamData {
   name: String;
   score: Score;
   batting: Batting[];
@@ -26,7 +26,7 @@ export interface Score {
   overs: number;
 }
 
-interface Batting {
+export interface Batting {
   name: String;
   outReason: String;
   balls: number;
@@ -36,11 +36,11 @@ interface Batting {
   runRate: number;
 }
 
-interface Bowling {
+export interface Bowling {
   name: String;
   overs: number;
   runs: number;
   maidens: number;
   wickets: number;
-  bowlingRunRate: number;
+  economy: number;
 }

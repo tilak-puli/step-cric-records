@@ -25,8 +25,8 @@ import LogoIcon from "../public/stepLogo.png";
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: "Matches",
-    href: "/matches",
+    label: "Home",
+    href: "/",
   },
   {
     label: "Stats",
