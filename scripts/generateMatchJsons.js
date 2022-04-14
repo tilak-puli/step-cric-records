@@ -1,18 +1,27 @@
 const fs = require("fs");
 const _ = require("underscore");
 const parseMatchPdf = require("./parseMatchPDF");
-const matchesJson = require("../ui/data/matches.json");
+let matchesJson = require("../ui/data/matches.json");
 
 const generateMatchDataJson = async () => {
   const pdfFileNames = fs.readdirSync("./matches/pdf");
-  const jsonFileNames = Object.keys(matchesJson);
-  const jsonFilesRequired = _.difference(pdfFileNames, jsonFileNames);
+  const jsonFileNames = matchesJson.map((m) => m.matchFileNameDate);
+  const jsonFilesRequired = _.difference(
+    pdfFileNames,
+    jsonFileNames.map((f) => f + ".pdf")
+  );
 
   for (const fileName of jsonFilesRequired) {
-    matchesJson[fileName.split(".")[0]] = await parseMatchPdf(
-      "./matches/pdf/" + fileName
-    );
+    matchesJson.push({
+      ...(await parseMatchPdf("./matches/pdf/" + fileName)),
+      matchFileNameDate: fileName.split(".")[0],
+    });
   }
+
+  matchesJson = matchesJson.sort(
+    (match1, match2) =>
+      new Date(match1.matchFileNameDate) - new Date(match2.matchFileNameDate)
+  );
 
   await fs.writeFileSync(
     "./ui/data/matches.json",

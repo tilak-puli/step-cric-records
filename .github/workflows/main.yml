@@ -24,18 +24,18 @@ jobs:
     steps:
       - name: "checking out to latest"
         uses: actions/checkout@v3
-        
+
       - name: "setup node"
         uses: actions/setup-node@v3
         with:
           node-version: '14'
-          
+
       - run: npm install
-      - run: npm run generate-match-jsons
-      
+      - run: npm run generate-[matchId]-jsons
+
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
           default_author: github_actions
-          message: 'Added match jsons'
+          message: 'Added [matchId] jsons'
           add: 'matches'

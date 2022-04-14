@@ -13,7 +13,7 @@ export const CustomBox = (props: HigherOrderChakraProps) => {
       border="1px"
       borderStyle={"solid"}
       borderColor={"gray.200"}
-      p={"1em"}
+      borderRadius={"sm"}
       {...props}
     >
       {props.children}
