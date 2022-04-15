@@ -20,8 +20,6 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
-import Image from "next/image";
-import LogoIcon from "../public/stepLogo.png";
 import { useRouter } from "next/router";
 
 const NAV_ITEMS: Array<NavItem> = [
@@ -74,7 +72,7 @@ export default function Navbar() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <Image alt={"logo"} src={LogoIcon} width={75} height={50} />
+            <img alt={"logo"} src={"./stepLogo.png"} width={75} height={50} />
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -107,7 +105,7 @@ const DesktopNav = () => {
               <PopoverTrigger>
                 <Link
                   p={2}
-                  href={!isCurrentRoute && (navItem.href ?? "#")}
+                  href={!isCurrentRoute ? navItem.href ?? "#" : undefined}
                   fontSize={"sm"}
                   fontWeight={isCurrentRoute ? "bolder" : 500}
                   color={isCurrentRoute ? "white" : linkColor}
@@ -205,7 +203,7 @@ const MobileNavItem = ({ navItem, isCurrentRoute }) => {
       <Flex
         py={2}
         as={Link}
-        href={!isCurrentRoute && (navItem.href ?? "#")}
+        href={!isCurrentRoute ? navItem.href ?? "#" : undefined}
         justify={"space-between"}
         align={"center"}
         _hover={{
