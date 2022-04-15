@@ -4,6 +4,21 @@ import { useContext } from "react";
 import { GlobalContext } from "../state/GlobalContext";
 import { Matches } from "../components";
 
+function StatBox(props: { name: string; value: number }) {
+  return (
+    <CustomBox width={["100%", 200]} height={150}>
+      <Heading p={"1em"} size={"l"}>
+        {props.name}
+      </Heading>
+      <Flex align="center" justify="center">
+        <Heading size={"4xl"} color="black" fontFamily={"Chalk"}>
+          {props.value}
+        </Heading>
+      </Flex>
+    </CustomBox>
+  );
+}
+
 function Home() {
   const {
     matches,
@@ -19,56 +34,11 @@ function Home() {
         <Matches data={matches} />
       </CustomBox>
       <Wrap p={["1em", "2em"]} spacing={10} flex={1}>
-        <CustomBox width={["100%", 200]} height={150}>
-          <Heading p={"1em"} size={"l"}>
-            Matches Played
-          </Heading>
-          <Flex align="center" justify="center">
-            <Heading size={"4xl"} color="black" fontFamily={"Square Peg"}>
-              {matches.length}
-            </Heading>
-          </Flex>
-        </CustomBox>
-        <CustomBox width={["100%", 200]} height={150}>
-          <Heading p={"1em"} size={"l"}>
-            Runs Scored
-          </Heading>
-          <Flex align="center" justify="center">
-            <Heading size={"4xl"} color="black" fontFamily={"Square Peg"}>
-              {total.runsScored}
-            </Heading>
-          </Flex>
-        </CustomBox>
-        <CustomBox width={["100%", 200]} height={150}>
-          <Heading p={"1em"} size={"l"}>
-            Fours
-          </Heading>
-          <Flex align="center" justify="center">
-            <Heading size={"4xl"} color="black" fontFamily={"Square Peg"}>
-              {total.foursHit}
-            </Heading>
-          </Flex>
-        </CustomBox>
-        <CustomBox width={["100%", 200]} height={150}>
-          <Heading p={"1em"} size={"l"}>
-            Sixes
-          </Heading>
-          <Flex align="center" justify="center">
-            <Heading size={"4xl"} color="black" fontFamily={"Square Peg"}>
-              {total.sixesHit}
-            </Heading>
-          </Flex>
-        </CustomBox>
-        <CustomBox width={["100%", 200]} height={150}>
-          <Heading p={"1em"} size={"l"}>
-            highest Team Score
-          </Heading>
-          <Flex align="center" justify="center">
-            <Heading size={"4xl"} color="black" fontFamily={"Square Peg"}>
-              {total.highestMatchScore}
-            </Heading>
-          </Flex>
-        </CustomBox>
+        <StatBox name={"Matches Played"} value={matches.length} />
+        <StatBox name={"Runs Scored"} value={total.runsScored} />
+        <StatBox name={"Fours"} value={total.foursHit} />
+        <StatBox name={"Sixes"} value={total.sixesHit} />
+        <StatBox name={"Highest Team Score"} value={total.highestMatchScore} />
       </Wrap>
     </Flex>
   );
