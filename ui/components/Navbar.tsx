@@ -35,14 +35,14 @@ const NAV_ITEMS: Array<NavItem> = [
   },
 ];
 
-export default function WithSubnavigation() {
+export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
     <Box>
       <Flex
-        bg={useColorModeValue("white", "gray.800")}
-        color={useColorModeValue("gray.600", "white")}
+        bg={"brand.900"}
+        color={"white"}
         minH={"60px"}
         py={{ base: 2 }}
         px={{ base: 4 }}
@@ -63,6 +63,8 @@ export default function WithSubnavigation() {
               isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
             }
             variant={"ghost"}
+            _hover={{ bg: "transparent" }}
+            _active={{ bg: "transparent" }}
             aria-label={"Toggle Navigation"}
           />
         </Flex>
@@ -89,9 +91,9 @@ export default function WithSubnavigation() {
 }
 
 const DesktopNav = () => {
-  const linkColor = useColorModeValue("gray.600", "gray.200");
-  const linkHoverColor = useColorModeValue("gray.800", "white");
-  const popoverContentBgColor = useColorModeValue("white", "gray.800");
+  const linkColor = "gray.400";
+  const linkHoverColor = "white";
+  const popoverContentBgColor = "brand.900";
   const router = useRouter();
   const currentPath = router.pathname;
 
@@ -108,10 +110,10 @@ const DesktopNav = () => {
                   href={!isCurrentRoute && (navItem.href ?? "#")}
                   fontSize={"sm"}
                   fontWeight={isCurrentRoute ? "bolder" : 500}
-                  color={isCurrentRoute ? "brand.900" : linkColor}
+                  color={isCurrentRoute ? "white" : linkColor}
                   _hover={{
                     textDecoration: "none",
-                    color: isCurrentRoute ? "brand.700" : linkHoverColor,
+                    color: isCurrentRoute ? "white" : linkHoverColor,
                   }}
                 >
                   {navItem.label}
@@ -183,11 +185,7 @@ const MobileNav = () => {
   const router = useRouter();
 
   return (
-    <Stack
-      bg={useColorModeValue("white", "gray.800")}
-      p={4}
-      display={{ md: "none" }}
-    >
+    <Stack bg={"brand.900"} p={4} display={{ md: "none" }}>
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem
           key={navItem.label}
@@ -214,14 +212,7 @@ const MobileNavItem = ({ navItem, isCurrentRoute }) => {
           textDecoration: "none",
         }}
       >
-        <Text
-          fontWeight={600}
-          color={
-            isCurrentRoute
-              ? "brand.900"
-              : useColorModeValue("gray.600", "gray.200")
-          }
-        >
+        <Text fontWeight={600} color={isCurrentRoute ? "white" : "gray.400"}>
           {navItem.label}
         </Text>
         {navItem.children && (

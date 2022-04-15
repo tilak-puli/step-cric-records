@@ -17,6 +17,11 @@ const theme = extendTheme({
       },
     },
   },
+  components: {
+    Heading: {
+      baseStyle: { color: "brand.900" },
+    },
+  },
 });
 
 export default theme;

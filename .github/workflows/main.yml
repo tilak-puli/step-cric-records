@@ -31,7 +31,7 @@ jobs:
           node-version: '14'
 
       - run: npm install
-      - run: npm run generate-[matchId]-jsons
+      - run: npm run generate-match-jsons
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
