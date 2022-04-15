@@ -15,8 +15,8 @@ const columns = [
     sortDescFirst: true,
   },
   { accessor: "matches", Header: "M", width: 10, disableSortBy: true },
-  { accessor: "runs", Header: "Runs", width: 20, sortType: "basic" },
-  { accessor: "avg", Header: "Avg", width: 20, sortType: "basic" },
+  { accessor: "runs", Header: "Runs", width: 20, sortType: "basic", px: [5] },
+  { accessor: "avg", Header: "Avg", width: 20, sortType: "basic", px: [5] },
 ];
 
 export function MostRunsTable(props: { battingStats: BattingStats }) {
@@ -49,7 +49,7 @@ export function MostRunsTable(props: { battingStats: BattingStats }) {
               <Th
                 key={k}
                 {...column.getHeaderProps(column.getSortByToggleProps())}
-                px={["5", "inherit"]}
+                px={column.px}
               >
                 <Flex direction={"row"} align="center">
                   {column.render("Header")}
@@ -81,6 +81,7 @@ export function MostRunsTable(props: { battingStats: BattingStats }) {
                   fontSize={"sm"}
                   {...cell.getCellProps()}
                   isNumeric={cell.column.isNumeric}
+                  px={cell.column.px}
                 >
                   {cell.render("Cell")}
                 </Td>
