@@ -29,7 +29,7 @@ const columns = [
   },
   {
     field: "rr",
-    headerName: "Strike Rate",
+    headerName: "SR",
     width: 20,
   },
 ];

@@ -1,12 +1,16 @@
 export interface BattingStat {
   runs: number;
-  highestScore: number;
-  highestScoreInBalls: number;
+  battingFigures: BattingFigure[];
   matches: number;
 }
 
 export interface BattingStats {
   [name: string]: BattingStat;
+}
+
+export interface BattingFigure {
+  runs: number;
+  balls: number;
 }
 
 export interface BowlingFigure {

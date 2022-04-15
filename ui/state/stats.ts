@@ -19,18 +19,14 @@ export default function getStats(matches: Match[]) {
     if (!batting[indexName]) {
       batting[indexName] = {
         runs: 0,
-        highestScore: 0,
+        battingFigures: [],
         matches: 0,
-        highestScoreInBalls: 0,
       };
     }
     batting[indexName].runs += runs;
     batting[indexName].matches += 1;
 
-    if (runs > batting[indexName].highestScore) {
-      batting[indexName].highestScore = runs;
-      batting[indexName].highestScoreInBalls = balls;
-    }
+    batting[indexName].battingFigures.push({ runs, balls });
   };
 
   const addBowlingRecords = (date, { wickets, name, runs, overs }) => {

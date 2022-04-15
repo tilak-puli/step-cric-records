@@ -12,15 +12,21 @@ const columns = [
 
 export function HighestScoreTable(props: { battingStats: BattingStats }) {
   const rows = useMemo(() => {
-    const sortedStats = _.map(props.battingStats, (b, name) => [
+    const allFigures = _.map(props.battingStats, (stat, name) =>
+      stat.battingFigures.map((f) => ({ name: name, figure: f }))
+    );
+
+    const sortedStats = _.map(_.flatten(allFigures), ({ figure, name }) => [
       capitalize(name),
-      b.highestScore,
-      b.highestScoreInBalls,
+      figure.runs,
+      figure.balls,
     ]).sort((s, s1) => {
       let diff = s1[1] - s[1];
+
       if (diff === 0) {
         diff = s[2] - s1[2];
       }
+
       return diff;
     });
 
