@@ -12,6 +12,10 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <ChakraProvider theme={theme}>
         <Head>
           <title>Step Cricket Scores</title>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <NavBar />
         <Component {...pageProps} />

@@ -11,6 +11,13 @@ interface GlobalContextType {
     bowling: BowlingStats;
     fromYear: number;
     setFromYear: any;
+    total?: {
+      runsScored: number;
+      wicketsTaken: number;
+      foursHit: number;
+      sixesHit: number;
+      highestMatchScore: number;
+    };
   };
 }
 export const StartYear = 2019;
@@ -22,6 +29,13 @@ export const GlobalContext = createContext<GlobalContextType>({
     bowling: {},
     fromYear: StartYear,
     setFromYear: () => {},
+    total: {
+      runsScored: 0,
+      wicketsTaken: 0,
+      foursHit: 0,
+      sixesHit: 0,
+      highestMatchScore: 0,
+    },
   },
 });
 

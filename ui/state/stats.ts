@@ -12,9 +12,17 @@ function getIndexName(name, date) {
 export default function getStats(matches: Match[], fromYear: number) {
   const batting: BattingStats = {};
   const bowling: BowlingStats = {};
+  let runsScored: number = 0;
+  let wicketsTaken: number = 0;
+  let foursHit: number = 0;
+  let sixesHit: number = 0;
+  let highestMatchScore: number = 0;
 
-  const addBattingRecords = (date, { runs, name, balls }) => {
+  const addBattingRecords = (date, { runs, name, balls, fours, sixes }) => {
     const indexName = getIndexName(name, date);
+    runsScored += runs;
+    foursHit += fours;
+    sixesHit += sixes;
 
     if (!batting[indexName]) {
       batting[indexName] = {
@@ -31,6 +39,7 @@ export default function getStats(matches: Match[], fromYear: number) {
 
   const addBowlingRecords = (date, { wickets, name, runs, overs }) => {
     const indexName = getIndexName(name, date);
+    wicketsTaken += wickets;
 
     if (!bowling[indexName]) {
       bowling[indexName] = {
@@ -52,6 +61,13 @@ export default function getStats(matches: Match[], fromYear: number) {
   matches
     .filter((m) => new Date(m.matchFileNameDate).getFullYear() >= fromYear)
     .forEach((match) => {
+      if (highestMatchScore < match.team1.score.runs) {
+        highestMatchScore = match.team1.score.runs;
+      }
+      if (highestMatchScore < match.team2.score.runs) {
+        highestMatchScore = match.team2.score.runs;
+      }
+
       match.team1.batting.forEach(
         addBattingRecords.bind(null, match.matchFileNameDate)
       );
@@ -66,5 +82,10 @@ export default function getStats(matches: Match[], fromYear: number) {
       );
     });
 
-  return { batting, bowling, fromYear };
+  return {
+    batting,
+    bowling,
+    fromYear,
+    total: { runsScored, wicketsTaken, foursHit, sixesHit, highestMatchScore },
+  };
 }
