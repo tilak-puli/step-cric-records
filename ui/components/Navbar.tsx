@@ -21,6 +21,8 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 import { useRouter } from "next/router";
+import Image from "next/image";
+import StepLogo from "../public/stepLogo.png";
 
 const NAV_ITEMS: Array<NavItem> = [
   {
@@ -72,7 +74,7 @@ export default function Navbar() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <img alt={"logo"} src={"/stepLogo.png"} width={75} height={50} />
+            <Image alt={"logo"} src={StepLogo} width={75} height={50} />
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
