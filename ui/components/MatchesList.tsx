@@ -1,6 +1,6 @@
 import { Match, Score } from "../types/match";
 import { Box, Flex, Text } from "@chakra-ui/react";
-import Link from "next/Link";
+import Link from "next/link";
 import { CustomBox } from "./HigherOrder/CustomBox";
 import _ from "underscore";
 
