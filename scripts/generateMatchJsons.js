@@ -14,13 +14,13 @@ const generateMatchDataJson = async () => {
   for (const fileName of jsonFilesRequired) {
     matchesJson.push({
       ...(await parseMatchPdf("./matches/pdf/" + fileName)),
-      matchFileNameDate: fileName.split(".")[0],
+      matchFileNameDate: fileName.split(".")[0].replaceAll("-", "/"),
     });
   }
 
   matchesJson = matchesJson.sort(
     (match1, match2) =>
-      new Date(match1.matchFileNameDate) - new Date(match2.matchFileNameDate)
+      new Date(match2.matchFileNameDate) - new Date(match1.matchFileNameDate)
   );
 
   await fs.writeFileSync(

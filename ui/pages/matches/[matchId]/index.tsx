@@ -45,6 +45,7 @@ const Matches = () => {
                   p={"1em"}
                   boxShadow={"sm"}
                   match={match}
+                  disableLink={true}
                 />
               }
             </Box>

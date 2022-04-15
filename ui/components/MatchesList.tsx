@@ -32,6 +32,7 @@ export function MatchCard(props: {
       width="100%"
       height={120}
       boxShadow={props.boxShadow || "md"}
+      cursor={!props.disableLink && "pointer"}
     >
       <Link href={"/matches/" + props.id}>
         <Flex direction={"column"} gap={2}>

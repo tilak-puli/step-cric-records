@@ -1,22 +1,22 @@
 export interface Match {
-  team1Name: String;
-  team2Name: String;
-  result: String;
+  team1Name: string;
+  team2Name: string;
+  result: string;
   team1: TeamData;
   team2: TeamData;
-  winner: String;
+  winner: string;
   matchUploadedDate: string;
   matchFileNameDate: string;
 }
 
 export interface TeamData {
-  name: String;
+  name: string;
   score: Score;
   batting: Batting[];
   extrasGot: number;
   battingRunRate: number;
   extrasBowled: number;
-  extrasBowledText: String;
+  extrasBowledText: string;
   bowling: Bowling[];
 }
 
@@ -27,8 +27,8 @@ export interface Score {
 }
 
 export interface Batting {
-  name: String;
-  outReason: String;
+  name: string;
+  outReason: string;
   balls: number;
   runs: number;
   fours: number;
@@ -37,7 +37,7 @@ export interface Batting {
 }
 
 export interface Bowling {
-  name: String;
+  name: string;
   overs: number;
   runs: number;
   maidens: number;

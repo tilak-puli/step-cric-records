@@ -13,7 +13,7 @@ function Home() {
       <NavBar />
       <Flex p={"2em"}>
         <CustomBox width={400} maxWidth={"80vw"} minHeight={500}>
-          <Heading p={"1em"} size={"l"}>
+          <Heading color={"brand.900"} p={"1em"} size={"l"}>
             Recent Matches
           </Heading>
           <Matches data={matches} />
