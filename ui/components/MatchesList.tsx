@@ -34,7 +34,7 @@ export function MatchCard(props: {
       boxShadow={props.boxShadow || "md"}
       cursor={!props.disableLink && "pointer"}
     >
-      <Link href={"/matches/" + props.id}>
+      <Link href={"/matches/" + props.id} passHref={true}>
         <Flex direction={"column"} gap={2}>
           <Text fontSize="xs">{props.match.matchFileNameDate}</Text>
           <Flex direction={"column"}>
