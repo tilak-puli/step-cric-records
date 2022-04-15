@@ -9,7 +9,7 @@ function getIndexName(name, date) {
     : name.toLowerCase();
 }
 
-export default function getStats(matches: Match[]) {
+export default function getStats(matches: Match[], fromYear: number) {
   const batting: BattingStats = {};
   const bowling: BowlingStats = {};
 
@@ -49,20 +49,22 @@ export default function getStats(matches: Match[]) {
     });
   };
 
-  matches.forEach((match) => {
-    match.team1.batting.forEach(
-      addBattingRecords.bind(null, match.matchFileNameDate)
-    );
-    match.team2.batting.forEach(
-      addBattingRecords.bind(null, match.matchFileNameDate)
-    );
-    match.team1.bowling.forEach(
-      addBowlingRecords.bind(null, match.matchFileNameDate)
-    );
-    match.team2.bowling.forEach(
-      addBowlingRecords.bind(null, match.matchFileNameDate)
-    );
-  });
+  matches
+    .filter((m) => new Date(m.matchFileNameDate).getFullYear() >= fromYear)
+    .forEach((match) => {
+      match.team1.batting.forEach(
+        addBattingRecords.bind(null, match.matchFileNameDate)
+      );
+      match.team2.batting.forEach(
+        addBattingRecords.bind(null, match.matchFileNameDate)
+      );
+      match.team1.bowling.forEach(
+        addBowlingRecords.bind(null, match.matchFileNameDate)
+      );
+      match.team2.bowling.forEach(
+        addBowlingRecords.bind(null, match.matchFileNameDate)
+      );
+    });
 
-  return { batting, bowling };
+  return { batting, bowling, fromYear };
 }
