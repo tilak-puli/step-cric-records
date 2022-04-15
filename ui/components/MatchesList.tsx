@@ -3,6 +3,7 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import { CustomBox } from "./HigherOrder/CustomBox";
 import _ from "underscore";
+import { formatDate } from "../utils";
 
 function ScoreRow(props: { name: String; score: Score }) {
   return (
@@ -36,7 +37,9 @@ export function MatchCard(props: {
         cursor={!props.disableLink && "pointer"}
       >
         <Flex direction={"column"} gap={2}>
-          <Text fontSize="xs">{props.match.matchFileNameDate}</Text>
+          <Text fontSize="xs">
+            {formatDate(new Date(props.match.matchFileNameDate))}
+          </Text>
           <Flex direction={"column"}>
             <ScoreRow
               name={props.match.team1Name}
