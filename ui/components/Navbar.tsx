@@ -74,7 +74,7 @@ export default function Navbar() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <Image src={LogoIcon} width={75} height={50} />
+            <Image alt={"logo"} src={LogoIcon} width={75} height={50} />
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>

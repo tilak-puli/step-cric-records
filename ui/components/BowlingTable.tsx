@@ -50,16 +50,18 @@ export function BowlingTable(props: { team: TeamData }) {
       <Table variant="simple">
         <Thead>
           <Tr>
-            {columns.map((c) => (
-              <Th width={c.width}>{c.headerName}</Th>
+            {columns.map((c, k) => (
+              <Th key={k} width={c.width}>
+                {c.headerName}
+              </Th>
             ))}
           </Tr>
         </Thead>
         <Tbody>
-          {rows.map((r) => (
-            <Tr>
-              {columns.map((c) => (
-                <Td py={1} fontSize={"sm"}>
+          {rows.map((r, k) => (
+            <Tr key={k}>
+              {columns.map((c, k) => (
+                <Td key={k} py={1} fontSize={"sm"}>
                   {r[c.field]}
                 </Td>
               ))}

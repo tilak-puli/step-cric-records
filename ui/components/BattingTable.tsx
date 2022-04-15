@@ -60,16 +60,18 @@ export function BattingTable(props: { team: TeamData }) {
       <Table variant="simple">
         <Thead>
           <Tr>
-            {columns.map((c) => (
-              <Th width={c.width}>{c.headerName}</Th>
+            {columns.map((c, k) => (
+              <Th key={k} width={c.width}>
+                {c.headerName}
+              </Th>
             ))}
           </Tr>
         </Thead>
         <Tbody>
           {rows.map((r) => (
             <Tr key={r.id}>
-              {columns.map((c) => (
-                <Td py={1} fontSize={"sm"}>
+              {columns.map((c, k) => (
+                <Td key={k} py={1} fontSize={"sm"}>
                   {r[c.field]}
                 </Td>
               ))}

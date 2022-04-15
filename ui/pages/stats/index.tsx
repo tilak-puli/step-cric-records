@@ -82,7 +82,7 @@ function getStats(matches: Match[]) {
 
 const Stats = () => {
   const { matches } = useContext(GlobalContext);
-  const stats = useMemo(() => getStats(matches), matches);
+  const stats = useMemo(() => getStats(matches), [matches]);
 
   return (
     <Box>

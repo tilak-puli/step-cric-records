@@ -43,10 +43,13 @@ export function MostRunsTable(props: { battingStats: BattingStats }) {
   return (
     <Table variant="simple" {...getTableProps()}>
       <Thead position={"sticky"} top={0} bg={"white"}>
-        {headerGroups.map((headerGroup) => (
-          <Tr {...headerGroup.getHeaderGroupProps()}>
-            {headerGroup.headers.map((column) => (
-              <Th {...column.getHeaderProps(column.getSortByToggleProps())}>
+        {headerGroups.map((headerGroup, k) => (
+          <Tr key={k} {...headerGroup.getHeaderGroupProps()}>
+            {headerGroup.headers.map((column, k) => (
+              <Th
+                key={k}
+                {...column.getHeaderProps(column.getSortByToggleProps())}
+              >
                 <Flex direction={"row"} align="center">
                   {column.render("Header")}
                   {column.canSort &&
@@ -66,12 +69,13 @@ export function MostRunsTable(props: { battingStats: BattingStats }) {
         ))}
       </Thead>
       <Tbody {...getTableBodyProps()}>
-        {rows.map((row) => {
+        {rows.map((row, k) => {
           prepareRow(row);
           return (
-            <Tr {...row.getRowProps()}>
-              {row.cells.map((cell) => (
+            <Tr key={k} {...row.getRowProps()}>
+              {row.cells.map((cell, k) => (
                 <Td
+                  key={k}
                   py={1}
                   fontSize={"sm"}
                   {...cell.getCellProps()}
