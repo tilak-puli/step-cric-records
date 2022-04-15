@@ -134,6 +134,19 @@ function getTeamScores(lines) {
 
   i = findNextTeamStart(lines, i);
 
+  if (i === undefined) {
+    //match discontinued after one innings
+    team2.batting = [];
+    team2.extrasGot = 0;
+    team2.battingRunRate = 0;
+    team1.extrasBowled = 0;
+    team1.extrasBowledText = "";
+    team1.bowling = [];
+    team2.name = "";
+    team2.score = { wickets: 0, runs: 0, overs: 0 };
+    return [team1, team2];
+  }
+
   team2.name = lines[i];
   team2.score = getScore(lines, i);
 
@@ -157,6 +170,13 @@ const parseMatchPDF = async (filePath) => {
   [data.team1, data.team2] = getTeamScores(lines);
   data.result = getResult(lines);
   data.winner = lines[1].split(" ")[0];
+
+  if (data.team2.batting.length === 0) {
+    //match discontinued after one innings
+
+    data.winner = "Discontinued";
+    data.team2.name = data.team2Name;
+  }
 
   data.matchUploadedDate = new Date();
 

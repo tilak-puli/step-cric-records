@@ -5,7 +5,9 @@ let matchesJson = require("../ui/data/matches.json");
 
 const generateMatchDataJson = async () => {
   const pdfFileNames = fs.readdirSync("./matches/pdf");
-  const jsonFileNames = matchesJson.map((m) => m.matchFileNameDate);
+  const jsonFileNames = matchesJson.map((m) =>
+    m.matchFileNameDate.replaceAll("/", "-")
+  );
   const jsonFilesRequired = _.difference(
     pdfFileNames,
     jsonFileNames.map((f) => f + ".pdf")
