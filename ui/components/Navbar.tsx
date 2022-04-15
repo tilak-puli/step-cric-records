@@ -72,7 +72,7 @@ export default function Navbar() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <img alt={"logo"} src={"./stepLogo.png"} width={75} height={50} />
+            <img alt={"logo"} src={"/stepLogo.png"} width={75} height={50} />
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>

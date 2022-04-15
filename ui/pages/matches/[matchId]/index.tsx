@@ -3,11 +3,11 @@ import { useRouter } from "next/router";
 import { useContext } from "react";
 import { GlobalContext } from "../../../state/GlobalContext";
 import NavBar from "../../../components/Navbar";
-import { MatchCard } from "../../../components/MatchesList";
+import { MatchCard } from "../../../components";
 import { CustomBox } from "../../../components/HigherOrder/CustomBox";
 import { Match, TeamData } from "../../../types/match";
-import { BattingTable } from "../../../components/BattingTable";
-import { BowlingTable } from "../../../components/BowlingTable";
+import { BattingTable } from "../../../components";
+import { BowlingTable } from "../../../components";
 
 function TeamScoreBoard(props: {
   name: String;
