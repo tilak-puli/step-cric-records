@@ -1,5 +1,4 @@
 import { Box, Heading, Wrap } from "@chakra-ui/react";
-import NavBar from "../../components/Navbar";
 import { useContext } from "react";
 import { GlobalContext } from "../../state/GlobalContext";
 import { MostRunsTable } from "../../components";
@@ -13,7 +12,6 @@ const Stats = () => {
 
   return (
     <Box>
-      <NavBar />
       <Wrap p={"2vw"} w={"100%"} spacing={10}>
         <CustomBox>
           <Heading p={2} fontSize={"md"}>

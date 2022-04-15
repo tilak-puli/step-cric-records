@@ -4,6 +4,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import theme from "../styles/theme";
 import GlobalContextProvider from "../state/GlobalContext";
 import Head from "next/head";
+import NavBar from "../components/Navbar";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -12,6 +13,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <Head>
           <title>Step Cricket Scores</title>
         </Head>
+        <NavBar />
         <Component {...pageProps} />
       </ChakraProvider>
     </GlobalContextProvider>

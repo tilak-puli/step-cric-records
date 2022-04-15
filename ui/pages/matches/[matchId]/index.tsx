@@ -2,7 +2,6 @@ import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { useContext } from "react";
 import { GlobalContext } from "../../../state/GlobalContext";
-import NavBar from "../../../components/Navbar";
 import { MatchCard } from "../../../components";
 import { CustomBox } from "../../../components/HigherOrder/CustomBox";
 import { Match, TeamData } from "../../../types/match";
@@ -31,12 +30,8 @@ const Matches = () => {
   const { matches } = useContext(GlobalContext);
   const match = matches[+matchId - 1] as Match;
 
-  console.log("in match page: " + matchId);
-  console.log(matches);
-
   return (
     <Box>
-      <NavBar />
       <Box p={"2vw"}>
         {!match && <Box width={500}>{<Text>Match not found.</Text>}</Box>}
         {match && (
