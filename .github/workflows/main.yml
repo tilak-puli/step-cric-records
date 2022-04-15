@@ -55,15 +55,15 @@ jobs:
           node-version: '14'
           cache: 'npm'
 
-        - name: Build
-          run: |
-            cd ui
-            npm i
-            npm run build
-            npm run export
+      - name: Build
+        run: |
+          cd ui
+          npm i
+          npm run build
+          npm run export
 
-        - name: Deploy
-          uses: peaceiris/actions-gh-pages@v3
-          with:
-            deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-            publish_dir: ./out
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./out
