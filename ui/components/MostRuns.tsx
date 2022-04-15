@@ -15,8 +15,8 @@ const columns = [
     sortDescFirst: true,
   },
   { accessor: "matches", Header: "M", width: 10, disableSortBy: true },
-  { accessor: "runs", Header: "Runs", width: 20, sortType: "basic", px: [5] },
-  { accessor: "avg", Header: "Avg", width: 20, sortType: "basic", px: [5] },
+  { accessor: "runs", Header: "Runs", width: 20, sortType: "number", px: [5] },
+  { accessor: "avg", Header: "Avg", width: 20, sortType: "number", px: [5] },
 ];
 
 export function MostRunsTable(props: { battingStats: BattingStats }) {
