@@ -12,7 +12,7 @@ import {
 import { useMemo } from "react";
 
 const columns = [
-  { field: "name", headerName: "Bowling", width: 30 },
+  { field: "name", headerName: "Bowling", width: 40 },
   { field: "overs", headerName: "O", width: 10 },
   { field: "maidens", headerName: "M", width: 10 },
   {
@@ -46,12 +46,12 @@ export function BowlingTable(props: { team: TeamData }) {
   }, [props.team.bowling]);
 
   return (
-    <TableContainer>
+    <TableContainer px={[3, 0]}>
       <Table variant="simple">
         <Thead>
           <Tr>
             {columns.map((c, k) => (
-              <Th key={k} width={c.width}>
+              <Th px={[1, 5]} key={k} width={c.width}>
                 {c.headerName}
               </Th>
             ))}
@@ -61,7 +61,7 @@ export function BowlingTable(props: { team: TeamData }) {
           {rows.map((r, k) => (
             <Tr key={k}>
               {columns.map((c, k) => (
-                <Td key={k} py={1} fontSize={"sm"}>
+                <Td px={[1, 5]} width={c.width} key={k} py={1} fontSize={"sm"}>
                   {r[c.field]}
                 </Td>
               ))}

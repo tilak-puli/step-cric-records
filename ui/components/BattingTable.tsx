@@ -14,7 +14,7 @@ import {
 import { useMemo } from "react";
 
 const columns = [
-  { field: "name", headerName: "Batting", width: 250 },
+  { field: "name", headerName: "Batting", width: 50, mWidth: 60, minW: 20 },
   { field: "runs", headerName: "R", width: 10 },
   { field: "balls", headerName: "B", width: 10 },
   {
@@ -56,12 +56,17 @@ export function BattingTable(props: { team: TeamData }) {
   }, [props.team.batting]);
 
   return (
-    <TableContainer>
+    <TableContainer px={[3, 0]}>
       <Table variant="simple">
         <Thead>
           <Tr>
             {columns.map((c, k) => (
-              <Th key={k} width={c.width}>
+              <Th
+                key={k}
+                minW={c.minW}
+                width={[c.mWidth || c.width, c.width]}
+                px={[1, 5]}
+              >
                 {c.headerName}
               </Th>
             ))}
@@ -71,7 +76,13 @@ export function BattingTable(props: { team: TeamData }) {
           {rows.map((r) => (
             <Tr key={r.id}>
               {columns.map((c, k) => (
-                <Td key={k} py={1} fontSize={"sm"}>
+                <Td
+                  width={c.mWidth || c.width}
+                  key={k}
+                  py={1}
+                  px={[1, 5]}
+                  fontSize={"sm"}
+                >
                   {r[c.field]}
                 </Td>
               ))}
@@ -80,18 +91,18 @@ export function BattingTable(props: { team: TeamData }) {
         </Tbody>
         <Tfoot bg={"gray.50"}>
           <Tr>
-            <Td py={1} fontSize={"md"}>
+            <Td py={1} px={[1, 5]} fontSize={"md"}>
               <Text>Extras</Text>
             </Td>
-            <Td py={1} fontWeight={"bolder"} colSpan={5}>
+            <Td py={1} px={[1, 5]} fontWeight={"bolder"} colSpan={5}>
               {props.team.extrasGot}
             </Td>
           </Tr>
           <Tr>
-            <Td fontSize={"lg"}>
-              <Flex justify={"space-between"}>
+            <Td fontSize={"lg"} px={[1, 5]}>
+              <Flex justify={"space-between"} direction={["column", "row"]}>
                 <Text fontWeight={"bolder"}>Total</Text>
-                <Flex>
+                <Flex direction={["column", "row"]}>
                   <Text fontWeight={"bolder"}>{props.team.score.overs} Ov</Text>
                   <Text fontSize={"md"}>
                     (RR {props.team.battingRunRate.toFixed(2)})
@@ -99,7 +110,7 @@ export function BattingTable(props: { team: TeamData }) {
                 </Flex>
               </Flex>
             </Td>
-            <Td fontWeight={"bolder"} colSpan={5}>
+            <Td fontWeight={"bolder"} colSpan={5} px={[1, 5]}>
               {props.team.score.runs}/{props.team.score.wickets}
             </Td>
           </Tr>

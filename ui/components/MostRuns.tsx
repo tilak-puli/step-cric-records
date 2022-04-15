@@ -49,6 +49,7 @@ export function MostRunsTable(props: { battingStats: BattingStats }) {
               <Th
                 key={k}
                 {...column.getHeaderProps(column.getSortByToggleProps())}
+                px={["5", "inherit"]}
               >
                 <Flex direction={"row"} align="center">
                   {column.render("Header")}

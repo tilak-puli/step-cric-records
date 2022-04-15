@@ -14,7 +14,7 @@ function TeamScoreBoard(props: {
   team2: TeamData;
 }) {
   return (
-    <CustomBox width={1000} maxWidth={"90vw"}>
+    <CustomBox width={["100%", 1000]}>
       <Heading p={3} fontSize="l">
         {props.name}
       </Heading>
@@ -32,11 +32,13 @@ const Matches = () => {
 
   return (
     <Box>
-      <Box p={"2vw"}>
-        {!match && <Box width={500}>{<Text>Match not found.</Text>}</Box>}
+      <Box p={["1em", "2em"]}>
+        {!match && (
+          <Box width={["100%", 500]}>{<Text>Match not found.</Text>}</Box>
+        )}
         {match && (
           <Flex direction={"column"}>
-            <Box width={500}>
+            <Box width={["100%", 500]}>
               {
                 <MatchCard
                   id={+matchId}
@@ -47,7 +49,7 @@ const Matches = () => {
                 />
               }
             </Box>
-            <Flex direction={"column"} gap={10}>
+            <Flex direction={"column"} gap={[10]} width={"100%"}>
               <TeamScoreBoard
                 name={match.team1Name}
                 team1={match.team1}

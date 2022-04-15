@@ -8,8 +8,8 @@ function Home() {
   const { matches } = useContext(GlobalContext);
 
   return (
-    <Flex p={"2em"}>
-      <CustomBox width={400} maxWidth={"80vw"} minHeight={500}>
+    <Flex p={["1em", "2em"]}>
+      <CustomBox width={["100%", 400]} minHeight={500}>
         <Heading p={"1em"} size={"l"}>
           Recent Matches
         </Heading>
