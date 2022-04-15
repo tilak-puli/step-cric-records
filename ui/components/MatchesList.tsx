@@ -26,15 +26,15 @@ export function MatchCard(props: {
   disableLink?: boolean;
 }) {
   return (
-    <CustomBox
-      p={props.p || "0.5em"}
-      mb={5}
-      width="100%"
-      height={120}
-      boxShadow={props.boxShadow || "md"}
-      cursor={!props.disableLink && "pointer"}
-    >
-      <Link href={"/matches/" + props.id}>
+    <Link href={"/matches/" + props.id} passHref={true}>
+      <CustomBox
+        p={props.p || "0.5em"}
+        mb={5}
+        width="100%"
+        height={120}
+        boxShadow={props.boxShadow || "md"}
+        cursor={!props.disableLink && "pointer"}
+      >
         <Flex direction={"column"} gap={2}>
           <Text fontSize="xs">{props.match.matchFileNameDate}</Text>
           <Flex direction={"column"}>
@@ -49,8 +49,8 @@ export function MatchCard(props: {
             <Text fontSize="sm">{props.match.result}</Text>
           </Flex>
         </Flex>
-      </Link>
-    </CustomBox>
+      </CustomBox>
+    </Link>
   );
 }
 
