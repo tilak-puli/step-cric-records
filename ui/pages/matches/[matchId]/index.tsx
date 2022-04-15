@@ -31,6 +31,9 @@ const Matches = () => {
   const { matches } = useContext(GlobalContext);
   const match = matches[+matchId - 1] as Match;
 
+  console.log("in match page: " + matchId);
+  console.log(matches);
+
   return (
     <Box>
       <NavBar />

@@ -2,11 +2,11 @@ import { Box, Heading, Wrap } from "@chakra-ui/react";
 import NavBar from "../../components/Navbar";
 import { useContext } from "react";
 import { GlobalContext } from "../../state/GlobalContext";
-import { MostRunsTable } from "../../components/MostRuns";
+import { MostRunsTable } from "../../components";
 import { CustomBox } from "../../components/HigherOrder/CustomBox";
-import { MostWicketsTable } from "../../components/MostWickets";
-import { HighestScoreTable } from "../../components/HighestScore";
-import { BestBowlingFigureTable } from "../../components/BestBowlingFigure";
+import { MostWicketsTable } from "../../components";
+import { HighestScoreTable } from "../../components";
+import { BestBowlingFigureTable } from "../../components";
 
 const Stats = () => {
   const { stats } = useContext(GlobalContext);
