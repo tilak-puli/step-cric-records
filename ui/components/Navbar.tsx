@@ -23,6 +23,7 @@ import {
 import { useRouter } from "next/router";
 import Image from "next/image";
 import StepLogo from "../public/stepLogo.png";
+import { useEffect } from "react";
 
 const NAV_ITEMS: Array<NavItem> = [
   {
@@ -37,6 +38,14 @@ const NAV_ITEMS: Array<NavItem> = [
 
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
+  const router = useRouter();
+  const currentPath = router.pathname;
+
+  useEffect(() => {
+    if (isOpen) {
+      onToggle();
+    }
+  }, [currentPath]);
 
   return (
     <Box>
@@ -78,24 +87,22 @@ export default function Navbar() {
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
-            <DesktopNav />
+            <DesktopNav currentPath={currentPath} />
           </Flex>
         </Flex>
       </Flex>
 
       <Collapse in={isOpen} animateOpacity>
-        <MobileNav />
+        <MobileNav currentPath={currentPath} />
       </Collapse>
     </Box>
   );
 }
 
-const DesktopNav = () => {
+const DesktopNav = ({ currentPath }) => {
   const linkColor = "gray.400";
   const linkHoverColor = "white";
   const popoverContentBgColor = "brand.900";
-  const router = useRouter();
-  const currentPath = router.pathname;
 
   return (
     <Stack direction={"row"} spacing={4} alignItems="center">
@@ -181,16 +188,14 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
   );
 };
 
-const MobileNav = () => {
-  const router = useRouter();
-
+const MobileNav = ({ currentPath }) => {
   return (
     <Stack bg={"brand.900"} p={4} display={{ md: "none" }}>
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem
           key={navItem.label}
           navItem={navItem}
-          isCurrentRoute={router.pathname === navItem.href}
+          isCurrentRoute={currentPath === navItem.href}
         />
       ))}
     </Stack>
