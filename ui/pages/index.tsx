@@ -11,7 +11,7 @@ function StatBox(props: { name: string; value: number }) {
         {props.name}
       </Heading>
       <Flex align="center" justify="center">
-        <Heading size={"4xl"} color="black" fontFamily={"Chalk"}>
+        <Heading size={"4xl"} color="black" fontFamily={"Fredericka the Great"}>
           {props.value}
         </Heading>
       </Flex>
