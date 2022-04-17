@@ -18,7 +18,11 @@ export default function getStats(matches: Match[], fromYear: number) {
   let sixesHit: number = 0;
   let highestMatchScore: number = 0;
 
-  const addBattingRecords = (date, { runs, name, balls, fours, sixes }) => {
+  const addBattingRecords = (
+    date,
+    matchIndex,
+    { runs, name, balls, fours, sixes }
+  ) => {
     const indexName = getIndexName(name, date);
     runsScored += runs;
     foursHit += fours;
@@ -35,10 +39,14 @@ export default function getStats(matches: Match[], fromYear: number) {
     batting[indexName].runs += runs;
     batting[indexName].matches += 1;
 
-    batting[indexName].battingFigures.push({ runs, balls });
+    batting[indexName].battingFigures.push({ runs, balls, matchIndex });
   };
 
-  const addBowlingRecords = (date, { wickets, name, runs, overs }) => {
+  const addBowlingRecords = (
+    date,
+    matchIndex,
+    { wickets, name, runs, overs }
+  ) => {
     const indexName = getIndexName(name, date);
     wicketsTaken += wickets;
 
@@ -56,12 +64,13 @@ export default function getStats(matches: Match[], fromYear: number) {
       wickets,
       wicketsWithRuns: runs,
       wicketsInOvers: overs,
+      matchIndex,
     });
   };
 
   matches
     .filter((m) => new Date(m.matchFileNameDate).getFullYear() >= fromYear)
-    .forEach((match) => {
+    .forEach((match, i) => {
       if (highestMatchScore < match.team1.score.runs) {
         highestMatchScore = match.team1.score.runs;
       }
@@ -70,16 +79,16 @@ export default function getStats(matches: Match[], fromYear: number) {
       }
 
       match.team1.batting.forEach(
-        addBattingRecords.bind(null, match.matchFileNameDate)
+        addBattingRecords.bind(null, match.matchFileNameDate, i)
       );
       match.team2.batting.forEach(
-        addBattingRecords.bind(null, match.matchFileNameDate)
+        addBattingRecords.bind(null, match.matchFileNameDate, i)
       );
       match.team1.bowling.forEach(
-        addBowlingRecords.bind(null, match.matchFileNameDate)
+        addBowlingRecords.bind(null, match.matchFileNameDate, i)
       );
       match.team2.bowling.forEach(
-        addBowlingRecords.bind(null, match.matchFileNameDate)
+        addBowlingRecords.bind(null, match.matchFileNameDate, i)
       );
     });
 

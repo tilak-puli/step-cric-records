@@ -34,7 +34,8 @@ export function MostRunsTable(props: { battingStats: BattingStats }) {
         matches,
         avg: (runs / matches).toFixed(2),
       }))
-      .filter(({ runs }) => runs !== 0);
+      .filter(({ runs }) => runs !== 0)
+      .slice(0, 50);
   }, [props.battingStats]);
 
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =

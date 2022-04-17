@@ -33,3 +33,7 @@ a {
 .scrollbar::-webkit-scrollbar-thumb:hover {
   background: #c0a0b9;
 }
+
+.underline {
+  text-decoration: underline !important;
+}

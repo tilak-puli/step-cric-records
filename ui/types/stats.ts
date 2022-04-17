@@ -11,12 +11,14 @@ export interface BattingStats {
 export interface BattingFigure {
   runs: number;
   balls: number;
+  matchIndex: number;
 }
 
 export interface BowlingFigure {
   wickets: number;
   wicketsWithRuns: number;
   wicketsInOvers: number;
+  matchIndex: number;
 }
 export interface BowlingStat {
   wickets: number;

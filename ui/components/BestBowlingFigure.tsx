@@ -1,4 +1,4 @@
-import { Table, Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react";
+import { Link, Table, Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react";
 import { useMemo } from "react";
 import _ from "underscore";
 import { capitalize } from "../utils";
@@ -23,6 +23,7 @@ export function BestBowlingFigureTable(props: { bowlingStats: BowlingStats }) {
       figure.wickets,
       figure.wicketsWithRuns,
       figure.wicketsInOvers,
+      figure.matchIndex,
     ]).sort((s, s1) => {
       let diff = s1[1] - s[1];
 
@@ -37,12 +38,17 @@ export function BestBowlingFigureTable(props: { bowlingStats: BowlingStats }) {
     });
 
     return sortedStats
-      .map(([name, wickets, wicketsWithRuns, overs]) => ({
+      .filter((figure) => figure[1] !== 0)
+      .map(([name, wickets, wicketsWithRuns, overs, matchIndex]) => ({
         name,
-        figure: wickets + "/" + wicketsWithRuns,
+        figure: (
+          <Link href={"/matches/" + (matchIndex + 1)} className={"underline"}>
+            <>{wickets + "/" + wicketsWithRuns}</>
+          </Link>
+        ),
         overs,
       }))
-      .filter(({ figure }) => !figure.match(/0\/.*/));
+      .slice(0, 50);
   }, [props.bowlingStats]);
 
   return (

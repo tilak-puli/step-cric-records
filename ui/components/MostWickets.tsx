@@ -30,7 +30,8 @@ export function MostWicketsTable(props: { bowlingStats: BowlingStats }) {
         wickets,
         matches,
       }))
-      .filter(({ wickets }) => wickets !== 0);
+      .filter(({ wickets }) => wickets !== 0)
+      .slice(0, 50);
   }, [props.bowlingStats]);
 
   return (

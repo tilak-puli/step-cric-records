@@ -1,4 +1,4 @@
-import { Table, Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react";
+import { Link, Table, Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react";
 import { useMemo } from "react";
 import _ from "underscore";
 import { capitalize } from "../utils";
@@ -20,6 +20,7 @@ export function HighestScoreTable(props: { battingStats: BattingStats }) {
       capitalize(name),
       figure.runs,
       figure.balls,
+      figure.matchIndex,
     ]).sort((s, s1) => {
       let diff = s1[1] - s[1];
 
@@ -31,12 +32,22 @@ export function HighestScoreTable(props: { battingStats: BattingStats }) {
     });
 
     return sortedStats
-      .map(([name, highestScore, highestScoreInBalls]) => ({
+      .map(([name, highestScore, highestScoreInBalls, matchIndex]) => ({
         name,
         highestScore,
         highestScoreInBalls,
+        matchIndex,
       }))
-      .filter(({ highestScore }) => highestScore !== 0);
+      .filter(({ highestScore }) => highestScore !== 0)
+      .map(({ highestScore, matchIndex, ...rest }) => ({
+        ...rest,
+        highestScore: (
+          <Link href={"/matches/" + (matchIndex + 1)} className={"underline"}>
+            <>{highestScore}</>
+          </Link>
+        ),
+      }))
+      .slice(0, 50);
   }, [props.battingStats]);
 
   return (
