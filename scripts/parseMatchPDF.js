@@ -33,13 +33,6 @@ function getBatting(lines, i) {
 
   for (let hasBatsman = true; hasBatsman; ) {
     //to ignore line if pdf has 3 pages
-    if (
-      lines[i].match("1 / 2") ||
-      lines[i].match("2 / 3") ||
-      lines[i].match("1 / 3")
-    ) {
-      i = i + 1;
-    }
 
     //log oif something wrong
     if (!lines[i]) {
@@ -72,12 +65,12 @@ function getBowling(lines, i) {
 
   for (let hasBowler = true; hasBowler; ) {
     //to ignore line if pdf has 3 pages
-    if (
-      lines[i].match("1 / 2") ||
-      lines[i].match("2 / 3") ||
-      lines[i].match("1 / 3")
-    ) {
+    if (lines[i].match("ER") || lines[i].match("W")) {
       i = i + 1;
+      if (lines[i] === "Extras") {
+        hasBowler = false;
+        break;
+      }
     }
 
     if (!lines[i]) global.exit();
@@ -130,6 +123,7 @@ function getTeamScores(lines) {
   team2.extrasBowledText = lines[i + 1];
 
   i += 10;
+
   [team2.bowling, i] = getBowling(lines, i);
 
   i = findNextTeamStart(lines, i);
@@ -158,14 +152,34 @@ function getTeamScores(lines) {
   team1.extrasBowledText = lines[i + 1];
 
   i += 10;
+
   [team1.bowling] = getBowling(lines, i);
   return [team1, team2];
+}
+
+function removeNoise(lines) {
+  return lines.filter(
+    (line) =>
+      !(
+        line.match("1 / 2") ||
+        line.match("2 / 2") ||
+        line.match("1 / 2") ||
+        line.match("2 / 3") ||
+        line.match("1 / 3") ||
+        line.match("1 / 4") ||
+        line.match("2 / 4") ||
+        line.match("3 / 4") ||
+        line.match("4 / 4")
+      )
+  );
 }
 
 const parseMatchPDF = async (filePath) => {
   console.log("parsing " + filePath);
   const data = {};
-  const lines = await getPdfData(filePath);
+  let lines = await getPdfData(filePath);
+  lines = removeNoise(lines);
+
   [data.team1Name, data.team2Name] = getTeamNames(lines);
   [data.team1, data.team2] = getTeamScores(lines);
   data.result = getResult(lines);

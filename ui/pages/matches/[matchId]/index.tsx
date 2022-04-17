@@ -15,7 +15,7 @@ function TeamScoreBoard(props: {
 }) {
   return (
     <CustomBox width={["100%", 1000]}>
-      <Heading p={3} fontSize="l">
+      <Heading p={3} fontSize="l" color="white" bg="brand.900">
         {props.name}
       </Heading>
       <BattingTable team={props.team1} />
