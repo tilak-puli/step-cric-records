@@ -43,12 +43,28 @@ function getBatting(lines, i) {
       process.exit();
     }
     const batsman = { name: lines[i] };
+
     batsman.outReason = lines[i + 1];
+    let rare = false;
+    //rare care of new page between reason on player
+    if (
+      Number.isInteger(parseInt(lines[i + 1])) &&
+      lines[i + 6].split(" ").length === 4
+    ) {
+      rare = true;
+      batsman.outReason = lines[i + 6];
+      i = i - 1;
+    }
+
     batsman.runs = +lines[i + 2];
     batsman.balls = +lines[i + 3];
     batsman.fours = +lines[i + 4];
     batsman.sixes = +lines[i + 5];
     batsman.runRate = +lines[i + 6];
+    //rare care of new page between reason on player
+    if (rare) {
+      i = i + 1;
+    }
 
     i = i + 7;
 

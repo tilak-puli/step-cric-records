@@ -31,6 +31,7 @@ export default function getStats(matches: Match[], fromYear: number) {
         matches: 0,
       };
     }
+
     batting[indexName].runs += runs;
     batting[indexName].matches += 1;
 

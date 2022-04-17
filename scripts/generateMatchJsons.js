@@ -14,10 +14,11 @@ function checkDuplicate() {
       if (
         match.team1Name === match1.team1Name &&
         match.team2Name === match1.team2Name &&
-        match.team1.score === match1.team1.score &&
-        match.team2.score === match1.team2.score
+        JSON.stringify(match.team1.score) ===
+          JSON.stringify(match1.team1.score) &&
+        JSON.stringify(match.team2.score) === JSON.stringify(match1.team2.score)
       ) {
-        console.error("Found duplicate match");
+        console.error("Found duplicate match at " + i);
       }
     }
   }
@@ -40,7 +41,7 @@ const generateMatchDataJson = async () => {
     });
   }
 
-  // checkDuplicate();
+  checkDuplicate();
 
   matchesJson = matchesJson.sort(
     (match1, match2) =>
