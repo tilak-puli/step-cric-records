@@ -42,11 +42,11 @@ export function MatchCard(props: {
           </Text>
           <Flex direction={"column"}>
             <ScoreRow
-              name={props.match.team1Name}
+              name={props.match.team1.name}
               score={props.match.team1.score}
             />
             <ScoreRow
-              name={props.match.team2Name}
+              name={props.match.team2.name}
               score={props.match.team2.score}
             />
             <Text fontSize="sm">{props.match.result}</Text>

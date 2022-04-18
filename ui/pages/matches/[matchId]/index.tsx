@@ -51,12 +51,12 @@ const Matches = () => {
             </Box>
             <Flex direction={"column"} gap={[10]} width={"100%"}>
               <TeamScoreBoard
-                name={match.team1Name}
+                name={match.team1.name}
                 team1={match.team1}
                 team2={match.team2}
               />
               <TeamScoreBoard
-                name={match.team2Name}
+                name={match.team2.name}
                 team2={match.team1}
                 team1={match.team2}
               />
