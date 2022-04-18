@@ -18,13 +18,16 @@ function checkDuplicate() {
           JSON.stringify(match1.team1.score) &&
         JSON.stringify(match.team2.score) === JSON.stringify(match1.team2.score)
       ) {
-        console.error("Found duplicate match at " + i);
+        console.error(
+          "Found duplicate match: " + match1.matchFileNameIdentifier
+        );
       }
     }
   }
 }
 
 const generateMatchDataJson = async () => {
+  console.log("Started parsing pdfs");
   const pdfFileNames = fs.readdirSync("./matches/pdf");
   const jsonFileNames = matchesJson.map((m) => m.matchFileNameIdentifier);
   const jsonFilesRequired = _.difference(pdfFileNames, jsonFileNames);
@@ -55,6 +58,8 @@ const generateMatchDataJson = async () => {
       encoding: "utf8",
     }
   );
+
+  console.log("Done parsing pdfs");
 };
 
 generateMatchDataJson();

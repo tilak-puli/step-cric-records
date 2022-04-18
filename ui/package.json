@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cd .. && node ./scripts/generateMatchJsons.js && cd ui && next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next export"
@@ -32,6 +32,7 @@
     "@types/react": "^17.0.44",
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.4",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "pdfreader": "^1.4.0"
   }
 }
