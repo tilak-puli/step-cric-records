@@ -36,9 +36,10 @@ function Home() {
       <Wrap p={["1em", "2em"]} spacing={10} flex={1}>
         <StatBox name={"Matches Played"} value={matches.length} />
         <StatBox name={"Runs Scored"} value={total.runsScored} />
+        <StatBox name={"Highest Team Score"} value={total.highestMatchScore} />
         <StatBox name={"Fours"} value={total.foursHit} />
         <StatBox name={"Sixes"} value={total.sixesHit} />
-        <StatBox name={"Highest Team Score"} value={total.highestMatchScore} />
+        <StatBox name={"Wickets"} value={total.wicketsTaken} />
       </Wrap>
     </Flex>
   );
