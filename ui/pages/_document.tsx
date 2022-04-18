@@ -4,8 +4,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <!--suppress HtmlRequiredTitleElement -->
-          <Head>
+        <Head>
           <link
             href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
             rel="stylesheet"
