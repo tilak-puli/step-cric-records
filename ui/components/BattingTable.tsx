@@ -12,6 +12,8 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import { useMemo } from "react";
+import { getIndexName } from "../state/stats";
+import { capitalize } from "../utils";
 
 const columns = [
   { field: "name", headerName: "Batting", width: 50, mWidth: 60, minW: 20 },
@@ -34,7 +36,7 @@ const columns = [
   },
 ];
 
-export function BattingTable(props: { team: TeamData }) {
+export function BattingTable(props: { team: TeamData; date: string }) {
   const rows = useMemo(() => {
     return props.team.batting.map((b, i) => ({
       id: i,
@@ -43,7 +45,9 @@ export function BattingTable(props: { team: TeamData }) {
           justify={"space-between"}
           direction={{ base: "column", md: "row" }}
         >
-          <Text fontWeight={"bold"}>{b.name}</Text>
+          <Text fontWeight={"bold"}>
+            {capitalize(getIndexName(b.name, props.date))}
+          </Text>
           <Text>{b.outReason}</Text>
         </Flex>
       ),

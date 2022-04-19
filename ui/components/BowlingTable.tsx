@@ -10,6 +10,8 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import { useMemo } from "react";
+import { getIndexName } from "../state/stats";
+import { capitalize } from "../utils";
 
 const columns = [
   { field: "name", headerName: "Bowling", width: 40 },
@@ -32,11 +34,11 @@ const columns = [
   },
 ];
 
-export function BowlingTable(props: { team: TeamData }) {
+export function BowlingTable(props: { team: TeamData; date: string }) {
   const rows = useMemo(() => {
     return props.team.bowling.map((b, i) => ({
       id: i,
-      name: b.name,
+      name: capitalize(getIndexName(b.name, props.date)),
       runs: b.runs,
       wickets: <Text fontWeight="bold">{b.wickets}</Text>,
       maidens: b.maidens,

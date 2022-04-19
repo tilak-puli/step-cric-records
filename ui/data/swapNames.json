@@ -1,14 +1,20 @@
+
 {
+  "rulesForThisEntry": {
+    "text":"[Read This before you update this file]",
+    "rule1": "keep key all lower case",
+    "rule2": "beforeDate format MM/DD/YYYY"
+  },
   "puli": {
     "name":"tilak",
-    "beforeDate": "01/05/3020"
+    "beforeDate": "01/05/4020"
   },
   "sai": {
     "name":"sai ganesh",
     "beforeDate": "05/01/2020"
   },
-  "D": {
+  "d": {
     "name":"Debu",
-    "beforeDate": "28/12/2019"
+    "beforeDate": "12/28/2019"
   }
 }

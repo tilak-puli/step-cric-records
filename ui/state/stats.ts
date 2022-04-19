@@ -2,11 +2,21 @@ import swapNames from "../data/swapNames.json";
 import { Match } from "../types/match";
 import { BattingStats, BowlingStats } from "../types/stats";
 
-function getIndexName(name, date) {
+export function getIndexName(name, date) {
+  if (name === "D") {
+    console.log(date);
+    console.log(name);
+    console.log(swapNames[name.toLowerCase()]);
+    console.log(new Date(swapNames[name.toLowerCase()].beforeDate));
+    console.log(
+      new Date(date) < new Date(swapNames[name.toLowerCase()].beforeDate)
+    );
+  }
+
   return swapNames[name.toLowerCase()] &&
     new Date(date) < new Date(swapNames[name.toLowerCase()].beforeDate)
     ? swapNames[name.toLowerCase()]?.name?.toLowerCase()
-    : name.toLowerCase();
+    : name;
 }
 
 export default function getStats(matches: Match[], fromYear: number) {

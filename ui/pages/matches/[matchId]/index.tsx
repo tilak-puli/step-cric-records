@@ -12,14 +12,15 @@ function TeamScoreBoard(props: {
   name: String;
   team1: TeamData;
   team2: TeamData;
+  date: string;
 }) {
   return (
     <CustomBox width={["100%", 1000]}>
       <Heading p={3} fontSize="l" color="white" bg="brand.900">
         {props.name}
       </Heading>
-      <BattingTable team={props.team1} />
-      <BowlingTable team={props.team2} />
+      <BattingTable team={props.team1} date={props.date} />
+      <BowlingTable team={props.team2} date={props.date} />
     </CustomBox>
   );
 }
@@ -54,11 +55,13 @@ const Matches = () => {
                 name={match.team1.name}
                 team1={match.team1}
                 team2={match.team2}
+                date={match.matchFileNameDate}
               />
               <TeamScoreBoard
                 name={match.team2.name}
                 team2={match.team1}
                 team1={match.team2}
+                date={match.matchFileNameDate}
               />
             </Flex>
           </Flex>
