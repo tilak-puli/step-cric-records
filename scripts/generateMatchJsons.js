@@ -48,7 +48,7 @@ const generateMatchDataJson = async () => {
 
   matchesJson = matchesJson.sort(
     (match1, match2) =>
-      new Date(match2.matchFileNameDate) - new Date(match1.matchFileNameDate)
+      new Date(match1.matchFileNameDate) - new Date(match2.matchFileNameDate)
   );
 
   await fs.writeFileSync(
