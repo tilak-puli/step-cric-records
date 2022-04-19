@@ -34,14 +34,13 @@ jobs:
 
       - run: npm install
       - run: npm run generate-match-jsons
-      - run: git add ui
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
           default_author: github_actions
-          message: 'Added [matchId] jsons'
-          add: 'matches'
+          add: 'ui/data'
+          message: 'Parse new match pdf and saved it to matches.json'
 #
 #  deploy:
 #    runs-on: ubuntu-latest
