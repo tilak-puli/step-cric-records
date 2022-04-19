@@ -94,8 +94,6 @@ export default function getStats(matches: Match[], fromYear: number) {
       );
     });
 
-  console.log(batting["Tilak"]);
-
   return {
     batting,
     bowling,
