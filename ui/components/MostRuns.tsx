@@ -19,6 +19,16 @@ const columns = [
   { accessor: "avg", Header: "Avg", width: 20, sortType: "number", px: [5] },
 ];
 
+function getAvg(runs, matches, notOuts) {
+  let avg = runs / (matches - notOuts);
+
+  if (matches === notOuts) {
+    avg = runs;
+  }
+
+  return avg.toFixed(2);
+}
+
 export function MostRunsTable(props: { battingStats: BattingStats }) {
   const data = useMemo(() => {
     const sortedStats = _.map(props.battingStats, (b, name) => [
@@ -33,7 +43,7 @@ export function MostRunsTable(props: { battingStats: BattingStats }) {
         name,
         runs,
         matches,
-        avg: (runs / (matches - notOuts)).toFixed(2),
+        avg: getAvg(runs, matches, notOuts),
       }))
       .filter(({ runs }) => runs !== 0)
       .slice(0, 50);
