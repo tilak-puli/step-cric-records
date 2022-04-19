@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "cd .. && npm i && node ./scripts/generateMatchJsons.js && cd ui && next build",
+    "only-build": "next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next export"

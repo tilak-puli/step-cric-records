@@ -61,6 +61,7 @@ function getBatting(lines, i) {
     batsman.fours = +lines[i + 4];
     batsman.sixes = +lines[i + 5];
     batsman.runRate = +lines[i + 6];
+    batsman.notOut = batsman.outReason === "not out";
     //rare care of new page between reason on player
     if (rare) {
       i = i + 1;

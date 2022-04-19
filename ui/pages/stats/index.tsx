@@ -24,7 +24,9 @@ const Stats = () => {
           bg={"white"}
         >
           {_.times(new Date().getFullYear() - StartYear + 1, (n) => (
-            <option value={n + StartYear}>{n + StartYear}</option>
+            <option key={n} value={n + StartYear}>
+              {n + StartYear}
+            </option>
           ))}
         </Select>
       </Flex>

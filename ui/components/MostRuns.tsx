@@ -25,14 +25,15 @@ export function MostRunsTable(props: { battingStats: BattingStats }) {
       capitalize(name),
       b.runs,
       b.matches,
+      b.notOuts,
     ]).sort((s, s1) => s1[1] - s[1]);
 
     return sortedStats
-      .map(([name, runs, matches]) => ({
+      .map(([name, runs, matches, notOuts]) => ({
         name,
         runs,
         matches,
-        avg: (runs / matches).toFixed(2),
+        avg: (runs / (matches - notOuts)).toFixed(2),
       }))
       .filter(({ runs }) => runs !== 0)
       .slice(0, 50);

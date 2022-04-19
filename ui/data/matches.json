@@ -17,7 +17,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -26,7 +27,8 @@
                     "balls": 14,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 114.29
+                    "runRate": 114.29,
+                    "notOut": false
                 },
                 {
                     "name": "Prafull",
@@ -35,7 +37,8 @@
                     "balls": 8,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "Vivek",
@@ -44,7 +47,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Dileep",
@@ -53,7 +57,8 @@
                     "balls": 5,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Azhar",
@@ -62,7 +67,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 125
+                    "runRate": 125,
+                    "notOut": false
                 },
                 {
                     "name": "Ritika",
@@ -71,7 +77,8 @@
                     "balls": 14,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 28.57
+                    "runRate": 28.57,
+                    "notOut": false
                 },
                 {
                     "name": "Abin",
@@ -80,7 +87,8 @@
                     "balls": 9,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 177.78
+                    "runRate": 177.78,
+                    "notOut": true
                 },
                 {
                     "name": "Prem",
@@ -89,7 +97,8 @@
                     "balls": 1,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 400
+                    "runRate": 400,
+                    "notOut": true
                 }
             ],
             "extrasGot": 27,
@@ -195,7 +204,7 @@
         },
         "result": "Vivek won the toss and opted to Bat first.",
         "winner": "Discontinued",
-        "matchUploadedDate": "2022-04-17T09:25:31.561Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.608Z",
         "matchFileNameDate": "14/Apr/2022",
         "matchFileNameIdentifier": "14-Apr-2022.pdf"
     },
@@ -217,7 +226,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 83.33
+                    "runRate": 83.33,
+                    "notOut": false
                 },
                 {
                     "name": "Vivek",
@@ -226,7 +236,8 @@
                     "balls": 24,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 95.83
+                    "runRate": 95.83,
+                    "notOut": false
                 },
                 {
                     "name": "Lakshmi",
@@ -235,7 +246,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -244,7 +256,8 @@
                     "balls": 11,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 45.45
+                    "runRate": 45.45,
+                    "notOut": false
                 },
                 {
                     "name": "Ankamma",
@@ -253,7 +266,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Nilam",
@@ -262,7 +276,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 133.33
+                    "runRate": 133.33,
+                    "notOut": false
                 },
                 {
                     "name": "Das",
@@ -271,7 +286,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -280,7 +296,8 @@
                     "balls": 17,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 52.94
+                    "runRate": 52.94,
+                    "notOut": true
                 },
                 {
                     "name": "Abin",
@@ -289,7 +306,8 @@
                     "balls": 20,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 65
+                    "runRate": 65,
+                    "notOut": false
                 },
                 {
                     "name": "Pritam",
@@ -298,7 +316,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Noone",
@@ -307,7 +326,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 16,
@@ -520,7 +540,8 @@
                     "balls": 7,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Govinda",
@@ -529,7 +550,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 60
+                    "runRate": 60,
+                    "notOut": false
                 },
                 {
                     "name": "Sakshi",
@@ -538,7 +560,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Tanmay",
@@ -547,7 +570,8 @@
                     "balls": 7,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 42.86
+                    "runRate": 42.86,
+                    "notOut": false
                 },
                 {
                     "name": "Adarsh",
@@ -556,7 +580,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 20
+                    "runRate": 20,
+                    "notOut": false
                 },
                 {
                     "name": "Swamiji",
@@ -565,7 +590,8 @@
                     "balls": 28,
                     "fours": 3,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": true
                 },
                 {
                     "name": "Azhar",
@@ -574,7 +600,8 @@
                     "balls": 18,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 38.89
+                    "runRate": 38.89,
+                    "notOut": false
                 },
                 {
                     "name": "Sampriti",
@@ -583,7 +610,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": true
                 }
             ],
             "extrasGot": 30,
@@ -591,7 +619,7 @@
         },
         "result": "Ajar won by 4 wickets.",
         "winner": "Ajar",
-        "matchUploadedDate": "2022-04-17T09:25:31.462Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.502Z",
         "matchFileNameDate": "11/apr/2022",
         "matchFileNameIdentifier": "11-apr-2022.pdf"
     },
@@ -613,7 +641,8 @@
                     "balls": 9,
                     "fours": 1,
                     "sixes": 1,
-                    "runRate": 188.89
+                    "runRate": 188.89,
+                    "notOut": false
                 },
                 {
                     "name": "Dheeraj",
@@ -622,7 +651,8 @@
                     "balls": 13,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 69.23
+                    "runRate": 69.23,
+                    "notOut": true
                 },
                 {
                     "name": "Satheesh",
@@ -631,7 +661,8 @@
                     "balls": 8,
                     "fours": 1,
                     "sixes": 2,
-                    "runRate": 262.5
+                    "runRate": 262.5,
+                    "notOut": true
                 }
             ],
             "extrasGot": 3,
@@ -740,7 +771,8 @@
                     "balls": 10,
                     "fours": 2,
                     "sixes": 2,
-                    "runRate": 240
+                    "runRate": 240,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -749,7 +781,8 @@
                     "balls": 7,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 128.57
+                    "runRate": 128.57,
+                    "notOut": false
                 },
                 {
                     "name": "Debu",
@@ -758,7 +791,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 140
+                    "runRate": 140,
+                    "notOut": true
                 },
                 {
                     "name": "Yogi",
@@ -767,7 +801,8 @@
                     "balls": 5,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -776,7 +811,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Vikram",
@@ -785,7 +821,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 6,
@@ -793,7 +830,7 @@
         },
         "result": "Chandan won by 6 wickets.",
         "winner": "Chandan",
-        "matchUploadedDate": "2022-04-17T09:25:31.601Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.655Z",
         "matchFileNameDate": "14/Mar/2020",
         "matchFileNameIdentifier": "14-Mar-2020(1).pdf"
     },
@@ -815,7 +852,8 @@
                     "balls": 22,
                     "fours": 1,
                     "sixes": 4,
-                    "runRate": 200
+                    "runRate": 200,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -824,7 +862,8 @@
                     "balls": 13,
                     "fours": 2,
                     "sixes": 1,
-                    "runRate": 184.62
+                    "runRate": 184.62,
+                    "notOut": false
                 },
                 {
                     "name": "Debu",
@@ -833,7 +872,8 @@
                     "balls": 7,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 128.57
+                    "runRate": 128.57,
+                    "notOut": false
                 },
                 {
                     "name": "Shivam",
@@ -842,7 +882,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Yogi",
@@ -851,7 +892,8 @@
                     "balls": 3,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 133.33
+                    "runRate": 133.33,
+                    "notOut": false
                 },
                 {
                     "name": "T",
@@ -860,7 +902,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": true
                 },
                 {
                     "name": "Tp",
@@ -869,7 +912,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 15,
@@ -970,7 +1014,8 @@
                     "balls": 9,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 144.44
+                    "runRate": 144.44,
+                    "notOut": false
                 },
                 {
                     "name": "Phaneendra",
@@ -979,7 +1024,8 @@
                     "balls": 7,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 57.14
+                    "runRate": 57.14,
+                    "notOut": false
                 },
                 {
                     "name": "Shankar",
@@ -988,7 +1034,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -997,7 +1044,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 60
+                    "runRate": 60,
+                    "notOut": false
                 },
                 {
                     "name": "Vikram",
@@ -1006,7 +1054,8 @@
                     "balls": 8,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": true
                 },
                 {
                     "name": "Vikram",
@@ -1015,7 +1064,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 16,
@@ -1023,7 +1073,7 @@
         },
         "result": "Phaneendra need 58 runs to win.",
         "winner": "Phaneendra",
-        "matchUploadedDate": "2022-04-17T09:25:31.339Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.369Z",
         "matchFileNameDate": "11/Mar/2020",
         "matchFileNameIdentifier": "11-Mar-2020(1).pdf"
     },
@@ -1045,7 +1095,8 @@
                     "balls": 11,
                     "fours": 0,
                     "sixes": 2,
-                    "runRate": 136.36
+                    "runRate": 136.36,
+                    "notOut": false
                 },
                 {
                     "name": "Shivam",
@@ -1054,7 +1105,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Debu",
@@ -1063,7 +1115,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak Puli",
@@ -1072,7 +1125,8 @@
                     "balls": 9,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 133.33
+                    "runRate": 133.33,
+                    "notOut": false
                 },
                 {
                     "name": "Yogi",
@@ -1081,7 +1135,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "Chandu",
@@ -1090,7 +1145,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 133.33
+                    "runRate": 133.33,
+                    "notOut": false
                 },
                 {
                     "name": ".",
@@ -1099,7 +1155,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": ".",
@@ -1108,7 +1165,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": ".",
@@ -1117,7 +1175,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": ".",
@@ -1126,7 +1185,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 },
                 {
                     "name": ".",
@@ -1135,7 +1195,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 2,
@@ -1252,7 +1313,8 @@
                     "balls": 11,
                     "fours": 0,
                     "sixes": 2,
-                    "runRate": 172.73
+                    "runRate": 172.73,
+                    "notOut": true
                 },
                 {
                     "name": "Shankar",
@@ -1261,7 +1323,8 @@
                     "balls": 7,
                     "fours": 0,
                     "sixes": 1,
-                    "runRate": 157.14
+                    "runRate": 157.14,
+                    "notOut": false
                 },
                 {
                     "name": "Dheeraj",
@@ -1270,7 +1333,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -1279,7 +1343,8 @@
                     "balls": 2,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 200
+                    "runRate": 200,
+                    "notOut": true
                 }
             ],
             "extrasGot": 5,
@@ -1287,7 +1352,7 @@
         },
         "result": "Phaneendra need 1 runs to win.",
         "winner": "Phaneendra",
-        "matchUploadedDate": "2022-04-17T09:25:31.394Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.428Z",
         "matchFileNameDate": "11/Mar/2020",
         "matchFileNameIdentifier": "11-Mar-2020.pdf"
     },
@@ -1309,7 +1374,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Sai",
@@ -1318,7 +1384,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": false
                 },
                 {
                     "name": "Venky",
@@ -1327,7 +1394,8 @@
                     "balls": 16,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": false
                 },
                 {
                     "name": "Swamiji",
@@ -1336,7 +1404,8 @@
                     "balls": 8,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 187.5
+                    "runRate": 187.5,
+                    "notOut": true
                 },
                 {
                     "name": "Raghu",
@@ -1345,7 +1414,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 5,
@@ -1446,7 +1516,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": false
                 },
                 {
                     "name": "Chandan",
@@ -1455,7 +1526,8 @@
                     "balls": 15,
                     "fours": 1,
                     "sixes": 2,
-                    "runRate": 206.67
+                    "runRate": 206.67,
+                    "notOut": true
                 },
                 {
                     "name": "Phaneendra",
@@ -1464,7 +1536,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 3,
@@ -1472,7 +1545,7 @@
         },
         "result": "Tilak won by 9 wickets.",
         "winner": "Tilak",
-        "matchUploadedDate": "2022-04-17T09:25:32.112Z",
+        "matchUploadedDate": "2022-04-19T07:22:07.224Z",
         "matchFileNameDate": "26/Feb/2020",
         "matchFileNameIdentifier": "26-Feb-2020(1).pdf"
     },
@@ -1494,7 +1567,8 @@
                     "balls": 39,
                     "fours": 3,
                     "sixes": 0,
-                    "runRate": 107.69
+                    "runRate": 107.69,
+                    "notOut": false
                 },
                 {
                     "name": "Leela",
@@ -1503,7 +1577,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "Chandan",
@@ -1512,7 +1587,8 @@
                     "balls": 42,
                     "fours": 4,
                     "sixes": 2,
-                    "runRate": 135.71
+                    "runRate": 135.71,
+                    "notOut": false
                 },
                 {
                     "name": "Faneendra",
@@ -1521,7 +1597,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -1530,7 +1607,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Debu",
@@ -1539,7 +1617,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": true
                 },
                 {
                     "name": "Nagendra",
@@ -1548,7 +1627,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": true
                 }
             ],
             "extrasGot": 15,
@@ -1785,7 +1865,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -1794,7 +1875,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "Ganesh",
@@ -1803,7 +1885,8 @@
                     "balls": 8,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": false
                 },
                 {
                     "name": "Musta",
@@ -1812,7 +1895,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Swamiji",
@@ -1821,7 +1905,8 @@
                     "balls": 53,
                     "fours": 4,
                     "sixes": 5,
-                    "runRate": 149.06
+                    "runRate": 149.06,
+                    "notOut": true
                 },
                 {
                     "name": "Aaquib",
@@ -1830,7 +1915,8 @@
                     "balls": 12,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 83.33
+                    "runRate": 83.33,
+                    "notOut": false
                 },
                 {
                     "name": "Venky",
@@ -1839,7 +1925,8 @@
                     "balls": 7,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 42.86
+                    "runRate": 42.86,
+                    "notOut": false
                 },
                 {
                     "name": "Rahit",
@@ -1848,7 +1935,8 @@
                     "balls": 8,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 87.5
+                    "runRate": 87.5,
+                    "notOut": false
                 },
                 {
                     "name": "Gaurav",
@@ -1857,7 +1945,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": true
                 }
             ],
             "extrasGot": 15,
@@ -1865,7 +1954,7 @@
         },
         "result": "Match is tie.",
         "winner": "Match",
-        "matchUploadedDate": "2022-04-17T09:25:32.171Z",
+        "matchUploadedDate": "2022-04-19T07:22:07.287Z",
         "matchFileNameDate": "26/Feb/2020",
         "matchFileNameIdentifier": "26-Feb-2020.pdf"
     },
@@ -1887,7 +1976,8 @@
                     "balls": 11,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 127.27
+                    "runRate": 127.27,
+                    "notOut": false
                 },
                 {
                     "name": "Pranav",
@@ -1896,7 +1986,8 @@
                     "balls": 31,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 96.77
+                    "runRate": 96.77,
+                    "notOut": false
                 },
                 {
                     "name": "Pranav",
@@ -1905,7 +1996,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Chandan",
@@ -1914,7 +2006,8 @@
                     "balls": 29,
                     "fours": 4,
                     "sixes": 2,
-                    "runRate": 131.03
+                    "runRate": 131.03,
+                    "notOut": false
                 },
                 {
                     "name": "Yogj",
@@ -1923,7 +2016,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 83.33
+                    "runRate": 83.33,
+                    "notOut": false
                 },
                 {
                     "name": "Mustakim",
@@ -1932,7 +2026,8 @@
                     "balls": 10,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": true
                 },
                 {
                     "name": "Bd",
@@ -1941,7 +2036,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": true
                 }
             ],
             "extrasGot": 18,
@@ -2146,7 +2242,8 @@
                     "balls": 3,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 166.67
+                    "runRate": 166.67,
+                    "notOut": false
                 },
                 {
                     "name": "Nagendra",
@@ -2155,7 +2252,8 @@
                     "balls": 6,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Swamiji",
@@ -2164,7 +2262,8 @@
                     "balls": 27,
                     "fours": 2,
                     "sixes": 1,
-                    "runRate": 114.81
+                    "runRate": 114.81,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -2173,7 +2272,8 @@
                     "balls": 20,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 70
+                    "runRate": 70,
+                    "notOut": false
                 },
                 {
                     "name": "Phanindra",
@@ -2182,7 +2282,8 @@
                     "balls": 10,
                     "fours": 1,
                     "sixes": 1,
-                    "runRate": 180
+                    "runRate": 180,
+                    "notOut": false
                 },
                 {
                     "name": "Swapnil",
@@ -2191,7 +2292,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "Dheeraj",
@@ -2200,7 +2302,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 40
+                    "runRate": 40,
+                    "notOut": false
                 },
                 {
                     "name": "Rahit",
@@ -2209,7 +2312,8 @@
                     "balls": 3,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 133.33
+                    "runRate": 133.33,
+                    "notOut": false
                 },
                 {
                     "name": "Leela",
@@ -2218,7 +2322,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Suman",
@@ -2227,7 +2332,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Deepika",
@@ -2236,7 +2342,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": true
                 }
             ],
             "extrasGot": 9,
@@ -2244,7 +2351,7 @@
         },
         "result": "Pranav won by 20 runs.",
         "winner": "Pranav",
-        "matchUploadedDate": "2022-04-17T09:25:31.943Z",
+        "matchUploadedDate": "2022-04-19T07:22:07.023Z",
         "matchFileNameDate": "22/Feb/2020",
         "matchFileNameIdentifier": "22-Feb-2020(1).pdf"
     },
@@ -2266,7 +2373,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Sai",
@@ -2275,7 +2383,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": false
                 },
                 {
                     "name": "Pranav",
@@ -2284,7 +2393,8 @@
                     "balls": 12,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 183.33
+                    "runRate": 183.33,
+                    "notOut": true
                 },
                 {
                     "name": "Raghu",
@@ -2293,7 +2403,8 @@
                     "balls": 5,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": false
                 },
                 {
                     "name": "Yogi",
@@ -2302,7 +2413,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "Klabc",
@@ -2311,7 +2423,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 0,
@@ -2412,7 +2525,8 @@
                     "balls": 7,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 57.14
+                    "runRate": 57.14,
+                    "notOut": false
                 },
                 {
                     "name": "Dheeraj",
@@ -2421,7 +2535,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 150
+                    "runRate": 150,
+                    "notOut": false
                 },
                 {
                     "name": "Swamiji",
@@ -2430,7 +2545,8 @@
                     "balls": 11,
                     "fours": 1,
                     "sixes": 1,
-                    "runRate": 136.36
+                    "runRate": 136.36,
+                    "notOut": false
                 },
                 {
                     "name": "Swapnil",
@@ -2439,7 +2555,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -2448,7 +2565,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 1,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Nagendra",
@@ -2457,7 +2575,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Leela",
@@ -2466,7 +2585,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 },
                 {
                     "name": "Xyz",
@@ -2475,7 +2595,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 3,
@@ -2483,7 +2604,7 @@
         },
         "result": "Pranav won by 2 runs.",
         "winner": "Pranav",
-        "matchUploadedDate": "2022-04-17T09:25:31.982Z",
+        "matchUploadedDate": "2022-04-19T07:22:07.060Z",
         "matchFileNameDate": "22/Feb/2020",
         "matchFileNameIdentifier": "22-Feb-2020.pdf"
     },
@@ -2505,7 +2626,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Chandan",
@@ -2514,7 +2636,8 @@
                     "balls": 26,
                     "fours": 5,
                     "sixes": 0,
-                    "runRate": 130.77
+                    "runRate": 130.77,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -2523,7 +2646,8 @@
                     "balls": 31,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 74.19
+                    "runRate": 74.19,
+                    "notOut": false
                 },
                 {
                     "name": "Gulshan",
@@ -2532,7 +2656,8 @@
                     "balls": 11,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 118.18
+                    "runRate": 118.18,
+                    "notOut": false
                 },
                 {
                     "name": "Yogi",
@@ -2541,7 +2666,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Dheeraj",
@@ -2550,7 +2676,8 @@
                     "balls": 2,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 200
+                    "runRate": 200,
+                    "notOut": false
                 },
                 {
                     "name": "Leela",
@@ -2559,7 +2686,8 @@
                     "balls": 10,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 70
+                    "runRate": 70,
+                    "notOut": true
                 },
                 {
                     "name": "Rohit",
@@ -2568,7 +2696,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": true
                 }
             ],
             "extrasGot": 19,
@@ -2797,7 +2926,8 @@
                     "balls": 21,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 71.43
+                    "runRate": 71.43,
+                    "notOut": false
                 },
                 {
                     "name": "Pranav",
@@ -2806,7 +2936,8 @@
                     "balls": 5,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 140
+                    "runRate": 140,
+                    "notOut": false
                 },
                 {
                     "name": "Debu",
@@ -2815,7 +2946,8 @@
                     "balls": 15,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": false
                 },
                 {
                     "name": "Phaneendra",
@@ -2824,7 +2956,8 @@
                     "balls": 19,
                     "fours": 3,
                     "sixes": 0,
-                    "runRate": 115.79
+                    "runRate": 115.79,
+                    "notOut": false
                 },
                 {
                     "name": "Rajat",
@@ -2833,7 +2966,8 @@
                     "balls": 9,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Aftab",
@@ -2842,7 +2976,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 25
+                    "runRate": 25,
+                    "notOut": false
                 },
                 {
                     "name": "Mustakim",
@@ -2851,7 +2986,8 @@
                     "balls": 7,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 85.71
+                    "runRate": 85.71,
+                    "notOut": false
                 },
                 {
                     "name": "Aquib",
@@ -2860,7 +2996,8 @@
                     "balls": 10,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 90
+                    "runRate": 90,
+                    "notOut": true
                 },
                 {
                     "name": "Mani",
@@ -2869,7 +3006,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Naman",
@@ -2878,7 +3016,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Santosh",
@@ -2887,7 +3026,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 15,
@@ -2895,7 +3035,7 @@
         },
         "result": "Trinagkur won by 13 runs.",
         "winner": "Trinagkur",
-        "matchUploadedDate": "2022-04-17T09:25:30.913Z",
+        "matchUploadedDate": "2022-04-19T07:22:05.925Z",
         "matchFileNameDate": "06/Feb/2020",
         "matchFileNameIdentifier": "06-Feb-2020.pdf"
     },
@@ -2917,7 +3057,8 @@
                     "balls": 26,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 73.08
+                    "runRate": 73.08,
+                    "notOut": false
                 },
                 {
                     "name": "Gulshan",
@@ -2926,7 +3067,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": false
                 },
                 {
                     "name": "Dheeraj",
@@ -2935,7 +3077,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -2944,7 +3087,8 @@
                     "balls": 27,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 81.48
+                    "runRate": 81.48,
+                    "notOut": false
                 },
                 {
                     "name": "Chandan",
@@ -2953,7 +3097,8 @@
                     "balls": 6,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 133.33
+                    "runRate": 133.33,
+                    "notOut": false
                 },
                 {
                     "name": "Yogi",
@@ -2962,7 +3107,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Rishab",
@@ -2971,7 +3117,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Vikram",
@@ -2980,7 +3127,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 20
+                    "runRate": 20,
+                    "notOut": false
                 },
                 {
                     "name": "nagendhra",
@@ -2989,7 +3137,8 @@
                     "balls": 5,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "deepika",
@@ -2998,7 +3147,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "rahul",
@@ -3007,7 +3157,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Sukhdev",
@@ -3016,7 +3167,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 },
                 {
                     "name": "BD",
@@ -3025,7 +3177,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Anil",
@@ -3034,7 +3187,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 12,
@@ -3271,7 +3425,8 @@
                     "balls": 11,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 45.45
+                    "runRate": 45.45,
+                    "notOut": false
                 },
                 {
                     "name": "Shivam",
@@ -3280,7 +3435,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Phaneendra",
@@ -3289,7 +3445,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 60
+                    "runRate": 60,
+                    "notOut": false
                 },
                 {
                     "name": "Swamiji",
@@ -3298,7 +3455,8 @@
                     "balls": 28,
                     "fours": 0,
                     "sixes": 2,
-                    "runRate": 125
+                    "runRate": 125,
+                    "notOut": true
                 },
                 {
                     "name": "Rahit",
@@ -3307,7 +3465,8 @@
                     "balls": 24,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 58.33
+                    "runRate": 58.33,
+                    "notOut": true
                 }
             ],
             "extrasGot": 17,
@@ -3315,7 +3474,7 @@
         },
         "result": "Phanindra won by 13 wickets.",
         "winner": "Phanindra",
-        "matchUploadedDate": "2022-04-17T09:25:31.842Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.921Z",
         "matchFileNameDate": "19/Jan/2020",
         "matchFileNameIdentifier": "19-Jan-2020(1).pdf"
     },
@@ -3337,7 +3496,8 @@
                     "balls": 9,
                     "fours": 0,
                     "sixes": 1,
-                    "runRate": 188.89
+                    "runRate": 188.89,
+                    "notOut": false
                 },
                 {
                     "name": "mustakim",
@@ -3346,7 +3506,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Swamiji",
@@ -3355,7 +3516,8 @@
                     "balls": 15,
                     "fours": 2,
                     "sixes": 2,
-                    "runRate": 193.33
+                    "runRate": 193.33,
+                    "notOut": true
                 },
                 {
                     "name": "gaurav",
@@ -3364,7 +3526,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "debu",
@@ -3373,7 +3536,8 @@
                     "balls": 6,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "raghu",
@@ -3382,7 +3546,8 @@
                     "balls": 2,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 250
+                    "runRate": 250,
+                    "notOut": true
                 }
             ],
             "extrasGot": 5,
@@ -3507,7 +3672,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Chandan",
@@ -3516,7 +3682,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -3525,7 +3692,8 @@
                     "balls": 19,
                     "fours": 2,
                     "sixes": 1,
-                    "runRate": 121.05
+                    "runRate": 121.05,
+                    "notOut": false
                 },
                 {
                     "name": "Dheeraj",
@@ -3534,7 +3702,8 @@
                     "balls": 13,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 138.46
+                    "runRate": 138.46,
+                    "notOut": false
                 },
                 {
                     "name": "Rishab",
@@ -3543,7 +3712,8 @@
                     "balls": 2,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 200
+                    "runRate": 200,
+                    "notOut": false
                 },
                 {
                     "name": "Leela",
@@ -3552,7 +3722,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 },
                 {
                     "name": "abc",
@@ -3561,7 +3732,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 4,
@@ -3569,7 +3741,7 @@
         },
         "result": "faneendra won by 13 runs.",
         "winner": "faneendra",
-        "matchUploadedDate": "2022-04-17T09:25:31.884Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.964Z",
         "matchFileNameDate": "19/Jan/2020",
         "matchFileNameIdentifier": "19-Jan-2020.pdf"
     },
@@ -3591,7 +3763,8 @@
                     "balls": 13,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 53.85
+                    "runRate": 53.85,
+                    "notOut": false
                 },
                 {
                     "name": "Trinu",
@@ -3600,7 +3773,8 @@
                     "balls": 20,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 85
+                    "runRate": 85,
+                    "notOut": false
                 },
                 {
                     "name": "Swamiji",
@@ -3609,7 +3783,8 @@
                     "balls": 20,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Pranav",
@@ -3618,7 +3793,8 @@
                     "balls": 9,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 44.44
+                    "runRate": 44.44,
+                    "notOut": false
                 },
                 {
                     "name": "Teja",
@@ -3627,7 +3803,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": false
                 },
                 {
                     "name": "Rajat",
@@ -3636,7 +3813,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": false
                 },
                 {
                     "name": "Rohit",
@@ -3645,7 +3823,8 @@
                     "balls": 12,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 41.67
+                    "runRate": 41.67,
+                    "notOut": false
                 },
                 {
                     "name": "Anuja",
@@ -3654,7 +3833,8 @@
                     "balls": 13,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 46.15
+                    "runRate": 46.15,
+                    "notOut": false
                 },
                 {
                     "name": "Nagu",
@@ -3663,7 +3843,8 @@
                     "balls": 7,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Shuvam",
@@ -3672,7 +3853,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Vikram",
@@ -3681,7 +3863,8 @@
                     "balls": 6,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 83.33
+                    "runRate": 83.33,
+                    "notOut": false
                 },
                 {
                     "name": "Sudipa",
@@ -3690,7 +3873,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Ragini",
@@ -3699,7 +3883,8 @@
                     "balls": 9,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 77.78
+                    "runRate": 77.78,
+                    "notOut": true
                 }
             ],
             "extrasGot": 31,
@@ -3968,7 +4153,8 @@
                     "balls": 6,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 83.33
+                    "runRate": 83.33,
+                    "notOut": false
                 },
                 {
                     "name": "Nakka",
@@ -3977,7 +4163,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 40
+                    "runRate": 40,
+                    "notOut": false
                 },
                 {
                     "name": "Debu",
@@ -3986,7 +4173,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Gulshan",
@@ -3995,7 +4183,8 @@
                     "balls": 10,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -4004,7 +4193,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Phani",
@@ -4013,7 +4203,8 @@
                     "balls": 51,
                     "fours": 3,
                     "sixes": 1,
-                    "runRate": 107.84
+                    "runRate": 107.84,
+                    "notOut": true
                 },
                 {
                     "name": "Aaquib",
@@ -4022,7 +4213,8 @@
                     "balls": 9,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 44.44
+                    "runRate": 44.44,
+                    "notOut": false
                 },
                 {
                     "name": "Yogi",
@@ -4031,7 +4223,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -4040,7 +4233,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 16.67
+                    "runRate": 16.67,
+                    "notOut": false
                 },
                 {
                     "name": "Mustakim",
@@ -4049,7 +4243,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Venky",
@@ -4058,7 +4253,8 @@
                     "balls": 12,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 58.33
+                    "runRate": 58.33,
+                    "notOut": false
                 },
                 {
                     "name": "Deepika",
@@ -4067,7 +4263,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Naman",
@@ -4076,7 +4273,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 }
             ],
             "extrasGot": 12,
@@ -4084,7 +4282,7 @@
         },
         "result": "Trinagkur won by 2 runs.",
         "winner": "Trinagkur",
-        "matchUploadedDate": "2022-04-17T09:25:31.759Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.833Z",
         "matchFileNameDate": "18/Jan/2020",
         "matchFileNameIdentifier": "18-Jan-2020.pdf"
     },
@@ -4106,7 +4304,8 @@
                     "balls": 31,
                     "fours": 4,
                     "sixes": 0,
-                    "runRate": 93.55
+                    "runRate": 93.55,
+                    "notOut": false
                 },
                 {
                     "name": "Debu",
@@ -4115,7 +4314,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Ishu",
@@ -4124,7 +4324,8 @@
                     "balls": 33,
                     "fours": 6,
                     "sixes": 0,
-                    "runRate": 118.18
+                    "runRate": 118.18,
+                    "notOut": false
                 },
                 {
                     "name": "Ketan",
@@ -4133,7 +4334,8 @@
                     "balls": 24,
                     "fours": 0,
                     "sixes": 1,
-                    "runRate": 95.83
+                    "runRate": 95.83,
+                    "notOut": false
                 },
                 {
                     "name": "Teja",
@@ -4142,7 +4344,8 @@
                     "balls": 7,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 71.43
+                    "runRate": 71.43,
+                    "notOut": false
                 },
                 {
                     "name": "Neeraj",
@@ -4151,7 +4354,8 @@
                     "balls": 9,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 88.89
+                    "runRate": 88.89,
+                    "notOut": false
                 },
                 {
                     "name": "Gaurav",
@@ -4160,7 +4364,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 },
                 {
                     "name": "Abc",
@@ -4169,7 +4374,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 35,
@@ -4414,7 +4620,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": false
                 },
                 {
                     "name": "Pranav",
@@ -4423,7 +4630,8 @@
                     "balls": 20,
                     "fours": 3,
                     "sixes": 0,
-                    "runRate": 110
+                    "runRate": 110,
+                    "notOut": false
                 },
                 {
                     "name": "Leela",
@@ -4432,7 +4640,8 @@
                     "balls": 9,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 44.44
+                    "runRate": 44.44,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -4441,7 +4650,8 @@
                     "balls": 18,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 61.11
+                    "runRate": 61.11,
+                    "notOut": false
                 },
                 {
                     "name": "Phani",
@@ -4450,7 +4660,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Prasun",
@@ -4459,7 +4670,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Sathish",
@@ -4468,7 +4680,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -4477,7 +4690,8 @@
                     "balls": 10,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": false
                 },
                 {
                     "name": "Arvind",
@@ -4486,7 +4700,8 @@
                     "balls": 3,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 166.67
+                    "runRate": 166.67,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -4495,7 +4710,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Suki",
@@ -4504,7 +4720,8 @@
                     "balls": 8,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": false
                 },
                 {
                     "name": "Musta",
@@ -4513,7 +4730,8 @@
                     "balls": 12,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": true
                 },
                 {
                     "name": "Sravani",
@@ -4522,7 +4740,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 24,
@@ -4530,7 +4749,7 @@
         },
         "result": "Dheeraj won by 37 runs.",
         "winner": "Dheeraj",
-        "matchUploadedDate": "2022-04-17T09:25:31.675Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.740Z",
         "matchFileNameDate": "15/Jan/2020",
         "matchFileNameIdentifier": "15-Jan-2020.pdf"
     },
@@ -4552,7 +4771,8 @@
                     "balls": 43,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 65.12
+                    "runRate": 65.12,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -4561,7 +4781,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Nagendra",
@@ -4570,7 +4791,8 @@
                     "balls": 15,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Sai",
@@ -4579,7 +4801,8 @@
                     "balls": 35,
                     "fours": 4,
                     "sixes": 3,
-                    "runRate": 171.43
+                    "runRate": 171.43,
+                    "notOut": false
                 },
                 {
                     "name": "Swamiji",
@@ -4588,7 +4811,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": false
                 },
                 {
                     "name": "Ashish",
@@ -4597,7 +4821,8 @@
                     "balls": 30,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 96.67
+                    "runRate": 96.67,
+                    "notOut": true
                 },
                 {
                     "name": "Dheeraj",
@@ -4606,7 +4831,8 @@
                     "balls": 12,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 41.67
+                    "runRate": 41.67,
+                    "notOut": false
                 },
                 {
                     "name": "Teja",
@@ -4615,7 +4841,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Shankar",
@@ -4624,7 +4851,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Deepika",
@@ -4633,7 +4861,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Shivam",
@@ -4642,7 +4871,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Rajat",
@@ -4651,7 +4881,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": true
                 }
             ],
             "extrasGot": 31,
@@ -4888,7 +5119,8 @@
                     "balls": 26,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": true
                 },
                 {
                     "name": "Satheesh",
@@ -4897,7 +5129,8 @@
                     "balls": 14,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 92.86
+                    "runRate": 92.86,
+                    "notOut": false
                 },
                 {
                     "name": "Chandan",
@@ -4906,7 +5139,8 @@
                     "balls": 14,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 57.14
+                    "runRate": 57.14,
+                    "notOut": true
                 }
             ],
             "extrasGot": 22,
@@ -4914,7 +5148,7 @@
         },
         "result": "Pranoy need 111 runs to win.",
         "winner": "Pranoy",
-        "matchUploadedDate": "2022-04-17T09:25:31.528Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.570Z",
         "matchFileNameDate": "13/jan/2020",
         "matchFileNameIdentifier": "13-jan-2020.pdf"
     },
@@ -4936,7 +5170,8 @@
                     "balls": 8,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 37.5
+                    "runRate": 37.5,
+                    "notOut": false
                 },
                 {
                     "name": "Leela",
@@ -4945,7 +5180,8 @@
                     "balls": 2,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 200
+                    "runRate": 200,
+                    "notOut": false
                 },
                 {
                     "name": "Nagendra",
@@ -4954,7 +5190,8 @@
                     "balls": 6,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 150
+                    "runRate": 150,
+                    "notOut": false
                 },
                 {
                     "name": "Teja",
@@ -4963,7 +5200,8 @@
                     "balls": 9,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 122.22
+                    "runRate": 122.22,
+                    "notOut": false
                 },
                 {
                     "name": "Mustakim",
@@ -4972,7 +5210,8 @@
                     "balls": 25,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 120
+                    "runRate": 120,
+                    "notOut": true
                 },
                 {
                     "name": "Phani",
@@ -4981,7 +5220,8 @@
                     "balls": 18,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 133.33
+                    "runRate": 133.33,
+                    "notOut": false
                 },
                 {
                     "name": "Gaurav",
@@ -4990,7 +5230,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Rajat",
@@ -4999,7 +5240,8 @@
                     "balls": 8,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 37.5
+                    "runRate": 37.5,
+                    "notOut": false
                 },
                 {
                     "name": "Srusti",
@@ -5008,7 +5250,8 @@
                     "balls": 8,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 37.5
+                    "runRate": 37.5,
+                    "notOut": false
                 },
                 {
                     "name": "Abhilash",
@@ -5017,7 +5260,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "No One",
@@ -5026,7 +5270,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 15,
@@ -5239,7 +5484,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "Puli",
@@ -5248,7 +5494,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 40
+                    "runRate": 40,
+                    "notOut": false
                 },
                 {
                     "name": "Shankar",
@@ -5257,7 +5504,8 @@
                     "balls": 14,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 128.57
+                    "runRate": 128.57,
+                    "notOut": false
                 },
                 {
                     "name": "Subham",
@@ -5266,7 +5514,8 @@
                     "balls": 20,
                     "fours": 3,
                     "sixes": 0,
-                    "runRate": 105
+                    "runRate": 105,
+                    "notOut": false
                 },
                 {
                     "name": "Debu",
@@ -5275,7 +5524,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Trinagkur",
@@ -5284,7 +5534,8 @@
                     "balls": 12,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 91.67
+                    "runRate": 91.67,
+                    "notOut": false
                 },
                 {
                     "name": "Deepika",
@@ -5293,7 +5544,8 @@
                     "balls": 7,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 28.57
+                    "runRate": 28.57,
+                    "notOut": false
                 },
                 {
                     "name": "Yogi",
@@ -5302,7 +5554,8 @@
                     "balls": 4,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 150
+                    "runRate": 150,
+                    "notOut": false
                 },
                 {
                     "name": "Vikram",
@@ -5311,7 +5564,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 40
+                    "runRate": 40,
+                    "notOut": false
                 },
                 {
                     "name": "Naman",
@@ -5320,7 +5574,8 @@
                     "balls": 10,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 60
+                    "runRate": 60,
+                    "notOut": true
                 },
                 {
                     "name": "Phaneendra",
@@ -5329,7 +5584,8 @@
                     "balls": 3,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 166.67
+                    "runRate": 166.67,
+                    "notOut": true
                 }
             ],
             "extrasGot": 13,
@@ -5337,7 +5593,7 @@
         },
         "result": "Phani won by 12 runs.",
         "winner": "Phani",
-        "matchUploadedDate": "2022-04-17T09:25:31.216Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.245Z",
         "matchFileNameDate": "10/Jan/2020",
         "matchFileNameIdentifier": "10-Jan-2020(1).pdf"
     },
@@ -5359,7 +5615,8 @@
                     "balls": 23,
                     "fours": 3,
                     "sixes": 0,
-                    "runRate": 113.04
+                    "runRate": 113.04,
+                    "notOut": false
                 },
                 {
                     "name": "Puli",
@@ -5368,7 +5625,8 @@
                     "balls": 19,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 63.16
+                    "runRate": 63.16,
+                    "notOut": false
                 },
                 {
                     "name": "Chandan",
@@ -5377,7 +5635,8 @@
                     "balls": 13,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 92.31
+                    "runRate": 92.31,
+                    "notOut": false
                 },
                 {
                     "name": "Dheeraj",
@@ -5386,7 +5645,8 @@
                     "balls": 16,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 68.75
+                    "runRate": 68.75,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -5395,7 +5655,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Nakka",
@@ -5404,7 +5665,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Shubham",
@@ -5413,7 +5675,8 @@
                     "balls": 4,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 150
+                    "runRate": 150,
+                    "notOut": false
                 },
                 {
                     "name": "Tringkur",
@@ -5422,7 +5685,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 },
                 {
                     "name": "Sravani",
@@ -5431,7 +5695,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "A",
@@ -5440,7 +5705,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 200
+                    "runRate": 200,
+                    "notOut": true
                 }
             ],
             "extrasGot": 14,
@@ -5629,7 +5895,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "Debu",
@@ -5638,7 +5905,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "Prasun",
@@ -5647,7 +5915,8 @@
                     "balls": 8,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 62.5
+                    "runRate": 62.5,
+                    "notOut": false
                 },
                 {
                     "name": "Naman",
@@ -5656,7 +5925,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Phaneendra",
@@ -5665,7 +5935,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": false
                 },
                 {
                     "name": "Teja",
@@ -5674,7 +5945,8 @@
                     "balls": 20,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 115
+                    "runRate": 115,
+                    "notOut": false
                 },
                 {
                     "name": "Deepika",
@@ -5683,7 +5955,8 @@
                     "balls": 28,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 39.29
+                    "runRate": 39.29,
+                    "notOut": true
                 },
                 {
                     "name": "Nagu",
@@ -5692,7 +5965,8 @@
                     "balls": 12,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 83.33
+                    "runRate": 83.33,
+                    "notOut": false
                 },
                 {
                     "name": "Anil",
@@ -5701,7 +5975,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 25
+                    "runRate": 25,
+                    "notOut": false
                 },
                 {
                     "name": "Abc",
@@ -5710,7 +5985,8 @@
                     "balls": 4,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": true
                 }
             ],
             "extrasGot": 21,
@@ -5718,7 +5994,7 @@
         },
         "result": "Leela won by 1 runs.",
         "winner": "Leela",
-        "matchUploadedDate": "2022-04-17T09:25:31.292Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.318Z",
         "matchFileNameDate": "10/Jan/2020",
         "matchFileNameIdentifier": "10-Jan-2020.pdf"
     },
@@ -5740,7 +6016,8 @@
                     "balls": 9,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 55.56
+                    "runRate": 55.56,
+                    "notOut": false
                 },
                 {
                     "name": "Mustakim",
@@ -5749,7 +6026,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Nagendra",
@@ -5758,7 +6036,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Swamiji",
@@ -5767,7 +6046,8 @@
                     "balls": 35,
                     "fours": 4,
                     "sixes": 1,
-                    "runRate": 94.29
+                    "runRate": 94.29,
+                    "notOut": false
                 },
                 {
                     "name": "Sathish",
@@ -5776,7 +6056,8 @@
                     "balls": 14,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 107.14
+                    "runRate": 107.14,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -5785,7 +6066,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 116.67
+                    "runRate": 116.67,
+                    "notOut": false
                 },
                 {
                     "name": "Debu",
@@ -5794,7 +6076,8 @@
                     "balls": 29,
                     "fours": 2,
                     "sixes": 3,
-                    "runRate": 124.14
+                    "runRate": 124.14,
+                    "notOut": false
                 },
                 {
                     "name": "Sai Ganesh",
@@ -5803,7 +6086,8 @@
                     "balls": 31,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 70.97
+                    "runRate": 70.97,
+                    "notOut": false
                 },
                 {
                     "name": "Pranav",
@@ -5812,7 +6096,8 @@
                     "balls": 9,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 144.44
+                    "runRate": 144.44,
+                    "notOut": true
                 },
                 {
                     "name": "Saurabh",
@@ -5821,7 +6106,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Sukhdev",
@@ -5830,7 +6116,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": false
                 },
                 {
                     "name": "Vaishnavi",
@@ -5839,7 +6126,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 25
+                    "runRate": 25,
+                    "notOut": false
                 },
                 {
                     "name": "Bernard",
@@ -5848,7 +6136,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": true
                 },
                 {
                     "name": "Gulshan",
@@ -5857,7 +6146,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "Rahit",
@@ -5866,7 +6156,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 }
             ],
             "extrasGot": 27,
@@ -6199,7 +6490,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": false
                 },
                 {
                     "name": "Teja",
@@ -6208,7 +6500,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Shankar",
@@ -6217,7 +6510,8 @@
                     "balls": 22,
                     "fours": 0,
                     "sixes": 1,
-                    "runRate": 72.73
+                    "runRate": 72.73,
+                    "notOut": false
                 },
                 {
                     "name": "Chandan",
@@ -6226,7 +6520,8 @@
                     "balls": 65,
                     "fours": 5,
                     "sixes": 4,
-                    "runRate": 106.15
+                    "runRate": 106.15,
+                    "notOut": true
                 },
                 {
                     "name": "Yogi",
@@ -6235,7 +6530,8 @@
                     "balls": 18,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Dheeraj",
@@ -6244,7 +6540,8 @@
                     "balls": 6,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 116.67
+                    "runRate": 116.67,
+                    "notOut": false
                 },
                 {
                     "name": "Phaneendra",
@@ -6253,7 +6550,8 @@
                     "balls": 12,
                     "fours": 0,
                     "sixes": 2,
-                    "runRate": 191.67
+                    "runRate": 191.67,
+                    "notOut": true
                 }
             ],
             "extrasGot": 30,
@@ -6261,7 +6559,7 @@
         },
         "result": "Dheeraj won by 15 wickets.",
         "winner": "Dheeraj",
-        "matchUploadedDate": "2022-04-17T09:25:32.251Z",
+        "matchUploadedDate": "2022-04-19T07:22:07.481Z",
         "matchFileNameDate": "28/Dec/2019",
         "matchFileNameIdentifier": "28-Dec-2019.pdf"
     },
@@ -6283,7 +6581,8 @@
                     "balls": 21,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "aquib",
@@ -6292,7 +6591,8 @@
                     "balls": 15,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 46.67
+                    "runRate": 46.67,
+                    "notOut": false
                 },
                 {
                     "name": "chandan",
@@ -6301,7 +6601,8 @@
                     "balls": 2,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 200
+                    "runRate": 200,
+                    "notOut": false
                 },
                 {
                     "name": "phanindra",
@@ -6310,7 +6611,8 @@
                     "balls": 30,
                     "fours": 3,
                     "sixes": 3,
-                    "runRate": 140
+                    "runRate": 140,
+                    "notOut": false
                 },
                 {
                     "name": "prasun",
@@ -6319,7 +6621,8 @@
                     "balls": 19,
                     "fours": 3,
                     "sixes": 0,
-                    "runRate": 89.47
+                    "runRate": 89.47,
+                    "notOut": false
                 },
                 {
                     "name": "pranav",
@@ -6328,7 +6631,8 @@
                     "balls": 8,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": false
                 },
                 {
                     "name": "gaurav",
@@ -6337,7 +6641,8 @@
                     "balls": 9,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 44.44
+                    "runRate": 44.44,
+                    "notOut": false
                 },
                 {
                     "name": "musta",
@@ -6346,7 +6651,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 25
+                    "runRate": 25,
+                    "notOut": false
                 },
                 {
                     "name": "venki",
@@ -6355,7 +6661,8 @@
                     "balls": 12,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": false
                 },
                 {
                     "name": "BD",
@@ -6364,7 +6671,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": true
                 },
                 {
                     "name": "no one",
@@ -6373,7 +6681,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 7,
@@ -6658,7 +6967,8 @@
                     "balls": 7,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 57.14
+                    "runRate": 57.14,
+                    "notOut": false
                 },
                 {
                     "name": "raghu",
@@ -6667,7 +6977,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 25
+                    "runRate": 25,
+                    "notOut": false
                 },
                 {
                     "name": "D",
@@ -6676,7 +6987,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": false
                 },
                 {
                     "name": "rajat",
@@ -6685,7 +6997,8 @@
                     "balls": 38,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 73.68
+                    "runRate": 73.68,
+                    "notOut": false
                 },
                 {
                     "name": "rohit",
@@ -6694,7 +7007,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": false
                 },
                 {
                     "name": "teja",
@@ -6703,7 +7017,8 @@
                     "balls": 34,
                     "fours": 5,
                     "sixes": 0,
-                    "runRate": 108.82
+                    "runRate": 108.82,
+                    "notOut": false
                 },
                 {
                     "name": "sai",
@@ -6712,7 +7027,8 @@
                     "balls": 7,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 71.43
+                    "runRate": 71.43,
+                    "notOut": false
                 },
                 {
                     "name": "leela",
@@ -6721,7 +7037,8 @@
                     "balls": 13,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 84.62
+                    "runRate": 84.62,
+                    "notOut": false
                 },
                 {
                     "name": "chauhan",
@@ -6730,7 +7047,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 25
+                    "runRate": 25,
+                    "notOut": false
                 },
                 {
                     "name": "pragya",
@@ -6739,7 +7057,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "vaishnavi",
@@ -6748,7 +7067,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 },
                 {
                     "name": "arvind",
@@ -6757,7 +7077,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 120
+                    "runRate": 120,
+                    "notOut": true
                 }
             ],
             "extrasGot": 14,
@@ -6765,7 +7086,7 @@
         },
         "result": "Match is tie.",
         "winner": "Match",
-        "matchUploadedDate": "2022-04-19T06:11:34.392Z",
+        "matchUploadedDate": "2022-04-19T07:22:07.383Z",
         "matchFileNameDate": "27/Dec/2019",
         "matchFileNameIdentifier": "27-Dec-2019.pdf"
     },
@@ -6787,7 +7108,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Chandan",
@@ -6796,7 +7118,8 @@
                     "balls": 5,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 160
+                    "runRate": 160,
+                    "notOut": false
                 },
                 {
                     "name": "Yogi",
@@ -6805,7 +7128,8 @@
                     "balls": 9,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Shivam",
@@ -6814,7 +7138,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Sathish",
@@ -6823,7 +7148,8 @@
                     "balls": 17,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 41.18
+                    "runRate": 41.18,
+                    "notOut": false
                 },
                 {
                     "name": "Rahit",
@@ -6832,7 +7158,8 @@
                     "balls": 18,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 72.22
+                    "runRate": 72.22,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -6841,7 +7168,8 @@
                     "balls": 9,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 155.56
+                    "runRate": 155.56,
+                    "notOut": false
                 },
                 {
                     "name": "Ragini",
@@ -6850,7 +7178,8 @@
                     "balls": 14,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 42.86
+                    "runRate": 42.86,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -6859,7 +7188,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 25
+                    "runRate": 25,
+                    "notOut": false
                 },
                 {
                     "name": "Vikram",
@@ -6868,7 +7198,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": true
                 },
                 {
                     "name": "RAGINI",
@@ -6877,7 +7208,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": true
                 }
             ],
             "extrasGot": 14,
@@ -7090,7 +7422,8 @@
                     "balls": 25,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 60
+                    "runRate": 60,
+                    "notOut": false
                 },
                 {
                     "name": "Rajat",
@@ -7099,7 +7432,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Shankar",
@@ -7108,7 +7442,8 @@
                     "balls": 11,
                     "fours": 3,
                     "sixes": 0,
-                    "runRate": 154.55
+                    "runRate": 154.55,
+                    "notOut": false
                 },
                 {
                     "name": "Phaneendra",
@@ -7117,7 +7452,8 @@
                     "balls": 23,
                     "fours": 3,
                     "sixes": 0,
-                    "runRate": 121.74
+                    "runRate": 121.74,
+                    "notOut": true
                 },
                 {
                     "name": "Teja",
@@ -7126,7 +7462,8 @@
                     "balls": 19,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 42.11
+                    "runRate": 42.11,
+                    "notOut": true
                 }
             ],
             "extrasGot": 15,
@@ -7134,7 +7471,7 @@
         },
         "result": "Phani won by 7 wickets.",
         "winner": "Phani",
-        "matchUploadedDate": "2022-04-17T09:25:32.038Z",
+        "matchUploadedDate": "2022-04-19T07:22:07.119Z",
         "matchFileNameDate": "23/Dec/2019",
         "matchFileNameIdentifier": "23-Dec-2019(1).pdf"
     },
@@ -7156,7 +7493,8 @@
                     "balls": 39,
                     "fours": 7,
                     "sixes": 6,
-                    "runRate": 210.26
+                    "runRate": 210.26,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -7165,7 +7503,8 @@
                     "balls": 24,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 104.17
+                    "runRate": 104.17,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak Puli",
@@ -7174,7 +7513,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Debhu",
@@ -7183,7 +7523,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": false
                 },
                 {
                     "name": "Deepika",
@@ -7192,7 +7533,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": true
                 },
                 {
                     "name": "Vikram",
@@ -7201,7 +7543,8 @@
                     "balls": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 17,
@@ -7350,7 +7693,8 @@
                     "balls": 27,
                     "fours": 3,
                     "sixes": 1,
-                    "runRate": 133.33
+                    "runRate": 133.33,
+                    "notOut": false
                 },
                 {
                     "name": "Dheeraj",
@@ -7359,7 +7703,8 @@
                     "balls": 34,
                     "fours": 3,
                     "sixes": 0,
-                    "runRate": 114.71
+                    "runRate": 114.71,
+                    "notOut": true
                 },
                 {
                     "name": "Gulshun",
@@ -7368,7 +7713,8 @@
                     "balls": 6,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 183.33
+                    "runRate": 183.33,
+                    "notOut": false
                 },
                 {
                     "name": "Venki",
@@ -7377,7 +7723,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Shivam",
@@ -7386,7 +7733,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 600
+                    "runRate": 600,
+                    "notOut": false
                 },
                 {
                     "name": "Shivam",
@@ -7395,7 +7743,8 @@
                     "balls": 3,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 166.67
+                    "runRate": 166.67,
+                    "notOut": true
                 }
             ],
             "extrasGot": 8,
@@ -7403,7 +7752,7 @@
         },
         "result": "Chandan won by 31 runs.",
         "winner": "Chandan",
-        "matchUploadedDate": "2022-04-17T09:25:32.082Z",
+        "matchUploadedDate": "2022-04-19T07:22:07.187Z",
         "matchFileNameDate": "23/Dec/2019",
         "matchFileNameIdentifier": "23-Dec-2019.pdf"
     },
@@ -7425,7 +7774,8 @@
                     "balls": 13,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 76.92
+                    "runRate": 76.92,
+                    "notOut": false
                 },
                 {
                     "name": "Venkatesh",
@@ -7434,7 +7784,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Abhi",
@@ -7443,7 +7794,8 @@
                     "balls": 31,
                     "fours": 3,
                     "sixes": 0,
-                    "runRate": 90.32
+                    "runRate": 90.32,
+                    "notOut": false
                 },
                 {
                     "name": "Phani",
@@ -7452,7 +7804,8 @@
                     "balls": 14,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 142.86
+                    "runRate": 142.86,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -7461,7 +7814,8 @@
                     "balls": 16,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 93.75
+                    "runRate": 93.75,
+                    "notOut": true
                 },
                 {
                     "name": "Gulson",
@@ -7470,7 +7824,8 @@
                     "balls": 2,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 300
+                    "runRate": 300,
+                    "notOut": true
                 }
             ],
             "extrasGot": 10,
@@ -7643,7 +7998,8 @@
                     "balls": 4,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 150
+                    "runRate": 150,
+                    "notOut": false
                 },
                 {
                     "name": "Rajat",
@@ -7652,7 +8008,8 @@
                     "balls": 4,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 225
+                    "runRate": 225,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -7661,7 +8018,8 @@
                     "balls": 38,
                     "fours": 4,
                     "sixes": 0,
-                    "runRate": 131.58
+                    "runRate": 131.58,
+                    "notOut": false
                 },
                 {
                     "name": "Shankar",
@@ -7670,7 +8028,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Sivam",
@@ -7679,7 +8038,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": false
                 },
                 {
                     "name": "Teja",
@@ -7688,7 +8048,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "Nagu",
@@ -7697,7 +8058,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": false
                 },
                 {
                     "name": "Anil",
@@ -7706,7 +8068,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Sravani",
@@ -7715,7 +8078,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "None",
@@ -7724,7 +8088,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 200
+                    "runRate": 200,
+                    "notOut": true
                 },
                 {
                     "name": "A",
@@ -7733,7 +8098,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 }
             ],
             "extrasGot": 14,
@@ -7741,7 +8107,7 @@
         },
         "result": "Aaquib won by 5 runs.",
         "winner": "Aaquib",
-        "matchUploadedDate": "2022-04-17T09:25:31.128Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.159Z",
         "matchFileNameDate": "10/Jan/2019",
         "matchFileNameIdentifier": "10-Jan-2019.pdf"
     },
@@ -7763,7 +8129,8 @@
                     "balls": 7,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 171.43
+                    "runRate": 171.43,
+                    "notOut": false
                 },
                 {
                     "name": "Puli",
@@ -7772,7 +8139,8 @@
                     "balls": 10,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Yogi",
@@ -7781,7 +8149,8 @@
                     "balls": 20,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 50
+                    "runRate": 50,
+                    "notOut": false
                 },
                 {
                     "name": "Chandan",
@@ -7790,7 +8159,8 @@
                     "balls": 13,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 76.92
+                    "runRate": 76.92,
+                    "notOut": false
                 },
                 {
                     "name": "Swamiji",
@@ -7799,7 +8169,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Gaurav",
@@ -7808,7 +8179,8 @@
                     "balls": 9,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Shivam",
@@ -7817,7 +8189,8 @@
                     "balls": 15,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 60
+                    "runRate": 60,
+                    "notOut": false
                 },
                 {
                     "name": "Aftab",
@@ -7826,7 +8199,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 133.33
+                    "runRate": 133.33,
+                    "notOut": false
                 },
                 {
                     "name": "Nagendra",
@@ -7835,7 +8209,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Prince",
@@ -7844,7 +8219,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 25
+                    "runRate": 25,
+                    "notOut": true
                 },
                 {
                     "name": "Ragini",
@@ -7853,7 +8229,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": true
                 }
             ],
             "extrasGot": 19,
@@ -8058,7 +8435,8 @@
                     "balls": 23,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 86.96
+                    "runRate": 86.96,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -8067,7 +8445,8 @@
                     "balls": 46,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 82.61
+                    "runRate": 82.61,
+                    "notOut": false
                 },
                 {
                     "name": "Teja",
@@ -8076,7 +8455,8 @@
                     "balls": 12,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Phani",
@@ -8085,7 +8465,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Debu",
@@ -8094,7 +8475,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Mustakim",
@@ -8103,7 +8485,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": true
                 },
                 {
                     "name": "Shubham",
@@ -8112,7 +8495,8 @@
                     "balls": 7,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 42.86
+                    "runRate": 42.86,
+                    "notOut": true
                 }
             ],
             "extrasGot": 15,
@@ -8120,7 +8504,7 @@
         },
         "result": "Chandan won by 2 runs.",
         "winner": "Chandan",
-        "matchUploadedDate": "2022-04-17T09:25:31.044Z",
+        "matchUploadedDate": "2022-04-19T07:22:06.064Z",
         "matchFileNameDate": "07/Jan/2019",
         "matchFileNameIdentifier": "07-Jan-2019.pdf"
     },
@@ -8142,7 +8526,8 @@
                     "balls": 14,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 85.71
+                    "runRate": 85.71,
+                    "notOut": false
                 },
                 {
                     "name": "Tilak",
@@ -8151,7 +8536,8 @@
                     "balls": 9,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 55.56
+                    "runRate": 55.56,
+                    "notOut": false
                 },
                 {
                     "name": "Phani",
@@ -8160,7 +8546,8 @@
                     "balls": 7,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 142.86
+                    "runRate": 142.86,
+                    "notOut": false
                 },
                 {
                     "name": "Aquib",
@@ -8169,7 +8556,8 @@
                     "balls": 4,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 75
+                    "runRate": 75,
+                    "notOut": false
                 },
                 {
                     "name": "Raghu",
@@ -8178,7 +8566,8 @@
                     "balls": 12,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 83.33
+                    "runRate": 83.33,
+                    "notOut": false
                 },
                 {
                     "name": "Yogi",
@@ -8187,7 +8576,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Venky",
@@ -8196,7 +8586,8 @@
                     "balls": 23,
                     "fours": 3,
                     "sixes": 0,
-                    "runRate": 117.39
+                    "runRate": 117.39,
+                    "notOut": false
                 },
                 {
                     "name": "Shivam",
@@ -8205,7 +8596,8 @@
                     "balls": 10,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 110
+                    "runRate": 110,
+                    "notOut": false
                 },
                 {
                     "name": "Vaishnavi",
@@ -8214,7 +8606,8 @@
                     "balls": 6,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 66.67
+                    "runRate": 66.67,
+                    "notOut": false
                 },
                 {
                     "name": "Nagu",
@@ -8223,7 +8616,8 @@
                     "balls": 2,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": true
                 },
                 {
                     "name": "Priyanshu",
@@ -8232,7 +8626,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 }
             ],
             "extrasGot": 16,
@@ -8477,7 +8872,8 @@
                     "balls": 5,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 80
+                    "runRate": 80,
+                    "notOut": false
                 },
                 {
                     "name": "Pranav",
@@ -8486,7 +8882,8 @@
                     "balls": 7,
                     "fours": 1,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Vikram",
@@ -8495,7 +8892,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": false
                 },
                 {
                     "name": "Rajat",
@@ -8504,7 +8902,8 @@
                     "balls": 28,
                     "fours": 4,
                     "sixes": 0,
-                    "runRate": 103.57
+                    "runRate": 103.57,
+                    "notOut": false
                 },
                 {
                     "name": "Teja",
@@ -8513,7 +8912,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 33.33
+                    "runRate": 33.33,
+                    "notOut": false
                 },
                 {
                     "name": "Gulshan",
@@ -8522,7 +8922,8 @@
                     "balls": 3,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100
+                    "runRate": 100,
+                    "notOut": false
                 },
                 {
                     "name": "Berny",
@@ -8531,7 +8932,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Leela",
@@ -8540,7 +8942,8 @@
                     "balls": 1,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Abhilash",
@@ -8549,7 +8952,8 @@
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 0
+                    "runRate": 0,
+                    "notOut": false
                 },
                 {
                     "name": "Trinakur",
@@ -8558,7 +8962,8 @@
                     "balls": 19,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 36.84
+                    "runRate": 36.84,
+                    "notOut": false
                 },
                 {
                     "name": "Ragini",
@@ -8567,7 +8972,8 @@
                     "balls": 9,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 11.11
+                    "runRate": 11.11,
+                    "notOut": true
                 }
             ],
             "extrasGot": 13,
@@ -8575,7 +8981,7 @@
         },
         "result": "Aaquib won by 33 runs.",
         "winner": "Aaquib",
-        "matchUploadedDate": "2022-04-17T09:25:30.746Z",
+        "matchUploadedDate": "2022-04-19T07:22:05.781Z",
         "matchFileNameDate": "02/Jan/2019",
         "matchFileNameIdentifier": "02-Jan-2019.pdf"
     }

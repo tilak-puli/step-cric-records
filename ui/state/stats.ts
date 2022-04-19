@@ -3,16 +3,6 @@ import { Match } from "../types/match";
 import { BattingStats, BowlingStats } from "../types/stats";
 
 export function getIndexName(name, date) {
-  if (name === "D") {
-    console.log(date);
-    console.log(name);
-    console.log(swapNames[name.toLowerCase()]);
-    console.log(new Date(swapNames[name.toLowerCase()].beforeDate));
-    console.log(
-      new Date(date) < new Date(swapNames[name.toLowerCase()].beforeDate)
-    );
-  }
-
   return swapNames[name.toLowerCase()] &&
     new Date(date) < new Date(swapNames[name.toLowerCase()].beforeDate)
     ? swapNames[name.toLowerCase()]?.name?.toLowerCase()
@@ -31,7 +21,7 @@ export default function getStats(matches: Match[], fromYear: number) {
   const addBattingRecords = (
     date,
     matchIndex,
-    { runs, name, balls, fours, sixes }
+    { runs, name, balls, fours, sixes, notOut }
   ) => {
     const indexName = getIndexName(name, date);
     runsScored += runs;
@@ -43,11 +33,13 @@ export default function getStats(matches: Match[], fromYear: number) {
         runs: 0,
         battingFigures: [],
         matches: 0,
+        notOuts: 0,
       };
     }
 
     batting[indexName].runs += runs;
     batting[indexName].matches += 1;
+    batting[indexName].notOuts += notOut ? 1 : 0;
 
     batting[indexName].battingFigures.push({ runs, balls, matchIndex });
   };

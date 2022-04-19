@@ -2,6 +2,7 @@ export interface BattingStat {
   runs: number;
   battingFigures: BattingFigure[];
   matches: number;
+  notOuts: number;
 }
 
 export interface BattingStats {

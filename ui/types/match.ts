@@ -29,6 +29,7 @@ export interface Score {
 export interface Batting {
   name: string;
   outReason: string;
+  notOut: boolean;
   balls: number;
   runs: number;
   fours: number;

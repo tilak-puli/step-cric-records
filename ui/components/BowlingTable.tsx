@@ -45,7 +45,7 @@ export function BowlingTable(props: { team: TeamData; date: string }) {
       overs: b.overs,
       economy: <Text>{b.economy?.toFixed(2)}</Text>,
     }));
-  }, [props.team.bowling]);
+  }, [props.team.bowling, props.date]);
 
   return (
     <TableContainer px={[3, 0]}>

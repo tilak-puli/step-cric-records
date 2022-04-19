@@ -57,7 +57,7 @@ export function BattingTable(props: { team: TeamData; date: string }) {
       sixes: b.sixes,
       rr: b.runRate,
     }));
-  }, [props.team.batting]);
+  }, [props.team.batting, props.date]);
 
   return (
     <TableContainer px={[3, 0]}>
