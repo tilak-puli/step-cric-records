@@ -62,7 +62,7 @@ export function Matches(props: { data: Match[] }) {
     <Box maxHeight={["calc(90vh - 170px)", "550"]} overflow={"auto"} p={"1em"}>
       {_.map(props.data, (match: Match, i) => {
         return <MatchCard key={i} id={i + 1} match={match} />;
-      })}
+      })?.reverse()}
     </Box>
   );
 }

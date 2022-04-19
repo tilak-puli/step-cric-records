@@ -9240,11 +9240,11 @@
                 },
                 {
                     "name": "Tilak",
-                    "overs": 1,
+                    "overs": 2,
                     "maidens": 0,
-                    "runs": 4,
-                    "wickets": 1,
-                    "economy": 4
+                    "runs": 6,
+                    "wickets": 2,
+                    "economy": 3
                 },
                 {
                     "name": "Ashritha",
@@ -9293,14 +9293,6 @@
                     "runs": 9,
                     "wickets": 1,
                     "economy": 9
-                },
-                {
-                    "name": "Tilak Puli",
-                    "overs": 1,
-                    "maidens": 0,
-                    "runs": 2,
-                    "wickets": 1,
-                    "economy": 2
                 }
             ],
             "name": "Banerjee",
