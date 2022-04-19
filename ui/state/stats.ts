@@ -6,7 +6,7 @@ export function getIndexName(name, date) {
   return swapNames[name.toLowerCase()] &&
     new Date(date) < new Date(swapNames[name.toLowerCase()].beforeDate)
     ? swapNames[name.toLowerCase()]?.name?.toLowerCase()
-    : name;
+    : name.toLowerCase();
 }
 
 export default function getStats(matches: Match[], fromYear: number) {
@@ -93,6 +93,8 @@ export default function getStats(matches: Match[], fromYear: number) {
         addBowlingRecords.bind(null, match.matchFileNameDate, i)
       );
     });
+
+  console.log(batting["Tilak"]);
 
   return {
     batting,

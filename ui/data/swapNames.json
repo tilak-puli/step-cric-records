@@ -1,20 +1,39 @@
-
 {
   "rulesForThisEntry": {
-    "text":"[Read This before you update this file]",
+    "text": "[Read This before you update this file]",
     "rule1": "keep key all lower case",
     "rule2": "beforeDate format MM/DD/YYYY"
   },
   "puli": {
-    "name":"tilak",
+    "name": "tilak",
+    "beforeDate": "01/05/4020"
+  },
+  "tilak puli": {
+    "name": "tilak",
     "beforeDate": "01/05/4020"
   },
   "sai": {
-    "name":"sai ganesh",
+    "name": "sai ganesh",
     "beforeDate": "05/01/2020"
   },
   "d": {
-    "name":"Debu",
+    "name": "Debu",
     "beforeDate": "12/28/2019"
+  },
+  "phani": {
+    "name": "Phaneendra",
+    "beforeDate": "12/01/2021"
+  },
+  "phaneendra": {
+    "name": "Phaneendra",
+    "beforeDate": "12/01/2021"
+  },
+  "faneendra": {
+    "name": "Phaneendra",
+    "beforeDate": "12/01/2021"
+  },
+  "phanindra": {
+    "name": "Phaneendra",
+    "beforeDate": "12/01/2021"
   }
 }
