@@ -37,7 +37,7 @@ const generateMatchDataJson = async () => {
       ...(await parseMatchPdf("./matches/pdf/" + fileName)),
       matchFileNameDate: fileName
         .split(".")[0]
-        .replaceAll("-", "/")
+        .replace(/-/g, "/")
         .split("(")[0]
         .trim(),
       matchFileNameIdentifier: fileName,
