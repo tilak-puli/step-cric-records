@@ -14,6 +14,7 @@ export interface MvpDetails {
   name: string;
   points: number;
   wickets: number;
+  runsGiven: number;
   runs: number;
   balls: number;
   overs: number;

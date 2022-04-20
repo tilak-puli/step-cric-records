@@ -37,6 +37,7 @@ function emptyMVP(name: string): MvpDetails {
     name,
     points: 0,
     wickets: 0,
+    runsGiven: 0,
     runs: 0,
     balls: 0,
     overs: 0,
@@ -92,6 +93,7 @@ export const findMvp = (match: Match) => {
     playerPoints[name].points += b.wickets * 10;
     playerPoints[name].wickets += b.wickets;
     playerPoints[name].overs += b.overs;
+    playerPoints[name].runsGiven += b.runs;
 
     playerPoints[name].points += getPointsForRunRate(b.runRate);
     playerPoints[name].points += b.maidens * 2;
@@ -120,7 +122,7 @@ export const findMvp = (match: Match) => {
     if (mvp.runs > 0) {
       text += ` & `;
     }
-    text += `${mvp.wickets} (${mvp.overs})`;
+    text += `${mvp.wickets}/${mvp.runsGiven} (${mvp.overs})`;
   }
 
   return { ...mvp, text };
