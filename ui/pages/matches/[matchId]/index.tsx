@@ -1,12 +1,18 @@
-import { Box, Flex, Heading, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text, Wrap } from "@chakra-ui/react";
 import { useRouter } from "next/router";
-import { useContext } from "react";
+import { useContext, useMemo } from "react";
 import { GlobalContext } from "../../../state/GlobalContext";
 import { MatchCard } from "../../../components";
 import { CustomBox } from "../../../components/HigherOrder/CustomBox";
-import { Match, TeamData } from "../../../types/match";
+import {
+  Match,
+  MvpDetails,
+  SpecialMvpDetails,
+  TeamData,
+} from "../../../types/match";
 import { BattingTable } from "../../../components";
 import { BowlingTable } from "../../../components";
+import { capitalize, findMvp } from "../../../utils";
 
 function TeamScoreBoard(props: {
   name: String;
@@ -25,11 +31,41 @@ function TeamScoreBoard(props: {
   );
 }
 
+function MVPCard(props: { mvp: MvpDetails }) {
+  return (
+    <CustomBox p={3} width={["100%", 220]} height={120}>
+      <Heading mb={3} fontSize={"sm"}>
+        MVP
+      </Heading>
+      <Box>
+        <Text fontWeight={"bold"}>{capitalize(props.mvp?.name)}</Text>
+      </Box>
+      <Text fontSize={"sm"}>{props.mvp?.text}</Text>
+    </CustomBox>
+  );
+}
+
+function SpecialMVPCard(props: { mvp: SpecialMvpDetails }) {
+  return (
+    <CustomBox p={3} width={["100%", 220]} height={120}>
+      <Heading mb={3} fontSize={"sm"}>
+        Special MVP
+      </Heading>
+      <Box>
+        <Text fontWeight={"bold"}>{capitalize(props.mvp?.name)}</Text>
+      </Box>
+      <Text fontSize={"sm"}>{props.mvp?.reason}</Text>
+    </CustomBox>
+  );
+}
+
 const Matches = () => {
   const router = useRouter();
   const { matchId } = router.query;
   const { matches } = useContext(GlobalContext);
   const match = matches[+matchId - 1] as Match;
+
+  const mvp = useMemo(() => findMvp(match), [match]);
 
   return (
     <Box>
@@ -39,17 +75,23 @@ const Matches = () => {
         )}
         {match && (
           <Flex direction={"column"}>
-            <Box width={["100%", 500]}>
-              {
-                <MatchCard
-                  id={+matchId}
-                  p={"1em"}
-                  boxShadow={"sm"}
-                  match={match}
-                  disableLink={true}
-                />
-              }
-            </Box>
+            <Wrap spacing={10}>
+              <Box width={["100%", 480]}>
+                {
+                  <MatchCard
+                    id={+matchId}
+                    p={"1em"}
+                    boxShadow={"sm"}
+                    match={match}
+                    disableLink={true}
+                  />
+                }
+              </Box>
+              <MVPCard mvp={mvp} />
+              {match.extraData?.specialMvp && (
+                <SpecialMVPCard mvp={match.extraData?.specialMvp} />
+              )}
+            </Wrap>
             <Flex direction={"column"} gap={[10]} width={"100%"}>
               <TeamScoreBoard
                 name={match.team1.name}

@@ -10,8 +10,8 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import { useMemo } from "react";
-import { getIndexName } from "../state/stats";
 import { capitalize } from "../utils";
+import { getIndexName } from "../utils";
 
 const columns = [
   { field: "name", headerName: "Bowling", width: 40 },

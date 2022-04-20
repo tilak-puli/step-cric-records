@@ -7,6 +7,30 @@ export interface Match {
   winner: string;
   matchUploadedDate: string;
   matchFileNameDate: string;
+  extraData?: ExtraData;
+}
+
+export interface MvpDetails {
+  name: string;
+  points: number;
+  wickets: number;
+  runs: number;
+  balls: number;
+  overs: number;
+  text: string;
+}
+
+export interface SpecialMvpDetails {
+  name: string;
+  reason: string;
+}
+
+export interface PlayersMvpDetails {
+  [name: string]: MvpDetails;
+}
+
+export interface ExtraData {
+  specialMvp: SpecialMvpDetails;
 }
 
 export interface TeamData {

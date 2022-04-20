@@ -1,13 +1,6 @@
-import swapNames from "../data/swapNames.json";
 import { Match } from "../types/match";
 import { BattingStats, BowlingStats } from "../types/stats";
-
-export function getIndexName(name, date) {
-  return swapNames[name.toLowerCase()] &&
-    new Date(date) < new Date(swapNames[name.toLowerCase()].beforeDate)
-    ? swapNames[name.toLowerCase()]?.name?.toLowerCase()
-    : name.toLowerCase();
-}
+import { getIndexName } from "../utils";
 
 export default function getStats(matches: Match[], fromYear: number) {
   const batting: BattingStats = {};

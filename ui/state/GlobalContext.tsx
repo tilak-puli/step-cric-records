@@ -1,6 +1,7 @@
 import React, { createContext, useState } from "react";
 import { Match } from "../types/match";
-import matches from "../data/matches.json";
+import matchesJson from "../data/matches.json";
+import extraDataJson from "../data/extraData.json";
 import getStats from "./stats";
 import { BattingStats, BowlingStats } from "../types/stats";
 
@@ -41,11 +42,18 @@ export const GlobalContext = createContext<GlobalContextType>({
 
 export default function GlobalContextProvider({ children }) {
   const [fromYear, setFromYear] = useState(StartYear);
+  const matches: Match[] = matchesJson.map((m) => {
+    const date = m.matchFileNameDate?.replace(/\//g, "-");
+    if (extraDataJson[date]) {
+      return { ...m, extraData: extraDataJson[date] };
+    }
+    return m;
+  });
 
   return (
     <GlobalContext.Provider
       value={{
-        matches: matches as Match[],
+        matches,
         stats: { ...getStats(matches, fromYear), setFromYear, fromYear },
       }}
     >
