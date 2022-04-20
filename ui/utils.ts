@@ -76,6 +76,10 @@ export const findMvp = (match: Match) => {
       playerPoints[name] = emptyMVP(name);
     }
 
+    if (name === "venky") {
+      console.log(b);
+    }
+
     playerPoints[name].points += b.runs * 1.5;
     playerPoints[name].runs += b.runs;
     playerPoints[name].balls += b.balls;
@@ -101,7 +105,7 @@ export const findMvp = (match: Match) => {
 
   match.team1.batting.forEach(addPointsForRuns);
   match.team2.batting.forEach(addPointsForRuns);
-  match.team1.bowling.forEach(addPointsForRuns);
+  match.team1.bowling.forEach(addPointsForWickets);
   match.team2.bowling.forEach(addPointsForWickets);
 
   const mvp = Object.entries(playerPoints).reduce((acc, [name, player]) => {
@@ -125,6 +129,7 @@ export const findMvp = (match: Match) => {
     text += `${mvp.wickets}/${mvp.runsGiven} (${mvp.overs})`;
   }
 
+  console.log(mvp);
   return { ...mvp, text };
 };
 
