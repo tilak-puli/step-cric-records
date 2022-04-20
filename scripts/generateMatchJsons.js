@@ -51,13 +51,15 @@ const generateMatchDataJson = async () => {
       new Date(match1.matchFileNameDate) - new Date(match2.matchFileNameDate)
   );
 
-  await fs.writeFileSync(
-    "./ui/data/matches.json",
-    JSON.stringify(matchesJson, null, 4),
-    {
-      encoding: "utf8",
-    }
-  );
+  if (jsonFilesRequired.length > 0) {
+    await fs.writeFileSync(
+      "./ui/data/matches.json",
+      JSON.stringify(matchesJson, null, 4),
+      {
+        encoding: "utf8",
+      }
+    );
+  }
 
   console.log("Done parsing pdfs");
 };
