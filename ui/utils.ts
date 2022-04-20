@@ -76,10 +76,6 @@ export const findMvp = (match: Match) => {
       playerPoints[name] = emptyMVP(name);
     }
 
-    if (name === "venky") {
-      console.log(b);
-    }
-
     playerPoints[name].points += b.runs * 1.5;
     playerPoints[name].runs += b.runs;
     playerPoints[name].balls += b.balls;

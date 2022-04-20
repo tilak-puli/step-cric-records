@@ -7,6 +7,7 @@ export interface Match {
   winner: string;
   matchUploadedDate: string;
   matchFileNameDate: string;
+  matchFileNameIdentifier: string;
   extraData?: ExtraData;
 }
 
@@ -38,11 +39,11 @@ export interface TeamData {
   name: string;
   score: Score;
   batting: Batting[];
+  bowling: Bowling[];
   extrasGot: number;
   battingRunRate: number;
   extrasBowled: number;
   extrasBowledText: string;
-  bowling: Bowling[];
 }
 
 export interface Score {
