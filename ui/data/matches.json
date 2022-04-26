@@ -10248,5 +10248,288 @@
         "matchUploadedDate": "2022-04-24T09:34:30.228Z",
         "matchFileNameDate": "24/Apr/2022",
         "matchFileNameIdentifier": "24-Apr-2022.pdf"
+    },
+    {
+        "team1Name": "Chhavi",
+        "team2Name": "Barnali",
+        "team1": {
+            "name": "Chhavi",
+            "score": {
+                "runs": 77,
+                "wickets": 5,
+                "overs": 10
+            },
+            "batting": [
+                {
+                    "name": "Rishabh",
+                    "outReason": "Run out (Vivek)",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Lakshmi",
+                    "outReason": "not out",
+                    "runs": 16,
+                    "balls": 26,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 61.54,
+                    "notOut": true
+                },
+                {
+                    "name": "Sai",
+                    "outReason": "c Banerjee b Vivek",
+                    "runs": 1,
+                    "balls": 7,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 14.29,
+                    "notOut": false
+                },
+                {
+                    "name": "Swapnil",
+                    "outReason": "b Tilak",
+                    "runs": 3,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 100,
+                    "notOut": false
+                },
+                {
+                    "name": "Azhar",
+                    "outReason": "Run out (Vivek)",
+                    "runs": 16,
+                    "balls": 17,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 94.12,
+                    "notOut": false
+                },
+                {
+                    "name": "Abin",
+                    "outReason": "b Prem",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Tanmay",
+                    "outReason": "not out",
+                    "runs": 11,
+                    "balls": 7,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 157.14,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 30,
+            "battingRunRate": 7.7,
+            "extrasBowled": 30,
+            "extrasBowledText": "(14) 0 B, 0 LB, 12 WD, 2 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Chhavi",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 0,
+                    "economy": 7
+                },
+                {
+                    "name": "Prafull",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 8,
+                    "wickets": 0,
+                    "economy": 8
+                },
+                {
+                    "name": "Lakshmi",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 12,
+                    "wickets": 0,
+                    "economy": 12
+                },
+                {
+                    "name": "Rishabh",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 8,
+                    "wickets": 0,
+                    "economy": 8
+                },
+                {
+                    "name": "Tanmay",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 0,
+                    "economy": 3
+                },
+                {
+                    "name": "Abin",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 4,
+                    "wickets": 0,
+                    "economy": 4
+                },
+                {
+                    "name": "Swapnil",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 0,
+                    "economy": 13
+                },
+                {
+                    "name": "Azhar",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 0,
+                    "economy": 13
+                },
+                {
+                    "name": "Sai",
+                    "overs": 0.2,
+                    "maidens": 0,
+                    "runs": 10,
+                    "wickets": 0,
+                    "economy": 30
+                }
+            ]
+        },
+        "team2": {
+            "extrasBowled": 30,
+            "extrasBowledText": "(30) 0 B, 0 LB, 28 WD, 2 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Barnali",
+                    "overs": 1,
+                    "maidens": 1,
+                    "runs": 0,
+                    "wickets": 0,
+                    "economy": 0
+                },
+                {
+                    "name": "Banerjee",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 0,
+                    "economy": 3
+                },
+                {
+                    "name": "Vivek",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 11,
+                    "wickets": 1,
+                    "economy": 11
+                },
+                {
+                    "name": "Tilak",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 5,
+                    "wickets": 1,
+                    "economy": 5
+                },
+                {
+                    "name": "Govinda",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 0,
+                    "economy": 13
+                },
+                {
+                    "name": "Dileep",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 0,
+                    "economy": 3
+                },
+                {
+                    "name": "Roshan",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 0,
+                    "economy": 13
+                },
+                {
+                    "name": "Prem",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 10,
+                    "wickets": 1,
+                    "economy": 10
+                },
+                {
+                    "name": "Pritam",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 8,
+                    "wickets": 0,
+                    "economy": 8
+                },
+                {
+                    "name": "Subhash",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 11,
+                    "wickets": 0,
+                    "economy": 11
+                }
+            ],
+            "name": "Barnali",
+            "score": {
+                "runs": 78,
+                "wickets": 0,
+                "overs": 8.4
+            },
+            "batting": [
+                {
+                    "name": "Vivek",
+                    "outReason": "not out",
+                    "runs": 50,
+                    "balls": 32,
+                    "fours": 5,
+                    "sixes": 0,
+                    "runRate": 156.25,
+                    "notOut": true
+                },
+                {
+                    "name": "Roshan",
+                    "outReason": "not out",
+                    "runs": 14,
+                    "balls": 20,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 70,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 14,
+            "battingRunRate": 9
+        },
+        "result": "Barnali won by 12 wickets.",
+        "winner": "Barnali",
+        "matchUploadedDate": "2022-04-26T15:15:36.803Z",
+        "matchFileNameDate": "26/Apr/2022",
+        "matchFileNameIdentifier": "26-Apr-2022.pdf"
     }
 ]
