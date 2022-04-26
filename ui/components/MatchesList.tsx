@@ -1,5 +1,5 @@
 import { Match, Score } from "../types/match";
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import { CustomBox } from "./HigherOrder/CustomBox";
 import _ from "underscore";
@@ -58,10 +58,16 @@ export function MatchCard(props: {
 
 export function Matches(props: { data: Match[] }) {
   return (
-    <Box maxHeight={["calc(90vh - 170px)", "550"]} overflow={"auto"} p={"1em"}>
+    <Flex
+      maxHeight={["calc(90vh - 170px)", "550"]}
+      direction={"column"}
+      overflow={"auto"}
+      p={"1em"}
+      gap={5}
+    >
       {_.map(props.data, (match: Match, i) => {
         return <MatchCard key={i} id={i + 1} match={match} />;
       })?.reverse()}
-    </Box>
+    </Flex>
   );
 }
