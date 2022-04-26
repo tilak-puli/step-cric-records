@@ -33,7 +33,7 @@ function TeamScoreBoard(props: {
 
 function MVPCard(props: { mvp: MvpDetails }) {
   return (
-    <CustomBox p={3} width={["100%", 220]} height={120}>
+    <CustomBox p={3} width={["100%", 220]} height={130}>
       <Heading mb={3} fontSize={"sm"}>
         MVP
       </Heading>
@@ -47,7 +47,7 @@ function MVPCard(props: { mvp: MvpDetails }) {
 
 function SpecialMVPCard(props: { mvp: SpecialMvpDetails }) {
   return (
-    <CustomBox p={3} width={["100%", 220]} height={120}>
+    <CustomBox p={3} width={["100%", 220]} height={130}>
       <Heading mb={3} fontSize={"sm"}>
         Special MVP
       </Heading>
@@ -75,7 +75,7 @@ const Matches = () => {
         )}
         {match && (
           <Flex direction={"column"}>
-            <Wrap spacing={10}>
+            <Wrap spacing={[5, 10]} pb={[5, 10]}>
               <Box width={["100%", 480]}>
                 {
                   <MatchCard

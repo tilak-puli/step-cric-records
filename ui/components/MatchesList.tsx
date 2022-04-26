@@ -30,9 +30,8 @@ export function MatchCard(props: {
     <Link href={"/matches/" + props.id}>
       <CustomBox
         p={props.p || "0.5em"}
-        mb={5}
         width="100%"
-        height={120}
+        height={130}
         boxShadow={props.boxShadow || "md"}
         cursor={!props.disableLink && "pointer"}
       >
