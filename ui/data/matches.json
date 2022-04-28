@@ -10545,7 +10545,7 @@
             "batting": [
                 {
                     "name": "Vivek",
-                    "outReason": "c & b Swapnil",
+                    "outReason": "Run out (Tilak)",
                     "runs": 55,
                     "balls": 38,
                     "fours": 6,
@@ -10555,7 +10555,7 @@
                 },
                 {
                     "name": "Azhar",
-                    "outReason": "Run out (Tilak)",
+                    "outReason": "c & b Swapnil",
                     "runs": 14,
                     "balls": 10,
                     "fours": 1,
@@ -10574,7 +10574,7 @@
                     "notOut": false
                 },
                 {
-                    "name": "Swami Ji",
+                    "name": "Swamiji",
                     "outReason": "Run out (Tilak)",
                     "runs": 0,
                     "balls": 1,
@@ -10774,7 +10774,7 @@
                     "economy": 5
                 },
                 {
-                    "name": "Govinda",
+                    "name": "Barnali",
                     "overs": 2,
                     "maidens": 0,
                     "runs": 22,
@@ -10782,7 +10782,7 @@
                     "economy": 11
                 },
                 {
-                    "name": "Barnali",
+                    "name": "Govinda",
                     "overs": 1,
                     "maidens": 0,
                     "runs": 8,
