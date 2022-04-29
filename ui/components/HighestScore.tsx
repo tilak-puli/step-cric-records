@@ -1,4 +1,13 @@
-import { Link, Table, Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react";
+import {
+  Link as ChakraLink,
+  Table,
+  Tbody,
+  Td,
+  Th,
+  Thead,
+  Tr,
+} from "@chakra-ui/react";
+import Link from "next/link";
 import { useMemo } from "react";
 import _ from "underscore";
 import { capitalize } from "../utils";
@@ -42,8 +51,10 @@ export function HighestScoreTable(props: { battingStats: BattingStats }) {
       .map(({ highestScore, matchIndex, ...rest }) => ({
         ...rest,
         highestScore: (
-          <Link href={"/matches/" + (matchIndex + 1)} className={"underline"}>
-            <>{highestScore}</>
+          <Link href={"/matches/" + (matchIndex + 1)} passHref>
+            <ChakraLink className={"underline"}>
+              <>{highestScore}</>
+            </ChakraLink>
           </Link>
         ),
       }))

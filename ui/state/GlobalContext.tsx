@@ -21,27 +21,29 @@ interface GlobalContextType {
     };
   };
 }
-export const StartYear = 2019;
+export const START_YEAR = 2019;
+
+const defaultStats = {
+  batting: {},
+  bowling: {},
+  fromYear: START_YEAR,
+  setFromYear: () => {},
+  total: {
+    runsScored: 0,
+    wicketsTaken: 0,
+    foursHit: 0,
+    sixesHit: 0,
+    highestMatchScore: 0,
+  },
+};
 
 export const GlobalContext = createContext<GlobalContextType>({
   matches: [],
-  stats: {
-    batting: {},
-    bowling: {},
-    fromYear: StartYear,
-    setFromYear: () => {},
-    total: {
-      runsScored: 0,
-      wicketsTaken: 0,
-      foursHit: 0,
-      sixesHit: 0,
-      highestMatchScore: 0,
-    },
-  },
+  stats: defaultStats,
 });
 
 export default function GlobalContextProvider({ children }) {
-  const [fromYear, setFromYear] = useState(StartYear);
+  const [fromYear, setFromYear] = useState(START_YEAR);
   const matches: Match[] = matchesJson.map((m) => {
     const date = m.matchFileNameDate?.replace(/\//g, "-");
     if (extraDataJson[date]) {

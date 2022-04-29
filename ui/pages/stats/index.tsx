@@ -1,6 +1,6 @@
 import { Box, Heading, Wrap, Flex } from "@chakra-ui/react";
 import { useContext } from "react";
-import { GlobalContext, StartYear } from "../../state/GlobalContext";
+import { GlobalContext, START_YEAR } from "../../state/GlobalContext";
 import { MostRunsTable } from "../../components";
 import { CustomBox } from "../../components/HigherOrder/CustomBox";
 import { MostWicketsTable } from "../../components";
@@ -23,9 +23,9 @@ const Stats = () => {
           size="md"
           bg={"white"}
         >
-          {_.times(new Date().getFullYear() - StartYear + 1, (n) => (
-            <option key={n} value={n + StartYear}>
-              {n + StartYear}
+          {_.times(new Date().getFullYear() - START_YEAR + 1, (n) => (
+            <option key={n} value={n + START_YEAR}>
+              {n + START_YEAR}
             </option>
           ))}
         </Select>

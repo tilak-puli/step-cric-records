@@ -64,8 +64,11 @@ export default function getStats(matches: Match[], fromYear: number) {
   };
 
   matches
-    .filter((m) => new Date(m.matchFileNameDate).getFullYear() >= fromYear)
-    .forEach((match, i) => {
+    .map((match, index) => ({ match, index }))
+    .filter(
+      ({ match }) => new Date(match.matchFileNameDate).getFullYear() >= fromYear
+    )
+    .forEach(({ match, index }) => {
       if (highestMatchScore < match.team1.score.runs) {
         highestMatchScore = match.team1.score.runs;
       }
@@ -74,16 +77,16 @@ export default function getStats(matches: Match[], fromYear: number) {
       }
 
       match.team1.batting.forEach(
-        addBattingRecords.bind(null, match.matchFileNameDate, i)
+        addBattingRecords.bind(null, match.matchFileNameDate, index)
       );
       match.team2.batting.forEach(
-        addBattingRecords.bind(null, match.matchFileNameDate, i)
+        addBattingRecords.bind(null, match.matchFileNameDate, index)
       );
       match.team1.bowling.forEach(
-        addBowlingRecords.bind(null, match.matchFileNameDate, i)
+        addBowlingRecords.bind(null, match.matchFileNameDate, index)
       );
       match.team2.bowling.forEach(
-        addBowlingRecords.bind(null, match.matchFileNameDate, i)
+        addBowlingRecords.bind(null, match.matchFileNameDate, index)
       );
     });
 
