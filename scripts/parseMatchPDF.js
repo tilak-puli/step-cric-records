@@ -32,25 +32,25 @@ function getBatting(lines, i) {
   const batting = [];
 
   for (let hasBatsman = true; hasBatsman; ) {
-    //to ignore line if pdf has 3 pages
-
     //log oif something wrong
     if (!lines[i]) {
+      console.error("something wrong!!! check temp.json");
       fs.writeFileSync("temp.json", JSON.stringify(lines, null, 4), {
         encoding: "utf8",
       });
+      console.error("Stopping parsing");
 
       process.exit();
     }
+
     const batsman = { name: lines[i] };
 
     batsman.outReason = lines[i + 1];
     let rare = false;
+
     //rare care of new page between reason on player
-    if (
-      Number.isInteger(parseInt(lines[i + 1])) &&
-      lines[i + 6].split(" ").length === 4
-    ) {
+    if (Number.isInteger(parseInt(lines[i + 1]))) {
+      console.log("rare case");
       rare = true;
       batsman.outReason = lines[i + 6];
       i = i - 1;
@@ -61,6 +61,7 @@ function getBatting(lines, i) {
     batsman.fours = +lines[i + 4];
     batsman.sixes = +lines[i + 5];
     batsman.runRate = +lines[i + 6];
+
     batsman.notOut = batsman.outReason === "not out";
     //rare care of new page between reason on player
     if (rare) {

@@ -11206,13 +11206,13 @@
                 },
                 {
                     "name": "Abin",
-                    "outReason": "1",
+                    "outReason": "not out",
                     "runs": 1,
-                    "balls": 0,
+                    "balls": 1,
                     "fours": 0,
-                    "sixes": 100,
-                    "runRate": null,
-                    "notOut": false
+                    "sixes": 0,
+                    "runRate": 100,
+                    "notOut": true
                 }
             ],
             "extrasGot": 11,
