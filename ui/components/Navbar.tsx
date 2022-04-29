@@ -84,7 +84,7 @@ export default function Navbar() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <Link href="/">
+            <Link href="/" passHref>
               <Image alt={"logo"} src={StepLogo} width={75} height={50} />
             </Link>
           </Text>
@@ -157,7 +157,7 @@ const DesktopNav = ({ currentPath }) => {
 
 const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
   return (
-    <Link href={href}>
+    <Link href={href} passHref>
       <ChakraLink
         role={"group"}
         display={"block"}
@@ -248,10 +248,8 @@ const MobileNavItem = ({ navItem, isCurrentRoute }) => {
         >
           {navItem.children &&
             navItem.children.map((child) => (
-              <Link href={child.href} passHref>
-                <ChakraLink key={child.label} py={2}>
-                  {child.label}
-                </ChakraLink>
+              <Link key={child.label} href={child.href} passHref>
+                <ChakraLink py={2}>{child.label}</ChakraLink>
               </Link>
             ))}
         </Stack>

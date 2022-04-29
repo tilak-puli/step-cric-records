@@ -27,7 +27,7 @@ export function MatchCard(props: {
   disableLink?: boolean;
 }) {
   return (
-    <Link href={"/matches/" + props.id}>
+    <Link href={"/matches/" + props.id} passHref>
       <CustomBox
         p={props.p || "0.5em"}
         width="100%"
