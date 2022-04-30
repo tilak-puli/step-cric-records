@@ -1,3 +1,12 @@
+import swapNames from "./data/swapNames.json";
+import { Match, MvpDetails, PlayersMvpDetails } from "./types/match";
+
+const swapNamesKeys = Object.keys(swapNames);
+const lowerCaseSwapNames = {};
+swapNamesKeys.forEach((key) => {
+  lowerCaseSwapNames[key.toLowerCase()] = swapNames[key];
+});
+
 export const capitalize = (text: string): string => {
   if (!text) {
     return text;
@@ -125,16 +134,35 @@ export const findMvp = (match: Match) => {
     text += `${mvp.wickets}/${mvp.runsGiven} (${mvp.overs})`;
   }
 
-  console.log(mvp);
   return { ...mvp, text };
 };
 
-import swapNames from "./data/swapNames.json";
-import { Match, MvpDetails, PlayersMvpDetails } from "./types/match";
+function getSwappedName(swapConfig, date, name) {
+  if (
+    swapConfig?.afterDate &&
+    new Date(swapConfig?.afterDate) &&
+    !(new Date(date) > new Date(swapConfig?.afterDate))
+  ) {
+    return name.toLowerCase();
+  }
+
+  return new Date(date) < new Date(swapConfig?.beforeDate)
+    ? swapConfig?.name?.toLowerCase()
+    : name.toLowerCase();
+}
 
 export function getIndexName(name, date) {
-  return swapNames[name.toLowerCase()] &&
-    new Date(date) < new Date(swapNames[name.toLowerCase()]?.beforeDate)
-    ? swapNames[name.toLowerCase()]?.name?.toLowerCase()
-    : name.toLowerCase();
+  const swapConfig = lowerCaseSwapNames[name.toLowerCase()];
+  if (!swapConfig) return name.toLowerCase();
+
+  if (Array.isArray(swapConfig)) {
+    for (const config of swapConfig) {
+      const swappedName = getSwappedName(config, date, name);
+      if (swappedName !== name.toLowerCase()) {
+        return swappedName;
+      }
+    }
+  }
+
+  return getSwappedName(swapConfig, date, name);
 }
