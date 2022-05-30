@@ -11910,7 +11910,7 @@
                     "balls": 28,
                     "fours": 2,
                     "sixes": 1,
-                    "runRate": 100,
+                    "runRate": 121.4,
                     "notOut": true
                 },
                 {
@@ -11920,7 +11920,7 @@
                     "balls": 25,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 156,
+                    "runRate": 132,
                     "notOut": true
                 }
             ],
@@ -12156,7 +12156,7 @@
                     "balls": 52,
                     "fours": 4,
                     "sixes": 0,
-                    "runRate": 114.89,
+                    "runRate": 117.3,
                     "notOut": true
                 },
                 {
