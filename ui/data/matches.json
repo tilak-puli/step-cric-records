@@ -12232,7 +12232,7 @@
                 },
                 {
                     "name": "Swamiji",
-                    "outReason": "lbw b Dileep",
+                    "outReason": "b Vivek",
                     "runs": 14,
                     "balls": 13,
                     "fours": 1,
@@ -12488,7 +12488,7 @@
                     "name": "Rishabh",
                     "outReason": "b Ankamma",
                     "runs": 6,
-                    "balls": 16,
+                    "balls": 18,
                     "fours": 0,
                     "sixes": 0,
                     "runRate": 37.5,
@@ -12533,26 +12533,6 @@
                     "sixes": 0,
                     "runRate": 0,
                     "notOut": false
-                },
-                {
-                    "name": ".",
-                    "outReason": "not out",
-                    "runs": 0,
-                    "balls": 2,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": true
-                },
-                {
-                    "name": "..",
-                    "outReason": "not out",
-                    "runs": 0,
-                    "balls": 4,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": true
                 }
             ],
             "extrasGot": 6,
