@@ -83,7 +83,7 @@ function getFallWickets(lines, i) {
   const fallOfWickets = [];
 
   while(lines[i+1] && !isSecondTeamStartScore(lines[i+1])){
-    fallOfWickets.push([lines[i], lines[i+1], lines[i+2]]);
+    fallOfWickets.push({name: lines[i], score: lines[i + 1], over: lines[i + 2]});
     i = i + 3;
   }
 
@@ -173,6 +173,7 @@ function getTeamScores(lines) {
     team1.extrasBowled = 0;
     team1.extrasBowledText = "";
     team1.bowling = [];
+    team1.fallOfWickets = [];
     team2.name = "";
     team2.score = { wickets: 0, runs: 0, overs: 0 };
     return [team1, team2];
@@ -190,7 +191,7 @@ function getTeamScores(lines) {
 
   i += 10;
 
-  [team1.bowling, i, team1.fallOfWickets] = getBowling(lines, i);
+  [team1.bowling, _i, team1.fallOfWickets] = getBowling(lines, i);
   return [team1, team2];
 }
 

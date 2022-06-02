@@ -232,56 +232,56 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Subham",
-                    "6/1",
-                    "0.5"
-                ],
-                [
-                    "Vikram",
-                    "12/2",
-                    "2.1"
-                ],
-                [
-                    "Pranav",
-                    "18/3",
-                    "3.3"
-                ],
-                [
-                    "Teja",
-                    "30/4",
-                    "4.4"
-                ],
-                [
-                    "Gulshan",
-                    "33/5",
-                    "5.1"
-                ],
-                [
-                    "Berny",
-                    "33/6",
-                    "5.2"
-                ],
-                [
-                    "Leela",
-                    "34/7",
-                    "5.4"
-                ],
-                [
-                    "Abhilash",
-                    "35/8",
-                    "6.4"
-                ],
-                [
-                    "Rajat",
-                    "61/9",
-                    "12.3"
-                ],
-                [
-                    "Trinakur",
-                    "67/10",
-                    "14.2"
-                ]
+                {
+                    "name": "Subham",
+                    "score": "6/1",
+                    "over": "0.5"
+                },
+                {
+                    "name": "Vikram",
+                    "score": "12/2",
+                    "over": "2.1"
+                },
+                {
+                    "name": "Pranav",
+                    "score": "18/3",
+                    "over": "3.3"
+                },
+                {
+                    "name": "Teja",
+                    "score": "30/4",
+                    "over": "4.4"
+                },
+                {
+                    "name": "Gulshan",
+                    "score": "33/5",
+                    "over": "5.1"
+                },
+                {
+                    "name": "Berny",
+                    "score": "33/6",
+                    "over": "5.2"
+                },
+                {
+                    "name": "Leela",
+                    "score": "34/7",
+                    "over": "5.4"
+                },
+                {
+                    "name": "Abhilash",
+                    "score": "35/8",
+                    "over": "6.4"
+                },
+                {
+                    "name": "Rajat",
+                    "score": "61/9",
+                    "over": "12.3"
+                },
+                {
+                    "name": "Trinakur",
+                    "score": "67/10",
+                    "over": "14.2"
+                }
             ]
         },
         "team2": {
@@ -402,56 +402,56 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Tilak",
-                    "14/1",
-                    "2.2"
-                ],
-                [
-                    "Shankar",
-                    "33/2",
-                    "4.1"
-                ],
-                [
-                    "Aquib",
-                    "37/3",
-                    "5.0"
-                ],
-                [
-                    "Phani",
-                    "37/4",
-                    "5.2"
-                ],
-                [
-                    "Yogi",
-                    "37/5",
-                    "5.5"
-                ],
-                [
-                    "Raghu",
-                    "70/6",
-                    "10.3"
-                ],
-                [
-                    "Venky",
-                    "85/7",
-                    "12.1"
-                ],
-                [
-                    "Vaishnavi",
-                    "94/8",
-                    "13.4"
-                ],
-                [
-                    "Shivam",
-                    "99/9",
-                    "14.2"
-                ],
-                [
-                    "Priyanshu",
-                    "100/10",
-                    "14.5"
-                ]
+                {
+                    "name": "Tilak",
+                    "score": "14/1",
+                    "over": "2.2"
+                },
+                {
+                    "name": "Shankar",
+                    "score": "33/2",
+                    "over": "4.1"
+                },
+                {
+                    "name": "Aquib",
+                    "score": "37/3",
+                    "over": "5.0"
+                },
+                {
+                    "name": "Phani",
+                    "score": "37/4",
+                    "over": "5.2"
+                },
+                {
+                    "name": "Yogi",
+                    "score": "37/5",
+                    "over": "5.5"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "70/6",
+                    "over": "10.3"
+                },
+                {
+                    "name": "Venky",
+                    "score": "85/7",
+                    "over": "12.1"
+                },
+                {
+                    "name": "Vaishnavi",
+                    "score": "94/8",
+                    "over": "13.4"
+                },
+                {
+                    "name": "Shivam",
+                    "score": "99/9",
+                    "over": "14.2"
+                },
+                {
+                    "name": "Priyanshu",
+                    "score": "100/10",
+                    "over": "14.5"
+                }
             ],
             "name": "Trinangkur",
             "score": {
@@ -797,31 +797,31 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Dheeraj",
-                    "64/1",
-                    "9.2"
-                ],
-                [
-                    "Teja",
-                    "81/2",
-                    "13.0"
-                ],
-                [
-                    "Raghu",
-                    "81/3",
-                    "13.2"
-                ],
-                [
-                    "Debu",
-                    "81/4",
-                    "13.3"
-                ],
-                [
-                    "Phani",
-                    "82/5",
-                    "13.5"
-                ]
+                {
+                    "name": "Dheeraj",
+                    "score": "64/1",
+                    "over": "9.2"
+                },
+                {
+                    "name": "Teja",
+                    "score": "81/2",
+                    "over": "13.0"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "81/3",
+                    "over": "13.2"
+                },
+                {
+                    "name": "Debu",
+                    "score": "81/4",
+                    "over": "13.3"
+                },
+                {
+                    "name": "Phani",
+                    "score": "82/5",
+                    "over": "13.5"
+                }
             ]
         },
         "team2": {
@@ -918,51 +918,51 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Puli",
-                    "26/1",
-                    "2.3"
-                ],
-                [
-                    "Sai",
-                    "28/2",
-                    "2.5"
-                ],
-                [
-                    "Yogi",
-                    "52/3",
-                    "8.0"
-                ],
-                [
-                    "Chandan",
-                    "52/4",
-                    "8.1"
-                ],
-                [
-                    "Swamiji",
-                    "59/5",
-                    "9.2"
-                ],
-                [
-                    "Shivam",
-                    "72/6",
-                    "12.3"
-                ],
-                [
-                    "Gaurav",
-                    "81/7",
-                    "13.0"
-                ],
-                [
-                    "Aftab",
-                    "86/8",
-                    "13.3"
-                ],
-                [
-                    "Nagendra",
-                    "86/9",
-                    "14.0"
-                ]
+                {
+                    "name": "Puli",
+                    "score": "26/1",
+                    "over": "2.3"
+                },
+                {
+                    "name": "Sai",
+                    "score": "28/2",
+                    "over": "2.5"
+                },
+                {
+                    "name": "Yogi",
+                    "score": "52/3",
+                    "over": "8.0"
+                },
+                {
+                    "name": "Chandan",
+                    "score": "52/4",
+                    "over": "8.1"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "59/5",
+                    "over": "9.2"
+                },
+                {
+                    "name": "Shivam",
+                    "score": "72/6",
+                    "over": "12.3"
+                },
+                {
+                    "name": "Gaurav",
+                    "score": "81/7",
+                    "over": "13.0"
+                },
+                {
+                    "name": "Aftab",
+                    "score": "86/8",
+                    "over": "13.3"
+                },
+                {
+                    "name": "Nagendra",
+                    "score": "86/9",
+                    "over": "14.0"
+                }
             ],
             "name": "Phani",
             "score": {
@@ -1202,56 +1202,56 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Trinangur",
-                    "19/1",
-                    "1.1"
-                ],
-                [
-                    "Rajat",
-                    "20/2",
-                    "1.3"
-                ],
-                [
-                    "Shankar",
-                    "20/3",
-                    "1.4"
-                ],
-                [
-                    "Sivam",
-                    "23/4",
-                    "2.2"
-                ],
-                [
-                    "Teja",
-                    "33/5",
-                    "3.5"
-                ],
-                [
-                    "Nagu",
-                    "39/6",
-                    "4.5"
-                ],
-                [
-                    "Anil",
-                    "39/7",
-                    "5.1"
-                ],
-                [
-                    "Sravani",
-                    "44/8",
-                    "6.3"
-                ],
-                [
-                    "Tilak",
-                    "86/9",
-                    "10.2"
-                ],
-                [
-                    "A",
-                    "86/10",
-                    "10.3"
-                ]
+                {
+                    "name": "Trinangur",
+                    "score": "19/1",
+                    "over": "1.1"
+                },
+                {
+                    "name": "Rajat",
+                    "score": "20/2",
+                    "over": "1.3"
+                },
+                {
+                    "name": "Shankar",
+                    "score": "20/3",
+                    "over": "1.4"
+                },
+                {
+                    "name": "Sivam",
+                    "score": "23/4",
+                    "over": "2.2"
+                },
+                {
+                    "name": "Teja",
+                    "score": "33/5",
+                    "over": "3.5"
+                },
+                {
+                    "name": "Nagu",
+                    "score": "39/6",
+                    "over": "4.5"
+                },
+                {
+                    "name": "Anil",
+                    "score": "39/7",
+                    "over": "5.1"
+                },
+                {
+                    "name": "Sravani",
+                    "score": "44/8",
+                    "over": "6.3"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "86/9",
+                    "over": "10.2"
+                },
+                {
+                    "name": "A",
+                    "score": "86/10",
+                    "over": "10.3"
+                }
             ]
         },
         "team2": {
@@ -1332,26 +1332,26 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Venkatesh",
-                    "7/1",
-                    "1.2"
-                ],
-                [
-                    "Aaquib",
-                    "41/2",
-                    "5.5"
-                ],
-                [
-                    "Abhi",
-                    "54/3",
-                    "8.4"
-                ],
-                [
-                    "Phani",
-                    "82/4",
-                    "11.4"
-                ]
+                {
+                    "name": "Venkatesh",
+                    "score": "7/1",
+                    "over": "1.2"
+                },
+                {
+                    "name": "Aaquib",
+                    "score": "41/2",
+                    "over": "5.5"
+                },
+                {
+                    "name": "Abhi",
+                    "score": "54/3",
+                    "over": "8.4"
+                },
+                {
+                    "name": "Phani",
+                    "score": "82/4",
+                    "over": "11.4"
+                }
             ],
             "name": "Tilak",
             "score": {
@@ -1697,21 +1697,21 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Rajat",
-                    "4/1",
-                    "0.3"
-                ],
-                [
-                    "Shankar",
-                    "28/2",
-                    "3.2"
-                ],
-                [
-                    "Dheeraj",
-                    "51/3",
-                    "7.4"
-                ]
+                {
+                    "name": "Rajat",
+                    "score": "4/1",
+                    "over": "0.3"
+                },
+                {
+                    "name": "Shankar",
+                    "score": "28/2",
+                    "over": "3.2"
+                },
+                {
+                    "name": "Dheeraj",
+                    "score": "51/3",
+                    "over": "7.4"
+                }
             ]
         },
         "team2": {
@@ -1816,51 +1816,51 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Aftab",
-                    "8/1",
-                    "1.2"
-                ],
-                [
-                    "Chandan",
-                    "19/2",
-                    "2.2"
-                ],
-                [
-                    "Shivam",
-                    "20/3",
-                    "2.5"
-                ],
-                [
-                    "Yogi",
-                    "22/4",
-                    "3.3"
-                ],
-                [
-                    "Sathish",
-                    "49/5",
-                    "9.0"
-                ],
-                [
-                    "Rahit",
-                    "49/6",
-                    "9.1"
-                ],
-                [
-                    "Tilak",
-                    "72/7",
-                    "12.4"
-                ],
-                [
-                    "Raghu",
-                    "73/8",
-                    "13.3"
-                ],
-                [
-                    "Ragini",
-                    "74/9",
-                    "13.4"
-                ]
+                {
+                    "name": "Aftab",
+                    "score": "8/1",
+                    "over": "1.2"
+                },
+                {
+                    "name": "Chandan",
+                    "score": "19/2",
+                    "over": "2.2"
+                },
+                {
+                    "name": "Shivam",
+                    "score": "20/3",
+                    "over": "2.5"
+                },
+                {
+                    "name": "Yogi",
+                    "score": "22/4",
+                    "over": "3.3"
+                },
+                {
+                    "name": "Sathish",
+                    "score": "49/5",
+                    "over": "9.0"
+                },
+                {
+                    "name": "Rahit",
+                    "score": "49/6",
+                    "over": "9.1"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "72/7",
+                    "over": "12.4"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "73/8",
+                    "over": "13.3"
+                },
+                {
+                    "name": "Ragini",
+                    "score": "74/9",
+                    "over": "13.4"
+                }
             ],
             "name": "Phani",
             "score": {
@@ -2064,21 +2064,21 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Phaneendra",
-                    "79/1",
-                    "9.1"
-                ],
-                [
-                    "Gulshun",
-                    "92/2",
-                    "10.5"
-                ],
-                [
-                    "Shivam",
-                    "99/3",
-                    "11.2"
-                ]
+                {
+                    "name": "Phaneendra",
+                    "score": "79/1",
+                    "over": "9.1"
+                },
+                {
+                    "name": "Gulshun",
+                    "score": "92/2",
+                    "over": "10.5"
+                },
+                {
+                    "name": "Shivam",
+                    "score": "99/3",
+                    "over": "11.2"
+                }
             ]
         },
         "team2": {
@@ -2151,26 +2151,26 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Chandan",
-                    "114/1",
-                    "9.4"
-                ],
-                [
-                    "Raghu",
-                    "121/2",
-                    "10.3"
-                ],
-                [
-                    "Tilak Puli",
-                    "122/3",
-                    "10.5"
-                ],
-                [
-                    "Debhu",
-                    "130/4",
-                    "11.4"
-                ]
+                {
+                    "name": "Chandan",
+                    "score": "114/1",
+                    "over": "9.4"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "121/2",
+                    "over": "10.3"
+                },
+                {
+                    "name": "Tilak Puli",
+                    "score": "122/3",
+                    "over": "10.5"
+                },
+                {
+                    "name": "Debhu",
+                    "score": "130/4",
+                    "over": "11.4"
+                }
             ],
             "name": "Phaneendra",
             "score": {
@@ -2506,56 +2506,56 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Dheeraj",
-                    "7/1",
-                    "1.1"
-                ],
-                [
-                    "raghu",
-                    "8/2",
-                    "1.5"
-                ],
-                [
-                    "D",
-                    "23/3",
-                    "3.4"
-                ],
-                [
-                    "rohit",
-                    "27/4",
-                    "4.2"
-                ],
-                [
-                    "rajat",
-                    "84/5",
-                    "14.4"
-                ],
-                [
-                    "teja",
-                    "91/6",
-                    "15.1"
-                ],
-                [
-                    "sai",
-                    "98/7",
-                    "16.4"
-                ],
-                [
-                    "chauhan",
-                    "106/8",
-                    "18.3"
-                ],
-                [
-                    "pragya",
-                    "106/9",
-                    "18.4"
-                ],
-                [
-                    "leela",
-                    "106/10",
-                    "19.1"
-                ]
+                {
+                    "name": "Dheeraj",
+                    "score": "7/1",
+                    "over": "1.1"
+                },
+                {
+                    "name": "raghu",
+                    "score": "8/2",
+                    "over": "1.5"
+                },
+                {
+                    "name": "D",
+                    "score": "23/3",
+                    "over": "3.4"
+                },
+                {
+                    "name": "rohit",
+                    "score": "27/4",
+                    "over": "4.2"
+                },
+                {
+                    "name": "rajat",
+                    "score": "84/5",
+                    "over": "14.4"
+                },
+                {
+                    "name": "teja",
+                    "score": "91/6",
+                    "over": "15.1"
+                },
+                {
+                    "name": "sai",
+                    "score": "98/7",
+                    "over": "16.4"
+                },
+                {
+                    "name": "chauhan",
+                    "score": "106/8",
+                    "over": "18.3"
+                },
+                {
+                    "name": "pragya",
+                    "score": "106/9",
+                    "over": "18.4"
+                },
+                {
+                    "name": "leela",
+                    "score": "106/10",
+                    "over": "19.1"
+                }
             ]
         },
         "team2": {
@@ -2692,51 +2692,51 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "aquib",
-                    "14/1",
-                    "4.1"
-                ],
-                [
-                    "chandan",
-                    "19/2",
-                    "4.4"
-                ],
-                [
-                    "tilak",
-                    "56/3",
-                    "9.3"
-                ],
-                [
-                    "phanindra",
-                    "84/4",
-                    "12.5"
-                ],
-                [
-                    "prasun",
-                    "91/5",
-                    "14.4"
-                ],
-                [
-                    "gaurav",
-                    "101/6",
-                    "16.5"
-                ],
-                [
-                    "pranav",
-                    "101/7",
-                    "17.2"
-                ],
-                [
-                    "musta",
-                    "106/8",
-                    "18.4"
-                ],
-                [
-                    "venki",
-                    "112/9",
-                    "20.0"
-                ]
+                {
+                    "name": "aquib",
+                    "score": "14/1",
+                    "over": "4.1"
+                },
+                {
+                    "name": "chandan",
+                    "score": "19/2",
+                    "over": "4.4"
+                },
+                {
+                    "name": "tilak",
+                    "score": "56/3",
+                    "over": "9.3"
+                },
+                {
+                    "name": "phanindra",
+                    "score": "84/4",
+                    "over": "12.5"
+                },
+                {
+                    "name": "prasun",
+                    "score": "91/5",
+                    "over": "14.4"
+                },
+                {
+                    "name": "gaurav",
+                    "score": "101/6",
+                    "over": "16.5"
+                },
+                {
+                    "name": "pranav",
+                    "score": "101/7",
+                    "over": "17.2"
+                },
+                {
+                    "name": "musta",
+                    "score": "106/8",
+                    "over": "18.4"
+                },
+                {
+                    "name": "venki",
+                    "score": "112/9",
+                    "over": "20.0"
+                }
             ],
             "name": "Trinankur",
             "score": {
@@ -3196,31 +3196,31 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Teja",
-                    "1/1",
-                    "0.2"
-                ],
-                [
-                    "Leela",
-                    "10/2",
-                    "2.2"
-                ],
-                [
-                    "Shankar",
-                    "50/3",
-                    "8.4"
-                ],
-                [
-                    "Yogi",
-                    "106/4",
-                    "14.2"
-                ],
-                [
-                    "Dheeraj",
-                    "130/5",
-                    "17.5"
-                ]
+                {
+                    "name": "Teja",
+                    "score": "1/1",
+                    "over": "0.2"
+                },
+                {
+                    "name": "Leela",
+                    "score": "10/2",
+                    "over": "2.2"
+                },
+                {
+                    "name": "Shankar",
+                    "score": "50/3",
+                    "over": "8.4"
+                },
+                {
+                    "name": "Yogi",
+                    "score": "106/4",
+                    "over": "14.2"
+                },
+                {
+                    "name": "Dheeraj",
+                    "score": "130/5",
+                    "over": "17.5"
+                }
             ]
         },
         "team2": {
@@ -3381,71 +3381,71 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Mustakim",
-                    "2/1",
-                    "0.4"
-                ],
-                [
-                    "Nagendra",
-                    "2/2",
-                    "1.1"
-                ],
-                [
-                    "Tilak",
-                    "12/3",
-                    "2.2"
-                ],
-                [
-                    "Sathish",
-                    "46/4",
-                    "7.0"
-                ],
-                [
-                    "Raghu",
-                    "67/5",
-                    "10.3"
-                ],
-                [
-                    "Swamiji",
-                    "73/6",
-                    "11.3"
-                ],
-                [
-                    "Debu",
-                    "130/7",
-                    "18.0"
-                ],
-                [
-                    "Saurabh",
-                    "138/8",
-                    "20.4"
-                ],
-                [
-                    "Sukhdev",
-                    "140/9",
-                    "21.1"
-                ],
-                [
-                    "Sai Ganesh",
-                    "147/10",
-                    "22.1"
-                ],
-                [
-                    "Vaishnavi",
-                    "148/11",
-                    "22.5"
-                ],
-                [
-                    "Gulshan",
-                    "149/12",
-                    "23.1"
-                ],
-                [
-                    "Rahit",
-                    "149/13",
-                    "23.4"
-                ]
+                {
+                    "name": "Mustakim",
+                    "score": "2/1",
+                    "over": "0.4"
+                },
+                {
+                    "name": "Nagendra",
+                    "score": "2/2",
+                    "over": "1.1"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "12/3",
+                    "over": "2.2"
+                },
+                {
+                    "name": "Sathish",
+                    "score": "46/4",
+                    "over": "7.0"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "67/5",
+                    "over": "10.3"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "73/6",
+                    "over": "11.3"
+                },
+                {
+                    "name": "Debu",
+                    "score": "130/7",
+                    "over": "18.0"
+                },
+                {
+                    "name": "Saurabh",
+                    "score": "138/8",
+                    "over": "20.4"
+                },
+                {
+                    "name": "Sukhdev",
+                    "score": "140/9",
+                    "over": "21.1"
+                },
+                {
+                    "name": "Sai Ganesh",
+                    "score": "147/10",
+                    "over": "22.1"
+                },
+                {
+                    "name": "Vaishnavi",
+                    "score": "148/11",
+                    "over": "22.5"
+                },
+                {
+                    "name": "Gulshan",
+                    "score": "149/12",
+                    "over": "23.1"
+                },
+                {
+                    "name": "Rahit",
+                    "score": "149/13",
+                    "over": "23.4"
+                }
             ],
             "name": "Dheeraj",
             "score": {
@@ -3759,51 +3759,51 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Aaquib",
-                    "4/1",
-                    "1.1"
-                ],
-                [
-                    "Puli",
-                    "11/2",
-                    "2.0"
-                ],
-                [
-                    "Shankar",
-                    "47/3",
-                    "5.5"
-                ],
-                [
-                    "Subham",
-                    "54/4",
-                    "7.5"
-                ],
-                [
-                    "Debu",
-                    "56/5",
-                    "8.3"
-                ],
-                [
-                    "Deepika",
-                    "63/6",
-                    "10.3"
-                ],
-                [
-                    "Trinagkur",
-                    "79/7",
-                    "11.5"
-                ],
-                [
-                    "Yogi",
-                    "79/8",
-                    "12.0"
-                ],
-                [
-                    "Vikram",
-                    "84/9",
-                    "13.5"
-                ]
+                {
+                    "name": "Aaquib",
+                    "score": "4/1",
+                    "over": "1.1"
+                },
+                {
+                    "name": "Puli",
+                    "score": "11/2",
+                    "over": "2.0"
+                },
+                {
+                    "name": "Shankar",
+                    "score": "47/3",
+                    "over": "5.5"
+                },
+                {
+                    "name": "Subham",
+                    "score": "54/4",
+                    "over": "7.5"
+                },
+                {
+                    "name": "Debu",
+                    "score": "56/5",
+                    "over": "8.3"
+                },
+                {
+                    "name": "Deepika",
+                    "score": "63/6",
+                    "over": "10.3"
+                },
+                {
+                    "name": "Trinagkur",
+                    "score": "79/7",
+                    "over": "11.5"
+                },
+                {
+                    "name": "Yogi",
+                    "score": "79/8",
+                    "over": "12.0"
+                },
+                {
+                    "name": "Vikram",
+                    "score": "84/9",
+                    "over": "13.5"
+                }
             ]
         },
         "team2": {
@@ -3900,51 +3900,51 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Leela",
-                    "9/1",
-                    "1.0"
-                ],
-                [
-                    "Raghu",
-                    "11/2",
-                    "1.4"
-                ],
-                [
-                    "Nagendra",
-                    "24/3",
-                    "3.2"
-                ],
-                [
-                    "Teja",
-                    "50/4",
-                    "5.3"
-                ],
-                [
-                    "Phani",
-                    "85/5",
-                    "10.1"
-                ],
-                [
-                    "Gaurav",
-                    "85/6",
-                    "10.3"
-                ],
-                [
-                    "Rajat",
-                    "92/7",
-                    "12.3"
-                ],
-                [
-                    "Srusti",
-                    "98/8",
-                    "13.5"
-                ],
-                [
-                    "Abhilash",
-                    "104/9",
-                    "15.0"
-                ]
+                {
+                    "name": "Leela",
+                    "score": "9/1",
+                    "over": "1.0"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "11/2",
+                    "over": "1.4"
+                },
+                {
+                    "name": "Nagendra",
+                    "score": "24/3",
+                    "over": "3.2"
+                },
+                {
+                    "name": "Teja",
+                    "score": "50/4",
+                    "over": "5.3"
+                },
+                {
+                    "name": "Phani",
+                    "score": "85/5",
+                    "over": "10.1"
+                },
+                {
+                    "name": "Gaurav",
+                    "score": "85/6",
+                    "over": "10.3"
+                },
+                {
+                    "name": "Rajat",
+                    "score": "92/7",
+                    "over": "12.3"
+                },
+                {
+                    "name": "Srusti",
+                    "score": "98/8",
+                    "over": "13.5"
+                },
+                {
+                    "name": "Abhilash",
+                    "score": "104/9",
+                    "over": "15.0"
+                }
             ],
             "name": "Shankar",
             "score": {
@@ -4272,46 +4272,46 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Aquib",
-                    "2/1",
-                    "0.3"
-                ],
-                [
-                    "Debu",
-                    "6/2",
-                    "1.1"
-                ],
-                [
-                    "Naman",
-                    "7/3",
-                    "1.5"
-                ],
-                [
-                    "Phaneendra",
-                    "15/4",
-                    "3.4"
-                ],
-                [
-                    "Prasun",
-                    "18/5",
-                    "4.1"
-                ],
-                [
-                    "Teja",
-                    "55/6",
-                    "9.1"
-                ],
-                [
-                    "Nagu",
-                    "66/7",
-                    "11.3"
-                ],
-                [
-                    "Anil",
-                    "71/8",
-                    "13.0"
-                ]
+                {
+                    "name": "Aquib",
+                    "score": "2/1",
+                    "over": "0.3"
+                },
+                {
+                    "name": "Debu",
+                    "score": "6/2",
+                    "over": "1.1"
+                },
+                {
+                    "name": "Naman",
+                    "score": "7/3",
+                    "over": "1.5"
+                },
+                {
+                    "name": "Phaneendra",
+                    "score": "15/4",
+                    "over": "3.4"
+                },
+                {
+                    "name": "Prasun",
+                    "score": "18/5",
+                    "over": "4.1"
+                },
+                {
+                    "name": "Teja",
+                    "score": "55/6",
+                    "over": "9.1"
+                },
+                {
+                    "name": "Nagu",
+                    "score": "66/7",
+                    "over": "11.3"
+                },
+                {
+                    "name": "Anil",
+                    "score": "71/8",
+                    "over": "13.0"
+                }
             ]
         },
         "team2": {
@@ -4400,46 +4400,46 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Puli",
-                    "44/1",
-                    "6.3"
-                ],
-                [
-                    "Sai",
-                    "49/2",
-                    "7.2"
-                ],
-                [
-                    "Chandan",
-                    "68/3",
-                    "10.3"
-                ],
-                [
-                    "Raghu",
-                    "72/4",
-                    "11.5"
-                ],
-                [
-                    "Dheeraj",
-                    "72/5",
-                    "12.3"
-                ],
-                [
-                    "Nakka",
-                    "75/6",
-                    "13.4"
-                ],
-                [
-                    "Shubham",
-                    "80/7",
-                    "14.2"
-                ],
-                [
-                    "Sravani",
-                    "81/8",
-                    "14.5"
-                ]
+                {
+                    "name": "Puli",
+                    "score": "44/1",
+                    "over": "6.3"
+                },
+                {
+                    "name": "Sai",
+                    "score": "49/2",
+                    "over": "7.2"
+                },
+                {
+                    "name": "Chandan",
+                    "score": "68/3",
+                    "over": "10.3"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "72/4",
+                    "over": "11.5"
+                },
+                {
+                    "name": "Dheeraj",
+                    "score": "72/5",
+                    "over": "12.3"
+                },
+                {
+                    "name": "Nakka",
+                    "score": "75/6",
+                    "over": "13.4"
+                },
+                {
+                    "name": "Shubham",
+                    "score": "80/7",
+                    "over": "14.2"
+                },
+                {
+                    "name": "Sravani",
+                    "score": "81/8",
+                    "over": "14.5"
+                }
             ],
             "name": "Akib",
             "score": {
@@ -4769,11 +4769,11 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Satheesh",
-                    "36/1",
-                    "5.0"
-                ]
+                {
+                    "name": "Satheesh",
+                    "score": "36/1",
+                    "over": "5.0"
+                }
             ]
         },
         "team2": {
@@ -4918,51 +4918,51 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Raghu",
-                    "2/1",
-                    "0.3"
-                ],
-                [
-                    "Nagendra",
-                    "34/2",
-                    "6.0"
-                ],
-                [
-                    "Swamiji",
-                    "104/3",
-                    "15.1"
-                ],
-                [
-                    "Sai",
-                    "117/4",
-                    "16.3"
-                ],
-                [
-                    "Dheeraj",
-                    "132/5",
-                    "19.4"
-                ],
-                [
-                    "Teja",
-                    "135/6",
-                    "20.1"
-                ],
-                [
-                    "Shankar",
-                    "136/7",
-                    "20.5"
-                ],
-                [
-                    "Deepika",
-                    "139/8",
-                    "21.4"
-                ],
-                [
-                    "Shivam",
-                    "152/9",
-                    "23.3"
-                ]
+                {
+                    "name": "Raghu",
+                    "score": "2/1",
+                    "over": "0.3"
+                },
+                {
+                    "name": "Nagendra",
+                    "score": "34/2",
+                    "over": "6.0"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "104/3",
+                    "over": "15.1"
+                },
+                {
+                    "name": "Sai",
+                    "score": "117/4",
+                    "over": "16.3"
+                },
+                {
+                    "name": "Dheeraj",
+                    "score": "132/5",
+                    "over": "19.4"
+                },
+                {
+                    "name": "Teja",
+                    "score": "135/6",
+                    "over": "20.1"
+                },
+                {
+                    "name": "Shankar",
+                    "score": "136/7",
+                    "over": "20.5"
+                },
+                {
+                    "name": "Deepika",
+                    "score": "139/8",
+                    "over": "21.4"
+                },
+                {
+                    "name": "Shivam",
+                    "score": "152/9",
+                    "over": "23.3"
+                }
             ],
             "name": "Pranoy",
             "score": {
@@ -5206,56 +5206,56 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Sai Ganesh",
-                    "5/1",
-                    "0.5"
-                ],
-                [
-                    "Leela",
-                    "17/2",
-                    "2.4"
-                ],
-                [
-                    "Pranav",
-                    "50/3",
-                    "7.4"
-                ],
-                [
-                    "Phani",
-                    "52/4",
-                    "8.0"
-                ],
-                [
-                    "Prasun",
-                    "55/5",
-                    "8.4"
-                ],
-                [
-                    "Tilak",
-                    "57/6",
-                    "9.4"
-                ],
-                [
-                    "Sathish",
-                    "61/7",
-                    "10.0"
-                ],
-                [
-                    "Raghu",
-                    "71/8",
-                    "11.4"
-                ],
-                [
-                    "Arvind",
-                    "78/9",
-                    "12.2"
-                ],
-                [
-                    "Raghu",
-                    "80/10",
-                    "12.3"
-                ]
+                {
+                    "name": "Sai Ganesh",
+                    "score": "5/1",
+                    "over": "0.5"
+                },
+                {
+                    "name": "Leela",
+                    "score": "17/2",
+                    "over": "2.4"
+                },
+                {
+                    "name": "Pranav",
+                    "score": "50/3",
+                    "over": "7.4"
+                },
+                {
+                    "name": "Phani",
+                    "score": "52/4",
+                    "over": "8.0"
+                },
+                {
+                    "name": "Prasun",
+                    "score": "55/5",
+                    "over": "8.4"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "57/6",
+                    "over": "9.4"
+                },
+                {
+                    "name": "Sathish",
+                    "score": "61/7",
+                    "over": "10.0"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "71/8",
+                    "over": "11.4"
+                },
+                {
+                    "name": "Arvind",
+                    "score": "78/9",
+                    "over": "12.2"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "80/10",
+                    "over": "12.3"
+                }
             ]
         },
         "team2": {
@@ -5384,36 +5384,36 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Debu",
-                    "1/1",
-                    "0.2"
-                ],
-                [
-                    "Chandan",
-                    "86/2",
-                    "10.0"
-                ],
-                [
-                    "Ishu",
-                    "92/3",
-                    "11.2"
-                ],
-                [
-                    "Teja",
-                    "123/4",
-                    "14.5"
-                ],
-                [
-                    "Ketan",
-                    "136/5",
-                    "16.2"
-                ],
-                [
-                    "Neeraj",
-                    "139/6",
-                    "17.0"
-                ]
+                {
+                    "name": "Debu",
+                    "score": "1/1",
+                    "over": "0.2"
+                },
+                {
+                    "name": "Chandan",
+                    "score": "86/2",
+                    "over": "10.0"
+                },
+                {
+                    "name": "Ishu",
+                    "score": "92/3",
+                    "over": "11.2"
+                },
+                {
+                    "name": "Teja",
+                    "score": "123/4",
+                    "over": "14.5"
+                },
+                {
+                    "name": "Ketan",
+                    "score": "136/5",
+                    "over": "16.2"
+                },
+                {
+                    "name": "Neeraj",
+                    "score": "139/6",
+                    "over": "17.0"
+                }
             ],
             "name": "Puli",
             "score": {
@@ -5831,66 +5831,66 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Sai",
-                    "9/1",
-                    "1.2"
-                ],
-                [
-                    "Nakka",
-                    "10/2",
-                    "2.1"
-                ],
-                [
-                    "Debu",
-                    "11/3",
-                    "3.0"
-                ],
-                [
-                    "Tilak",
-                    "16/4",
-                    "4.0"
-                ],
-                [
-                    "Gulshan",
-                    "38/5",
-                    "6.1"
-                ],
-                [
-                    "Aaquib",
-                    "53/6",
-                    "9.5"
-                ],
-                [
-                    "Yogi",
-                    "60/7",
-                    "10.5"
-                ],
-                [
-                    "Raghu",
-                    "62/8",
-                    "12.3"
-                ],
-                [
-                    "Mustakim",
-                    "79/9",
-                    "14.2"
-                ],
-                [
-                    "Venky",
-                    "92/10",
-                    "17.3"
-                ],
-                [
-                    "Deepika",
-                    "100/11",
-                    "18.5"
-                ],
-                [
-                    "Naman",
-                    "102/12",
-                    "19.1"
-                ]
+                {
+                    "name": "Sai",
+                    "score": "9/1",
+                    "over": "1.2"
+                },
+                {
+                    "name": "Nakka",
+                    "score": "10/2",
+                    "over": "2.1"
+                },
+                {
+                    "name": "Debu",
+                    "score": "11/3",
+                    "over": "3.0"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "16/4",
+                    "over": "4.0"
+                },
+                {
+                    "name": "Gulshan",
+                    "score": "38/5",
+                    "over": "6.1"
+                },
+                {
+                    "name": "Aaquib",
+                    "score": "53/6",
+                    "over": "9.5"
+                },
+                {
+                    "name": "Yogi",
+                    "score": "60/7",
+                    "over": "10.5"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "62/8",
+                    "over": "12.3"
+                },
+                {
+                    "name": "Mustakim",
+                    "score": "79/9",
+                    "over": "14.2"
+                },
+                {
+                    "name": "Venky",
+                    "score": "92/10",
+                    "over": "17.3"
+                },
+                {
+                    "name": "Deepika",
+                    "score": "100/11",
+                    "over": "18.5"
+                },
+                {
+                    "name": "Naman",
+                    "score": "102/12",
+                    "over": "19.1"
+                }
             ]
         },
         "team2": {
@@ -6019,66 +6019,66 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Prasoon",
-                    "34/1",
-                    "4.4"
-                ],
-                [
-                    "Trinu",
-                    "40/2",
-                    "5.5"
-                ],
-                [
-                    "Swamiji",
-                    "61/3",
-                    "9.5"
-                ],
-                [
-                    "Teja",
-                    "62/4",
-                    "10.2"
-                ],
-                [
-                    "Pranav",
-                    "67/5",
-                    "11.2"
-                ],
-                [
-                    "Rajat",
-                    "69/6",
-                    "11.3"
-                ],
-                [
-                    "Rohit",
-                    "86/7",
-                    "14.0"
-                ],
-                [
-                    "Anuja",
-                    "90/8",
-                    "16.1"
-                ],
-                [
-                    "Nagu",
-                    "90/9",
-                    "16.2"
-                ],
-                [
-                    "Shuvam",
-                    "94/10",
-                    "17.1"
-                ],
-                [
-                    "Sudipa",
-                    "94/11",
-                    "17.2"
-                ],
-                [
-                    "Vikram",
-                    "104/12",
-                    "19.0"
-                ]
+                {
+                    "name": "Prasoon",
+                    "score": "34/1",
+                    "over": "4.4"
+                },
+                {
+                    "name": "Trinu",
+                    "score": "40/2",
+                    "over": "5.5"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "61/3",
+                    "over": "9.5"
+                },
+                {
+                    "name": "Teja",
+                    "score": "62/4",
+                    "over": "10.2"
+                },
+                {
+                    "name": "Pranav",
+                    "score": "67/5",
+                    "over": "11.2"
+                },
+                {
+                    "name": "Rajat",
+                    "score": "69/6",
+                    "over": "11.3"
+                },
+                {
+                    "name": "Rohit",
+                    "score": "86/7",
+                    "over": "14.0"
+                },
+                {
+                    "name": "Anuja",
+                    "score": "90/8",
+                    "over": "16.1"
+                },
+                {
+                    "name": "Nagu",
+                    "score": "90/9",
+                    "over": "16.2"
+                },
+                {
+                    "name": "Shuvam",
+                    "score": "94/10",
+                    "over": "17.1"
+                },
+                {
+                    "name": "Sudipa",
+                    "score": "94/11",
+                    "over": "17.2"
+                },
+                {
+                    "name": "Vikram",
+                    "score": "104/12",
+                    "over": "19.0"
+                }
             ],
             "name": "Aquib",
             "score": {
@@ -6482,16 +6482,16 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Shivam",
-                    "6/1",
-                    "0.5"
-                ],
-                [
-                    "Phaneendra",
-                    "14/2",
-                    "2.5"
-                ]
+                {
+                    "name": "Shivam",
+                    "score": "6/1",
+                    "over": "0.5"
+                },
+                {
+                    "name": "Phaneendra",
+                    "score": "14/2",
+                    "over": "2.5"
+                }
             ]
         },
         "team2": {
@@ -6612,66 +6612,66 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Gulshan",
-                    "20/1",
-                    "3.1"
-                ],
-                [
-                    "Dheeraj",
-                    "21/2",
-                    "3.3"
-                ],
-                [
-                    "Leela",
-                    "48/3",
-                    "8.2"
-                ],
-                [
-                    "Chandan",
-                    "63/4",
-                    "10.4"
-                ],
-                [
-                    "Tilak",
-                    "67/5",
-                    "11.5"
-                ],
-                [
-                    "Rishab",
-                    "67/6",
-                    "12.0"
-                ],
-                [
-                    "Yogi",
-                    "67/7",
-                    "12.1"
-                ],
-                [
-                    "Vikram",
-                    "75/8",
-                    "13.4"
-                ],
-                [
-                    "deepika",
-                    "75/9",
-                    "13.5"
-                ],
-                [
-                    "nagendhra",
-                    "75/10",
-                    "14.0"
-                ],
-                [
-                    "rahul",
-                    "75/11",
-                    "14.2"
-                ],
-                [
-                    "BD",
-                    "75/12",
-                    "14.3"
-                ]
+                {
+                    "name": "Gulshan",
+                    "score": "20/1",
+                    "over": "3.1"
+                },
+                {
+                    "name": "Dheeraj",
+                    "score": "21/2",
+                    "over": "3.3"
+                },
+                {
+                    "name": "Leela",
+                    "score": "48/3",
+                    "over": "8.2"
+                },
+                {
+                    "name": "Chandan",
+                    "score": "63/4",
+                    "over": "10.4"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "67/5",
+                    "over": "11.5"
+                },
+                {
+                    "name": "Rishab",
+                    "score": "67/6",
+                    "over": "12.0"
+                },
+                {
+                    "name": "Yogi",
+                    "score": "67/7",
+                    "over": "12.1"
+                },
+                {
+                    "name": "Vikram",
+                    "score": "75/8",
+                    "over": "13.4"
+                },
+                {
+                    "name": "deepika",
+                    "score": "75/9",
+                    "over": "13.5"
+                },
+                {
+                    "name": "nagendhra",
+                    "score": "75/10",
+                    "over": "14.0"
+                },
+                {
+                    "name": "rahul",
+                    "score": "75/11",
+                    "over": "14.2"
+                },
+                {
+                    "name": "BD",
+                    "score": "75/12",
+                    "over": "14.3"
+                }
             ],
             "name": "Phanindra",
             "score": {
@@ -6867,31 +6867,31 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Chandan",
-                    "1/1",
-                    "0.1"
-                ],
-                [
-                    "Gulshan",
-                    "4/2",
-                    "1.1"
-                ],
-                [
-                    "Dheeraj",
-                    "43/3",
-                    "5.1"
-                ],
-                [
-                    "Rishab",
-                    "47/4",
-                    "5.3"
-                ],
-                [
-                    "Tilak",
-                    "49/5",
-                    "6.0"
-                ]
+                {
+                    "name": "Chandan",
+                    "score": "1/1",
+                    "over": "0.1"
+                },
+                {
+                    "name": "Gulshan",
+                    "score": "4/2",
+                    "over": "1.1"
+                },
+                {
+                    "name": "Dheeraj",
+                    "score": "43/3",
+                    "over": "5.1"
+                },
+                {
+                    "name": "Rishab",
+                    "score": "47/4",
+                    "over": "5.3"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "49/5",
+                    "over": "6.0"
+                }
             ]
         },
         "team2": {
@@ -6948,26 +6948,26 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "mustakim",
-                    "18/1",
-                    "1.4"
-                ],
-                [
-                    "faneendra",
-                    "27/2",
-                    "2.5"
-                ],
-                [
-                    "gaurav",
-                    "31/3",
-                    "3.2"
-                ],
-                [
-                    "debu",
-                    "44/4",
-                    "5.0"
-                ]
+                {
+                    "name": "mustakim",
+                    "score": "18/1",
+                    "over": "1.4"
+                },
+                {
+                    "name": "faneendra",
+                    "score": "27/2",
+                    "over": "2.5"
+                },
+                {
+                    "name": "gaurav",
+                    "score": "31/3",
+                    "over": "3.2"
+                },
+                {
+                    "name": "debu",
+                    "score": "44/4",
+                    "over": "5.0"
+                }
             ],
             "name": "Chandan",
             "score": {
@@ -7251,51 +7251,51 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Pranav",
-                    "12/1",
-                    "1.4"
-                ],
-                [
-                    "Debu",
-                    "36/2",
-                    "6.2"
-                ],
-                [
-                    "Raghu",
-                    "44/3",
-                    "7.3"
-                ],
-                [
-                    "Phaneendra",
-                    "73/4",
-                    "10.5"
-                ],
-                [
-                    "Rajat",
-                    "78/5",
-                    "11.2"
-                ],
-                [
-                    "Aftab",
-                    "80/6",
-                    "12.1"
-                ],
-                [
-                    "Mustakim",
-                    "90/7",
-                    "13.3"
-                ],
-                [
-                    "Mani",
-                    "90/8",
-                    "13.4"
-                ],
-                [
-                    "Naman",
-                    "90/9",
-                    "14.0"
-                ]
+                {
+                    "name": "Pranav",
+                    "score": "12/1",
+                    "over": "1.4"
+                },
+                {
+                    "name": "Debu",
+                    "score": "36/2",
+                    "over": "6.2"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "44/3",
+                    "over": "7.3"
+                },
+                {
+                    "name": "Phaneendra",
+                    "score": "73/4",
+                    "over": "10.5"
+                },
+                {
+                    "name": "Rajat",
+                    "score": "78/5",
+                    "over": "11.2"
+                },
+                {
+                    "name": "Aftab",
+                    "score": "80/6",
+                    "over": "12.1"
+                },
+                {
+                    "name": "Mustakim",
+                    "score": "90/7",
+                    "over": "13.3"
+                },
+                {
+                    "name": "Mani",
+                    "score": "90/8",
+                    "over": "13.4"
+                },
+                {
+                    "name": "Naman",
+                    "score": "90/9",
+                    "over": "14.0"
+                }
             ]
         },
         "team2": {
@@ -7408,36 +7408,36 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Sai",
-                    "3/1",
-                    "0.2"
-                ],
-                [
-                    "Tilak",
-                    "75/2",
-                    "9.2"
-                ],
-                [
-                    "Chandan",
-                    "82/3",
-                    "10.0"
-                ],
-                [
-                    "Gulshan",
-                    "94/4",
-                    "12.1"
-                ],
-                [
-                    "Dheeraj",
-                    "98/5",
-                    "12.3"
-                ],
-                [
-                    "Yogi",
-                    "100/6",
-                    "13.1"
-                ]
+                {
+                    "name": "Sai",
+                    "score": "3/1",
+                    "over": "0.2"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "75/2",
+                    "over": "9.2"
+                },
+                {
+                    "name": "Chandan",
+                    "score": "82/3",
+                    "over": "10.0"
+                },
+                {
+                    "name": "Gulshan",
+                    "score": "94/4",
+                    "over": "12.1"
+                },
+                {
+                    "name": "Dheeraj",
+                    "score": "98/5",
+                    "over": "12.3"
+                },
+                {
+                    "name": "Yogi",
+                    "score": "100/6",
+                    "over": "13.1"
+                }
             ],
             "name": "Aquib",
             "score": {
@@ -7735,56 +7735,56 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Shivam",
-                    "11/1",
-                    "1.0"
-                ],
-                [
-                    "Nagendra",
-                    "11/2",
-                    "1.3"
-                ],
-                [
-                    "Swamiji",
-                    "60/3",
-                    "8.5"
-                ],
-                [
-                    "Tilak",
-                    "60/4",
-                    "9.3"
-                ],
-                [
-                    "Phanindra",
-                    "85/5",
-                    "12.0"
-                ],
-                [
-                    "Swapnil",
-                    "86/6",
-                    "12.1"
-                ],
-                [
-                    "Rahit",
-                    "90/7",
-                    "12.4"
-                ],
-                [
-                    "Leela",
-                    "92/8",
-                    "13.1"
-                ],
-                [
-                    "Dheeraj",
-                    "93/9",
-                    "13.4"
-                ],
-                [
-                    "Suman",
-                    "94/10",
-                    "14.1"
-                ]
+                {
+                    "name": "Shivam",
+                    "score": "11/1",
+                    "over": "1.0"
+                },
+                {
+                    "name": "Nagendra",
+                    "score": "11/2",
+                    "over": "1.3"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "60/3",
+                    "over": "8.5"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "60/4",
+                    "over": "9.3"
+                },
+                {
+                    "name": "Phanindra",
+                    "score": "85/5",
+                    "over": "12.0"
+                },
+                {
+                    "name": "Swapnil",
+                    "score": "86/6",
+                    "over": "12.1"
+                },
+                {
+                    "name": "Rahit",
+                    "score": "90/7",
+                    "over": "12.4"
+                },
+                {
+                    "name": "Leela",
+                    "score": "92/8",
+                    "over": "13.1"
+                },
+                {
+                    "name": "Dheeraj",
+                    "score": "93/9",
+                    "over": "13.4"
+                },
+                {
+                    "name": "Suman",
+                    "score": "94/10",
+                    "over": "14.1"
+                }
             ]
         },
         "team2": {
@@ -7889,31 +7889,31 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Raghu",
-                    "33/1",
-                    "4.0"
-                ],
-                [
-                    "Sai",
-                    "33/2",
-                    "4.2"
-                ],
-                [
-                    "Pranav",
-                    "90/3",
-                    "11.3"
-                ],
-                [
-                    "Chandan",
-                    "98/4",
-                    "12.0"
-                ],
-                [
-                    "Yogj",
-                    "112/5",
-                    "14.3"
-                ]
+                {
+                    "name": "Raghu",
+                    "score": "33/1",
+                    "over": "4.0"
+                },
+                {
+                    "name": "Sai",
+                    "score": "33/2",
+                    "over": "4.2"
+                },
+                {
+                    "name": "Pranav",
+                    "score": "90/3",
+                    "over": "11.3"
+                },
+                {
+                    "name": "Chandan",
+                    "score": "98/4",
+                    "over": "12.0"
+                },
+                {
+                    "name": "Yogj",
+                    "score": "112/5",
+                    "over": "14.3"
+                }
             ],
             "name": "Tilak",
             "score": {
@@ -8153,36 +8153,36 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Phanindra",
-                    "7/1",
-                    "1.2"
-                ],
-                [
-                    "Dheeraj",
-                    "8/2",
-                    "1.4"
-                ],
-                [
-                    "Swapnil",
-                    "12/3",
-                    "2.4"
-                ],
-                [
-                    "Swamiji",
-                    "26/4",
-                    "4.0"
-                ],
-                [
-                    "Nagendra",
-                    "26/5",
-                    "4.2"
-                ],
-                [
-                    "Tilak",
-                    "33/6",
-                    "4.5"
-                ]
+                {
+                    "name": "Phanindra",
+                    "score": "7/1",
+                    "over": "1.2"
+                },
+                {
+                    "name": "Dheeraj",
+                    "score": "8/2",
+                    "over": "1.4"
+                },
+                {
+                    "name": "Swapnil",
+                    "score": "12/3",
+                    "over": "2.4"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "26/4",
+                    "over": "4.0"
+                },
+                {
+                    "name": "Nagendra",
+                    "score": "26/5",
+                    "over": "4.2"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "33/6",
+                    "over": "4.5"
+                }
             ]
         },
         "team2": {
@@ -8231,26 +8231,26 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Sai",
-                    "6/1",
-                    "1.2"
-                ],
-                [
-                    "Chandan",
-                    "24/2",
-                    "2.4"
-                ],
-                [
-                    "Raghu",
-                    "32/3",
-                    "4.0"
-                ],
-                [
-                    "Yogi",
-                    "35/4",
-                    "5.0"
-                ]
+                {
+                    "name": "Sai",
+                    "score": "6/1",
+                    "over": "1.2"
+                },
+                {
+                    "name": "Chandan",
+                    "score": "24/2",
+                    "over": "2.4"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "32/3",
+                    "over": "4.0"
+                },
+                {
+                    "name": "Yogi",
+                    "score": "35/4",
+                    "over": "5.0"
+                }
             ],
             "name": "Tilak",
             "score": {
@@ -8450,11 +8450,11 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Gulshan",
-                    "27/1",
-                    "2.4"
-                ]
+                {
+                    "name": "Gulshan",
+                    "score": "27/1",
+                    "over": "2.4"
+                }
             ]
         },
         "team2": {
@@ -8503,21 +8503,21 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Gaurav",
-                    "0/1",
-                    "0.2"
-                ],
-                [
-                    "Sai",
-                    "12/2",
-                    "2.2"
-                ],
-                [
-                    "Venky",
-                    "20/3",
-                    "3.5"
-                ]
+                {
+                    "name": "Gaurav",
+                    "score": "0/1",
+                    "over": "0.2"
+                },
+                {
+                    "name": "Sai",
+                    "score": "12/2",
+                    "over": "2.2"
+                },
+                {
+                    "name": "Venky",
+                    "score": "20/3",
+                    "over": "3.5"
+                }
             ],
             "name": "Tilak",
             "score": {
@@ -8759,41 +8759,41 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Deepika",
-                    "4/1",
-                    "0.4"
-                ],
-                [
-                    "Raghu",
-                    "10/2",
-                    "1.5"
-                ],
-                [
-                    "Ganesh",
-                    "10/3",
-                    "2.2"
-                ],
-                [
-                    "Musta",
-                    "11/4",
-                    "2.5"
-                ],
-                [
-                    "Aaquib",
-                    "49/5",
-                    "7.3"
-                ],
-                [
-                    "Venky",
-                    "84/6",
-                    "11.1"
-                ],
-                [
-                    "Rahit",
-                    "119/7",
-                    "15.3"
-                ]
+                {
+                    "name": "Deepika",
+                    "score": "4/1",
+                    "over": "0.4"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "10/2",
+                    "over": "1.5"
+                },
+                {
+                    "name": "Ganesh",
+                    "score": "10/3",
+                    "over": "2.2"
+                },
+                {
+                    "name": "Musta",
+                    "score": "11/4",
+                    "over": "2.5"
+                },
+                {
+                    "name": "Aaquib",
+                    "score": "49/5",
+                    "over": "7.3"
+                },
+                {
+                    "name": "Venky",
+                    "score": "84/6",
+                    "over": "11.1"
+                },
+                {
+                    "name": "Rahit",
+                    "score": "119/7",
+                    "over": "15.3"
+                }
             ]
         },
         "team2": {
@@ -8906,31 +8906,31 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Leela",
-                    "12/1",
-                    "2.0"
-                ],
-                [
-                    "Gulshan",
-                    "113/2",
-                    "13.4"
-                ],
-                [
-                    "Faneendra",
-                    "113/3",
-                    "14.0"
-                ],
-                [
-                    "Chandan",
-                    "114/4",
-                    "14.3"
-                ],
-                [
-                    "Tilak",
-                    "122/5",
-                    "15.4"
-                ]
+                {
+                    "name": "Leela",
+                    "score": "12/1",
+                    "over": "2.0"
+                },
+                {
+                    "name": "Gulshan",
+                    "score": "113/2",
+                    "over": "13.4"
+                },
+                {
+                    "name": "Faneendra",
+                    "score": "113/3",
+                    "over": "14.0"
+                },
+                {
+                    "name": "Chandan",
+                    "score": "114/4",
+                    "over": "14.3"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "122/5",
+                    "over": "15.4"
+                }
             ],
             "name": "Sai",
             "score": {
@@ -9160,26 +9160,26 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Phaneendra",
-                    "10/1",
-                    "1.4"
-                ],
-                [
-                    "Dheeraj",
-                    "26/2",
-                    "2.5"
-                ],
-                [
-                    "Raghu",
-                    "32/3",
-                    "3.4"
-                ],
-                [
-                    "Shankar",
-                    "39/4",
-                    "4.3"
-                ]
+                {
+                    "name": "Phaneendra",
+                    "score": "10/1",
+                    "over": "1.4"
+                },
+                {
+                    "name": "Dheeraj",
+                    "score": "26/2",
+                    "over": "2.5"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "32/3",
+                    "over": "3.4"
+                },
+                {
+                    "name": "Shankar",
+                    "score": "39/4",
+                    "over": "4.3"
+                }
             ]
         },
         "team2": {
@@ -9228,31 +9228,31 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Tilak",
-                    "59/1",
-                    "4.4"
-                ],
-                [
-                    "Chandan",
-                    "80/2",
-                    "6.1"
-                ],
-                [
-                    "Shivam",
-                    "93/3",
-                    "7.1"
-                ],
-                [
-                    "Yogi",
-                    "99/4",
-                    "7.4"
-                ],
-                [
-                    "Debu",
-                    "101/5",
-                    "8.0"
-                ]
+                {
+                    "name": "Tilak",
+                    "score": "59/1",
+                    "over": "4.4"
+                },
+                {
+                    "name": "Chandan",
+                    "score": "80/2",
+                    "over": "6.1"
+                },
+                {
+                    "name": "Shivam",
+                    "score": "93/3",
+                    "over": "7.1"
+                },
+                {
+                    "name": "Yogi",
+                    "score": "99/4",
+                    "over": "7.4"
+                },
+                {
+                    "name": "Debu",
+                    "score": "101/5",
+                    "over": "8.0"
+                }
             ],
             "name": "Phaneendra",
             "score": {
@@ -9492,16 +9492,16 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Shankar",
-                    "27/1",
-                    "1.5"
-                ],
-                [
-                    "Dheeraj",
-                    "28/2",
-                    "2.4"
-                ]
+                {
+                    "name": "Shankar",
+                    "score": "27/1",
+                    "over": "1.5"
+                },
+                {
+                    "name": "Dheeraj",
+                    "score": "28/2",
+                    "over": "2.4"
+                }
             ]
         },
         "team2": {
@@ -9566,51 +9566,51 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Shivam",
-                    "17/1",
-                    "2.1"
-                ],
-                [
-                    "Chandan",
-                    "18/2",
-                    "2.3"
-                ],
-                [
-                    "Debu",
-                    "22/3",
-                    "3.2"
-                ],
-                [
-                    "Yogi",
-                    "35/4",
-                    "4.4"
-                ],
-                [
-                    "Tilak Puli",
-                    "40/5",
-                    "5.2"
-                ],
-                [
-                    ".",
-                    "40/6",
-                    "5.3"
-                ],
-                [
-                    ".",
-                    "40/7",
-                    "5.5"
-                ],
-                [
-                    ".",
-                    "40/8",
-                    "6.0"
-                ],
-                [
-                    "Chandu",
-                    "40/9",
-                    "6.1"
-                ]
+                {
+                    "name": "Shivam",
+                    "score": "17/1",
+                    "over": "2.1"
+                },
+                {
+                    "name": "Chandan",
+                    "score": "18/2",
+                    "over": "2.3"
+                },
+                {
+                    "name": "Debu",
+                    "score": "22/3",
+                    "over": "3.2"
+                },
+                {
+                    "name": "Yogi",
+                    "score": "35/4",
+                    "over": "4.4"
+                },
+                {
+                    "name": "Tilak Puli",
+                    "score": "40/5",
+                    "over": "5.2"
+                },
+                {
+                    "name": ".",
+                    "score": "40/6",
+                    "over": "5.3"
+                },
+                {
+                    "name": ".",
+                    "score": "40/7",
+                    "over": "5.5"
+                },
+                {
+                    "name": ".",
+                    "score": "40/8",
+                    "over": "6.0"
+                },
+                {
+                    "name": "Chandu",
+                    "score": "40/9",
+                    "over": "6.1"
+                }
             ],
             "name": "Phaneendra",
             "score": {
@@ -9758,26 +9758,26 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Chandan",
-                    "38/1",
-                    "2.3"
-                ],
-                [
-                    "Tilak",
-                    "43/2",
-                    "3.1"
-                ],
-                [
-                    "Yogi",
-                    "47/3",
-                    "4.1"
-                ],
-                [
-                    "Raghu",
-                    "48/4",
-                    "4.3"
-                ]
+                {
+                    "name": "Chandan",
+                    "score": "38/1",
+                    "over": "2.3"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "43/2",
+                    "over": "3.1"
+                },
+                {
+                    "name": "Yogi",
+                    "score": "47/3",
+                    "over": "4.1"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "48/4",
+                    "over": "4.3"
+                }
             ]
         },
         "team2": {
@@ -9826,11 +9826,11 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Phani",
-                    "27/1",
-                    "3.1"
-                ]
+                {
+                    "name": "Phani",
+                    "score": "27/1",
+                    "over": "3.1"
+                }
             ],
             "name": "Chandan",
             "score": {
@@ -10126,36 +10126,36 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Govinda",
-                    "5/1",
-                    "1.1"
-                ],
-                [
-                    "Sakshi",
-                    "5/2",
-                    "1.2"
-                ],
-                [
-                    "Swapnil",
-                    "16/3",
-                    "2.2"
-                ],
-                [
-                    "Adarsh",
-                    "18/4",
-                    "3.2"
-                ],
-                [
-                    "Tanmay",
-                    "20/5",
-                    "4.2"
-                ],
-                [
-                    "Azhar",
-                    "79/6",
-                    "10.5"
-                ]
+                {
+                    "name": "Govinda",
+                    "score": "5/1",
+                    "over": "1.1"
+                },
+                {
+                    "name": "Sakshi",
+                    "score": "5/2",
+                    "over": "1.2"
+                },
+                {
+                    "name": "Swapnil",
+                    "score": "16/3",
+                    "over": "2.2"
+                },
+                {
+                    "name": "Adarsh",
+                    "score": "18/4",
+                    "over": "3.2"
+                },
+                {
+                    "name": "Tanmay",
+                    "score": "20/5",
+                    "over": "4.2"
+                },
+                {
+                    "name": "Azhar",
+                    "score": "79/6",
+                    "over": "10.5"
+                }
             ]
         },
         "team2": {
@@ -10260,51 +10260,51 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Rishab",
-                    "20/1",
-                    "1.4"
-                ],
-                [
-                    "Lakshmi",
-                    "24/2",
-                    "2.4"
-                ],
-                [
-                    "Tilak",
-                    "39/3",
-                    "5.2"
-                ],
-                [
-                    "Ankamma",
-                    "39/4",
-                    "5.4"
-                ],
-                [
-                    "Nilam",
-                    "50/5",
-                    "6.5"
-                ],
-                [
-                    "Das",
-                    "56/6",
-                    "8.1"
-                ],
-                [
-                    "Vivek",
-                    "58/7",
-                    "9.1"
-                ],
-                [
-                    "Abin",
-                    "79/8",
-                    "14.5"
-                ],
-                [
-                    "Pritam",
-                    "79/9",
-                    "15.0"
-                ]
+                {
+                    "name": "Rishab",
+                    "score": "20/1",
+                    "over": "1.4"
+                },
+                {
+                    "name": "Lakshmi",
+                    "score": "24/2",
+                    "over": "2.4"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "39/3",
+                    "over": "5.2"
+                },
+                {
+                    "name": "Ankamma",
+                    "score": "39/4",
+                    "over": "5.4"
+                },
+                {
+                    "name": "Nilam",
+                    "score": "50/5",
+                    "over": "6.5"
+                },
+                {
+                    "name": "Das",
+                    "score": "56/6",
+                    "over": "8.1"
+                },
+                {
+                    "name": "Vivek",
+                    "score": "58/7",
+                    "over": "9.1"
+                },
+                {
+                    "name": "Abin",
+                    "score": "79/8",
+                    "over": "14.5"
+                },
+                {
+                    "name": "Pritam",
+                    "score": "79/9",
+                    "over": "15.0"
+                }
             ],
             "name": "Ajar",
             "score": {
@@ -10509,7 +10509,8 @@
             "battingRunRate": 8.24,
             "extrasBowled": 0,
             "extrasBowledText": "",
-            "bowling": []
+            "bowling": [],
+            "fallOfWickets": []
         },
         "team2": {
             "extrasBowled": 27,
@@ -10597,41 +10598,41 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Sampriti",
-                    "1/1",
-                    "0.2"
-                ],
-                [
-                    "Prafull",
-                    "15/2",
-                    "2.5"
-                ],
-                [
-                    "Vivek",
-                    "26/3",
-                    "4.0"
-                ],
-                [
-                    "Tilak",
-                    "31/4",
-                    "4.5"
-                ],
-                [
-                    "Azhar",
-                    "36/5",
-                    "5.3"
-                ],
-                [
-                    "Dileep",
-                    "42/6",
-                    "6.0"
-                ],
-                [
-                    "Ritika",
-                    "71/7",
-                    "9.0"
-                ]
+                {
+                    "name": "Sampriti",
+                    "score": "1/1",
+                    "over": "0.2"
+                },
+                {
+                    "name": "Prafull",
+                    "score": "15/2",
+                    "over": "2.5"
+                },
+                {
+                    "name": "Vivek",
+                    "score": "26/3",
+                    "over": "4.0"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "31/4",
+                    "over": "4.5"
+                },
+                {
+                    "name": "Azhar",
+                    "score": "36/5",
+                    "over": "5.3"
+                },
+                {
+                    "name": "Dileep",
+                    "score": "42/6",
+                    "over": "6.0"
+                },
+                {
+                    "name": "Ritika",
+                    "score": "71/7",
+                    "over": "9.0"
+                }
             ],
             "batting": [],
             "extrasGot": 0,
@@ -10866,26 +10867,26 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Sai",
-                    "16/1",
-                    "2.2"
-                ],
-                [
-                    "Subhash",
-                    "41/2",
-                    "6.4"
-                ],
-                [
-                    "Swamiji",
-                    "78/3",
-                    "10.4"
-                ],
-                [
-                    "Tilak",
-                    "80/4",
-                    "11.2"
-                ]
+                {
+                    "name": "Sai",
+                    "score": "16/1",
+                    "over": "2.2"
+                },
+                {
+                    "name": "Subhash",
+                    "score": "41/2",
+                    "over": "6.4"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "78/3",
+                    "over": "10.4"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "80/4",
+                    "over": "11.2"
+                }
             ]
         },
         "team2": {
@@ -10982,51 +10983,51 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Azhar",
-                    "15/1",
-                    "1.5"
-                ],
-                [
-                    "Rishabh",
-                    "44/2",
-                    "5.0"
-                ],
-                [
-                    "Vivek",
-                    "51/3",
-                    "6.2"
-                ],
-                [
-                    "Lakshmi",
-                    "52/4",
-                    "6.4"
-                ],
-                [
-                    "Abin",
-                    "65/5",
-                    "9.0"
-                ],
-                [
-                    "Ankamma",
-                    "73/6",
-                    "10.2"
-                ],
-                [
-                    "Sakshi",
-                    "82/7",
-                    "11.3"
-                ],
-                [
-                    "Chhavi",
-                    "86/8",
-                    "12.5"
-                ],
-                [
-                    "Roshan",
-                    "90/9",
-                    "15.0"
-                ]
+                {
+                    "name": "Azhar",
+                    "score": "15/1",
+                    "over": "1.5"
+                },
+                {
+                    "name": "Rishabh",
+                    "score": "44/2",
+                    "over": "5.0"
+                },
+                {
+                    "name": "Vivek",
+                    "score": "51/3",
+                    "over": "6.2"
+                },
+                {
+                    "name": "Lakshmi",
+                    "score": "52/4",
+                    "over": "6.4"
+                },
+                {
+                    "name": "Abin",
+                    "score": "65/5",
+                    "over": "9.0"
+                },
+                {
+                    "name": "Ankamma",
+                    "score": "73/6",
+                    "over": "10.2"
+                },
+                {
+                    "name": "Sakshi",
+                    "score": "82/7",
+                    "over": "11.3"
+                },
+                {
+                    "name": "Chhavi",
+                    "score": "86/8",
+                    "over": "12.5"
+                },
+                {
+                    "name": "Roshan",
+                    "score": "90/9",
+                    "over": "15.0"
+                }
             ],
             "name": "Banerjee",
             "score": {
@@ -11230,11 +11231,11 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Dileep",
-                    "2/1",
-                    "0.3"
-                ]
+                {
+                    "name": "Dileep",
+                    "score": "2/1",
+                    "over": "0.3"
+                }
             ]
         },
         "team2": {
@@ -11355,41 +11356,41 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Vivek",
-                    "21/1",
-                    "2.0"
-                ],
-                [
-                    "Sourav Das",
-                    "24/2",
-                    "3.0"
-                ],
-                [
-                    "Sai",
-                    "33/3",
-                    "4.1"
-                ],
-                [
-                    "Banerjee",
-                    "57/4",
-                    "6.2"
-                ],
-                [
-                    "Tanmay",
-                    "64/5",
-                    "7.3"
-                ],
-                [
-                    "Ankamma",
-                    "64/6",
-                    "7.4"
-                ],
-                [
-                    "Tilak",
-                    "101/7",
-                    "14.4"
-                ]
+                {
+                    "name": "Vivek",
+                    "score": "21/1",
+                    "over": "2.0"
+                },
+                {
+                    "name": "Sourav Das",
+                    "score": "24/2",
+                    "over": "3.0"
+                },
+                {
+                    "name": "Sai",
+                    "score": "33/3",
+                    "over": "4.1"
+                },
+                {
+                    "name": "Banerjee",
+                    "score": "57/4",
+                    "over": "6.2"
+                },
+                {
+                    "name": "Tanmay",
+                    "score": "64/5",
+                    "over": "7.3"
+                },
+                {
+                    "name": "Ankamma",
+                    "score": "64/6",
+                    "over": "7.4"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "101/7",
+                    "over": "14.4"
+                }
             ],
             "name": "Roshan",
             "score": {
@@ -11651,66 +11652,66 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Sourav Banerjee",
-                    "4/1",
-                    "0.2"
-                ],
-                [
-                    "Tilak",
-                    "21/2",
-                    "2.2"
-                ],
-                [
-                    "Prafull",
-                    "26/3",
-                    "3.1"
-                ],
-                [
-                    "Sai Charan",
-                    "28/4",
-                    "3.3"
-                ],
-                [
-                    "Abin",
-                    "84/5",
-                    "11.1"
-                ],
-                [
-                    "Swapnil",
-                    "91/6",
-                    "12.1"
-                ],
-                [
-                    "Roshan",
-                    "99/7",
-                    "13.0"
-                ],
-                [
-                    "Brindavan",
-                    "99/8",
-                    "13.1"
-                ],
-                [
-                    "Prem",
-                    "99/9",
-                    "13.2"
-                ],
-                [
-                    "Mani",
-                    "103/10",
-                    "14.1"
-                ],
-                [
-                    "Ankamma",
-                    "107/11",
-                    "15.4"
-                ],
-                [
-                    "Prajakta",
-                    "107/12",
-                    "15.5"
-                ]
+                {
+                    "name": "Sourav Banerjee",
+                    "score": "4/1",
+                    "over": "0.2"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "21/2",
+                    "over": "2.2"
+                },
+                {
+                    "name": "Prafull",
+                    "score": "26/3",
+                    "over": "3.1"
+                },
+                {
+                    "name": "Sai Charan",
+                    "score": "28/4",
+                    "over": "3.3"
+                },
+                {
+                    "name": "Abin",
+                    "score": "84/5",
+                    "over": "11.1"
+                },
+                {
+                    "name": "Swapnil",
+                    "score": "91/6",
+                    "over": "12.1"
+                },
+                {
+                    "name": "Roshan",
+                    "score": "99/7",
+                    "over": "13.0"
+                },
+                {
+                    "name": "Brindavan",
+                    "score": "99/8",
+                    "over": "13.1"
+                },
+                {
+                    "name": "Prem",
+                    "score": "99/9",
+                    "over": "13.2"
+                },
+                {
+                    "name": "Mani",
+                    "score": "103/10",
+                    "over": "14.1"
+                },
+                {
+                    "name": "Ankamma",
+                    "score": "107/11",
+                    "over": "15.4"
+                },
+                {
+                    "name": "Prajakta",
+                    "score": "107/12",
+                    "over": "15.5"
+                }
             ]
         },
         "team2": {
@@ -11823,41 +11824,41 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Rishabh",
-                    "0/1",
-                    "0.1"
-                ],
-                [
-                    "Pritam",
-                    "15/2",
-                    "2.3"
-                ],
-                [
-                    "Lakshmi",
-                    "32/3",
-                    "4.2"
-                ],
-                [
-                    "Azhar",
-                    "87/4",
-                    "11.0"
-                ],
-                [
-                    "Swamiji",
-                    "102/5",
-                    "12.1"
-                ],
-                [
-                    "Vivek",
-                    "117/6",
-                    "13.1"
-                ],
-                [
-                    "Govinda",
-                    "117/7",
-                    "13.3"
-                ]
+                {
+                    "name": "Rishabh",
+                    "score": "0/1",
+                    "over": "0.1"
+                },
+                {
+                    "name": "Pritam",
+                    "score": "15/2",
+                    "over": "2.3"
+                },
+                {
+                    "name": "Lakshmi",
+                    "score": "32/3",
+                    "over": "4.2"
+                },
+                {
+                    "name": "Azhar",
+                    "score": "87/4",
+                    "over": "11.0"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "102/5",
+                    "over": "12.1"
+                },
+                {
+                    "name": "Vivek",
+                    "score": "117/6",
+                    "over": "13.1"
+                },
+                {
+                    "name": "Govinda",
+                    "score": "117/7",
+                    "over": "13.3"
+                }
             ],
             "name": "Banerjee",
             "score": {
@@ -12062,7 +12063,8 @@
             "battingRunRate": 10.62,
             "extrasBowled": 0,
             "extrasBowledText": "",
-            "bowling": []
+            "bowling": [],
+            "fallOfWickets": []
         },
         "team2": {
             "extrasBowled": 14,
@@ -12110,16 +12112,16 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Cherry",
-                    "5/1",
-                    "1.0"
-                ],
-                [
-                    "Lakshmi",
-                    "5/2",
-                    "1.3"
-                ]
+                {
+                    "name": "Cherry",
+                    "score": "5/1",
+                    "over": "1.0"
+                },
+                {
+                    "name": "Lakshmi",
+                    "score": "5/2",
+                    "over": "1.3"
+                }
             ],
             "batting": [],
             "extrasGot": 0,
@@ -12385,31 +12387,31 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Rishabh",
-                    "0/1",
-                    "0.1"
-                ],
-                [
-                    "Sai",
-                    "7/2",
-                    "2.3"
-                ],
-                [
-                    "Swapnil",
-                    "16/3",
-                    "3.2"
-                ],
-                [
-                    "Azhar",
-                    "55/4",
-                    "7.3"
-                ],
-                [
-                    "Abin",
-                    "55/5",
-                    "7.4"
-                ]
+                {
+                    "name": "Rishabh",
+                    "score": "0/1",
+                    "over": "0.1"
+                },
+                {
+                    "name": "Sai",
+                    "score": "7/2",
+                    "over": "2.3"
+                },
+                {
+                    "name": "Swapnil",
+                    "score": "16/3",
+                    "over": "3.2"
+                },
+                {
+                    "name": "Azhar",
+                    "score": "55/4",
+                    "over": "7.3"
+                },
+                {
+                    "name": "Abin",
+                    "score": "55/5",
+                    "over": "7.4"
+                }
             ],
             "name": "Barnali",
             "score": {
@@ -12629,51 +12631,51 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Tanmay",
-                    "0/1",
-                    "0.1"
-                ],
-                [
-                    "Banerjee",
-                    "13/2",
-                    "1.3"
-                ],
-                [
-                    "Abin",
-                    "17/3",
-                    "1.5"
-                ],
-                [
-                    "Barnali",
-                    "36/4",
-                    "4.0"
-                ],
-                [
-                    "Swapnil",
-                    "65/5",
-                    "6.4"
-                ],
-                [
-                    "Govinda",
-                    "77/6",
-                    "8.1"
-                ],
-                [
-                    "Sakshi",
-                    "87/7",
-                    "9.2"
-                ],
-                [
-                    "Ritika",
-                    "91/8",
-                    "10.0"
-                ],
-                [
-                    "Tilak",
-                    "92/9",
-                    "10.2"
-                ]
+                {
+                    "name": "Tanmay",
+                    "score": "0/1",
+                    "over": "0.1"
+                },
+                {
+                    "name": "Banerjee",
+                    "score": "13/2",
+                    "over": "1.3"
+                },
+                {
+                    "name": "Abin",
+                    "score": "17/3",
+                    "over": "1.5"
+                },
+                {
+                    "name": "Barnali",
+                    "score": "36/4",
+                    "over": "4.0"
+                },
+                {
+                    "name": "Swapnil",
+                    "score": "65/5",
+                    "over": "6.4"
+                },
+                {
+                    "name": "Govinda",
+                    "score": "77/6",
+                    "over": "8.1"
+                },
+                {
+                    "name": "Sakshi",
+                    "score": "87/7",
+                    "over": "9.2"
+                },
+                {
+                    "name": "Ritika",
+                    "score": "91/8",
+                    "over": "10.0"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "92/9",
+                    "over": "10.2"
+                }
             ]
         },
         "team2": {
@@ -12754,41 +12756,41 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Vivek",
-                    "47/1",
-                    "4.1"
-                ],
-                [
-                    "Rishabh",
-                    "54/2",
-                    "5.5"
-                ],
-                [
-                    "Swami Ji",
-                    "54/3",
-                    "6.0"
-                ],
-                [
-                    "Prafull",
-                    "57/4",
-                    "6.5"
-                ],
-                [
-                    "Lakshmi",
-                    "58/5",
-                    "7.1"
-                ],
-                [
-                    "Subhash",
-                    "94/6",
-                    "11.0"
-                ],
-                [
-                    "Azhar",
-                    "95/7",
-                    "11.1"
-                ]
+                {
+                    "name": "Vivek",
+                    "score": "47/1",
+                    "over": "4.1"
+                },
+                {
+                    "name": "Rishabh",
+                    "score": "54/2",
+                    "over": "5.5"
+                },
+                {
+                    "name": "Swami Ji",
+                    "score": "54/3",
+                    "over": "6.0"
+                },
+                {
+                    "name": "Prafull",
+                    "score": "57/4",
+                    "over": "6.5"
+                },
+                {
+                    "name": "Lakshmi",
+                    "score": "58/5",
+                    "over": "7.1"
+                },
+                {
+                    "name": "Subhash",
+                    "score": "94/6",
+                    "over": "11.0"
+                },
+                {
+                    "name": "Azhar",
+                    "score": "95/7",
+                    "over": "11.1"
+                }
             ],
             "name": "Banerjee",
             "score": {
@@ -13064,21 +13066,21 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Swamiji",
-                    "34/1",
-                    "4.2"
-                ],
-                [
-                    "Tanmay",
-                    "50/2",
-                    "7.0"
-                ],
-                [
-                    "Banerjee",
-                    "71/3",
-                    "10.1"
-                ]
+                {
+                    "name": "Swamiji",
+                    "score": "34/1",
+                    "over": "4.2"
+                },
+                {
+                    "name": "Tanmay",
+                    "score": "50/2",
+                    "over": "7.0"
+                },
+                {
+                    "name": "Banerjee",
+                    "score": "71/3",
+                    "over": "10.1"
+                }
             ]
         },
         "team2": {
@@ -13175,26 +13177,26 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Rishabh",
-                    "13/1",
-                    "3.5"
-                ],
-                [
-                    "Vivek",
-                    "25/2",
-                    "5.4"
-                ],
-                [
-                    "Azhar",
-                    "28/3",
-                    "6.1"
-                ],
-                [
-                    "Swapnil",
-                    "73/4",
-                    "10.1"
-                ]
+                {
+                    "name": "Rishabh",
+                    "score": "13/1",
+                    "over": "3.5"
+                },
+                {
+                    "name": "Vivek",
+                    "score": "25/2",
+                    "over": "5.4"
+                },
+                {
+                    "name": "Azhar",
+                    "score": "28/3",
+                    "over": "6.1"
+                },
+                {
+                    "name": "Swapnil",
+                    "score": "73/4",
+                    "over": "10.1"
+                }
             ],
             "name": "Banerjee",
             "score": {
@@ -13493,26 +13495,26 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Vivek",
-                    "8/1",
-                    "1.1"
-                ],
-                [
-                    "Azhar",
-                    "52/2",
-                    "7.2"
-                ],
-                [
-                    "Prafull",
-                    "66/3",
-                    "8.4"
-                ],
-                [
-                    "Sai",
-                    "75/4",
-                    "9.5"
-                ]
+                {
+                    "name": "Vivek",
+                    "score": "8/1",
+                    "over": "1.1"
+                },
+                {
+                    "name": "Azhar",
+                    "score": "52/2",
+                    "over": "7.2"
+                },
+                {
+                    "name": "Prafull",
+                    "score": "66/3",
+                    "over": "8.4"
+                },
+                {
+                    "name": "Sai",
+                    "score": "75/4",
+                    "over": "9.5"
+                }
             ],
             "name": "Banerjee",
             "score": {
@@ -13746,31 +13748,31 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Vivek",
-                    "39/1",
-                    "5.0"
-                ],
-                [
-                    "Tilak",
-                    "59/2",
-                    "9.2"
-                ],
-                [
-                    "Rishabh",
-                    "65/3",
-                    "10.1"
-                ],
-                [
-                    "Tanmay",
-                    "82/4",
-                    "13.5"
-                ],
-                [
-                    "Ankamma",
-                    "92/5",
-                    "16.0"
-                ]
+                {
+                    "name": "Vivek",
+                    "score": "39/1",
+                    "over": "5.0"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "59/2",
+                    "over": "9.2"
+                },
+                {
+                    "name": "Rishabh",
+                    "score": "65/3",
+                    "over": "10.1"
+                },
+                {
+                    "name": "Tanmay",
+                    "score": "82/4",
+                    "over": "13.5"
+                },
+                {
+                    "name": "Ankamma",
+                    "score": "92/5",
+                    "over": "16.0"
+                }
             ]
         },
         "team2": {
@@ -13875,36 +13877,36 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Banerjee",
-                    "22/1",
-                    "4.4"
-                ],
-                [
-                    "Ankur",
-                    "22/2",
-                    "4.5"
-                ],
-                [
-                    "Sai Charan",
-                    "41/3",
-                    "7.5"
-                ],
-                [
-                    "Swamiji",
-                    "74/4",
-                    "11.4"
-                ],
-                [
-                    "Roshan",
-                    "96/5",
-                    "15.4"
-                ],
-                [
-                    "Raghu",
-                    "98/6",
-                    "16.0"
-                ]
+                {
+                    "name": "Banerjee",
+                    "score": "22/1",
+                    "over": "4.4"
+                },
+                {
+                    "name": "Ankur",
+                    "score": "22/2",
+                    "over": "4.5"
+                },
+                {
+                    "name": "Sai Charan",
+                    "score": "41/3",
+                    "over": "7.5"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "74/4",
+                    "over": "11.4"
+                },
+                {
+                    "name": "Roshan",
+                    "score": "96/5",
+                    "over": "15.4"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "98/6",
+                    "over": "16.0"
+                }
             ],
             "name": "Abin",
             "score": {
@@ -14140,31 +14142,31 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Tanmay",
-                    "3/1",
-                    "0.4"
-                ],
-                [
-                    "Sourav B",
-                    "4/2",
-                    "0.5"
-                ],
-                [
-                    "Barnali",
-                    "31/3",
-                    "3.4"
-                ],
-                [
-                    "Swapnil",
-                    "105/4",
-                    "12.2"
-                ],
-                [
-                    "Rishabh",
-                    "105/5",
-                    "12.5"
-                ]
+                {
+                    "name": "Tanmay",
+                    "score": "3/1",
+                    "over": "0.4"
+                },
+                {
+                    "name": "Sourav B",
+                    "score": "4/2",
+                    "over": "0.5"
+                },
+                {
+                    "name": "Barnali",
+                    "score": "31/3",
+                    "over": "3.4"
+                },
+                {
+                    "name": "Swapnil",
+                    "score": "105/4",
+                    "over": "12.2"
+                },
+                {
+                    "name": "Rishabh",
+                    "score": "105/5",
+                    "over": "12.5"
+                }
             ]
         },
         "team2": {
@@ -14261,16 +14263,16 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Lakshmi",
-                    "51/1",
-                    "6.2"
-                ],
-                [
-                    "Azhar",
-                    "56/2",
-                    "7.0"
-                ]
+                {
+                    "name": "Lakshmi",
+                    "score": "51/1",
+                    "over": "6.2"
+                },
+                {
+                    "name": "Azhar",
+                    "score": "56/2",
+                    "over": "7.0"
+                }
             ],
             "name": "Banerjee",
             "score": {
@@ -14530,51 +14532,51 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Vivek",
-                    "48/1",
-                    "5.2"
-                ],
-                [
-                    "Azhar",
-                    "53/2",
-                    "6.0"
-                ],
-                [
-                    "Banerjee",
-                    "71/3",
-                    "8.2"
-                ],
-                [
-                    "Govinda",
-                    "73/4",
-                    "9.0"
-                ],
-                [
-                    "Lakshmi",
-                    "78/5",
-                    "10.3"
-                ],
-                [
-                    "Dileep",
-                    "80/6",
-                    "11.3"
-                ],
-                [
-                    "Prajakta",
-                    "82/7",
-                    "12.2"
-                ],
-                [
-                    "Sneha",
-                    "83/8",
-                    "12.4"
-                ],
-                [
-                    "Rishabh",
-                    "85/9",
-                    "13.2"
-                ]
+                {
+                    "name": "Vivek",
+                    "score": "48/1",
+                    "over": "5.2"
+                },
+                {
+                    "name": "Azhar",
+                    "score": "53/2",
+                    "over": "6.0"
+                },
+                {
+                    "name": "Banerjee",
+                    "score": "71/3",
+                    "over": "8.2"
+                },
+                {
+                    "name": "Govinda",
+                    "score": "73/4",
+                    "over": "9.0"
+                },
+                {
+                    "name": "Lakshmi",
+                    "score": "78/5",
+                    "over": "10.3"
+                },
+                {
+                    "name": "Dileep",
+                    "score": "80/6",
+                    "over": "11.3"
+                },
+                {
+                    "name": "Prajakta",
+                    "score": "82/7",
+                    "over": "12.2"
+                },
+                {
+                    "name": "Sneha",
+                    "score": "83/8",
+                    "over": "12.4"
+                },
+                {
+                    "name": "Rishabh",
+                    "score": "85/9",
+                    "over": "13.2"
+                }
             ]
         },
         "team2": {
@@ -14655,31 +14657,31 @@
                 }
             ],
             "fallOfWickets": [
-                [
-                    "Barnali",
-                    "3/1",
-                    "1.0"
-                ],
-                [
-                    "Ankamma",
-                    "6/2",
-                    "1.3"
-                ],
-                [
-                    "Sai",
-                    "15/3",
-                    "2.3"
-                ],
-                [
-                    "Swamiji",
-                    "77/4",
-                    "8.4"
-                ],
-                [
-                    "Tilak",
-                    "119/5",
-                    "13.5"
-                ]
+                {
+                    "name": "Barnali",
+                    "score": "3/1",
+                    "over": "1.0"
+                },
+                {
+                    "name": "Ankamma",
+                    "score": "6/2",
+                    "over": "1.3"
+                },
+                {
+                    "name": "Sai",
+                    "score": "15/3",
+                    "over": "2.3"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "77/4",
+                    "over": "8.4"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "119/5",
+                    "over": "13.5"
+                }
             ],
             "name": "Azhar",
             "score": {
