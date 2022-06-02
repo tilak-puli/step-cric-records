@@ -87,7 +87,7 @@ const Matches = () => {
           <Box width={["100%", 500]}>{<Text>Match not found.</Text>}</Box>
         )}
         {match && (
-          <Flex direction={"column"} spacing={[5, 10]}>
+          <Flex direction={"column"}>
             <Wrap spacing={[5, 10]} pb={[5, 10]}>
               <Box width={["100%", 480]}>
                 {
