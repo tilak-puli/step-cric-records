@@ -6,4 +6,4 @@ export * from "./BattingTable";
 export * from "./BowlingTable";
 export * from "./HighestScore";
 export * from "./BestBowlingFigure";
-export { FallOfWicketsTable } from "./FallOfWicketsTable";
+export * from "./FallOfWicketsTable";
