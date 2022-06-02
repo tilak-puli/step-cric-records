@@ -61,7 +61,7 @@ function SpecialMVPCard(props: { mvp: SpecialMvpDetails }) {
 
 function SpecialMentionsCard(props: { specialMentions: String[] }) {
   return (
-    <CustomBox p={3} mb={[5, 10]} width={["100%", 1000]} minHeight={130}>
+    <CustomBox p={3} mb={[5, 10]} width={["100%", 1000]} minHeight={100}>
       <Heading mb={3} fontSize={"sm"}>
         Special Mentions
       </Heading>

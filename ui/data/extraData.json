@@ -33,8 +33,13 @@
     "specialMvp": {
       "name": "Vivek",
       "reason" : "34(28) & 3/7(2)"
-   }
- },
+   },
+    "specialMentions": [
+      "Lakshmi's wickets of Banerjee and Tanmay in first over",
+      "Dileep's most expensive over",
+      "Swapnil's partnership of 74 runs with Tilak"
+    ]
+  },
   "01-Jun-2022": {
     "specialMvp": {
       "name": "Sai",
@@ -42,7 +47,8 @@
    },
     "specialMentions": [
       "Banerjee's 42 of 26 and 6 runs of 2 overs",
-      "Ankamma's No Ball to Swamiji(WK) and comeback yorker next ball.",
+      "Ankamma's No Ball to Swamiji(WK) and comeback yorker next ball",
+      "Pritam's yorker to Banerjee and 14 of 8",
       "Rishabh's friendly fire of 3 wickets"
     ]
  }
