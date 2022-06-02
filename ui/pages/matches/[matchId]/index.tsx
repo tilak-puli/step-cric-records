@@ -24,7 +24,7 @@ import {
   TeamData,
 } from "../../../types/match";
 import { capitalize, findMvp } from "../../../utils";
-import { TopPerformers } from "./GetTopPartnerships";
+import { TopPerformers } from "../../../components/GetTopPartnerships";
 
 function TeamScoreBoard(props: {
   name: String;

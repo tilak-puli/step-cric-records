@@ -9,7 +9,7 @@ import { BestBowlingFigureTable } from "../../components";
 import { Select } from "@chakra-ui/react";
 import _ from "underscore";
 import { Partnership } from "../../types/stats";
-import { sortPartnerships } from "../matches/[matchId]/GetTopPartnerships";
+import { sortPartnerships } from "../../components/GetTopPartnerships";
 import { SimpleTable } from "../../components/SimpleTable";
 import { capitalize } from "../../utils";
 import Link from "next/link";

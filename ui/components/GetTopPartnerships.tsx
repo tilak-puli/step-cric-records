@@ -1,9 +1,9 @@
-import { Match } from "../../../types/match";
+import { Match } from "../types/match";
 import { Box, Flex, Heading, Table, Text } from "@chakra-ui/react";
-import { capitalize, getIndexName } from "../../../utils";
-import { getPartnerships } from "../../../state/stats";
-import { CustomBox } from "../../../components/HigherOrder/CustomBox";
-import { Partnership } from "../../../types/stats";
+import { capitalize, getIndexName } from "../utils";
+import { getPartnerships } from "../state/stats";
+import { CustomBox } from "./HigherOrder/CustomBox";
+import { Partnership } from "../types/stats";
 
 function getTopBatsman(match: Match, count: number) {
   const getBattingRecords = (b) => ({
