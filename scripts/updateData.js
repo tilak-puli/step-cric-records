@@ -15,7 +15,7 @@ const main = async () => {
         over: w[2],
       }));
     } catch {
-      console.log("Someonething wrong");
+      console.log("Something wrong");
     }
 
     return match;

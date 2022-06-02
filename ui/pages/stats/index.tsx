@@ -23,7 +23,7 @@ function BestPartnerships(props: { partnerships: Partnership[] }) {
     scoreLink: (
       <Link href={"/matches/" + (p.matchIndex + 1)} passHref>
         <ChakraLink className={"underline"}>
-          <>{p.runs + "/" + p.balls}</>
+          <>{p.runs + "(" + p.balls + ")"}</>
         </ChakraLink>
       </Link>
     ),
