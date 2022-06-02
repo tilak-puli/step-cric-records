@@ -7,8 +7,21 @@ import { BowlingStats } from "../types/stats";
 const columns = [
   { field: "name", headerName: "Name", width: 50 },
   { field: "matches", headerName: "M", width: 10 },
-  { field: "wickets", headerName: "Wickets", width: 20 },
+  { field: "wickets", headerName: "W", width: 10 },
+  { field: "economy", headerName: "ER", width: 10 },
 ];
+
+function getEconomy(bowlingFigures) {
+  let overs = 0;
+  let runs = 0;
+
+  for (let figure of bowlingFigures) {
+    overs += Number.parseInt(figure.wicketsInOvers);
+    runs += +figure.wicketsWithRuns;
+  }
+
+  return (runs / overs).toFixed(2);
+}
 
 export function MostWicketsTable(props: { bowlingStats: BowlingStats }) {
   const rows = useMemo(() => {
@@ -16,6 +29,7 @@ export function MostWicketsTable(props: { bowlingStats: BowlingStats }) {
       capitalize(name),
       b.wickets,
       b.matches,
+      getEconomy(b.bowlingFigures),
     ]).sort((s, s1) => {
       let diff = s1[1] - s[1];
       if (diff === 0) {
@@ -25,10 +39,11 @@ export function MostWicketsTable(props: { bowlingStats: BowlingStats }) {
     });
 
     return sortedStats
-      .map(([name, wickets, matches]) => ({
+      .map(([name, wickets, matches, economy]) => ({
         name,
         wickets,
         matches,
+        economy,
       }))
       .filter(({ wickets }) => wickets !== 0)
       .slice(0, 50);

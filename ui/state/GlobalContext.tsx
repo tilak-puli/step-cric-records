@@ -3,13 +3,14 @@ import { Match } from "../types/match";
 import matchesJson from "../data/matches.json";
 import extraDataJson from "../data/extraData.json";
 import getStats from "./stats";
-import { BattingStats, BowlingStats } from "../types/stats";
+import { BattingStats, BowlingStats, Partnership } from "../types/stats";
 
 interface GlobalContextType {
   matches: Match[];
   stats: {
     batting: BattingStats;
     bowling: BowlingStats;
+    partnerships: Partnership[];
     fromYear: number;
     setFromYear: any;
     total?: {
@@ -26,6 +27,7 @@ export const START_YEAR = 2019;
 const defaultStats = {
   batting: {},
   bowling: {},
+  partnerships: [],
   fromYear: START_YEAR,
   setFromYear: () => {},
   total: {

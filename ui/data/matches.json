@@ -14393,16 +14393,6 @@
                     "notOut": false
                 },
                 {
-                    "name": "Sai",
-                    "outReason": "Run out (Azhar)",
-                    "runs": 6,
-                    "balls": 7,
-                    "fours": 1,
-                    "sixes": 0,
-                    "runRate": 85.71,
-                    "notOut": false
-                },
-                {
                     "name": "Swamiji",
                     "outReason": "b Vivek",
                     "runs": 8,
@@ -14413,13 +14403,13 @@
                     "notOut": false
                 },
                 {
-                    "name": "Pritam",
-                    "outReason": "Hit Six b Dileep",
-                    "runs": 14,
-                    "balls": 8,
-                    "fours": 2,
+                    "name": "Sai",
+                    "outReason": "Run out (Azhar)",
+                    "runs": 6,
+                    "balls": 7,
+                    "fours": 1,
                     "sixes": 0,
-                    "runRate": 175,
+                    "runRate": 85.71,
                     "notOut": false
                 },
                 {
@@ -14433,6 +14423,16 @@
                     "notOut": false
                 },
                 {
+                    "name": "Pritam",
+                    "outReason": "Hit Six b Dileep",
+                    "runs": 14,
+                    "balls": 8,
+                    "fours": 2,
+                    "sixes": 0,
+                    "runRate": 175,
+                    "notOut": false
+                },
+                {
                     "name": "Abin",
                     "outReason": "not out",
                     "runs": 15,
@@ -14440,16 +14440,6 @@
                     "fours": 0,
                     "sixes": 0,
                     "runRate": 100,
-                    "notOut": true
-                },
-                {
-                    "name": ".",
-                    "outReason": "not out",
-                    "runs": 0,
-                    "balls": 1,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
                     "notOut": true
                 }
             ],
@@ -14674,12 +14664,17 @@
                 },
                 {
                     "name": "Swamiji",
-                    "score": "77/4",
+                    "score": "35/4",
+                    "over": "4.6"
+                },
+                {
+                    "name": "Pritam",
+                    "score": "77/5",
                     "over": "8.4"
                 },
                 {
                     "name": "Tilak",
-                    "score": "119/5",
+                    "score": "119/6",
                     "over": "13.5"
                 }
             ],

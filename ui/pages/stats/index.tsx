@@ -8,6 +8,35 @@ import { HighestScoreTable } from "../../components";
 import { BestBowlingFigureTable } from "../../components";
 import { Select } from "@chakra-ui/react";
 import _ from "underscore";
+import { Partnership } from "../../types/stats";
+import { sortPartnerships } from "../matches/[matchId]/GetTopPartnerships";
+import { SimpleTable } from "../../components/SimpleTable";
+import { capitalize } from "../../utils";
+import Link from "next/link";
+import { Link as ChakraLink } from "@chakra-ui/react";
+
+function BestPartnerships(props: { partnerships: Partnership[] }) {
+  const partnerships = sortPartnerships(props.partnerships, 50).map((p) => ({
+    ...p,
+    batsman1: capitalize(p.batsman1),
+    batsman2: capitalize(p.batsman2),
+    scoreLink: (
+      <Link href={"/matches/" + (p.matchIndex + 1)} passHref>
+        <ChakraLink className={"underline"}>
+          <>{p.runs + "/" + p.balls}</>
+        </ChakraLink>
+      </Link>
+    ),
+  }));
+
+  const columns = [
+    { field: "batsman1", headerName: "BatsPerson 1", width: 40 },
+    { field: "scoreLink", headerName: "Runs", width: 40 },
+    { field: "batsman2", headerName: "BatsPerson 2", width: 40 },
+  ];
+
+  return <SimpleTable columns={columns} rows={partnerships} />;
+}
 
 const Stats = () => {
   const { stats } = useContext(GlobalContext);
@@ -61,6 +90,14 @@ const Stats = () => {
           </Heading>
           <Box height={450} overflow={"auto"}>
             <BestBowlingFigureTable bowlingStats={stats.bowling} />
+          </Box>
+        </CustomBox>
+        <CustomBox width={["100%", 400]}>
+          <Heading p={2} fontSize={"md"}>
+            Top Partnerships
+          </Heading>
+          <Box height={450} overflow={"auto"}>
+            <BestPartnerships partnerships={stats.partnerships} />
           </Box>
         </CustomBox>
       </Wrap>

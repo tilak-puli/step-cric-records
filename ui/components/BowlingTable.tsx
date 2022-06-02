@@ -1,17 +1,8 @@
 import { TeamData } from "../types/match";
-import {
-  Table,
-  TableContainer,
-  Tbody,
-  Td,
-  Text,
-  Th,
-  Thead,
-  Tr,
-} from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 import { useMemo } from "react";
-import { capitalize } from "../utils";
-import { getIndexName } from "../utils";
+import { capitalize, getIndexName } from "../utils";
+import { SimpleTable } from "./SimpleTable";
 
 const columns = [
   { field: "name", headerName: "Bowling", width: 40 },
@@ -47,30 +38,5 @@ export function BowlingTable(props: { team: TeamData; date: string }) {
     }));
   }, [props.team.bowling, props.date]);
 
-  return (
-    <TableContainer px={[3, 0]}>
-      <Table variant="simple">
-        <Thead>
-          <Tr>
-            {columns.map((c, k) => (
-              <Th px={[1, 5]} key={k} width={c.width}>
-                {c.headerName}
-              </Th>
-            ))}
-          </Tr>
-        </Thead>
-        <Tbody>
-          {rows.map((r, k) => (
-            <Tr key={k}>
-              {columns.map((c, k) => (
-                <Td px={[1, 5]} width={c.width} key={k} py={1} fontSize={"sm"}>
-                  {r[c.field]}
-                </Td>
-              ))}
-            </Tr>
-          ))}
-        </Tbody>
-      </Table>
-    </TableContainer>
-  );
+  return <SimpleTable columns={columns} rows={rows} />;
 }

@@ -1,8 +1,21 @@
-import {Box, Flex, Heading, ListItem, Text, UnorderedList, Wrap} from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  Heading,
+  ListItem,
+  Text,
+  UnorderedList,
+  Wrap,
+} from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { useContext, useMemo } from "react";
 import { GlobalContext } from "../../../state/GlobalContext";
-import { MatchCard } from "../../../components";
+import {
+  BattingTable,
+  BowlingTable,
+  FallOfWicketsTable,
+  MatchCard,
+} from "../../../components";
 import { CustomBox } from "../../../components/HigherOrder/CustomBox";
 import {
   Match,
@@ -10,9 +23,8 @@ import {
   SpecialMvpDetails,
   TeamData,
 } from "../../../types/match";
-import { BattingTable } from "../../../components";
-import { BowlingTable } from "../../../components";
 import { capitalize, findMvp } from "../../../utils";
+import { TopPerformers } from "./GetTopPartnerships";
 
 function TeamScoreBoard(props: {
   name: String;
@@ -27,6 +39,10 @@ function TeamScoreBoard(props: {
       </Heading>
       <BattingTable team={props.team1} date={props.date} />
       <BowlingTable team={props.team2} date={props.date} />
+      <Text bg={"gray.50"} px={5} py={3} fontWeight={"bolder"}>
+        Fall of Wickets
+      </Text>
+      <FallOfWicketsTable team={props.team2} date={props.date} />
     </CustomBox>
   );
 }
@@ -66,7 +82,11 @@ function SpecialMentionsCard(props: { specialMentions: String[] }) {
         Special Mentions
       </Heading>
       <UnorderedList>
-          {props.specialMentions?.map((mention, i) => <ListItem key={i}><Text>{mention}</Text></ListItem>)}
+        {props.specialMentions?.map((mention, i) => (
+          <ListItem key={i}>
+            <Text>{mention}</Text>
+          </ListItem>
+        ))}
       </UnorderedList>
     </CustomBox>
   );
@@ -87,42 +107,47 @@ const Matches = () => {
           <Box width={["100%", 500]}>{<Text>Match not found.</Text>}</Box>
         )}
         {match && (
-          <Flex direction={"column"}>
-            <Wrap spacing={[5, 10]} pb={[5, 10]}>
-              <Box width={["100%", 480]}>
-                {
-                  <MatchCard
-                    id={+matchId}
-                    p={"1em"}
-                    boxShadow={"sm"}
-                    match={match}
-                    disableLink={true}
-                  />
-                }
-              </Box>
-              <MVPCard mvp={mvp} />
-              {match.extraData?.specialMvp && (
-                <SpecialMVPCard mvp={match.extraData?.specialMvp} />
-              )}
-            </Wrap>
+          <Wrap spacing={[5, 10]}>
+            <Flex direction={"column"}>
+              <Wrap spacing={[5, 10]} pb={[5, 10]}>
+                <Box width={["100%", 480]}>
+                  {
+                    <MatchCard
+                      id={+matchId}
+                      p={"1em"}
+                      boxShadow={"sm"}
+                      match={match}
+                      disableLink={true}
+                    />
+                  }
+                </Box>
+                <MVPCard mvp={mvp} />
+                {match.extraData?.specialMvp && (
+                  <SpecialMVPCard mvp={match.extraData?.specialMvp} />
+                )}
+              </Wrap>
               {match.extraData?.specialMentions && (
-                  <SpecialMentionsCard specialMentions={match.extraData?.specialMentions} />
+                <SpecialMentionsCard
+                  specialMentions={match.extraData?.specialMentions}
+                />
               )}
-            <Flex direction={"column"} gap={[10]} width={"100%"}>
-              <TeamScoreBoard
-                name={match.team1.name}
-                team1={match.team1}
-                team2={match.team2}
-                date={match.matchFileNameDate}
-              />
-              <TeamScoreBoard
-                name={match.team2.name}
-                team2={match.team1}
-                team1={match.team2}
-                date={match.matchFileNameDate}
-              />
+              <Flex direction={"column"} gap={[10]} width={"100%"}>
+                <TeamScoreBoard
+                  name={match.team1.name}
+                  team1={match.team1}
+                  team2={match.team2}
+                  date={match.matchFileNameDate}
+                />
+                <TeamScoreBoard
+                  name={match.team2.name}
+                  team2={match.team1}
+                  team1={match.team2}
+                  date={match.matchFileNameDate}
+                />
+              </Flex>
             </Flex>
-          </Flex>
+            <TopPerformers match={match} />
+          </Wrap>
         )}
       </Box>
     </Box>

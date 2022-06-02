@@ -5,6 +5,14 @@ export interface BattingStat {
   notOuts: number;
 }
 
+export interface Partnership {
+  batsman1: string;
+  batsman2: string;
+  runs: number;
+  balls: number;
+  matchIndex: number;
+}
+
 export interface BattingStats {
   [name: string]: BattingStat;
 }

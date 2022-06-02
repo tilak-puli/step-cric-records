@@ -36,11 +36,18 @@ export interface ExtraData {
   specialMentions?: String[];
 }
 
+export interface FallOfWicket {
+  name: String;
+  score: String;
+  over: String;
+}
+
 export interface TeamData {
   name: string;
   score: Score;
   batting: Batting[];
   bowling: Bowling[];
+  fallOfWickets: FallOfWicket[];
   extrasGot: number;
   battingRunRate: number;
   extrasBowled: number;
