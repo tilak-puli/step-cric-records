@@ -66,7 +66,7 @@ function SpecialMentionsCard(props: { specialMentions: String[] }) {
         Special Mentions
       </Heading>
       <UnorderedList>
-          {props.specialMentions?.map(mention => <ListItem><Text>{mention}</Text></ListItem>)}
+          {props.specialMentions?.map((mention, i) => <ListItem key={i}><Text>{mention}</Text></ListItem>)}
       </UnorderedList>
     </CustomBox>
   );
