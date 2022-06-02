@@ -78,8 +78,21 @@ function getBatting(lines, i) {
   return [batting, i];
 }
 
+function getFallWickets(lines, i) {
+  i = i + 3;
+  const fallOfWickets = [];
+
+  while(lines[i+1] && !isSecondTeamStartScore(lines[i+1])){
+    fallOfWickets.push([lines[i], lines[i+1], lines[i+2]]);
+    i = i + 3;
+  }
+
+  return fallOfWickets;
+}
+
 function getBowling(lines, i) {
   const bowling = [];
+  let fallOfWickets = [];
 
   for (let hasBowler = true; hasBowler; ) {
     //to ignore line if pdf has 3 pages
@@ -104,9 +117,10 @@ function getBowling(lines, i) {
     bowling.push(bowler);
     if (lines[i] === "Fall of wickets") {
       hasBowler = false;
+      fallOfWickets = getFallWickets(lines, i)
     }
   }
-  return [bowling, i];
+  return [bowling, i, fallOfWickets];
 }
 
 function getExtrasGot(lines, i) {
@@ -117,9 +131,14 @@ function getBattingRunRate(lines, i) {
   return +lines[i + 3].split(" ")[2];
 }
 
+function isSecondTeamStartScore(line) {
+  return line.match(/.*-.* \(.*\)/);
+}
+
 function findNextTeamStart(lines, i) {
   while (lines[i]) {
-    if (lines[i].match(/.*-.* \(.*\)/)) {
+    // matches `85-9 (14.0)`
+    if (isSecondTeamStartScore(lines[i])) {
       return i - 1;
     }
     i += 1;
@@ -142,7 +161,7 @@ function getTeamScores(lines) {
 
   i += 10;
 
-  [team2.bowling, i] = getBowling(lines, i);
+  [team2.bowling, i, team2.fallOfWickets] = getBowling(lines, i);
 
   i = findNextTeamStart(lines, i);
 
@@ -171,7 +190,7 @@ function getTeamScores(lines) {
 
   i += 10;
 
-  [team1.bowling] = getBowling(lines, i);
+  [team1.bowling, i, team1.fallOfWickets] = getBowling(lines, i);
   return [team1, team2];
 }
 
