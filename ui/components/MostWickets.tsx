@@ -16,7 +16,10 @@ function getEconomy(bowlingFigures) {
   let runs = 0;
 
   for (let figure of bowlingFigures) {
-    overs += Number.parseInt(figure.wicketsInOvers);
+    overs +=
+      figure.wicketsInOvers % 1 > 0.3
+        ? Math.ceil(figure.wicketsInOvers)
+        : Math.floor(figure.wicketsInOvers);
     runs += +figure.wicketsWithRuns;
   }
 
