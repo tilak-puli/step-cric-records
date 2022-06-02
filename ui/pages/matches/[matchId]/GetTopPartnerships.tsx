@@ -95,8 +95,8 @@ function TopBatsman(props: { match: Match }) {
       <Heading mb={3} fontSize={"sm"}>
         Batting
       </Heading>
-      {getTopBatsman(props.match, 3)?.map((batsman) => (
-        <Flex justify="space-between">
+      {getTopBatsman(props.match, 3)?.map((batsman, i) => (
+        <Flex justify="space-between" key={i}>
           <Text>{batsman.name}</Text>
           <Text>
             {batsman.runs}({batsman.balls})
@@ -113,8 +113,8 @@ function TopBowling(props: { match: Match }) {
       <Heading mb={3} fontSize={"sm"}>
         Bowling
       </Heading>
-      {getTopBowlers(props.match, 3)?.map((bowler) => (
-        <Flex justify="space-between">
+      {getTopBowlers(props.match, 3)?.map((bowler, i) => (
+        <Flex justify="space-between" key={i}>
           <Text>{bowler.name}</Text>
           <Text>
             {bowler.wickets}/{bowler.runs}({bowler.overs})
@@ -132,8 +132,8 @@ function TopPartnerships(props: { match: Match }) {
         Partnerships
       </Heading>
       <Table width={"100%"}>
-        {getTopPartnerships(props.match, 3)?.map((batsman) => (
-          <tr>
+        {getTopPartnerships(props.match, 3)?.map((batsman, i) => (
+          <tr key={i}>
             <td>
               <Text>{batsman.batsman1}</Text>
             </td>
