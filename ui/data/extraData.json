@@ -28,11 +28,22 @@
       "name": "Ankamma",
       "reason": "Ankamma for being able to see the ball while batting."
     }
-  }, 
+  },
   "30-May-2022": {
     "specialMvp": {
-      "name": "Vivek", 
+      "name": "Vivek",
       "reason" : "34(28) & 3/7(2)"
    }
+ },
+  "01-Jun-2022": {
+    "specialMvp": {
+      "name": "Sai",
+      "reason" : "For taking Vivek & Azhar wickets in same over."
+   },
+    "specialMentions": [
+      "Banerjee's 42 of 26 and 6 runs of 2 overs",
+      "Ankamma's No Ball to Swamiji(WK) and comeback yorker next ball.",
+      "Rishabh's friendly fire of 3 wickets"
+    ]
  }
 }

@@ -12231,16 +12231,6 @@
                     "notOut": false
                 },
                 {
-                    "name": "Swamiji",
-                    "outReason": "b Vivek",
-                    "runs": 14,
-                    "balls": 13,
-                    "fours": 1,
-                    "sixes": 0,
-                    "runRate": 107.69,
-                    "notOut": false
-                },
-                {
                     "name": "Sai",
                     "outReason": "Run out (Azhar)",
                     "runs": 6,
@@ -12251,13 +12241,33 @@
                     "notOut": false
                 },
                 {
+                    "name": "Swamiji",
+                    "outReason": "b Vivek",
+                    "runs": 8,
+                    "balls": 6,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 133,
+                    "notOut": false
+                },
+                {
+                    "name": "Pritam",
+                    "outReason": "Hit Six b Dileep",
+                    "runs": 14,
+                    "balls": 8,
+                    "fours": 2,
+                    "sixes": 0,
+                    "runRate": 175,
+                    "notOut": false
+                },
+                {
                     "name": "Tilak",
                     "outReason": "st Azhar b Lakshmi",
-                    "runs": 64,
-                    "balls": 42,
-                    "fours": 5,
+                    "runs": 56,
+                    "balls": 40,
+                    "fours": 3,
                     "sixes": 1,
-                    "runRate": 152.38,
+                    "runRate": 140,
                     "notOut": false
                 },
                 {

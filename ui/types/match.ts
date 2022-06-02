@@ -33,6 +33,7 @@ export interface PlayersMvpDetails {
 
 export interface ExtraData {
   specialMvp: SpecialMvpDetails;
+  specialMentions?: String[];
 }
 
 export interface TeamData {
