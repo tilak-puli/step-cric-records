@@ -7,3 +7,4 @@ export * from "./BowlingTable";
 export * from "./HighestScore";
 export * from "./BestBowlingFigure";
 export * from "./FallOfWicketsTable";
+export { TableWithSorting } from "./TableWithSorting";

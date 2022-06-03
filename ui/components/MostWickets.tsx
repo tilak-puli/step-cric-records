@@ -1,14 +1,19 @@
-import { Table, Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react";
 import { useMemo } from "react";
 import _ from "underscore";
 import { capitalize } from "../utils";
 import { BowlingStats } from "../types/stats";
+import { TableWithSorting } from "./TableWithSorting";
 
 const columns = [
-  { field: "name", headerName: "Name", width: 50 },
-  { field: "matches", headerName: "M", width: 10 },
-  { field: "wickets", headerName: "W", width: 10 },
-  { field: "economy", headerName: "ER", width: 10 },
+  { accessor: "name", Header: "Name", width: 50, disableSortBy: true },
+  { accessor: "overs", Header: "O", width: 10, sortType: "number" },
+  {
+    accessor: "wickets",
+    Header: "W",
+    width: 10,
+    sortType: "number",
+  },
+  { accessor: "economy", Header: "ER", width: 10, sortType: "number" },
 ];
 
 function getEconomy(bowlingFigures) {
@@ -16,14 +21,15 @@ function getEconomy(bowlingFigures) {
   let runs = 0;
 
   for (let figure of bowlingFigures) {
-    overs +=
-      figure.wicketsInOvers % 1 > 0.3
-        ? Math.ceil(figure.wicketsInOvers)
-        : Math.floor(figure.wicketsInOvers);
+    overs += roundOver(figure.wicketsInOvers);
     runs += +figure.wicketsWithRuns;
   }
 
   return (runs / overs).toFixed(2);
+}
+
+export function roundOver(over) {
+  return over % 1 > 0.3 ? Math.ceil(over) : Math.floor(over);
 }
 
 export function MostWicketsTable(props: { bowlingStats: BowlingStats }) {
@@ -31,7 +37,7 @@ export function MostWicketsTable(props: { bowlingStats: BowlingStats }) {
     const sortedStats = _.map(props.bowlingStats, (b, name) => [
       capitalize(name),
       b.wickets,
-      b.matches,
+      roundOver(b.overs),
       getEconomy(b.bowlingFigures),
     ]).sort((s, s1) => {
       let diff = s1[1] - s[1];
@@ -42,38 +48,15 @@ export function MostWicketsTable(props: { bowlingStats: BowlingStats }) {
     });
 
     return sortedStats
-      .map(([name, wickets, matches, economy]) => ({
+      .map(([name, wickets, overs, economy]) => ({
         name,
         wickets,
-        matches,
+        overs,
         economy,
       }))
       .filter(({ wickets }) => wickets !== 0)
       .slice(0, 50);
   }, [props.bowlingStats]);
 
-  return (
-    <Table variant="simple">
-      <Thead position={"sticky"} top={0} bg={"white"}>
-        <Tr>
-          {columns.map((c, k) => (
-            <Th key={k} width={c.width}>
-              {c.headerName}
-            </Th>
-          ))}
-        </Tr>
-      </Thead>
-      <Tbody>
-        {rows.map((r, k) => (
-          <Tr key={k}>
-            {columns.map((c, k) => (
-              <Td key={k} py={1} fontSize={"sm"}>
-                {r[c.field]}
-              </Td>
-            ))}
-          </Tr>
-        ))}
-      </Tbody>
-    </Table>
-  );
+  return <TableWithSorting data={rows} columns={columns} />;
 }

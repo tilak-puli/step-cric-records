@@ -7,6 +7,18 @@ function findBallBetween(lastWicketOver: string, over) {
   return overs * 6 + (over.split(".")[1] - +lastWicketOver.split(".")[1]);
 }
 
+function addOvers(over: string, over1: string) {
+  let overNumber = +over.split(".")[0] + +over1.split(".")[0];
+  let ballsNumber = +over.split(".")[1] + +over1.split(".")[1];
+
+  if (ballsNumber >= 6) {
+    overNumber += 1;
+    ballsNumber %= 6;
+  }
+
+  return overNumber + "." + ballsNumber;
+}
+
 export default function getStats(matches: Match[], fromYear: number) {
   const batting: BattingStats = {};
   const bowling: BowlingStats = {};
@@ -55,11 +67,17 @@ export default function getStats(matches: Match[], fromYear: number) {
       bowling[indexName] = {
         wickets: 0,
         matches: 0,
+        overs: "0.0",
         bowlingFigures: [],
       };
     }
     bowling[indexName].wickets += wickets;
     bowling[indexName].matches += 1;
+
+    bowling[indexName].overs = addOvers(
+      overs.toFixed(1),
+      Number.parseFloat(bowling[indexName].overs).toFixed(1)
+    );
 
     bowling[indexName].bowlingFigures.push({
       wickets,

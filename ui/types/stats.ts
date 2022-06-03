@@ -33,6 +33,7 @@ export interface BowlingStat {
   wickets: number;
   bowlingFigures: BowlingFigure[];
   matches: number;
+  overs: string;
 }
 
 export interface BowlingStats {
