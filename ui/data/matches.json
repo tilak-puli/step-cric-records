@@ -14838,7 +14838,7 @@
                 },
                 {
                     "name": "Azhar",
-                    "outReason": "b Banerjee",
+                    "outReason": "st Swamiji b Banerjee",
                     "runs": 34,
                     "balls": 20,
                     "fours": 2,
@@ -14895,16 +14895,6 @@
                     "sixes": 0,
                     "runRate": 0,
                     "notOut": true
-                },
-                {
-                    "name": ".",
-                    "outReason": "not out",
-                    "runs": 0,
-                    "balls": 0,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": true
                 }
             ],
             "extrasGot": 11,
@@ -14925,7 +14915,7 @@
                     "overs": 2,
                     "maidens": 0,
                     "runs": 4,
-                    "wickets": 1,
+                    "wickets": 0,
                     "economy": 2
                 },
                 {
@@ -15057,19 +15047,19 @@
                     "over": "12.1"
                 },
                 {
-                    "name": "Govindha",
+                    "name": "Govinda",
                     "score": "94/7",
                     "over": "12.3"
-                },
-                {
-                    "name": "Lakshmi",
-                    "score": "101/8",
-                    "over": "13.4"
                 },
                 {
                     "name": "Prafull",
                     "score": "117/9",
                     "over": "15.1"
+                },
+                {
+                    "name": "Lakshmi",
+                    "score": "101/8",
+                    "over": "13.4"
                 }
             ]
         },
@@ -15297,7 +15287,7 @@
                     "notOut": false
                 },
                 {
-                    "name": "Govindha",
+                    "name": "Govinda",
                     "outReason": "c Vivek b Rishabh",
                     "runs": 0,
                     "balls": 3,
@@ -15308,22 +15298,22 @@
                 },
                 {
                     "name": "Prafull",
-                    "outReason": "b Tilak",
-                    "runs": 4,
-                    "balls": 7,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 71.43,
-                    "notOut": false
-                },
-                {
-                    "name": "Lakshmi",
-                    "outReason": "st Tilak b Dileep",
+                    "outReason": "Run out (Tilak)",
                     "runs": 5,
                     "balls": 5,
                     "fours": 0,
                     "sixes": 0,
                     "runRate": 100,
+                    "notOut": false
+                },
+                {
+                    "name": "Lakshmi",
+                    "outReason": "Run out (Azhar)",
+                    "runs": 4,
+                    "balls": 7,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 71.43,
                     "notOut": false
                 },
                 {
