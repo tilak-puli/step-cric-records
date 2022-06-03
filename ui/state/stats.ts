@@ -4,7 +4,6 @@ import { getIndexName } from "../utils";
 
 function findBallBetween(lastWicketOver: string, over) {
   const overs = over.split(".")[0] - +lastWicketOver.split(".")[0];
-
   return overs * 6 + (over.split(".")[1] - +lastWicketOver.split(".")[1]);
 }
 
@@ -100,14 +99,14 @@ export default function getStats(matches: Match[], fromYear: number) {
         match.matchFileNameDate,
         index,
         match.team2.fallOfWickets,
-        match.team1.batting
+        match.team1
       );
 
       const team2Partnerships: Partnership[] = getPartnerships(
         match.matchFileNameDate,
         index,
         match.team1.fallOfWickets,
-        match.team2.batting
+        match.team2
       );
 
       partnerships.push(...team2Partnerships, ...team1Partnerships);
@@ -126,7 +125,7 @@ export const getPartnerships = (
   date,
   matchIndex,
   fallOfWickets,
-  batting
+  team
 ): Partnership[] => {
   let runsAtPreviousWicket = 0;
   const partnerships = [];
@@ -138,8 +137,14 @@ export const getPartnerships = (
   fallOfWickets.forEach((wicket) => {
     const [runsAtWicket] = wicket.score.split("/");
     const partnershipRuns = +runsAtWicket - runsAtPreviousWicket;
-    const batsman1 = getIndexName(batting[batsman1Index]?.name || "self", date);
-    const batsman2 = getIndexName(batting[batsman2Index]?.name || "self", date);
+    const batsman1 = getIndexName(
+      team.batting[batsman1Index]?.name || "self",
+      date
+    );
+    const batsman2 = getIndexName(
+      team.batting[batsman2Index]?.name || "self",
+      date
+    );
 
     partnerships.push({
       runs: partnershipRuns,
@@ -149,15 +154,35 @@ export const getPartnerships = (
       matchIndex,
     });
 
-    if (batting[batsman1Index]?.name === wicket.name) {
+    if (team.batting[batsman1Index]?.name === wicket.name) {
       batsman1Index = nextBatsmanIndex;
-    } else if (batting[batsman2Index]?.name === wicket.name) {
+    } else if (team.batting[batsman2Index]?.name === wicket.name) {
       batsman2Index = nextBatsmanIndex;
     }
 
     nextBatsmanIndex++;
     runsAtPreviousWicket = +runsAtWicket;
     lastWicketOver = wicket.over;
+  });
+
+  const batsman1 = getIndexName(
+    team.batting[batsman1Index]?.name || "self",
+    date
+  );
+  const batsman2 = getIndexName(
+    team.batting[batsman2Index]?.name || "self",
+    date
+  );
+
+  partnerships.push({
+    runs: team.score.runs - runsAtPreviousWicket,
+    batsman1,
+    batsman2,
+    balls: findBallBetween(
+      lastWicketOver,
+      team.score.overs.toFixed(1).toString()
+    ),
+    matchIndex,
   });
 
   return partnerships;

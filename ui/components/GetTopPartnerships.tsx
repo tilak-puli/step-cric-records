@@ -70,13 +70,13 @@ export function getTopPartnerships(match: Match, count: number) {
     match.matchFileNameDate,
     0,
     match.team2.fallOfWickets,
-    match.team1.batting
+    match.team1
   );
   const team2Partnerships = getPartnerships(
     match.matchFileNameDate,
     0,
     match.team1.fallOfWickets,
-    match.team2.batting
+    match.team2
   );
 
   return sortPartnerships(
