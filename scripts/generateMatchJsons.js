@@ -1,9 +1,23 @@
 const fs = require("fs");
 const _ = require("underscore");
 const parseMatchPdf = require("./parseMatchPDF");
-let matchesJson = require("../ui/data/matches.json");
 
-function checkDuplicate() {
+const getMatchesJson = function () {
+  const fileNames = fs
+    .readdirSync("./ui/data")
+    .filter((n) => n.match(/matches\d+\.json/));
+
+  let matches = [];
+
+  for (let fileName of fileNames) {
+    const data = fs.readFileSync("./ui/data/" + fileName, "utf-8");
+    matches = matches.concat(JSON.parse(data));
+  }
+
+  return matches;
+};
+
+function checkDuplicate(matchesJson) {
   for (let i in matchesJson) {
     for (let j in matchesJson) {
       if (i === j) {
@@ -26,42 +40,93 @@ function checkDuplicate() {
   }
 }
 
-const generateMatchDataJson = async () => {
-  console.log("Started parsing pdfs");
-  const pdfFileNames = fs.readdirSync("./matches/pdf");
-  const jsonFileNames = matchesJson.map((m) => m.matchFileNameIdentifier);
-  const jsonFilesRequired = _.difference(pdfFileNames, jsonFileNames);
+async function createDataIndexFile(fileNameIndex) {
+  const imports = _.times(
+    fileNameIndex + 1,
+    (n) => `import matches${n}  from "./matches${n}.json";`
+  ).join("\n");
 
-  for (const fileName of jsonFilesRequired) {
-    matchesJson.push({
-      ...(await parseMatchPdf("./matches/pdf/" + fileName)),
-      matchFileNameDate: fileName
-        .split(".")[0]
-        .replace(/-/g, "/")
-        .split("(")[0]
-        .trim(),
-      matchFileNameIdentifier: fileName,
-    });
+  const exports =
+    "[" + _.times(fileNameIndex + 1, (n) => "...matches" + n).join(", ") + "]";
+
+  await fs.writeFileSync(
+    "./ui/data/allMatches.ts",
+    imports + "\n" + "export default " + exports,
+    {
+      encoding: "utf8",
+    }
+  );
+}
+
+async function saveJson(fileName, data) {
+  await fs.writeFileSync(fileName, JSON.stringify(data, null, 4), {
+    encoding: "utf8",
+  });
+}
+
+async function saveMatch(matchesJson, requiredFileNames) {
+  const fileNameIndex = Math.floor(matchesJson.length / 25);
+  const chunks = _.chunk(matchesJson, 25);
+  const lastChunk = chunks.at(-1);
+  const saveAll = !lastChunk
+    .map((m) => m.matchFileNameIdentifier)
+    .every((f) => requiredFileNames.includes(f));
+
+  console.log("writing to matches json");
+
+  if (saveAll) {
+    for (let chunkIndex in chunks) {
+      await saveJson(
+        "./ui/data/matches" + chunkIndex + ".json",
+        chunks[chunkIndex]
+      );
+    }
+  } else {
+    await saveJson("./ui/data/matches" + fileNameIndex + ".json", lastChunk);
   }
 
-  checkDuplicate();
+  await createDataIndexFile(fileNameIndex);
+}
+
+function convertFileNameToDate(fileName) {
+  return fileName.split(".")[0].replace(/-/g, "/").split("(")[0].trim();
+}
+
+async function getParsedMatch(fileName) {
+  return {
+    ...(await parseMatchPdf("./matches/pdf/" + fileName)),
+    matchFileNameDate: convertFileNameToDate(fileName),
+    matchFileNameIdentifier: fileName,
+  };
+}
+
+function getNewMatches(matchesJson, pdfFileNames) {
+  const jsonFileNames = matchesJson.map((m) => m.matchFileNameIdentifier);
+  return _.difference(pdfFileNames, jsonFileNames);
+}
+
+const main = async () => {
+  console.log("Started parsing pdfs");
+  const pdfFileNames = fs.readdirSync("./matches/pdf");
+  let matchesJson = getMatchesJson();
+  const newMatchFileNames = getNewMatches(matchesJson, pdfFileNames);
+
+  for (const fileName of newMatchFileNames) {
+    matchesJson.push(await getParsedMatch(fileName));
+  }
+
+  checkDuplicate(matchesJson);
 
   matchesJson = matchesJson.sort(
     (match1, match2) =>
       new Date(match1.matchFileNameDate) - new Date(match2.matchFileNameDate)
   );
 
-  if (jsonFilesRequired.length > 0) {
-    await fs.writeFileSync(
-      "./ui/data/matches.json",
-      JSON.stringify(matchesJson, null, 4),
-      {
-        encoding: "utf8",
-      }
-    );
+  if (newMatchFileNames.length > 0) {
+    await saveMatch(matchesJson, newMatchFileNames);
   }
 
   console.log("Done parsing pdfs");
 };
 
-generateMatchDataJson();
+main();

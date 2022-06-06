@@ -42,6 +42,7 @@ export default function getStats(matches: Match[], fromYear: number) {
     if (!batting[indexName]) {
       batting[indexName] = {
         runs: 0,
+        balls: 0,
         battingFigures: [],
         matches: 0,
         notOuts: 0,
@@ -51,6 +52,7 @@ export default function getStats(matches: Match[], fromYear: number) {
     batting[indexName].runs += runs;
     batting[indexName].matches += 1;
     batting[indexName].notOuts += notOut ? 1 : 0;
+    batting[indexName].balls += balls;
 
     batting[indexName].battingFigures.push({ runs, balls, matchIndex });
   };

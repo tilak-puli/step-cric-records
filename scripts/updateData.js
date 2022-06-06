@@ -1,4 +1,4 @@
-let matchesJson = require("../ui/data/matches.json");
+let matchesJson = require("../ui/data/matches0.json");
 const fs = require("fs");
 
 const main = async () => {
@@ -22,7 +22,7 @@ const main = async () => {
   });
 
   await fs.writeFileSync(
-    "./ui/data/matches.json",
+    "./ui/data/matches0.json",
     JSON.stringify(updated, null, 4),
     {
       encoding: "utf8",

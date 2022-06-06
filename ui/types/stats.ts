@@ -1,5 +1,6 @@
 export interface BattingStat {
   runs: number;
+  balls: number;
   battingFigures: BattingFigure[];
   matches: number;
   notOuts: number;

@@ -13,8 +13,9 @@ const columns = [
     sortDescFirst: true,
   },
   { accessor: "matches", Header: "M", width: 10, disableSortBy: true },
-  { accessor: "runs", Header: "Runs", width: 20, sortType: "number", px: [5] },
-  { accessor: "avg", Header: "Avg", width: 20, sortType: "number", px: [5] },
+  { accessor: "runs", Header: "Runs", width: 10, sortType: "number", px: [3] },
+  { accessor: "sr", Header: "SR", width: 10, sortType: "number", px: [3] },
+  { accessor: "avg", Header: "Avg", width: 10, sortType: "number", px: [3] },
 ];
 
 function getAvg(runs, matches, notOuts) {
@@ -32,13 +33,15 @@ export function MostRunsTable(props: { battingStats: BattingStats }) {
     const sortedStats = _.map(props.battingStats, (b, name) => [
       capitalize(name),
       b.runs,
+      b.balls,
       b.matches,
       b.notOuts,
     ]).sort((s, s1) => s1[1] - s[1]);
 
     return sortedStats
-      .map(([name, runs, matches, notOuts]) => ({
+      .map(([name, runs, balls, matches, notOuts]) => ({
         name,
+        sr: ((runs / balls) * 100).toFixed(0),
         runs,
         matches,
         avg: getAvg(runs, matches, notOuts),

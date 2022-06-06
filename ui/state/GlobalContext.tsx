@@ -1,9 +1,9 @@
 import React, { createContext, useState } from "react";
 import { Match } from "../types/match";
-import matchesJson from "../data/matches.json";
 import extraDataJson from "../data/extraData.json";
 import getStats from "./stats";
 import { BattingStats, BowlingStats, Partnership } from "../types/stats";
+import matchesJson from "../data/allMatches";
 
 interface GlobalContextType {
   matches: Match[];
