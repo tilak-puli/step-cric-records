@@ -47,7 +47,14 @@ export const GlobalContext = createContext<GlobalContextType>({
 export default function GlobalContextProvider({ children }) {
   const [fromYear, setFromYear] = useState(START_YEAR);
   const matches: Match[] = matchesJson.map((m) => {
-    const date = m.matchFileNameDate?.replace(/\//g, "-");
+    let date = m.matchFileNameDate?.replace(/\//g, "-");
+    const matchNo = m.matchFileNameIdentifier?.match(/.*\((.*)\).*/);
+
+    if (matchNo) {
+      date = `${date}(${matchNo[1]})`;
+      console.log(date);
+    }
+
     if (extraDataJson[date]) {
       return { ...m, extraData: extraDataJson[date] };
     }
