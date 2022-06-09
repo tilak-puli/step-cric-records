@@ -4252,7 +4252,7 @@
             "batting": [
                 {
                     "name": "Vivek",
-                    "outReason": "lbw b Banerjee",
+                    "outReason": "Hit Six b Banerjee",
                     "runs": 26,
                     "balls": 10,
                     "fours": 0,
@@ -4319,16 +4319,6 @@
                     "sixes": 0,
                     "runRate": 0,
                     "notOut": false
-                },
-                {
-                    "name": ".",
-                    "outReason": "not out",
-                    "runs": 0,
-                    "balls": 0,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": true
                 }
             ],
             "extrasGot": 3,
@@ -4604,7 +4594,7 @@
                 },
                 {
                     "name": "Pritam",
-                    "outReason": "lbw b Vivek",
+                    "outReason": "Hit Six b Vivek",
                     "runs": 10,
                     "balls": 15,
                     "fours": 0,
@@ -4614,7 +4604,7 @@
                 },
                 {
                     "name": "Tilak",
-                    "outReason": "lbw b Tanmay",
+                    "outReason": "Hit Six b Tanmay",
                     "runs": 6,
                     "balls": 6,
                     "fours": 0,
@@ -4664,9 +4654,9 @@
                 },
                 {
                     "name": "Govinda",
-                    "outReason": "not out",
-                    "runs": 1,
-                    "balls": 9,
+                    "outReason": "Run out(Swamiji)",
+                    "runs": 3,
+                    "balls": 13,
                     "fours": 0,
                     "sixes": 0,
                     "runRate": 11.11,
@@ -4677,36 +4667,6 @@
                     "outReason": "c Banerjee b Barnali",
                     "runs": 0,
                     "balls": 2,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": false
-                },
-                {
-                    "name": ".",
-                    "outReason": "Run out (Swamiji)",
-                    "runs": 2,
-                    "balls": 4,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 50,
-                    "notOut": false
-                },
-                {
-                    "name": "..",
-                    "outReason": "b Vivek",
-                    "runs": 0,
-                    "balls": 1,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": false
-                },
-                {
-                    "name": ".",
-                    "outReason": "b Vivek",
-                    "runs": 0,
-                    "balls": 1,
                     "fours": 0,
                     "sixes": 0,
                     "runRate": 0,
@@ -4868,11 +4828,11 @@
                 },
                 {
                     "name": "Vivek",
-                    "overs": 1.3,
+                    "overs": 1.1,
                     "maidens": 0,
                     "runs": 3,
-                    "wickets": 3,
-                    "economy": 2
+                    "wickets": 1,
+                    "economy": 3
                 },
                 {
                     "name": "Banerjee",
@@ -4944,21 +4904,6 @@
                     "name": "Chhavi",
                     "score": "50/9",
                     "over": "10.3"
-                },
-                {
-                    "name": ".",
-                    "score": "52/10",
-                    "over": "12.1"
-                },
-                {
-                    "name": "..",
-                    "score": "52/11",
-                    "over": "12.2"
-                },
-                {
-                    "name": ".",
-                    "score": "52/12",
-                    "over": "12.3"
                 }
             ],
             "name": "Vivek",
