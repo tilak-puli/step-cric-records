@@ -6733,6 +6733,11 @@
                     "name": "Tanmay",
                     "score": "96/5",
                     "over": "15.1"
+                },
+                {
+                    "name": "Barnali",
+                    "score": "102/5",
+                    "over": "15.6"
                 }
             ]
         },
@@ -6926,7 +6931,7 @@
                 },
                 {
                     "name": "Vivek",
-                    "outReason": "b Tilak",
+                    "outReason": "Hit Back Wall b Tilak",
                     "runs": 19,
                     "balls": 20,
                     "fours": 0,
