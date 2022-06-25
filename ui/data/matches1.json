@@ -6495,10 +6495,10 @@
         "matchFileNameIdentifier": "23-Jun-2022.pdf"
     },
     {
-        "team1Name": "Banarjee",
+        "team1Name": "Banerjee",
         "team2Name": "Vivek",
         "team1": {
-            "name": "Banarjee",
+            "name": "Banerjee",
             "score": {
                 "runs": 128,
                 "wickets": 8,
@@ -6577,7 +6577,7 @@
                 },
                 {
                     "name": "Rishabh",
-                    "outReason": "lbw b Keerthy",
+                    "outReason": "Hit six b Keerthy",
                     "runs": 2,
                     "balls": 2,
                     "fours": 0,
@@ -6896,7 +6896,7 @@
             "batting": [
                 {
                     "name": "Swamiji",
-                    "outReason": "lbw b Sanjana",
+                    "outReason": "Hit six b Sanjana",
                     "runs": 1,
                     "balls": 3,
                     "fours": 0,
@@ -6946,7 +6946,7 @@
                 },
                 {
                     "name": "Tanmay",
-                    "outReason": "lbw b Prem",
+                    "outReason": "Hit six b Prem",
                     "runs": 30,
                     "balls": 31,
                     "fours": 0,
@@ -6956,9 +6956,19 @@
                 },
                 {
                     "name": "Barnali",
+                    "outReason": "retired hurt",
+                    "runs": 0,
+                    "balls": 5,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Debu",
                     "outReason": "not out",
                     "runs": 11,
-                    "balls": 13,
+                    "balls": 8,
                     "fours": 2,
                     "sixes": 0,
                     "runRate": 84.62,
@@ -6968,8 +6978,8 @@
             "extrasGot": 26,
             "battingRunRate": 6.61
         },
-        "result": "Banarjee won by 9 runs.",
-        "winner": "Banarjee",
+        "result": "Banerjee won by 9 runs.",
+        "winner": "Banerjee",
         "matchUploadedDate": "2022-06-24T17:13:42.245Z",
         "matchFileNameDate": "24/Jun/2022",
         "matchFileNameIdentifier": "24-Jun-2022.pdf"

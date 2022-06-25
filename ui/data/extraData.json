@@ -32,8 +32,8 @@
   "30-May-2022": {
     "specialMvp": {
       "name": "Vivek",
-      "reason" : "34(28) & 3/7(2)"
-   },
+      "reason": "34(28) & 3/7(2)"
+    },
     "specialMentions": [
       "Lakshmi's wickets of Banerjee and Tanmay in first over",
       "Dileep's most expensive over",
@@ -43,20 +43,20 @@
   "01-Jun-2022": {
     "specialMvp": {
       "name": "Sai",
-      "reason" : "For taking Vivek & Azhar wickets in same over."
-   },
+      "reason": "For taking Vivek & Azhar wickets in same over."
+    },
     "specialMentions": [
       "Banerjee's 42 of 26 and 6 runs of 2 overs",
       "Ankamma's No Ball to Swamiji(WK) and comeback yorker next ball",
       "Pritam's yorker to Banerjee and 14 of 8",
       "Rishabh's friendly fire of 3 wickets [Last man standing]"
     ]
- },
+  },
   "02-Jun-2022": {
     "specialMvp": {
       "name": "Sanjana",
-      "reason" : "For taking Swamiji & Swapnil wickets in same over."
-   },
+      "reason": "For taking Swamiji & Swapnil wickets in same over."
+    },
     "specialMentions": [
       "Vivek's all round performance: cameo of 31 of 10, 2/11 and 2 catches",
       "Pritam's hatrick",
@@ -64,11 +64,11 @@
       "Azhar's batting 34 of 20 and his most expensive over",
       "Rishabh's and Ankamma's good overs"
     ]
- },
+  },
   "08-Jun-2022": {
     "specialMvp": {
       "name": "Barnali",
-      "reason" : "For taking 3 crucial wickets."
+      "reason": "For taking 3 crucial wickets."
     },
     "specialMentions": [
       "Banerjee's spider man catch of Abin",
@@ -79,7 +79,7 @@
   "08-Jun-2022(1)": {
     "specialMvp": {
       "name": "Barnali",
-      "reason" : "For taking 3 crucial wickets again."
+      "reason": "For taking 3 crucial wickets again."
     },
     "specialMentions": [
       "Vivek's hat-trick sixes to Abin",
@@ -92,13 +92,13 @@
   "15-Jun-2022(1)": {
     "specialMvp": {
       "name": "Swamiji",
-      "reason" : "1/8(2)"
+      "reason": "1/8(2)"
     }
   },
   "23-Jun-2022": {
     "specialMvp": {
       "name": "Prem",
-      "reason" : "For wickets of Swamiji and Azhar in same over"
+      "reason": "For wickets of Swamiji and Azhar in same over"
     },
     "specialMentions": [
       "Govinda's catch of Vivek.",
@@ -106,6 +106,15 @@
       "Swapnil's bowling and important runs.",
       "Abin's struggling comeback of 24 runs.",
       "Banerjee and Roshan finishing in style of Swamiji's over."
+    ]
+  },
+  "24-Jun-2022": {
+    "specialMvp": {
+      "name": "Swapnil",
+      "reason": "For taking 2 wickets and for 2 catches"
+    },
+    "specialMentions": [
+      "Prem's 5 dots and 5 wides."
     ]
   }
 }
