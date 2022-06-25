@@ -6091,7 +6091,7 @@
                 },
                 {
                     "name": "Prafull",
-                    "outReason": "Run out (Keerti)",
+                    "outReason": "Run out (Keerthy)",
                     "runs": 5,
                     "balls": 8,
                     "fours": 0,
@@ -6101,7 +6101,7 @@
                 },
                 {
                     "name": "Tanmay",
-                    "outReason": "lbw b Tilak",
+                    "outReason": "Hit Six b Tilak",
                     "runs": 6,
                     "balls": 6,
                     "fours": 0,
@@ -6111,7 +6111,7 @@
                 },
                 {
                     "name": "Ankamma",
-                    "outReason": "lbw b Roshan",
+                    "outReason": "Hit Six b Roshan",
                     "runs": 2,
                     "balls": 3,
                     "fours": 0,
@@ -6285,7 +6285,7 @@
                     "economy": 8
                 },
                 {
-                    "name": "Keerti",
+                    "name": "Keerthy",
                     "overs": 2,
                     "maidens": 0,
                     "runs": 8,
