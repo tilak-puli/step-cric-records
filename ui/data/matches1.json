@@ -7588,7 +7588,7 @@
             "batting": [
                 {
                     "name": "Sai",
-                    "outReason": "Hit six b Sakshi",
+                    "outReason": "lbw b Sakshi",
                     "runs": 2,
                     "balls": 5,
                     "fours": 0,
@@ -7608,7 +7608,7 @@
                 },
                 {
                     "name": "Tilak",
-                    "outReason": "Hit six b Teja",
+                    "outReason": "lbw b Teja",
                     "runs": 24,
                     "balls": 23,
                     "fours": 1,
@@ -7941,7 +7941,7 @@
                 },
                 {
                     "name": "Rishabh",
-                    "outReason": "Hit six b Sai",
+                    "outReason": "b Sai",
                     "runs": 14,
                     "balls": 13,
                     "fours": 1,
@@ -8005,8 +8005,8 @@
         },
         "result": "Swamiji won by 5 wickets.",
         "winner": "Swamiji",
-        "matchUploadedDate": "2022-06-28T13:05:39.264Z",
-        "matchFileNameDate": "28/Jun/2022",
-        "matchFileNameIdentifier": "28-Jun-2022.pdf"
+        "matchUploadedDate": "2022-06-29T05:04:23.755Z",
+        "matchFileNameDate": "27/Jun/2022",
+        "matchFileNameIdentifier": "27-Jun-2022.pdf"
     }
 ]
