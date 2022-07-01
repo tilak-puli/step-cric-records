@@ -149,7 +149,8 @@
       "reason": "For partnership with Banerjee"
     },
     "specialMentions": [
-      "Tilak's team nice bowling."
+      "Tilak's team nice bowling.",
+      "Ankamma getting 5 lives"
     ]
   },
   "28-Jun-2022(1)": {
@@ -160,6 +161,30 @@
     "specialMentions": [
       "Swapnil's contribution to increase target by 22",
       "Banerjee taking azhar and tilak wickets"
+    ]
+  },
+  "01-Jul-2022": {
+    "specialMvp": {
+      "name": "Tilak",
+      "reason": "For partnership with debu"
+    },
+    "specialMentions": [
+      "1st match of tournament",
+      "Tanmay's diamond duckout",
+      "Sneha for taking vivek's wicket",
+      "Sai's team early all out",
+      "Raghu and sai sixes"
+    ]
+  },
+  "01-Jul-2022(1)": {
+    "specialMvp": {
+      "name": "Rahit",
+      "reason": "For trying hard until last over"
+    },
+    "specialMentions": [
+      "2nd match of tournament",
+      "Player's getting duckouts",
+      "Abin continuing his duckout streak"
     ]
   }
 }
