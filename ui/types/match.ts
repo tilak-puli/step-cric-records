@@ -34,6 +34,7 @@ export interface PlayersMvpDetails {
 export interface ExtraData {
   specialMvp: SpecialMvpDetails;
   specialMentions?: String[];
+  tags?: String[];
 }
 
 export interface FallOfWicket {
