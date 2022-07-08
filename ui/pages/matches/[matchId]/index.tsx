@@ -92,7 +92,7 @@ function SpecialMentionsCard(props: { specialMentions: String[] }) {
   );
 }
 
-const Matches = () => {
+const Match = () => {
   const router = useRouter();
   const { matchId } = router.query;
   const { matches } = useContext(GlobalContext);
@@ -154,4 +154,4 @@ const Matches = () => {
   );
 };
 
-export default Matches;
+export default Match;
