@@ -175,7 +175,10 @@
       "Sai's team early all out",
       "Raghu and sai sixes"
     ],
-    "tags": ["STEP-Away 2022", "Tournament"]
+    "tags": [
+      "STEP-Away 2022",
+      "Tournament"
+    ]
   },
   "01-Jul-2022(1)": {
     "specialMvp": {
@@ -188,7 +191,10 @@
       "Abin and Teja continuing his duckout streak",
       "Barnali taking azhar and swapnil wickets"
     ],
-    "tags": ["STEP-Away 2022", "Tournament"]
+    "tags": [
+      "STEP-Away 2022",
+      "Tournament"
+    ]
   },
   "02-Jul-2022": {
     "specialMvp": {
@@ -202,7 +208,10 @@
       "Rishab's fours and his team bowling with 0 extras",
       "Tanmay's first over"
     ],
-    "tags": ["STEP-Away 2022", "Tournament"]
+    "tags": [
+      "STEP-Away 2022",
+      "Tournament"
+    ]
   },
   "02-Jul-2022(1)": {
     "specialMvp": {
@@ -216,7 +225,10 @@
       "Azhar is hitting at end.",
       "Sai's team finishing in 4 overs."
     ],
-    "tags": ["STEP-Away 2022", "Tournament"]
+    "tags": [
+      "STEP-Away 2022",
+      "Tournament"
+    ]
   },
   "02-Jul-2022(2)": {
     "specialMvp": {
@@ -231,7 +243,10 @@
       "Sai's team collapse after big win last match",
       "Rishab's team supporting Sai's team so that they get chance to win tournament"
     ],
-    "tags": ["STEP-Away 2022", "Tournament"]
+    "tags": [
+      "STEP-Away 2022",
+      "Tournament"
+    ]
   },
   "02-Jul-2022(3)": {
     "specialMvp": {
@@ -246,6 +261,20 @@
       "Rishabh's team fielding and bowling",
       "Match ending due to time out(10pm) and Rishabh team won by DRS"
     ],
-    "tags": ["STEP-Away 2022", "Tournament"]
+    "tags": [
+      "STEP-Away 2022",
+      "Tournament"
+    ]
+  },
+  "12-Jul-2022": {
+    "specialMvp": {
+      "name": "Swamiji",
+      "reason": "For taking important wicket and batting till end"
+    },
+    "specialMentions": [
+      "Swapnil's bowling and important runs.",
+      "Tanmay for bowling and fielding well",
+      "Teja for not getting out"
+    ]
   }
 }

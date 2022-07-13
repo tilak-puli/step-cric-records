@@ -12,6 +12,6 @@
   "dependencies": {
     "node": "^17.7.2",
     "pdfreader": "^1.4.0",
-    "underscore": "^1.13.2"
+    "underscore": "^1.13.4"
   }
 }
