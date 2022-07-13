@@ -4,7 +4,7 @@ import { CustomBox } from "./HigherOrder/CustomBox";
 import { Flex, Text } from "@chakra-ui/react";
 import { formatDate } from "../utils";
 
-function ScoreRow(props: { name: String; score: Score }) {
+export function ScoreRow(props: { name: String; score: Score }) {
   return (
     <Flex align={"center"} justify={"space-between"}>
       <Text fontWeight={"bold"}>{props.name}</Text>
