@@ -29,12 +29,15 @@ const Matches = () => {
   const images = tags.flatMap((t) => tagToImages[t] || []);
   let pointsTable = {};
   let performers = { topBatsman: [], topBowlers: [], topPartnerships: [] };
+  const isTournament = extraTagsData.tournamentTags.includes(tags[0]);
 
-  if (tags.length === 1 && extraTagsData.tournamentTags.includes(tags[0])) {
-    pointsTable = getPointsTable(
-      filteredMatches,
-      extraTagsData.tournaments[tags[0]]
-    );
+  if (tags.length === 1) {
+    if (isTournament) {
+      pointsTable = getPointsTable(
+        filteredMatches,
+        extraTagsData.tournaments[tags[0]]
+      );
+    }
     performers = getTopPerformers(filteredMatches);
   }
 
@@ -47,7 +50,7 @@ const Matches = () => {
         <MatchesList matches={filteredMatches} />
       </Wrap>
 
-      {pointsTable && (
+      {isTournament && (
         <Box>
           <Heading my={"2em"} size={"md"}>
             Points Table
@@ -58,7 +61,7 @@ const Matches = () => {
         </Box>
       )}
 
-      {pointsTable && (
+      {tags.length >= 1 && (
         <Box>
           <Heading my={"2em"} size={"md"}>
             Top Performers
@@ -67,7 +70,7 @@ const Matches = () => {
         </Box>
       )}
 
-      {pointsTable && (
+      {isTournament && (
         <Box>
           <Heading my={"2em"} size={"md"}>
             Teams
