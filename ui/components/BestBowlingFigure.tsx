@@ -51,7 +51,7 @@ export function BestBowlingFigureTable(props: { bowlingStats: BowlingStats }) {
       .map(([name, wickets, wicketsWithRuns, overs, matchIndex]) => ({
         name,
         figure: (
-          <Link href={"/matches/" + (matchIndex + 1)} passHref>
+          <Link href={"/matches/" + matchIndex} passHref>
             <ChakraLink className={"underline"}>
               <>{wickets + "/" + wicketsWithRuns}</>
             </ChakraLink>

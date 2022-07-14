@@ -51,7 +51,7 @@ export function HighestScoreTable(props: { battingStats: BattingStats }) {
       .map(({ highestScore, matchIndex, ...rest }) => ({
         ...rest,
         highestScore: (
-          <Link href={"/matches/" + (matchIndex + 1)} passHref>
+          <Link href={"/matches/" + matchIndex} passHref>
             <ChakraLink className={"underline"}>
               <>{highestScore}</>
             </ChakraLink>

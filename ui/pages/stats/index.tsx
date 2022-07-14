@@ -21,7 +21,7 @@ function BestPartnerships(props: { partnerships: Partnership[] }) {
     batsman1: capitalize(p.batsman1),
     batsman2: capitalize(p.batsman2),
     scoreLink: (
-      <Link href={"/matches/" + (p.matchIndex + 1)} passHref>
+      <Link href={"/matches/" + p.matchIndex} passHref>
         <ChakraLink className={"underline"}>
           <>{p.runs + "(" + p.balls + ")"}</>
         </ChakraLink>

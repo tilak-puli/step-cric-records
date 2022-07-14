@@ -68,13 +68,13 @@ export function sortPartnerships(partnerships: Partnership[], count: number) {
 export function getTopPartnerships(match: Match, count: number) {
   const team1Partnerships = getPartnerships(
     match.matchFileNameDate,
-    0,
+    match.matchIndex,
     match.team2.fallOfWickets,
     match.team1
   );
   const team2Partnerships = getPartnerships(
     match.matchFileNameDate,
-    0,
+    match.matchIndex,
     match.team1.fallOfWickets,
     match.team2
   );

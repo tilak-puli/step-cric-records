@@ -95,7 +95,7 @@ export default function getStats(
 
   getFilteredMatches(matches, fromYear, tags)
     .map((match, index) => ({ match, index }))
-    .forEach(({ match, index }) => {
+    .forEach(({ match }) => {
       if (highestMatchScore < match.team1.score.runs) {
         highestMatchScore = match.team1.score.runs;
       }
@@ -104,28 +104,28 @@ export default function getStats(
       }
 
       match.team1.batting.forEach(
-        addBattingRecords.bind(null, match.matchFileNameDate, index)
+        addBattingRecords.bind(null, match.matchFileNameDate, match.matchIndex)
       );
       match.team2.batting.forEach(
-        addBattingRecords.bind(null, match.matchFileNameDate, index)
+        addBattingRecords.bind(null, match.matchFileNameDate, match.matchIndex)
       );
       match.team1.bowling.forEach(
-        addBowlingRecords.bind(null, match.matchFileNameDate, index)
+        addBowlingRecords.bind(null, match.matchFileNameDate, match.matchIndex)
       );
       match.team2.bowling.forEach(
-        addBowlingRecords.bind(null, match.matchFileNameDate, index)
+        addBowlingRecords.bind(null, match.matchFileNameDate, match.matchIndex)
       );
 
       const team1Partnerships: Partnership[] = getPartnerships(
         match.matchFileNameDate,
-        index,
+        match.matchIndex,
         match.team2.fallOfWickets,
         match.team1
       );
 
       const team2Partnerships: Partnership[] = getPartnerships(
         match.matchFileNameDate,
-        index,
+        match.matchIndex,
         match.team1.fallOfWickets,
         match.team2
       );
