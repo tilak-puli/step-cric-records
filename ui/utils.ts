@@ -1,5 +1,5 @@
 import swapNames from "./data/swapNames.json";
-import { Match, MvpDetails, PlayersMvpDetails, Score } from "./types/match";
+import { Match, MvpDetails, PlayersMvpDetails, TeamData } from "./types/match";
 import { numberOfBalls } from "./state/stats";
 
 const swapNamesKeys = Object.keys(swapNames);
@@ -171,36 +171,48 @@ export function getIndexName(name, date) {
 function addMatchPointsDetails(
   teams: {},
   name: string,
-  score1: Score,
-  score2: Score,
-  winner: string
+  team1: TeamData,
+  team2: TeamData,
+  winner: string,
+  tournament: any
 ) {
   teams[name] = {
     matchesPlayed: (teams[name]?.matchesPlayed ?? 0) + 1,
     matchesWon: (teams[name]?.matchesWon ?? 0) + (name === winner ? 1 : 0),
-    runsScored: (teams[name]?.runsScored ?? 0) + score1.runs,
-    ballsBowled: (teams[name]?.ballsBowled ?? 0) + numberOfBalls(score1.overs),
-    ballsPlayed: (teams[name]?.ballsPlayed ?? 0) + numberOfBalls(score2.overs),
-    runsGiven: (teams[name]?.runsGiven ?? 0) + score2.runs,
+    runsScored: (teams[name]?.runsScored ?? 0) + team1.score.runs,
+    ballsBowled:
+      (teams[name]?.ballsBowled ?? 0) +
+      (team2.allOut
+        ? numberOfBalls(tournament.overs)
+        : numberOfBalls(team2.score.overs)),
+
+    ballsPlayed:
+      (teams[name]?.ballsPlayed ?? 0) +
+      (team1.allOut
+        ? numberOfBalls(tournament.overs)
+        : numberOfBalls(team1.score.overs)),
+    runsGiven: (teams[name]?.runsGiven ?? 0) + team2.score.runs,
   };
 }
 
-export function getPointsTable(matches: Match[]) {
+export function getPointsTable(matches: Match[], tournament: any) {
   const teams = {};
   matches.map((m) => {
     addMatchPointsDetails(
       teams,
       m.team1Name,
-      m.team1.score,
-      m.team2.score,
-      m.winner
+      m.team1,
+      m.team2,
+      m.winner,
+      tournament
     );
     addMatchPointsDetails(
       teams,
       m.team2Name,
-      m.team2.score,
-      m.team1.score,
-      m.winner
+      m.team2,
+      m.team1,
+      m.winner,
+      tournament
     );
   });
 

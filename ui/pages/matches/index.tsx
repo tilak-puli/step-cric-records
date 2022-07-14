@@ -10,11 +10,11 @@ import extraTagsData from "../../data/extraTagsData.json";
 import { SimpleTable } from "../../components/SimpleTable";
 import { CustomBox } from "../../components/HigherOrder/CustomBox";
 
-function getNrr(team: any) {
+function getNRR(team: any) {
   return (
-    6 * (team.runsScored / team.ballsPlayed) -
-    team.runsGiven / team.ballsBowled
-  ).toPrecision(2);
+    6 *
+    (team.runsScored / team.ballsPlayed - team.runsGiven / team.ballsBowled)
+  ).toPrecision(3);
 }
 
 function PointsTable(props: { table: {} }) {
@@ -38,13 +38,27 @@ function PointsTable(props: { table: {} }) {
       ballsPlayed: props.table[teamName].ballsPlayed,
       runsGiven: props.table[teamName].runsGiven,
       ballsBowled: props.table[teamName].ballsBowled,
-      nrr: getNrr(props.table[teamName]),
+      nrr: getNRR(props.table[teamName]),
     }))
     .sort((t1, t2) => {
       return t2.matchesWon - t1.matchesWon;
     });
 
-  return <SimpleTable columns={columns} rows={rows} />;
+  return <SimpleTable columns={columns} rows={rows} rowP={3} />;
+}
+
+function TeamTable(props: { team: any }) {
+  const columns = [
+    { field: "player", headerName: props.team.captain, width: 40 },
+  ];
+
+  const rows = props.team.players.map((player) => ({
+    player,
+  }));
+
+  return (
+    <SimpleTable columns={columns} rows={rows} rowP={3} headerFontSize={"sm"} />
+  );
 }
 
 const Matches = () => {
@@ -61,7 +75,10 @@ const Matches = () => {
   let pointsTable = {};
 
   if (tags.length === 1 && extraTagsData.tournamentTags.includes(tags[0])) {
-    pointsTable = getPointsTable(filteredMatches);
+    pointsTable = getPointsTable(
+      filteredMatches,
+      extraTagsData.tournaments[tags[0]]
+    );
   }
 
   return (
@@ -78,14 +95,30 @@ const Matches = () => {
           ))
           .reverse()}
       </Wrap>
+
       {pointsTable && (
         <Box>
           <Heading my={"2em"} size={"md"}>
-            PointsTable
+            Points Table
           </Heading>
           <CustomBox maxW={"100%"} width={["100%", 1000]}>
             <PointsTable table={pointsTable} />
           </CustomBox>
+        </Box>
+      )}
+
+      {pointsTable && (
+        <Box>
+          <Heading my={"2em"} size={"md"}>
+            Teams
+          </Heading>
+          <Wrap spacing={[5, 10]}>
+            {extraTagsData.tournaments[tags[0]]?.teams?.map((team) => (
+              <CustomBox maxW={"100%"} width={["100%", 200]}>
+                <TeamTable team={team} />
+              </CustomBox>
+            ))}
+          </Wrap>
         </Box>
       )}
 

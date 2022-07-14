@@ -204,7 +204,7 @@
             "score": {
                 "runs": 37,
                 "wickets": 1,
-                "overs": 4.4
+                "overs": 4.3
             },
             "batting": [
                 {
@@ -927,16 +927,6 @@
                     "outReason": "not out",
                     "runs": 0,
                     "balls": 3,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": true
-                },
-                {
-                    "name": ".",
-                    "outReason": "not out",
-                    "runs": 0,
-                    "balls": 0,
                     "fours": 0,
                     "sixes": 0,
                     "runRate": 0,

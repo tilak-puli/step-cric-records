@@ -9034,7 +9034,8 @@
                 }
             ],
             "extrasGot": 3,
-            "battingRunRate": 6.24
+            "battingRunRate": 6.24,
+            "allOut": true
         },
         "result": "Rishabh won by 34 runs.",
         "winner": "Rishabh",
@@ -9189,7 +9190,8 @@
                     "score": "33/4",
                     "over": "5.5"
                 }
-            ]
+            ],
+            "allOut": true
         },
         "team2": {
             "extrasBowled": 4,

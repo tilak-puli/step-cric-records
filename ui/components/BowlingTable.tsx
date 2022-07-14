@@ -38,5 +38,5 @@ export function BowlingTable(props: { team: TeamData; date: string }) {
     }));
   }, [props.team.bowling, props.date]);
 
-  return <SimpleTable columns={columns} rows={rows} />;
+  return <SimpleTable columns={columns} rows={rows} textAlign={"left"} />;
 }

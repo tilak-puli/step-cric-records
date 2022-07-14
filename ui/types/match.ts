@@ -54,6 +54,7 @@ export interface TeamData {
   battingRunRate: number;
   extrasBowled: number;
   extrasBowledText: string;
+  allOut?: boolean;
 }
 
 export interface Score {
