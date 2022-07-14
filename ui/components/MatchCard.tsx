@@ -35,7 +35,6 @@ function Tag(props: { t: String }) {
 
 export function MatchCard(props: {
   match: Match;
-  id: number;
   p?: string;
   boxShadow?: string;
   disableLink?: boolean;
@@ -43,7 +42,7 @@ export function MatchCard(props: {
   const tags = props.match.extraData?.tags || [];
 
   return (
-    <Link href={"/matches/" + props.id} passHref>
+    <Link href={"/matches/" + props.match.matchIndex} passHref>
       <CustomBox
         p={props.p || "0.5em"}
         width="100%"

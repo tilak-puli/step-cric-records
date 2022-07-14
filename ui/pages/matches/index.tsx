@@ -27,7 +27,7 @@ const Matches = () => {
         {filteredMatches
           .map((m, i) => (
             <Box w={["100%", 400]} key={i}>
-              <MatchCard id={i} match={m} />
+              <MatchCard match={m} />
             </Box>
           ))
           .reverse()}

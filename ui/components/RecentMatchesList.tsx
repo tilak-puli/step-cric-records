@@ -14,7 +14,7 @@ export function RecentMatchesList(props: { data: Match[] }) {
       gap={5}
     >
       {_.map(props.data.slice(-10).reverse(), (match: Match, i) => {
-        return <MatchCard key={i} id={i + 1} match={match} />;
+        return <MatchCard key={i} match={match} />;
       })}
       <span>
         <Link href={"/matches"} passHref>

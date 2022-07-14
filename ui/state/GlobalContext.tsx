@@ -78,7 +78,7 @@ function addGlobalTags(globalTags, matches) {
   });
 }
 
-function addExtraMatchDetails(m: Match) {
+function addExtraMatchDetails(m: Match, i: number) {
   let date = m.matchFileNameDate?.replace(/\//g, "-");
   const matchNo = m.matchFileNameIdentifier?.match(/.*\((.*)\).*/);
 
@@ -86,7 +86,7 @@ function addExtraMatchDetails(m: Match) {
     date = `${date}(${matchNo[1]})`;
   }
 
-  let match = { ...m, extraData: extraDataJson[date] || {} };
+  let match = { ...m, matchIndex: i + 1, extraData: extraDataJson[date] || {} };
 
   match.extraData.tags = match.extraData.tags || [];
 
@@ -117,8 +117,6 @@ export default function GlobalContextProvider({ children }) {
       : (router.query.tags && [router.query.tags]) || [];
     //query.tags returns string or string[]
 
-    console.log(router.query.tags);
-    console.log(tags);
     setTags(tags);
   }, [router.query.tags]);
 

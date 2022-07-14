@@ -113,7 +113,6 @@ const Match = () => {
                 <Box width={["100%", 480]}>
                   {
                     <MatchCard
-                      id={+matchId}
                       p={"1em"}
                       boxShadow={"sm"}
                       match={match}

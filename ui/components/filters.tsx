@@ -17,7 +17,6 @@ export function Filters() {
   useEffect(() => {
     return filters.fromYear.set(START_YEAR);
   }, []);
-  console.log(filters.tags);
 
   return (
     <Flex gap="10" mb={4}>
