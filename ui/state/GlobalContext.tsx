@@ -63,12 +63,13 @@ function addGlobalTags(globalTags, matches) {
 
     if (matchDate >= new Date(tag.startDate)) {
       if (
-        tagI === globalTags.length - 1 ||
-        matchDate < new Date(globalTags[tagI + 1].startDate)
+        tagI === globalTags.length - 1 || //last tag
+        matchDate < new Date(globalTags[tagI + 1].startDate) //less than next tag start
       ) {
         matches[i].extraData.tags.push(tag.name);
       } else {
         tagI++;
+        i--;
       }
     }
   }
