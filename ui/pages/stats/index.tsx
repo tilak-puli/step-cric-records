@@ -12,7 +12,7 @@ import { CustomBox } from "../../components/HigherOrder/CustomBox";
 import { Partnership } from "../../types/stats";
 import { sortPartnerships } from "../../components/GetTopPartnerships";
 import { SimpleTable } from "../../components/SimpleTable";
-import { capitalize } from "../../utils";
+import { capitalize } from "../../utils/utils";
 import Link from "next/link";
 
 function BestPartnerships(props: { partnerships: Partnership[] }) {

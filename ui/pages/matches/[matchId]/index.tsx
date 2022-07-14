@@ -23,7 +23,7 @@ import {
   SpecialMvpDetails,
   TeamData,
 } from "../../../types/match";
-import { capitalize, findMvp } from "../../../utils";
+import { capitalize, findMvp } from "../../../utils/utils";
 import {
   getTopBatsman,
   getTopBowlers,

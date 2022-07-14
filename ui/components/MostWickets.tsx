@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import _ from "underscore";
-import { capitalize } from "../utils";
+import { capitalize } from "../utils/utils";
 import { BowlingStats } from "../types/stats";
 import { TableWithSorting } from "./TableWithSorting";
 import { numberOfBalls } from "../state/stats";

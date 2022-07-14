@@ -10,7 +10,7 @@ import {
 import Link from "next/link";
 import { useMemo } from "react";
 import _ from "underscore";
-import { capitalize } from "../utils";
+import { capitalize } from "../utils/utils";
 import { BowlingStats } from "../types/stats";
 
 const columns = [

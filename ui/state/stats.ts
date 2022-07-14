@@ -1,6 +1,6 @@
 import { Match } from "../types/match";
 import { BattingStats, BowlingStats, Partnership } from "../types/stats";
-import { getIndexName } from "../utils";
+import { getIndexName } from "../utils/utils";
 
 function findBallBetween(lastWicketOver: string, over) {
   const overs = over.split(".")[0] - +lastWicketOver.split(".")[0];

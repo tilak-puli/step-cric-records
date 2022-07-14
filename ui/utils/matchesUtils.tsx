@@ -1,4 +1,4 @@
-import { Match } from "../../types/match";
+import { Match } from "../types/match";
 import {
   getBattingRecords,
   getBowlingRecords,
@@ -8,12 +8,12 @@ import {
   TopBatsman,
   TopBowling,
   TopPartnerships,
-} from "../../components/GetTopPartnerships";
-import { getPartnershipsRecords } from "../../state/stats";
+} from "../components/GetTopPartnerships";
+import { getPartnershipsRecords } from "../state/stats";
 import { useBreakpointValue, Wrap } from "@chakra-ui/react";
-import { SimpleTable } from "../../components/SimpleTable";
-import { CustomBox } from "../../components/HigherOrder/CustomBox";
-import { capitalize, getIndexName } from "../../utils";
+import { SimpleTable } from "../components/SimpleTable";
+import { CustomBox } from "../components/HigherOrder/CustomBox";
+import { capitalize, getIndexName } from "./utils";
 
 export function TopPerformersCards(props: {
   performers: { topBowlers: any[]; topPartnerships: any[]; topBatsman: any[] };

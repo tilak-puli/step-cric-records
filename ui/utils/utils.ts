@@ -1,6 +1,6 @@
-import swapNames from "./data/swapNames.json";
-import { Match, MvpDetails, PlayersMvpDetails, TeamData } from "./types/match";
-import { numberOfBalls } from "./state/stats";
+import swapNames from "../data/swapNames.json";
+import { Match, MvpDetails, PlayersMvpDetails, TeamData } from "../types/match";
+import { numberOfBalls } from "../state/stats";
 
 const swapNamesKeys = Object.keys(swapNames);
 const lowerCaseSwapNames = {};

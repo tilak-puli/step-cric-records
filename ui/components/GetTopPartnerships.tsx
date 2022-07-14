@@ -1,6 +1,6 @@
 import { Match } from "../types/match";
 import { Box, Flex, Heading, Table, Text } from "@chakra-ui/react";
-import { capitalize, getIndexName } from "../utils";
+import { capitalize, getIndexName } from "../utils/utils";
 import { getPartnershipsRecords } from "../state/stats";
 import { CustomBox } from "./HigherOrder/CustomBox";
 import { Partnership } from "../types/stats";

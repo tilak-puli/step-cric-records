@@ -1,6 +1,6 @@
 import { TeamData } from "../types/match";
 import { useMemo } from "react";
-import { capitalize, getIndexName } from "../utils";
+import { capitalize, getIndexName } from "../utils/utils";
 import { SimpleTable } from "./SimpleTable";
 
 const columns = [

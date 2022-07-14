@@ -2,7 +2,7 @@ import { Match, Score } from "../types/match";
 import Link from "next/link";
 import { CustomBox } from "./HigherOrder/CustomBox";
 import { Flex, Text, Wrap } from "@chakra-ui/react";
-import { formatDate } from "../utils";
+import { formatDate } from "../utils/utils";
 
 export function ScoreRow(props: { name: String; score: Score }) {
   return (

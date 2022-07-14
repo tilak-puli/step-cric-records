@@ -12,8 +12,8 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import { useMemo } from "react";
-import { capitalize } from "../utils";
-import { getIndexName } from "../utils";
+import { capitalize } from "../utils/utils";
+import { getIndexName } from "../utils/utils";
 
 const columns = [
   { field: "name", headerName: "Batting", width: 50, mWidth: 60, minW: 20 },

@@ -5,7 +5,7 @@ import { Filters, MatchCard } from "../../components";
 import { getFilteredMatches } from "../../state/stats";
 import { tagToImages } from "../../data/images/images";
 import { ImagesList } from "../images";
-import { getPointsTable } from "../../utils";
+import { getPointsTable } from "../../utils/utils";
 import extraTagsData from "../../data/extraTagsData.json";
 import { CustomBox } from "../../components/HigherOrder/CustomBox";
 import { Match } from "../../types/match";
@@ -14,7 +14,7 @@ import {
   PointsTable,
   TeamTable,
   TopPerformersCards,
-} from "./matchesUtils";
+} from "../../utils/matchesUtils";
 
 const Matches = () => {
   const {
