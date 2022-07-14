@@ -21,7 +21,7 @@ const Matches = () => {
   return (
     <Box p={["1em", "2em"]}>
       <Box>
-        <Filters matches={filteredMatches} />
+        <Filters />
       </Box>
       <Wrap w={"99%"} spacing={10}>
         {filteredMatches

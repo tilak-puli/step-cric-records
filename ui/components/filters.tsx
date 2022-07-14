@@ -9,13 +9,10 @@ import {
 } from "@chakra-ui/react";
 import _ from "underscore";
 import { Select as MultiSelect } from "chakra-react-select";
-import { Match } from "../types/match";
 
-export function Filters(props: { matches?: Match[] }) {
-  const { filters, matches: allMatches } = useContext(GlobalContext);
-  const allTags = Array.from(
-    new Set((props.matches || allMatches).flatMap((m) => m.extraData.tags))
-  );
+export function Filters() {
+  const { filters, matches } = useContext(GlobalContext);
+  const allTags = Array.from(new Set(matches.flatMap((m) => m.extraData.tags)));
 
   useEffect(() => {
     return filters.fromYear.set(START_YEAR);

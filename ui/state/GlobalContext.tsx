@@ -6,7 +6,7 @@ import getStats from "./stats";
 import { BattingStats, BowlingStats, Partnership } from "../types/stats";
 import matchesJson from "../data/allMatches";
 
-let MATCHES_DATA: Match[] = [];
+export let MATCHES_DATA: Match[] = [];
 
 interface Filter {
   value: any;
