@@ -30,7 +30,7 @@ export function ImagesList(props: { images: any }) {
   return (
     <Wrap w={"99%"} spacing={10}>
       {props.images.map((img, i) => (
-        <Box>
+        <Box key={i}>
           <Heading fontSize={"md"} mb={2}>
             {img.name}
           </Heading>
