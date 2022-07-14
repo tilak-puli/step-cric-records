@@ -2,7 +2,7 @@ import { Flex, Heading, Wrap } from "@chakra-ui/react";
 import { CustomBox } from "../components/HigherOrder/CustomBox";
 import { useContext, useEffect } from "react";
 import { GlobalContext, START_YEAR } from "../state/GlobalContext";
-import { Matches } from "../components";
+import { RecentMatchesList } from "../components";
 
 function StatBox(props: { name: string; value: number }) {
   return (
@@ -35,7 +35,7 @@ function Home() {
         <Heading p={"1em"} size={"l"}>
           Recent Matches
         </Heading>
-        <Matches data={matches} />
+        <RecentMatchesList data={matches} />
       </CustomBox>
       <Wrap p={["1em", "2em"]} spacing={10} flex={1}>
         <StatBox name={"Matches Played"} value={matches.length} />

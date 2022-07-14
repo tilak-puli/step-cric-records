@@ -32,6 +32,10 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/",
   },
   {
+    label: "Matches",
+    href: "/matches",
+  },
+  {
     label: "Stats",
     href: "/stats",
   },
