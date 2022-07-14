@@ -6,8 +6,8 @@ export function ImagesList(props: { images: any }) {
   return (
     <Wrap w={"99%"} spacing={10}>
       {props.images.map((img, i) => (
-        <Box>
-          <Image src={img.value} key={i} />
+        <Box key={i}>
+          <Image src={img.value} key={i} alt={img.name} />
         </Box>
       ))}
     </Wrap>
