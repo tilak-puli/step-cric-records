@@ -42,11 +42,26 @@ export function Filters() {
         <Container>
           <FormControl bg={"white"} w="100%">
             <MultiSelect
-              colorScheme="purple"
+              colorScheme="brand"
               value={filters.tags.value.map(getTag)}
               options={(allTags || []).map(getTag)}
               onChange={(v) => filters.tags.set(v.map((v) => v.value))}
               isMulti
+              chakraStyles={{
+                multiValueLabel: (provided) => ({
+                  ...provided,
+                  color: "white",
+                  fontSize: 12,
+                }),
+                multiValueRemove: (provided) => ({
+                  ...provided,
+                  color: "white",
+                }),
+                multiValue: (provided) => ({
+                  ...provided,
+                  borderRadius: "sm",
+                }),
+              }}
             />
           </FormControl>
         </Container>
