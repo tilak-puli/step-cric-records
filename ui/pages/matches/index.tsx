@@ -3,7 +3,7 @@ import { GlobalContext } from "../../state/GlobalContext";
 import { Box, Heading, Wrap } from "@chakra-ui/react";
 import { Filters, MatchCard } from "../../components";
 import { getFilteredMatches } from "../../state/stats";
-import { tagToImages } from "../../data/images/images";
+import { tagToImages } from "../../data/images";
 import { ImagesList } from "../images";
 import { getPointsTable } from "../../utils/utils";
 import extraTagsData from "../../data/extraTagsData.json";
