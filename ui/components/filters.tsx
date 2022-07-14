@@ -6,6 +6,7 @@ import {
   FormControl,
   Heading,
   Select,
+  Wrap,
 } from "@chakra-ui/react";
 import _ from "underscore";
 import { Select as MultiSelect } from "chakra-react-select";
@@ -19,7 +20,7 @@ export function Filters() {
   }, []);
 
   return (
-    <Flex gap="10" mb={4}>
+    <Wrap gap="10" mb={4}>
       <Flex align="center" gap="1">
         <Heading size="sm">From Year: </Heading>
         <Select
@@ -50,7 +51,7 @@ export function Filters() {
           </FormControl>
         </Container>
       </Flex>
-    </Flex>
+    </Wrap>
   );
 }
 

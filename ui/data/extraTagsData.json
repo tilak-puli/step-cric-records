@@ -1,0 +1,71 @@
+{
+  "timeTags": [
+    {
+      "name": "STEP-7",
+      "startDate": "01/Jan/2019"
+    },
+    {
+      "name": "STEP-8",
+      "startDate": "01/Apr/2022"
+    }
+  ],
+  "tournamentTags": ["STEP-Away 2022"],
+  "teams": {
+    "STEP-Away 2022": [
+      {
+        "captain": "Ankamma",
+        "players": [
+          "Banerjee",
+          "Abin",
+          "Teja",
+          "Barnali",
+          "Praful",
+          "Govinda",
+          "Manikanta"
+        ]
+      },
+      {
+        "captain": "Rishab",
+        "players": [
+          "Tilak",
+          "Tanmay",
+          "Roshan",
+          "Debu",
+          "Trinangkur",
+          "Sneha",
+          "Suresh"
+        ]
+      },{
+        "captain": "Sai",
+        "players": [
+          "Vivek",
+          "Pritam",
+          "Prem",
+          "Chhavi",
+          "Raghu",
+          "Prajakta",
+          "Naman"
+        ]
+      },{
+        "captain": "Dileep",
+        "players": [
+          "Azhar",
+          "Swapnil",
+          "Rahit",
+          "Lakshmi",
+          "Arif",
+          "Keerthy",
+          "Nilam"
+        ]
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
+

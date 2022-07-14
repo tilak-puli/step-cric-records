@@ -7,6 +7,13 @@ function findBallBetween(lastWicketOver: string, over) {
   return overs * 6 + (over.split(".")[1] - +lastWicketOver.split(".")[1]);
 }
 
+export function numberOfBalls(over) {
+  let overNumber = parseInt(over);
+  let ballsNumber = +(over % 1).toPrecision(1) * 10;
+
+  return overNumber * 6 + (ballsNumber > 6 ? 6 : ballsNumber);
+}
+
 function addOvers(over: string, over1: string) {
   let overNumber = +over.split(".")[0] + +over1.split(".")[0];
   let ballsNumber = +over.split(".")[1] + +over1.split(".")[1];

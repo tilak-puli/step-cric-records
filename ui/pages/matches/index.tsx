@@ -5,6 +5,47 @@ import { Filters, MatchCard } from "../../components";
 import { getFilteredMatches } from "../../state/stats";
 import { tagToImages } from "../../data/images/images";
 import { ImagesList } from "../images";
+import { getPointsTable } from "../../utils";
+import extraTagsData from "../../data/extraTagsData.json";
+import { SimpleTable } from "../../components/SimpleTable";
+import { CustomBox } from "../../components/HigherOrder/CustomBox";
+
+function getNrr(team: any) {
+  return (
+    6 * (team.runsScored / team.ballsPlayed) -
+    team.runsGiven / team.ballsBowled
+  ).toPrecision(2);
+}
+
+function PointsTable(props: { table: {} }) {
+  const columns = [
+    { field: "teamName", headerName: "Team Name", width: 40 },
+    { field: "matchesPlayed", headerName: "Played", width: 10 },
+    { field: "matchesWon", headerName: "Won", width: 10 },
+    { field: "runsScored", headerName: "Runs Scored", width: 10 },
+    { field: "ballsPlayed", headerName: "Balls Played", width: 10 },
+    { field: "runsGiven", headerName: "Runs Given", width: 10 },
+    { field: "ballsBowled", headerName: "Balls Bowled", width: 10 },
+    { field: "nrr", headerName: "NRR", width: 10 },
+  ];
+
+  const rows = Object.keys(props.table)
+    .map((teamName) => ({
+      teamName,
+      matchesPlayed: props.table[teamName].matchesPlayed,
+      matchesWon: props.table[teamName].matchesWon,
+      runsScored: props.table[teamName].runsScored,
+      ballsPlayed: props.table[teamName].ballsPlayed,
+      runsGiven: props.table[teamName].runsGiven,
+      ballsBowled: props.table[teamName].ballsBowled,
+      nrr: getNrr(props.table[teamName]),
+    }))
+    .sort((t1, t2) => {
+      return t2.matchesWon - t1.matchesWon;
+    });
+
+  return <SimpleTable columns={columns} rows={rows} />;
+}
 
 const Matches = () => {
   const {
@@ -17,6 +58,11 @@ const Matches = () => {
 
   const filteredMatches = getFilteredMatches(matches, fromYear, tags);
   const images = tags.flatMap((t) => tagToImages[t] || []);
+  let pointsTable = {};
+
+  if (tags.length === 1 && extraTagsData.tournamentTags.includes(tags[0])) {
+    pointsTable = getPointsTable(filteredMatches);
+  }
 
   return (
     <Box p={["1em", "2em"]}>
@@ -32,6 +78,17 @@ const Matches = () => {
           ))
           .reverse()}
       </Wrap>
+      {pointsTable && (
+        <Box>
+          <Heading my={"2em"} size={"md"}>
+            PointsTable
+          </Heading>
+          <CustomBox maxW={"100%"} width={["100%", 1000]}>
+            <PointsTable table={pointsTable} />
+          </CustomBox>
+        </Box>
+      )}
+
       {images.length > 0 && (
         <Box>
           <Heading my={"2em"} size={"md"}>

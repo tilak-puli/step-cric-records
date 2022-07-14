@@ -1,7 +1,7 @@
 import React, { createContext, useEffect, useState } from "react";
 import { Match } from "../types/match";
-import extraDataJson from "../data/extraData.json";
-import extraDataGlobalJson from "../data/extraDataGlobal.json";
+import extraDataJson from "../data/extraMatchData.json";
+import extraDataGlobalJson from "../data/extraTagsData.json";
 import getStats from "./stats";
 import { BattingStats, BowlingStats, Partnership } from "../types/stats";
 import matchesJson from "../data/allMatches";
@@ -102,7 +102,7 @@ export default function GlobalContextProvider({ children }) {
 
   if (MATCHES_DATA.length === 0) {
     const matches: Match[] = matchesJson.map(addExtraMatchDetails);
-    addGlobalTags(extraDataGlobalJson.tags, matches);
+    addGlobalTags(extraDataGlobalJson.timeTags, matches);
 
     MATCHES_DATA = matches;
   }
