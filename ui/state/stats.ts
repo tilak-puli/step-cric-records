@@ -19,7 +19,11 @@ function addOvers(over: string, over1: string) {
   return overNumber + "." + ballsNumber;
 }
 
-export default function getStats(matches: Match[], fromYear: number) {
+export default function getStats(
+  matches: Match[],
+  fromYear: number,
+  tags: string[]
+) {
   const batting: BattingStats = {};
   const bowling: BowlingStats = {};
   let partnerships: Partnership[] = [];
@@ -89,11 +93,8 @@ export default function getStats(matches: Match[], fromYear: number) {
     });
   };
 
-  matches
+  getFilteredMatches(matches, fromYear, tags)
     .map((match, index) => ({ match, index }))
-    .filter(
-      ({ match }) => new Date(match.matchFileNameDate).getFullYear() >= fromYear
-    )
     .forEach(({ match, index }) => {
       if (highestMatchScore < match.team1.score.runs) {
         highestMatchScore = match.team1.score.runs;
@@ -207,3 +208,11 @@ export const getPartnerships = (
 
   return partnerships;
 };
+
+export function getFilteredMatches(matches: Match[], fromYear, tags) {
+  return matches.filter(
+    (match) =>
+      new Date(match.matchFileNameDate).getFullYear() >= fromYear &&
+      (tags.length === 0 || tags.every((t) => match.extraData.tags.includes(t)))
+  );
+}

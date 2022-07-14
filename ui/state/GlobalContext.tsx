@@ -6,14 +6,20 @@ import getStats from "./stats";
 import { BattingStats, BowlingStats, Partnership } from "../types/stats";
 import matchesJson from "../data/allMatches";
 
+let MATCHES_DATA: Match[] = [];
+
+interface Filter {
+  value: any;
+  set: Function;
+}
+
 interface GlobalContextType {
   matches: Match[];
+  filters: { [name: string]: Filter };
   stats: {
     batting: BattingStats;
     bowling: BowlingStats;
     partnerships: Partnership[];
-    fromYear: number;
-    setFromYear: any;
     total?: {
       runsScored: number;
       wicketsTaken: number;
@@ -29,8 +35,6 @@ const defaultStats = {
   batting: {},
   bowling: {},
   partnerships: [],
-  fromYear: START_YEAR,
-  setFromYear: () => {},
   total: {
     runsScored: 0,
     wicketsTaken: 0,
@@ -43,6 +47,10 @@ const defaultStats = {
 export const GlobalContext = createContext<GlobalContextType>({
   matches: [],
   stats: defaultStats,
+  filters: {
+    fromYear: { value: START_YEAR, set: () => {} },
+    tags: { value: [], set: () => {} },
+  },
 });
 
 function addGlobalTags(globalTags, matches) {
@@ -86,15 +94,24 @@ function addExtraMatchDetails(m: Match) {
 
 export default function GlobalContextProvider({ children }) {
   const [fromYear, setFromYear] = useState(START_YEAR);
+  const [tags, setTags] = useState([]);
 
-  const matches: Match[] = matchesJson.map(addExtraMatchDetails);
-  addGlobalTags(extraDataGlobalJson.tags, matches);
+  if (MATCHES_DATA.length === 0) {
+    const matches: Match[] = matchesJson.map(addExtraMatchDetails);
+    addGlobalTags(extraDataGlobalJson.tags, matches);
+
+    MATCHES_DATA = matches;
+  }
 
   return (
     <GlobalContext.Provider
       value={{
-        matches,
-        stats: { ...getStats(matches, fromYear), setFromYear, fromYear },
+        matches: MATCHES_DATA,
+        stats: { ...getStats(MATCHES_DATA, fromYear, tags) },
+        filters: {
+          fromYear: { value: fromYear, set: setFromYear },
+          tags: { value: tags, set: setTags },
+        },
       }}
     >
       {children}

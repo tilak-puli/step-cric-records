@@ -39,6 +39,10 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Stats",
     href: "/stats",
   },
+  {
+    label: "Images",
+    href: "/images",
+  },
 ];
 
 export default function Navbar() {

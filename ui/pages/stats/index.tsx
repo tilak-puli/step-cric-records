@@ -1,19 +1,19 @@
-import { Box, Heading, Wrap, Flex } from "@chakra-ui/react";
+import { Box, Heading, Link as ChakraLink, Wrap } from "@chakra-ui/react";
 import { useContext } from "react";
-import { GlobalContext, START_YEAR } from "../../state/GlobalContext";
-import { MostRunsTable } from "../../components";
+import { GlobalContext } from "../../state/GlobalContext";
+import {
+  BestBowlingFigureTable,
+  Filters,
+  HighestScoreTable,
+  MostRunsTable,
+  MostWicketsTable,
+} from "../../components";
 import { CustomBox } from "../../components/HigherOrder/CustomBox";
-import { MostWicketsTable } from "../../components";
-import { HighestScoreTable } from "../../components";
-import { BestBowlingFigureTable } from "../../components";
-import { Select } from "@chakra-ui/react";
-import _ from "underscore";
 import { Partnership } from "../../types/stats";
 import { sortPartnerships } from "../../components/GetTopPartnerships";
 import { SimpleTable } from "../../components/SimpleTable";
 import { capitalize } from "../../utils";
 import Link from "next/link";
-import { Link as ChakraLink } from "@chakra-ui/react";
 
 function BestPartnerships(props: { partnerships: Partnership[] }) {
   const partnerships = sortPartnerships(props.partnerships, 50).map((p) => ({
@@ -43,22 +43,7 @@ const Stats = () => {
 
   return (
     <Box p={["1em", "2em"]}>
-      <Flex align="center" gap="1" mb={4}>
-        <Heading size="sm">From Year: </Heading>
-        <Select
-          value={stats.fromYear}
-          onChange={(e) => stats.setFromYear(e.target.value)}
-          width={100}
-          size="md"
-          bg={"white"}
-        >
-          {_.times(new Date().getFullYear() - START_YEAR + 1, (n) => (
-            <option key={n} value={n + START_YEAR}>
-              {n + START_YEAR}
-            </option>
-          ))}
-        </Select>
-      </Flex>
+      <Filters />
       <Wrap w={"99%"} spacing={10}>
         <CustomBox width={["100%", 400]}>
           <Heading p={2} fontSize={"md"}>

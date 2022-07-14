@@ -1,7 +1,7 @@
 import { Flex, Heading, Wrap } from "@chakra-ui/react";
 import { CustomBox } from "../components/HigherOrder/CustomBox";
-import { useContext, useEffect } from "react";
-import { GlobalContext, START_YEAR } from "../state/GlobalContext";
+import { useContext } from "react";
+import { GlobalContext } from "../state/GlobalContext";
 import { RecentMatchesList } from "../components";
 
 function StatBox(props: { name: string; value: number }) {
@@ -22,12 +22,8 @@ function StatBox(props: { name: string; value: number }) {
 function Home() {
   const {
     matches,
-    stats: { total, setFromYear },
+    stats: { total },
   } = useContext(GlobalContext);
-
-  useEffect(() => {
-    setFromYear(START_YEAR);
-  }, []);
 
   return (
     <Flex p={["1em", "2em"]} gap={10} wrap={"wrap"} direction={"row"}>
