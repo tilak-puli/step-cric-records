@@ -113,8 +113,8 @@ const Matches = () => {
             Teams
           </Heading>
           <Wrap spacing={[5, 10]}>
-            {extraTagsData.tournaments[tags[0]]?.teams?.map((team) => (
-              <CustomBox maxW={"100%"} width={["100%", 200]}>
+            {extraTagsData.tournaments[tags[0]]?.teams?.map((team, i) => (
+              <CustomBox maxW={"100%"} width={["100%", 200]} key={i}>
                 <TeamTable team={team} />
               </CustomBox>
             ))}
