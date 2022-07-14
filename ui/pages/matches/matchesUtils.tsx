@@ -13,6 +13,7 @@ import { getPartnershipsRecords } from "../../state/stats";
 import { useBreakpointValue, Wrap } from "@chakra-ui/react";
 import { SimpleTable } from "../../components/SimpleTable";
 import { CustomBox } from "../../components/HigherOrder/CustomBox";
+import { capitalize, getIndexName } from "../../utils";
 
 export function TopPerformersCards(props: {
   performers: { topBowlers: any[]; topPartnerships: any[]; topBatsman: any[] };
@@ -114,13 +115,21 @@ export function getTopPerformers(matches: Match[]) {
         match.matchIndex,
         match.team2.fallOfWickets,
         match.team1
-      ),
+      ).map((p) => ({
+        ...p,
+        batsman1: capitalize(getIndexName(p.batsman1, match.matchFileNameDate)),
+        batsman2: capitalize(getIndexName(p.batsman2, match.matchFileNameDate)),
+      })),
       ...getPartnershipsRecords(
         match.matchFileNameDate,
         match.matchIndex,
         match.team1.fallOfWickets,
         match.team2
-      )
+      ).map((p) => ({
+        ...p,
+        batsman1: capitalize(getIndexName(p.batsman1, match.matchFileNameDate)),
+        batsman2: capitalize(getIndexName(p.batsman2, match.matchFileNameDate)),
+      }))
     );
   });
 
