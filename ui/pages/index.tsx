@@ -3,6 +3,7 @@ import { CustomBox } from "../components/HigherOrder/CustomBox";
 import { useContext } from "react";
 import { GlobalContext } from "../state/GlobalContext";
 import { RecentMatchesList } from "../components";
+import extraTagsData from "../data/extraTagsData.json";
 
 function StatBox(props: { name: string; value: number }) {
   return (
@@ -40,6 +41,10 @@ function Home() {
         <StatBox name={"Fours"} value={total.foursHit} />
         <StatBox name={"Sixes"} value={total.sixesHit} />
         <StatBox name={"Wickets"} value={total.wicketsTaken} />
+        <StatBox
+          name={"Tournaments"}
+          value={extraTagsData.tournamentTags.length}
+        />
       </Wrap>
     </Flex>
   );
