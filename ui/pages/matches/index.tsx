@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { GlobalContext } from "../../state/GlobalContext";
-import { Box, Heading, Wrap } from "@chakra-ui/react";
+import { Box, Heading, Stack, Wrap } from "@chakra-ui/react";
 import { Filters, MatchCard } from "../../components";
 import { getFilteredMatches } from "../../state/stats";
 import { tagToImages } from "../../data/images";
@@ -42,7 +42,7 @@ const Matches = () => {
   }
 
   return (
-    <Box p={["1em", "2em"]}>
+    <Stack spacing={12} p={["1em", "2em"]}>
       <Box>
         <Filters />
       </Box>
@@ -52,7 +52,7 @@ const Matches = () => {
 
       {isTournament && (
         <Box>
-          <Heading my={"2em"} size={"md"}>
+          <Heading mb={6} size={"md"}>
             Points Table
           </Heading>
           <CustomBox maxW={"100%"} width={["100%", 1000]}>
@@ -63,7 +63,7 @@ const Matches = () => {
 
       {tags.length >= 1 && (
         <Box>
-          <Heading my={"2em"} size={"md"}>
+          <Heading mb={6} size={"md"}>
             Top Performers
           </Heading>
           <TopPerformersCards performers={performers} />
@@ -72,7 +72,7 @@ const Matches = () => {
 
       {isTournament && (
         <Box>
-          <Heading my={"2em"} size={"md"}>
+          <Heading mb={6} size={"md"}>
             Teams
           </Heading>
           <Wrap spacing={[5, 10]}>
@@ -87,13 +87,13 @@ const Matches = () => {
 
       {images.length > 0 && (
         <Box>
-          <Heading my={"2em"} size={"md"}>
+          <Heading mb={6} size={"md"}>
             Images
           </Heading>
           <ImagesList images={images} />
         </Box>
       )}
-    </Box>
+    </Stack>
   );
 };
 

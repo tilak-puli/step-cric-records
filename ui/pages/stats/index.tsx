@@ -1,4 +1,10 @@
-import { Box, Heading, Link as ChakraLink, Wrap } from "@chakra-ui/react";
+import {
+  Box,
+  Heading,
+  Link as ChakraLink,
+  Stack,
+  Wrap,
+} from "@chakra-ui/react";
 import { useContext } from "react";
 import { GlobalContext } from "../../state/GlobalContext";
 import {
@@ -44,7 +50,7 @@ const Stats = () => {
   const { stats } = useContext(GlobalContext);
 
   return (
-    <Box p={["1em", "2em"]}>
+    <Stack spacing={12} p={["1em", "2em"]}>
       <Filters />
       <Wrap w={"99%"} spacing={10}>
         <CustomBox width={["100%", 400]}>
@@ -88,7 +94,7 @@ const Stats = () => {
           </Box>
         </CustomBox>
       </Wrap>
-    </Box>
+    </Stack>
   );
 };
 

@@ -45,6 +45,7 @@ export function MatchCard(props: {
     <Link href={"/matches/" + props.match.matchIndex} passHref>
       <CustomBox
         p={props.p || "0.5em"}
+        pb={"1em"}
         width="100%"
         height={"auto"}
         boxShadow={props.boxShadow || "md"}

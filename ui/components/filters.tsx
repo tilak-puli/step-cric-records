@@ -20,7 +20,7 @@ export function Filters() {
   }, []);
 
   return (
-    <Wrap gap="10" mb={4}>
+    <Wrap gap="10">
       <Flex align="center" gap="1">
         <Heading size="sm">From Year: </Heading>
         <Select
