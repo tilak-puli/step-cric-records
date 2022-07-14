@@ -123,14 +123,14 @@ export default function getStats(
         addBowlingRecords.bind(null, match.matchFileNameDate, match.matchIndex)
       );
 
-      const team1Partnerships: Partnership[] = getPartnerships(
+      const team1Partnerships: Partnership[] = getPartnershipsRecords(
         match.matchFileNameDate,
         match.matchIndex,
         match.team2.fallOfWickets,
         match.team1
       );
 
-      const team2Partnerships: Partnership[] = getPartnerships(
+      const team2Partnerships: Partnership[] = getPartnershipsRecords(
         match.matchFileNameDate,
         match.matchIndex,
         match.team1.fallOfWickets,
@@ -149,7 +149,7 @@ export default function getStats(
   };
 }
 
-export const getPartnerships = (
+export const getPartnershipsRecords = (
   date,
   matchIndex,
   fallOfWickets,

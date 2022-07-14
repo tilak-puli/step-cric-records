@@ -24,7 +24,12 @@ import {
   TeamData,
 } from "../../../types/match";
 import { capitalize, findMvp } from "../../../utils";
-import { TopPerformers } from "../../../components/GetTopPartnerships";
+import {
+  getTopBatsman,
+  getTopBowlers,
+  getTopPartnerships,
+  TopPerformers,
+} from "../../../components/GetTopPartnerships";
 
 function TeamScoreBoard(props: {
   name: String;
@@ -145,7 +150,11 @@ const Match = () => {
                 />
               </Flex>
             </Flex>
-            <TopPerformers match={match} />
+            <TopPerformers
+              topBatsman={getTopBatsman(match, 3)}
+              topBowlers={getTopBowlers(match, 3)}
+              topPartnerships={getTopPartnerships(match, 3)}
+            />
           </Wrap>
         )}
       </Box>

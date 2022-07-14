@@ -1,102 +1,126 @@
 import { Match } from "../types/match";
 import { Box, Flex, Heading, Table, Text } from "@chakra-ui/react";
 import { capitalize, getIndexName } from "../utils";
-import { getPartnerships } from "../state/stats";
+import { getPartnershipsRecords } from "../state/stats";
 import { CustomBox } from "./HigherOrder/CustomBox";
 import { Partnership } from "../types/stats";
 
-function getTopBatsman(match: Match, count: number) {
-  const getBattingRecords = (b) => ({
-    name: capitalize(getIndexName(b.name, match.matchFileNameDate)),
-    runs: b.runs,
-    balls: b.balls,
-  });
-  const team1Batsman = match.team1.batting.map(getBattingRecords);
-  const team2Batsman = match.team2.batting.map(getBattingRecords);
-
-  return [...team1Batsman, ...team2Batsman]
-    .sort((b1, b2) => {
-      let diff = b2.runs - b1.runs;
-
-      if (diff === 0) {
-        diff = b1.balls - b2.balls;
-      }
-
-      return diff;
-    })
-    .slice(0, count);
+interface BowlingRecord {
+  name: string;
+  economy: any;
+  overs: any;
+  runs: any;
+  wickets: any;
 }
 
-function getTopBowlers(match: Match, count: number) {
-  const getBowlingRecords = (b) => ({
-    name: capitalize(getIndexName(b.name, match.matchFileNameDate)),
-    overs: b.overs,
-    runs: b.runs,
-    economy: b.economy,
-    wickets: b.wickets,
-  });
-  const team1Bowling = match.team1.bowling.map(getBowlingRecords);
-  const team2Bowling = match.team2.bowling.map(getBowlingRecords);
-
-  return [...team1Bowling, ...team2Bowling]
-    .sort((b1, b2) => {
-      let diff = b2.wickets - b1.wickets;
-
-      if (diff === 0) {
-        diff = b1.economy - b2.economy;
-      }
-
-      return diff;
-    })
-    .slice(0, count);
+interface BattingRecord {
+  balls: any;
+  name: string;
+  runs: any;
 }
 
-export function sortPartnerships(partnerships: Partnership[], count: number) {
-  return partnerships
-    .sort((b1, b2) => {
-      let diff = b2.runs - b1.runs;
+export function sortBatsmen(batsmen: BattingRecord[]) {
+  return batsmen.sort((b1, b2) => {
+    let diff = b2.runs - b1.runs;
 
-      if (diff === 0) {
-        diff = b1.balls - b2.balls;
-      }
+    if (diff === 0) {
+      diff = b1.balls - b2.balls;
+    }
 
-      return diff;
-    })
-    .slice(0, count);
+    return diff;
+  });
+}
+export const getBattingRecords = (date, b) => ({
+  name: capitalize(getIndexName(b.name, date)),
+  runs: b.runs,
+  balls: b.balls,
+});
+
+export function getTopBatsman(match: Match, count: number) {
+  const team1Batsman: BattingRecord[] = match.team1.batting.map(
+    getBattingRecords.bind(null, match.matchFileNameDate)
+  );
+  const team2Batsman: BattingRecord[] = match.team2.batting.map(
+    getBattingRecords.bind(null, match.matchFileNameDate)
+  );
+
+  return sortBatsmen([...team1Batsman, ...team2Batsman]).slice(0, count);
+}
+
+export function sortBowlers(bowlers: BowlingRecord[]) {
+  return bowlers.sort((b1, b2) => {
+    let diff = b2.wickets - b1.wickets;
+
+    if (diff === 0) {
+      diff = b1.economy - b2.economy;
+    }
+
+    return diff;
+  });
+}
+
+export const getBowlingRecords = (date, b): BowlingRecord => ({
+  name: capitalize(getIndexName(b.name, date)),
+  overs: b.overs,
+  runs: b.runs,
+  economy: b.economy,
+  wickets: b.wickets,
+});
+
+export function getTopBowlers(match: Match, count: number) {
+  const team1Bowling: BowlingRecord[] = match.team1.bowling.map(
+    getBowlingRecords.bind(null, match.matchFileNameDate)
+  );
+  const team2Bowling: BowlingRecord[] = match.team2.bowling.map(
+    getBowlingRecords.bind(null, match.matchFileNameDate)
+  );
+
+  return sortBowlers([...team1Bowling, ...team2Bowling]).slice(0, count);
+}
+
+export function sortPartnerships(partnerships: Partnership[]) {
+  return partnerships.sort((b1, b2) => {
+    let diff = b2.runs - b1.runs;
+
+    if (diff === 0) {
+      diff = b1.balls - b2.balls;
+    }
+
+    return diff;
+  });
 }
 
 export function getTopPartnerships(match: Match, count: number) {
-  const team1Partnerships = getPartnerships(
+  const team1Partnerships = getPartnershipsRecords(
     match.matchFileNameDate,
     match.matchIndex,
     match.team2.fallOfWickets,
     match.team1
   );
-  const team2Partnerships = getPartnerships(
+  const team2Partnerships = getPartnershipsRecords(
     match.matchFileNameDate,
     match.matchIndex,
     match.team1.fallOfWickets,
     match.team2
   );
 
-  return sortPartnerships(
-    [...team1Partnerships, ...team2Partnerships],
-    count
-  ).map((p) => ({
-    ...p,
-    batsman1: capitalize(getIndexName(p.batsman1, match.matchFileNameDate)),
-    batsman2: capitalize(getIndexName(p.batsman2, match.matchFileNameDate)),
-  }));
+  return sortPartnerships([...team1Partnerships, ...team2Partnerships])
+    .slice(0, count)
+    .map((p) => ({
+      ...p,
+      batsman1: capitalize(getIndexName(p.batsman1, match.matchFileNameDate)),
+      batsman2: capitalize(getIndexName(p.batsman2, match.matchFileNameDate)),
+    }));
 }
 
-function TopBatsman(props: { match: Match }) {
+export function TopBatsman(props: { topBatsman: any }) {
   return (
-    <Box p={2}>
+    <Box w={250} p={2}>
       <Heading mb={3} fontSize={"sm"}>
         Batting
       </Heading>
-      {getTopBatsman(props.match, 3)?.map((batsman, i) => (
-        <Flex justify="space-between" key={i}>
+      {props.topBatsman?.map((batsman, i) => (
+        <Flex justify="space-between" key={i} lineHeight={1.6}>
           <Text>{batsman.name}</Text>
           <Text>
             {batsman.runs}({batsman.balls})
@@ -107,14 +131,14 @@ function TopBatsman(props: { match: Match }) {
   );
 }
 
-function TopBowling(props: { match: Match }) {
+export function TopBowling(props: { topBowlers: any }) {
   return (
-    <Box p={2}>
+    <Box w={250} p={2}>
       <Heading mb={3} fontSize={"sm"}>
         Bowling
       </Heading>
-      {getTopBowlers(props.match, 3)?.map((bowler, i) => (
-        <Flex justify="space-between" key={i}>
+      {props.topBowlers?.map((bowler, i) => (
+        <Flex justify="space-between" key={i} lineHeight={1.6}>
           <Text>{bowler.name}</Text>
           <Text>
             {bowler.wickets}/{bowler.runs}({bowler.overs})
@@ -125,14 +149,14 @@ function TopBowling(props: { match: Match }) {
   );
 }
 
-function TopPartnerships(props: { match: Match }) {
+export function TopPartnerships(props: { topPartnerships: any; w?: number }) {
   return (
-    <Box p={2}>
+    <Box w={props.w || 250} p={2}>
       <Heading mb={3} fontSize={"sm"}>
         Partnerships
       </Heading>
       <Table width={"100%"}>
-        {getTopPartnerships(props.match, 3)?.map((batsman, i) => (
+        {props.topPartnerships?.map((batsman, i) => (
           <tr key={i}>
             <td>
               <Text>{batsman.batsman1}</Text>
@@ -152,15 +176,26 @@ function TopPartnerships(props: { match: Match }) {
   );
 }
 
-export function TopPerformers(props: { match: Match }) {
+export function TopPerformers(props: {
+  topBatsman: any;
+  topBowlers: any;
+  topPartnerships: any;
+  height?: number;
+  width?: number;
+}) {
   return (
-    <CustomBox width={["100%", 300]} height={450} p={5}>
+    <CustomBox
+      width={["100%", props.width || 300]}
+      height={props.height || 450}
+      p={5}
+    >
       <Heading mb={3} fontSize={"m"}>
         Top Performers
       </Heading>
-      <TopBatsman match={props.match} />
-      <TopBowling match={props.match} />
-      <TopPartnerships match={props.match} />
+
+      <TopBatsman topBatsman={props.topBatsman} />
+      <TopBowling topBowlers={props.topBowlers} />
+      <TopPartnerships topPartnerships={props.topPartnerships} />
     </CustomBox>
   );
 }

@@ -16,18 +16,20 @@ import { capitalize } from "../../utils";
 import Link from "next/link";
 
 function BestPartnerships(props: { partnerships: Partnership[] }) {
-  const partnerships = sortPartnerships(props.partnerships, 50).map((p) => ({
-    ...p,
-    batsman1: capitalize(p.batsman1),
-    batsman2: capitalize(p.batsman2),
-    scoreLink: (
-      <Link href={"/matches/" + p.matchIndex} passHref>
-        <ChakraLink className={"underline"}>
-          <>{p.runs + "(" + p.balls + ")"}</>
-        </ChakraLink>
-      </Link>
-    ),
-  }));
+  const partnerships = sortPartnerships(props.partnerships)
+    .slice(0, 50)
+    .map((p) => ({
+      ...p,
+      batsman1: capitalize(p.batsman1),
+      batsman2: capitalize(p.batsman2),
+      scoreLink: (
+        <Link href={"/matches/" + p.matchIndex} passHref>
+          <ChakraLink className={"underline"}>
+            <>{p.runs + "(" + p.balls + ")"}</>
+          </ChakraLink>
+        </Link>
+      ),
+    }));
 
   const columns = [
     { field: "batsman1", headerName: "BatsPerson 1", width: 40 },
