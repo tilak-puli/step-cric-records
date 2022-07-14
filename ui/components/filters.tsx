@@ -17,6 +17,7 @@ export function Filters() {
   useEffect(() => {
     return filters.fromYear.set(START_YEAR);
   }, []);
+  console.log(filters.tags);
 
   return (
     <Flex gap="10" mb={4}>
@@ -42,10 +43,8 @@ export function Filters() {
           <FormControl bg={"white"} w="100%">
             <MultiSelect
               colorScheme="purple"
-              options={(allTags || []).map((tag) => ({
-                label: tag,
-                value: tag,
-              }))}
+              value={filters.tags.value.map(getTag)}
+              options={(allTags || []).map(getTag)}
               onChange={(v) => filters.tags.set(v.map((v) => v.value))}
               isMulti
             />
@@ -55,3 +54,8 @@ export function Filters() {
     </Flex>
   );
 }
+
+const getTag = (tag) => ({
+  label: tag,
+  value: tag,
+});

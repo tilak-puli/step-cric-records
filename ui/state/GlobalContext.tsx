@@ -1,10 +1,11 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 import { Match } from "../types/match";
 import extraDataJson from "../data/extraData.json";
 import extraDataGlobalJson from "../data/extraDataGlobal.json";
 import getStats from "./stats";
 import { BattingStats, BowlingStats, Partnership } from "../types/stats";
 import matchesJson from "../data/allMatches";
+import { useRouter } from "next/router";
 
 export let MATCHES_DATA: Match[] = [];
 
@@ -93,6 +94,8 @@ function addExtraMatchDetails(m: Match) {
 }
 
 export default function GlobalContextProvider({ children }) {
+  const router = useRouter();
+
   const [fromYear, setFromYear] = useState(START_YEAR);
   const [tags, setTags] = useState([]);
 
@@ -103,6 +106,22 @@ export default function GlobalContextProvider({ children }) {
     MATCHES_DATA = matches;
   }
 
+  const onSetTags = (tags) => {
+    router.query.tags = tags;
+    router.replace(router);
+  };
+
+  useEffect(() => {
+    const tags = Array.isArray(router.query.tags)
+      ? router.query.tags
+      : (router.query.tags && [router.query.tags]) || [];
+    //query.tags returns string or string[]
+
+    console.log(router.query.tags);
+    console.log(tags);
+    setTags(tags);
+  }, [router.query.tags]);
+
   return (
     <GlobalContext.Provider
       value={{
@@ -110,7 +129,7 @@ export default function GlobalContextProvider({ children }) {
         stats: { ...getStats(MATCHES_DATA, fromYear, tags) },
         filters: {
           fromYear: { value: fromYear, set: setFromYear },
-          tags: { value: tags, set: setTags },
+          tags: { value: tags, set: onSetTags },
         },
       }}
     >
