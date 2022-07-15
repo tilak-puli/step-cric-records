@@ -34,7 +34,7 @@ export function ImagesList(props: { images: any }) {
           <Heading fontSize={"md"} mb={2}>
             {img.name}
           </Heading>
-          <ImageBox key={i} img={img} />{" "}
+          <ImageBox img={img} />
         </Box>
       ))}
     </Wrap>

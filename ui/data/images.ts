@@ -8,11 +8,11 @@ const IMAGES = [
     value: "/images/image2.png",
   },
   {
-    name: "STEP-6 practice",
+    name: "STEP-6 Match",
     value: "/images/image3.jpg",
   },
   {
-    name: "Cricket Practice STEP-7",
+    name: "Cricket Practice STEP-6",
     value: "/images/video1.mp4",
     type: "video",
   },
