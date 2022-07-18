@@ -269,12 +269,23 @@
   "12-Jul-2022": {
     "specialMvp": {
       "name": "Swamiji",
-      "reason": "For taking important wicket and batting till end"
+      "reason": "For taking important wicket and finishing the match"
     },
     "specialMentions": [
       "Swapnil's bowling and important runs.",
       "Tanmay for bowling and fielding well",
       "Teja for not getting out"
+    ]
+  },
+  "16-Jul-2022": {
+    "specialMvp": {
+      "name": "Vivek",
+      "reason": "For huge partnership with banerjee"
+    },
+    "specialMentions": [
+      "Swapnil for taking 4 wickets.",
+      "Vivek's tight bowling.",
+      "Banerjee took his second life to win the match given by prem."
     ]
   }
 }
