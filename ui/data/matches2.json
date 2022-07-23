@@ -2265,5 +2265,401 @@
         "matchUploadedDate": "2022-07-22T08:39:01.249Z",
         "matchFileNameDate": "19/Jul/2022",
         "matchFileNameIdentifier": "19-Jul-2022.pdf"
+    },
+    {
+        "team1Name": "Trinangkur",
+        "team2Name": "Debu",
+        "team1": {
+            "name": "Trinangkur",
+            "score": {
+                "runs": 39,
+                "wickets": 9,
+                "overs": 9.5
+            },
+            "batting": [
+                {
+                    "name": "Vivek",
+                    "outReason": "Hit Six b Azhar",
+                    "runs": 23,
+                    "balls": 34,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 67,
+                    "notOut": false
+                },
+                {
+                    "name": "Anuja",
+                    "outReason": "Run out (Swamiji)",
+                    "runs": 5,
+                    "balls": 8,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 62.5,
+                    "notOut": false
+                },
+                {
+                    "name": "Sai Ganesh",
+                    "outReason": "Run out (Swamiji)",
+                    "runs": 0,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Vijay",
+                    "outReason": "st Azhar b Swamiji",
+                    "runs": 0,
+                    "balls": 4,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Rahit",
+                    "outReason": "lbw b Swamiji",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Trinangkur",
+                    "outReason": "Run out (Swamiji)",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Govinda",
+                    "outReason": "Run out (Azhar)",
+                    "runs": 1,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 100,
+                    "notOut": false
+                },
+                {
+                    "name": "Ankur",
+                    "outReason": "Run out (Azhar)",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Rishabh",
+                    "outReason": "b Teja",
+                    "runs": 0,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                }
+            ],
+            "extrasGot": 9,
+            "battingRunRate": 4,
+            "extrasBowled": 9,
+            "extrasBowledText": "(7) 0 B, 0 LB, 6 WD, 1 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Sai Ganesh",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 0,
+                    "economy": 3
+                },
+                {
+                    "name": "Vivek",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 4,
+                    "wickets": 0,
+                    "economy": 4
+                },
+                {
+                    "name": "Vijay",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 0,
+                    "economy": 7
+                },
+                {
+                    "name": "Anuja",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 2,
+                    "economy": 7
+                },
+                {
+                    "name": "Rahit",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 0,
+                    "economy": 7
+                },
+                {
+                    "name": "Trinangkur",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 6,
+                    "wickets": 1,
+                    "economy": 6
+                },
+                {
+                    "name": "Ankur",
+                    "overs": 1,
+                    "maidens": 1,
+                    "runs": 0,
+                    "wickets": 0,
+                    "economy": 0
+                },
+                {
+                    "name": "Rishabh",
+                    "overs": 0.3,
+                    "maidens": 0,
+                    "runs": 6,
+                    "wickets": 0,
+                    "economy": 12
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Twinkle",
+                    "score": "16/1",
+                    "over": "3.4"
+                },
+                {
+                    "name": "Shukla",
+                    "score": "16/2",
+                    "over": "3.5"
+                },
+                {
+                    "name": "Teja",
+                    "score": "32/3",
+                    "over": "5.1"
+                },
+                {
+                    "name": "Azhar",
+                    "score": "33/4",
+                    "over": "5.4"
+                }
+            ]
+        },
+        "team2": {
+            "extrasBowled": 10,
+            "extrasBowledText": "(10) 0 B, 0 LB, 7 WD, 3 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Twinkle",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 5,
+                    "wickets": 0,
+                    "economy": 5
+                },
+                {
+                    "name": "Sai",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 4,
+                    "wickets": 0,
+                    "economy": 4
+                },
+                {
+                    "name": "Debu",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 5,
+                    "wickets": 0,
+                    "economy": 5
+                },
+                {
+                    "name": "Leela",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 8,
+                    "wickets": 0,
+                    "economy": 8
+                },
+                {
+                    "name": "Abin",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 1,
+                    "wickets": 0,
+                    "economy": 1
+                },
+                {
+                    "name": "Shukla",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 0,
+                    "economy": 3
+                },
+                {
+                    "name": "Swamiji",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 2,
+                    "economy": 2
+                },
+                {
+                    "name": "Azhar",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 11,
+                    "wickets": 0,
+                    "economy": 11
+                },
+                {
+                    "name": "Teja",
+                    "overs": 0.5,
+                    "maidens": 0,
+                    "runs": 0,
+                    "wickets": 2,
+                    "economy": 0
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Anuja",
+                    "score": "22/1",
+                    "over": "4.0"
+                },
+                {
+                    "name": "Sai Ganesh",
+                    "score": "23/2",
+                    "over": "4.3"
+                },
+                {
+                    "name": "Vijay",
+                    "score": "26/3",
+                    "over": "6.1"
+                },
+                {
+                    "name": "Rahit",
+                    "score": "26/4",
+                    "over": "6.2"
+                },
+                {
+                    "name": "Trinangkur",
+                    "score": "27/5",
+                    "over": "6.3"
+                },
+                {
+                    "name": "Govinda",
+                    "score": "28/6",
+                    "over": "6.5"
+                },
+                {
+                    "name": "Ankur",
+                    "score": "28/7",
+                    "over": "7.0"
+                },
+                {
+                    "name": "Rishabh",
+                    "score": "39/8",
+                    "over": "8.3"
+                },
+                {
+                    "name": "Vivek",
+                    "score": "39/8",
+                    "over": "8.5"
+                }
+            ],
+            "name": "Debu",
+            "score": {
+                "runs": 40,
+                "wickets": 4,
+                "overs": 7.3
+            },
+            "batting": [
+                {
+                    "name": "Twinkle",
+                    "outReason": "c & b Anuja",
+                    "runs": 3,
+                    "balls": 11,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 27.27,
+                    "notOut": false
+                },
+                {
+                    "name": "Teja",
+                    "outReason": "b Trinangkur",
+                    "runs": 16,
+                    "balls": 16,
+                    "fours": 2,
+                    "sixes": 0,
+                    "runRate": 100,
+                    "notOut": false
+                },
+                {
+                    "name": "Shukla",
+                    "outReason": "c Vivek b Anuja",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Abin",
+                    "outReason": "not out",
+                    "runs": 6,
+                    "balls": 11,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 120,
+                    "notOut": true
+                },
+                {
+                    "name": "Azhar",
+                    "outReason": "Run out",
+                    "runs": 1,
+                    "balls": 2,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 50,
+                    "notOut": false
+                },
+                {
+                    "name": "Swamiji",
+                    "outReason": "not out",
+                    "runs": 6,
+                    "balls": 3,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 200,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 8,
+            "battingRunRate": 6.19
+        },
+        "result": "Debu won by 5 wickets.",
+        "winner": "Debu",
+        "matchUploadedDate": "2022-07-23T02:09:15.880Z",
+        "matchFileNameDate": "19/Jul/2022",
+        "matchFileNameIdentifier": "19-Jul-2022(1).pdf"
     }
 ]
