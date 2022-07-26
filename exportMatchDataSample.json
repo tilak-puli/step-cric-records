@@ -1,0 +1,430 @@
+{
+  "team1": {
+    "name": "Sai",
+    "runs": 4,
+    "wickets": 1,
+    "retiredCounts": 0,
+    "balls": 0,
+    "ballsLog": [
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null
+        },
+        "batsmen": [
+          "Sai",
+          "Leela"
+        ],
+        "bowler": "Tilak",
+        "over": {
+          "over": 0,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null
+        },
+        "batsmen": [
+          "Leela",
+          "Sai"
+        ],
+        "bowler": "Tilak",
+        "over": {
+          "over": 0,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null
+        },
+        "batsmen": [
+          "Sai",
+          "Leela"
+        ],
+        "bowler": "Tilak",
+        "over": {
+          "over": 0,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null
+        },
+        "batsmen": [
+          "Leela",
+          "Sai"
+        ],
+        "bowler": "Tilak",
+        "over": {
+          "over": 0,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null
+        },
+        "batsmen": [
+          "Leela",
+          "Sai"
+        ],
+        "bowler": "Tilak",
+        "over": {
+          "over": 0,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "BOWLED",
+          "wicketHelper": ""
+        },
+        "batsmen": [
+          "Sai",
+          "Leela"
+        ],
+        "bowler": "Tilak",
+        "over": {
+          "over": 0,
+          "balls": 6
+        }
+      }
+    ],
+    "players": [
+      {
+        "name": "Sai",
+        "batting": {
+          "runs": 2,
+          "balls": 3,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            1
+          ],
+          "strikeRate": 66,
+          "isOut": true,
+          "isRetired": false,
+          "wicketCause": "BOWLED",
+          "wicketHelper": "",
+          "wicketBowler": "Tilak"
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 3
+          },
+          "maidens": 0,
+          "runs": 8,
+          "wickets": 0,
+          "economyRate": "16.00",
+          "currentOverRuns": 8
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Leela",
+        "batting": {
+          "runs": 2,
+          "balls": 3,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            2
+          ],
+          "strikeRate": 66,
+          "isOut": false,
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      }
+    ],
+    "strikerIndex": 1,
+    "nonStrikerIndex": 0,
+    "bowlerIndex": 0,
+    "over": {
+      "over": 1,
+      "balls": 0
+    }
+  },
+  "team2": {
+    "name": "Swamiji",
+    "runs": 8,
+    "wickets": 0,
+    "retiredCounts": 0,
+    "balls": 0,
+    "ballsLog": [
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null
+        },
+        "batsmen": [
+          "Tilak",
+          "Swamiji"
+        ],
+        "bowler": "Sai",
+        "over": {
+          "over": 0,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null
+        },
+        "batsmen": [
+          "Swamiji",
+          "Tilak"
+        ],
+        "bowler": "Sai",
+        "over": {
+          "over": 0,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 6,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null
+        },
+        "batsmen": [
+          "Tilak",
+          "Swamiji"
+        ],
+        "bowler": "Sai",
+        "over": {
+          "over": 0,
+          "balls": 3
+        }
+      }
+    ],
+    "players": [
+      {
+        "name": "Tilak",
+        "batting": {
+          "runs": 7,
+          "balls": 2,
+          "fours": 0,
+          "sixers": 1,
+          "positions": [
+            null,
+            1
+          ],
+          "strikeRate": 350,
+          "isOut": false,
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 4,
+          "wickets": 1,
+          "economyRate": "4.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "No one",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            null,
+            1
+          ],
+          "strikeRate": 0,
+          "isOut": false,
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Swamiji",
+        "batting": {
+          "runs": 1,
+          "balls": 1,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            null,
+            2
+          ],
+          "strikeRate": 100,
+          "isOut": false,
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      }
+    ],
+    "strikerIndex": 0,
+    "nonStrikerIndex": 2,
+    "bowlerIndex": 0,
+    "over": {
+      "over": 0,
+      "balls": 3
+    }
+  },
+  "battingTeam": "team2",
+  "bowlingTeam": "team1",
+  "overs": 1,
+  "innings": 2,
+  "validBalls": 3,
+  "selectedTypes": {
+    "wide": false,
+    "noBall": false,
+    "byes": false,
+    "legByes": false,
+    "wicket": false,
+    "wicketType": null
+  },
+  "selectedRuns": null,
+  "matchOver": true,
+  "matchOverMessage": "Swamiji chased down 4 in 0.3 overs",
+  "matchWonBy": "Swamiji",
+  "matchOverDialogVisible": true,
+  "wicketDialogVisible": false,
+  "runsInputDialogVisible": false,
+  "NextPlayerDialogVisible": false,
+  "inningsOverDialogVisible": false,
+  "initPlayersDialogVisible": false,
+  "needBowlerChange": false,
+  "tossWonByTeam": 1,
+  "selected": "batting",
+  "createdTime": 1658228480592,
+  "needInningsChange": false,
+  "nextBatsmanDialogVisible": false
+}

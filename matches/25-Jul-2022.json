@@ -1,0 +1,7575 @@
+{
+  "team1": {
+    "name": "Banerjee",
+    "runs": 104,
+    "runRate": "5.78",
+    "wickets": 7,
+    "retiredCounts": 0,
+    "extras": {
+      "wide": 20,
+      "noBall": 1,
+      "byes": 0
+    },
+    "ballsLog": [
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Sai ganesh",
+          "Sai Charan"
+        ],
+        "bowler": "Sneha",
+        "over": {
+          "over": 0,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Sai ganesh",
+          "Sai Charan"
+        ],
+        "bowler": "Sneha",
+        "over": {
+          "over": 0,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Sai ganesh",
+          "Sai Charan"
+        ],
+        "bowler": "Sneha",
+        "over": {
+          "over": 0,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Sai Charan",
+          "Sai ganesh"
+        ],
+        "bowler": "Sneha",
+        "over": {
+          "over": 0,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Sai Charan",
+          "Sai ganesh"
+        ],
+        "bowler": "Sneha",
+        "over": {
+          "over": 0,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Sai Charan",
+          "Sai ganesh"
+        ],
+        "bowler": "Sneha",
+        "over": {
+          "over": 0,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Sai ganesh",
+          "Sai Charan"
+        ],
+        "bowler": "Sneha",
+        "over": {
+          "over": 0,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "LBW",
+          "wicketHelper": ""
+        },
+        "batsmen": [
+          "Sai Charan",
+          "Sai ganesh"
+        ],
+        "bowler": "Dileep",
+        "over": {
+          "over": 1,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 6,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vivek",
+          "Sai ganesh"
+        ],
+        "bowler": "Dileep",
+        "over": {
+          "over": 1,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vivek",
+          "Sai ganesh"
+        ],
+        "bowler": "Dileep",
+        "over": {
+          "over": 1,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vivek",
+          "Sai ganesh"
+        ],
+        "bowler": "Dileep",
+        "over": {
+          "over": 1,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vivek",
+          "Sai ganesh"
+        ],
+        "bowler": "Dileep",
+        "over": {
+          "over": 1,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Sai ganesh",
+          "Vivek"
+        ],
+        "bowler": "Dileep",
+        "over": {
+          "over": 1,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Sai ganesh",
+          "Vivek"
+        ],
+        "bowler": "Abin",
+        "over": {
+          "over": 2,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Sai ganesh",
+          "Vivek"
+        ],
+        "bowler": "Abin",
+        "over": {
+          "over": 2,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vivek",
+          "Sai ganesh"
+        ],
+        "bowler": "Abin",
+        "over": {
+          "over": 2,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "CATCH",
+          "wicketHelper": "Rahit "
+        },
+        "batsmen": [
+          "Vivek",
+          "Sai ganesh"
+        ],
+        "bowler": "Abin",
+        "over": {
+          "over": 2,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Sai ganesh"
+        ],
+        "bowler": "Abin",
+        "over": {
+          "over": 2,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Sai ganesh",
+          "Vijay"
+        ],
+        "bowler": "Abin",
+        "over": {
+          "over": 2,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Sai ganesh"
+        ],
+        "bowler": "Rishabh",
+        "over": {
+          "over": 3,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Sai ganesh",
+          "Vijay"
+        ],
+        "bowler": "Rishabh",
+        "over": {
+          "over": 3,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "CATCH",
+          "wicketHelper": "Teja"
+        },
+        "batsmen": [
+          "Sai ganesh",
+          "Vijay"
+        ],
+        "bowler": "Rishabh",
+        "over": {
+          "over": 3,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Banerjee",
+          "Vijay"
+        ],
+        "bowler": "Rishabh",
+        "over": {
+          "over": 3,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Banerjee",
+          "Vijay"
+        ],
+        "bowler": "Rishabh",
+        "over": {
+          "over": 3,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Banerjee"
+        ],
+        "bowler": "Rishabh",
+        "over": {
+          "over": 3,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Vijay",
+          "Banerjee"
+        ],
+        "bowler": "Rishabh",
+        "over": {
+          "over": 3,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Banerjee"
+        ],
+        "bowler": "Rishabh",
+        "over": {
+          "over": 3,
+          "balls": 8
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Banerjee",
+          "Vijay"
+        ],
+        "bowler": "Prem",
+        "over": {
+          "over": 4,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Vijay",
+          "Banerjee"
+        ],
+        "bowler": "Prem",
+        "over": {
+          "over": 4,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Banerjee"
+        ],
+        "bowler": "Prem",
+        "over": {
+          "over": 4,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Banerjee"
+        ],
+        "bowler": "Prem",
+        "over": {
+          "over": 4,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Banerjee",
+          "Vijay"
+        ],
+        "bowler": "Prem",
+        "over": {
+          "over": 4,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Banerjee",
+          "Vijay"
+        ],
+        "bowler": "Prem",
+        "over": {
+          "over": 4,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Banerjee",
+          "Vijay"
+        ],
+        "bowler": "Prem",
+        "over": {
+          "over": 4,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Banerjee"
+        ],
+        "bowler": "Prem",
+        "over": {
+          "over": 4,
+          "balls": 8
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Banerjee",
+          "Vijay"
+        ],
+        "bowler": "Ashish joy",
+        "over": {
+          "over": 5,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Banerjee"
+        ],
+        "bowler": "Ashish joy",
+        "over": {
+          "over": 5,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Banerjee",
+          "Vijay"
+        ],
+        "bowler": "Ashish joy",
+        "over": {
+          "over": 5,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Vijay",
+          "Banerjee"
+        ],
+        "bowler": "Ashish joy",
+        "over": {
+          "over": 5,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Banerjee"
+        ],
+        "bowler": "Ashish joy",
+        "over": {
+          "over": 5,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Banerjee",
+          "Vijay"
+        ],
+        "bowler": "Ashish joy",
+        "over": {
+          "over": 5,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Banerjee"
+        ],
+        "bowler": "Ashish joy",
+        "over": {
+          "over": 5,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "wide": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "noBall": true
+        },
+        "batsmen": [
+          "Banerjee",
+          "Vijay"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 6,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "CATCH",
+          "wicketHelper": "Abin"
+        },
+        "batsmen": [
+          "Banerjee",
+          "Vijay"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 6,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tilak",
+          "Vijay"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 6,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Tilak",
+          "Vijay"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 6,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tilak",
+          "Vijay"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 6,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tilak",
+          "Vijay"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 6,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tilak"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 6,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tilak"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 6,
+          "balls": 8
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tilak",
+          "Vijay"
+        ],
+        "bowler": "Shukla",
+        "over": {
+          "over": 7,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tilak",
+          "Vijay"
+        ],
+        "bowler": "Shukla",
+        "over": {
+          "over": 7,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tilak",
+          "Vijay"
+        ],
+        "bowler": "Shukla",
+        "over": {
+          "over": 7,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tilak",
+          "Vijay"
+        ],
+        "bowler": "Shukla",
+        "over": {
+          "over": 7,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tilak",
+          "Vijay"
+        ],
+        "bowler": "Shukla",
+        "over": {
+          "over": 7,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tilak"
+        ],
+        "bowler": "Shukla",
+        "over": {
+          "over": 7,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tilak",
+          "Vijay"
+        ],
+        "bowler": "Pooja",
+        "over": {
+          "over": 8,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "LBW",
+          "wicketHelper": "Abin"
+        },
+        "batsmen": [
+          "Tilak",
+          "Vijay"
+        ],
+        "bowler": "Pooja",
+        "over": {
+          "over": 8,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 4,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Pooja",
+        "over": {
+          "over": 8,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Pooja",
+        "over": {
+          "over": 8,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Pooja",
+        "over": {
+          "over": 8,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Pooja",
+        "over": {
+          "over": 8,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Vaishnavi",
+        "over": {
+          "over": 9,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Vaishnavi",
+        "over": {
+          "over": 9,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Vaishnavi",
+        "over": {
+          "over": 9,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Vaishnavi",
+        "over": {
+          "over": 9,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Vaishnavi",
+        "over": {
+          "over": 9,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Vaishnavi",
+        "over": {
+          "over": 9,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Teja",
+        "over": {
+          "over": 10,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Teja",
+        "over": {
+          "over": 10,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Teja",
+        "over": {
+          "over": 10,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Teja",
+        "over": {
+          "over": 10,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Teja",
+        "over": {
+          "over": 10,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Teja",
+        "over": {
+          "over": 10,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Azhar",
+        "over": {
+          "over": 11,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Azhar",
+        "over": {
+          "over": 11,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Azhar",
+        "over": {
+          "over": 11,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Azhar",
+        "over": {
+          "over": 11,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Azhar",
+        "over": {
+          "over": 11,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Azhar",
+        "over": {
+          "over": 11,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Swapnil",
+        "over": {
+          "over": 12,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Swapnil",
+        "over": {
+          "over": 12,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Swapnil",
+        "over": {
+          "over": 12,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Swapnil",
+        "over": {
+          "over": 12,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Swapnil",
+        "over": {
+          "over": 12,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Tanmay",
+          "Vijay"
+        ],
+        "bowler": "Swapnil",
+        "over": {
+          "over": 12,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "CATCH",
+          "wicketHelper": "Swapnil"
+        },
+        "batsmen": [
+          "Vijay",
+          "Tanmay"
+        ],
+        "bowler": "Rahit",
+        "over": {
+          "over": 13,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Tanmay"
+        ],
+        "bowler": "Rahit",
+        "over": {
+          "over": 13,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Tanmay"
+        ],
+        "bowler": "Rahit",
+        "over": {
+          "over": 13,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Roshan",
+          "Tanmay"
+        ],
+        "bowler": "Rahit",
+        "over": {
+          "over": 13,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Tanmay"
+        ],
+        "bowler": "Rahit",
+        "over": {
+          "over": 13,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "LBW",
+          "wicketHelper": "Swapnil"
+        },
+        "batsmen": [
+          "Tanmay",
+          "Roshan"
+        ],
+        "bowler": "Rahit",
+        "over": {
+          "over": 13,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Rahit",
+        "over": {
+          "over": 13,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Rahit",
+        "over": {
+          "over": 13,
+          "balls": 8
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Rahit",
+        "over": {
+          "over": 13,
+          "balls": 9
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 8
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 9
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 10
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 11
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 12
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 13
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 14
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 15
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Prafull",
+        "over": {
+          "over": 14,
+          "balls": 16
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Naman",
+        "over": {
+          "over": 15,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Naman",
+        "over": {
+          "over": 15,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Naman",
+        "over": {
+          "over": 15,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Naman",
+        "over": {
+          "over": 15,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Naman",
+        "over": {
+          "over": 15,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 6,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Naman",
+        "over": {
+          "over": 15,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Leela",
+        "over": {
+          "over": 16,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Leela",
+        "over": {
+          "over": 16,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Leela",
+        "over": {
+          "over": 16,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Leela",
+        "over": {
+          "over": 16,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Leela",
+        "over": {
+          "over": 16,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Leela",
+        "over": {
+          "over": 16,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 17,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 17,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Roshan",
+          "Anuja"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 17,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 17,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 4,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 17,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Anuja",
+          "Roshan"
+        ],
+        "bowler": "Ketan",
+        "over": {
+          "over": 17,
+          "balls": 6
+        }
+      }
+    ],
+    "players": [
+      {
+        "name": "Sai ganesh",
+        "batting": {
+          "runs": 5,
+          "balls": 10,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            1
+          ],
+          "strikeRate": 50,
+          "isOut": true,
+          "outBall": "0.0",
+          "isRetired": false,
+          "wicketCause": "CATCH",
+          "wicketHelper": "Teja",
+          "wicketMessage": "c Teja b Rishabh",
+          "wicketBowler": "Rishabh"
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Sai Charan",
+        "batting": {
+          "runs": 1,
+          "balls": 4,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            2
+          ],
+          "strikeRate": 25,
+          "isOut": true,
+          "outBall": "0.0",
+          "isRetired": false,
+          "wicketCause": "LBW",
+          "wicketHelper": "",
+          "wicketMessage": "lbw Dileep",
+          "wicketBowler": "Dileep"
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Vivek",
+        "batting": {
+          "runs": 9,
+          "balls": 6,
+          "fours": 0,
+          "sixers": 1,
+          "positions": [
+            2
+          ],
+          "strikeRate": 150,
+          "isOut": true,
+          "outBall": "0.0",
+          "isRetired": false,
+          "wicketCause": "CATCH",
+          "wicketHelper": "Rahit ",
+          "wicketMessage": "c Rahit  b Abin",
+          "wicketBowler": "Abin"
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 1,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": "0.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Rahit ",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 1,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Vijay",
+        "batting": {
+          "runs": 19,
+          "balls": 29,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            3
+          ],
+          "strikeRate": 65,
+          "isOut": true,
+          "outBall": "0.0",
+          "isRetired": false,
+          "wicketCause": "CATCH",
+          "wicketHelper": "Swapnil",
+          "wicketMessage": "c Swapnil b Rahit",
+          "wicketBowler": "Rahit"
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Teja",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 1,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Banerjee",
+        "batting": {
+          "runs": 6,
+          "balls": 11,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            4
+          ],
+          "strikeRate": 54,
+          "isOut": true,
+          "outBall": "0.0",
+          "isRetired": false,
+          "wicketCause": "CATCH",
+          "wicketHelper": "Abin",
+          "wicketMessage": "c Abin b Ketan",
+          "wicketBowler": "Ketan"
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Abin",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 1,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Tilak",
+        "batting": {
+          "runs": 6,
+          "balls": 11,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            5
+          ],
+          "strikeRate": 54,
+          "isOut": true,
+          "outBall": "0.0",
+          "isRetired": false,
+          "wicketCause": "LBW",
+          "wicketHelper": "Abin",
+          "wicketMessage": "lbw Pooja",
+          "wicketBowler": "Pooja"
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 5,
+          "wickets": 1,
+          "economyRate": "5.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Tanmay",
+        "batting": {
+          "runs": 12,
+          "balls": 17,
+          "fours": 1,
+          "sixers": 0,
+          "positions": [
+            6
+          ],
+          "strikeRate": 70,
+          "isOut": true,
+          "outBall": "0.0",
+          "isRetired": false,
+          "wicketCause": "LBW",
+          "wicketHelper": "Swapnil",
+          "wicketMessage": "lbw Rahit",
+          "wicketBowler": "Rahit"
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 0,
+          "economyRate": "12.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Swapnil",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 1,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Roshan",
+        "batting": {
+          "runs": 16,
+          "balls": 18,
+          "fours": 0,
+          "sixers": 1,
+          "positions": [
+            7
+          ],
+          "strikeRate": 88,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 16,
+          "wickets": 2,
+          "economyRate": "16.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Anuja",
+        "batting": {
+          "runs": 9,
+          "balls": 23,
+          "fours": 1,
+          "sixers": 0,
+          "positions": [
+            8
+          ],
+          "strikeRate": 39,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 9,
+          "wickets": 0,
+          "economyRate": "9.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Ankamma",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 10,
+          "wickets": 0,
+          "economyRate": "10.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Sai",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 4,
+          "wickets": 1,
+          "economyRate": "4.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Trinangkur",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 5,
+          "wickets": 1,
+          "economyRate": "5.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Govinda",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 3,
+          "wickets": 0,
+          "economyRate": "3.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Raghu",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 10,
+          "wickets": 0,
+          "economyRate": "10.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Pritam",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 4,
+          "wickets": 0,
+          "economyRate": "4.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Sanjana",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 13,
+          "wickets": 0,
+          "economyRate": "13.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Banarjee",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 1,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": "0.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Vijay Pratap",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 6,
+          "wickets": 0,
+          "economyRate": "6.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Chhavi",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 3,
+          "wickets": 0,
+          "economyRate": "3.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Sai Ganesh",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 6
+          },
+          "maidens": 0,
+          "runs": 4,
+          "wickets": 0,
+          "economyRate": "4.80",
+          "currentOverRuns": 3
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      }
+    ],
+    "strikerIndex": 11,
+    "nonStrikerIndex": 12,
+    "bowlerIndex": 23,
+    "over": {
+      "over": 18,
+      "balls": 0
+    },
+    "fallOfWickets": [
+      {
+        "name": "Sai Charan",
+        "runs": 3,
+        "over": "1.1",
+        "bowler": "Dileep"
+      },
+      {
+        "name": "Vivek",
+        "runs": 16,
+        "over": "2.4",
+        "bowler": "Abin"
+      },
+      {
+        "name": "Sai ganesh",
+        "runs": 18,
+        "over": "3.3",
+        "bowler": "Rishabh"
+      },
+      {
+        "name": "Banerjee",
+        "runs": 37,
+        "over": "6.2",
+        "bowler": "Ketan"
+      },
+      {
+        "name": "Tilak",
+        "runs": 46,
+        "over": "8.2",
+        "bowler": "Pooja"
+      },
+      {
+        "name": "Vijay",
+        "runs": 66,
+        "over": "13.1",
+        "bowler": "Rahit"
+      },
+      {
+        "name": "Tanmay",
+        "runs": 70,
+        "over": "13.6",
+        "bowler": "Rahit"
+      }
+    ]
+  },
+  "team2": {
+    "name": "Teja",
+    "runs": 104,
+    "runRate": "6.57",
+    "wickets": 7,
+    "retiredCounts": 0,
+    "extras": {
+      "wide": 23,
+      "noBall": 3,
+      "byes": 0
+    },
+    "ballsLog": [
+      {
+        "runs": 2,
+        "extras": 1,
+        "types": {
+          "wide": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "noBall": true
+        },
+        "batsmen": [
+          "Rishabh",
+          "Abin"
+        ],
+        "bowler": "Ankamma",
+        "over": {
+          "over": 0,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Rishabh",
+          "Abin"
+        ],
+        "bowler": "Ankamma",
+        "over": {
+          "over": 0,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Rishabh",
+          "Abin"
+        ],
+        "bowler": "Ankamma",
+        "over": {
+          "over": 0,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Abin",
+          "Rishabh"
+        ],
+        "bowler": "Ankamma",
+        "over": {
+          "over": 0,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Rishabh"
+        ],
+        "bowler": "Ankamma",
+        "over": {
+          "over": 0,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Rishabh",
+          "Abin"
+        ],
+        "bowler": "Ankamma",
+        "over": {
+          "over": 0,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Rishabh"
+        ],
+        "bowler": "Ankamma",
+        "over": {
+          "over": 0,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Rishabh",
+          "Abin"
+        ],
+        "bowler": "Ankamma",
+        "over": {
+          "over": 0,
+          "balls": 8
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Rishabh"
+        ],
+        "bowler": "Sai",
+        "over": {
+          "over": 1,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Rishabh"
+        ],
+        "bowler": "Sai",
+        "over": {
+          "over": 1,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Rishabh",
+          "Abin"
+        ],
+        "bowler": "Sai",
+        "over": {
+          "over": 1,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Rishabh"
+        ],
+        "bowler": "Sai",
+        "over": {
+          "over": 1,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "LBW",
+          "wicketHelper": "Swapnil"
+        },
+        "batsmen": [
+          "Rishabh",
+          "Abin"
+        ],
+        "bowler": "Sai",
+        "over": {
+          "over": 1,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Ketan ",
+          "Abin"
+        ],
+        "bowler": "Sai",
+        "over": {
+          "over": 1,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Ketan ",
+          "Abin"
+        ],
+        "bowler": "Trinangkur",
+        "over": {
+          "over": 2,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Ketan ",
+          "Abin"
+        ],
+        "bowler": "Trinangkur",
+        "over": {
+          "over": 2,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Ketan ",
+          "Abin"
+        ],
+        "bowler": "Trinangkur",
+        "over": {
+          "over": 2,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Ketan ",
+          "Abin"
+        ],
+        "bowler": "Trinangkur",
+        "over": {
+          "over": 2,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Ketan ",
+          "Abin"
+        ],
+        "bowler": "Trinangkur",
+        "over": {
+          "over": 2,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Ketan ",
+          "Abin"
+        ],
+        "bowler": "Trinangkur",
+        "over": {
+          "over": 2,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "BOWLED",
+          "wicketHelper": "Swapnil"
+        },
+        "batsmen": [
+          "Ketan ",
+          "Abin"
+        ],
+        "bowler": "Trinangkur",
+        "over": {
+          "over": 2,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Govinda",
+        "over": {
+          "over": 3,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Govinda",
+        "over": {
+          "over": 3,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Govinda",
+        "over": {
+          "over": 3,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Govinda",
+        "over": {
+          "over": 3,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Govinda",
+        "over": {
+          "over": 3,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Govinda",
+        "over": {
+          "over": 3,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Govinda",
+        "over": {
+          "over": 3,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Raghu",
+        "over": {
+          "over": 4,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Raghu",
+        "over": {
+          "over": 4,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Raghu",
+        "over": {
+          "over": 4,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Raghu",
+        "over": {
+          "over": 4,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Raghu",
+        "over": {
+          "over": 4,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Raghu",
+        "over": {
+          "over": 4,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 6,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Raghu",
+        "over": {
+          "over": 4,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Raghu",
+        "over": {
+          "over": 4,
+          "balls": 8
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Pritam",
+        "over": {
+          "over": 5,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Pritam",
+        "over": {
+          "over": 5,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Pritam",
+        "over": {
+          "over": 5,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Pritam",
+        "over": {
+          "over": 5,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Pritam",
+        "over": {
+          "over": 5,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Pritam",
+        "over": {
+          "over": 5,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Anuja",
+        "over": {
+          "over": 6,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Anuja",
+        "over": {
+          "over": 6,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Anuja",
+        "over": {
+          "over": 6,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 1,
+        "types": {
+          "wide": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "noBall": true
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Anuja",
+        "over": {
+          "over": 6,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Anuja",
+        "over": {
+          "over": 6,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Anuja",
+        "over": {
+          "over": 6,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Anuja",
+        "over": {
+          "over": 6,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Anuja",
+        "over": {
+          "over": 6,
+          "balls": 8
+        }
+      },
+      {
+        "runs": 4,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Sanjana",
+        "over": {
+          "over": 7,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Sanjana",
+        "over": {
+          "over": 7,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 4,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Sanjana",
+        "over": {
+          "over": 7,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Sanjana",
+        "over": {
+          "over": 7,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Sanjana",
+        "over": {
+          "over": 7,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Sanjana",
+        "over": {
+          "over": 7,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Vivek",
+        "over": {
+          "over": 8,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Vivek",
+        "over": {
+          "over": 8,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Vivek",
+        "over": {
+          "over": 8,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Vivek",
+        "over": {
+          "over": 8,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Vivek",
+        "over": {
+          "over": 8,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Vivek",
+        "over": {
+          "over": 8,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Tilak",
+        "over": {
+          "over": 9,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Tilak",
+        "over": {
+          "over": 9,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Tilak",
+        "over": {
+          "over": 9,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Swapnil "
+        ],
+        "bowler": "Tilak",
+        "over": {
+          "over": 9,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Tilak",
+        "over": {
+          "over": 9,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "BOWLED",
+          "wicketHelper": "Swapnil"
+        },
+        "batsmen": [
+          "Swapnil ",
+          "Abin"
+        ],
+        "bowler": "Tilak",
+        "over": {
+          "over": 9,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Teja "
+        ],
+        "bowler": "Tanmay",
+        "over": {
+          "over": 10,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Teja "
+        ],
+        "bowler": "Tanmay",
+        "over": {
+          "over": 10,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Abin"
+        ],
+        "bowler": "Tanmay",
+        "over": {
+          "over": 10,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Teja ",
+          "Abin"
+        ],
+        "bowler": "Tanmay",
+        "over": {
+          "over": 10,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 6,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Abin"
+        ],
+        "bowler": "Tanmay",
+        "over": {
+          "over": 10,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Abin"
+        ],
+        "bowler": "Tanmay",
+        "over": {
+          "over": 10,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Teja "
+        ],
+        "bowler": "Tanmay",
+        "over": {
+          "over": 10,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Abin",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Abin",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "BOWLED",
+          "wicketHelper": "Swapnil"
+        },
+        "batsmen": [
+          "Abin",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Azhar",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Azhar",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "BOWLED",
+          "wicketHelper": "Swapnil"
+        },
+        "batsmen": [
+          "Azhar",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 8
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 9
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 10
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 11
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 12
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 13
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 14
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 15
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 16
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 17
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 18
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "RUN_OUT",
+          "wicketHelper": "Pritam "
+        },
+        "batsmen": [
+          "Pooja ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 19
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vaisnavi ",
+          "Teja "
+        ],
+        "bowler": "Roshan",
+        "over": {
+          "over": 11,
+          "balls": 20
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Vaisnavi "
+        ],
+        "bowler": "Banarjee",
+        "over": {
+          "over": 12,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Vaisnavi "
+        ],
+        "bowler": "Banarjee",
+        "over": {
+          "over": 12,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Vaisnavi "
+        ],
+        "bowler": "Banarjee",
+        "over": {
+          "over": 12,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Vaisnavi "
+        ],
+        "bowler": "Banarjee",
+        "over": {
+          "over": 12,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Vaisnavi "
+        ],
+        "bowler": "Banarjee",
+        "over": {
+          "over": 12,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Vaisnavi "
+        ],
+        "bowler": "Banarjee",
+        "over": {
+          "over": 12,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Vaisnavi ",
+          "Teja "
+        ],
+        "bowler": "Vijay Pratap",
+        "over": {
+          "over": 13,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vaisnavi ",
+          "Teja "
+        ],
+        "bowler": "Vijay Pratap",
+        "over": {
+          "over": 13,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "noBall": true,
+          "wide": false
+        },
+        "batsmen": [
+          "Vaisnavi ",
+          "Teja "
+        ],
+        "bowler": "Vijay Pratap",
+        "over": {
+          "over": 13,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vaisnavi ",
+          "Teja "
+        ],
+        "bowler": "Vijay Pratap",
+        "over": {
+          "over": 13,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vaisnavi ",
+          "Teja "
+        ],
+        "bowler": "Vijay Pratap",
+        "over": {
+          "over": 13,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vaisnavi ",
+          "Teja "
+        ],
+        "bowler": "Vijay Pratap",
+        "over": {
+          "over": 13,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Vaisnavi "
+        ],
+        "bowler": "Vijay Pratap",
+        "over": {
+          "over": 13,
+          "balls": 7
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vaisnavi ",
+          "Teja "
+        ],
+        "bowler": "Vijay Pratap",
+        "over": {
+          "over": 13,
+          "balls": 8
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Vaisnavi "
+        ],
+        "bowler": "Chhavi",
+        "over": {
+          "over": 14,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vaisnavi ",
+          "Teja "
+        ],
+        "bowler": "Chhavi",
+        "over": {
+          "over": 14,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": true,
+          "wicketType": "RUN_OUT",
+          "wicketHelper": "Pritam "
+        },
+        "batsmen": [
+          "Vaisnavi ",
+          "Teja "
+        ],
+        "bowler": "Chhavi",
+        "over": {
+          "over": 14,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vinay Shukla ",
+          "Teja "
+        ],
+        "bowler": "Chhavi",
+        "over": {
+          "over": 14,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "noBall": false
+        },
+        "batsmen": [
+          "Vinay Shukla ",
+          "Teja "
+        ],
+        "bowler": "Chhavi",
+        "over": {
+          "over": 14,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Vinay Shukla "
+        ],
+        "bowler": "Chhavi",
+        "over": {
+          "over": 14,
+          "balls": 6
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Vinay Shukla "
+        ],
+        "bowler": "Sai Ganesh",
+        "over": {
+          "over": 15,
+          "balls": 1
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Vinay Shukla "
+        ],
+        "bowler": "Sai Ganesh",
+        "over": {
+          "over": 15,
+          "balls": 2
+        }
+      },
+      {
+        "runs": 1,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Teja ",
+          "Vinay Shukla "
+        ],
+        "bowler": "Sai Ganesh",
+        "over": {
+          "over": 15,
+          "balls": 3
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vinay Shukla ",
+          "Teja "
+        ],
+        "bowler": "Sai Ganesh",
+        "over": {
+          "over": 15,
+          "balls": 4
+        }
+      },
+      {
+        "runs": 2,
+        "extras": 0,
+        "types": {
+          "wide": false,
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null
+        },
+        "batsmen": [
+          "Vinay Shukla ",
+          "Teja "
+        ],
+        "bowler": "Sai Ganesh",
+        "over": {
+          "over": 15,
+          "balls": 5
+        }
+      },
+      {
+        "runs": 0,
+        "extras": 1,
+        "types": {
+          "noBall": false,
+          "byes": false,
+          "legByes": false,
+          "wicket": false,
+          "wicketType": null,
+          "wicketHelper": null,
+          "outBatsman": null,
+          "wide": true
+        },
+        "batsmen": [
+          "Vinay Shukla ",
+          "Teja "
+        ],
+        "bowler": "Sai Ganesh",
+        "over": {
+          "over": 15,
+          "balls": 6
+        }
+      }
+    ],
+    "players": [
+      {
+        "name": "Sneha",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 3,
+          "wickets": 0,
+          "economyRate": "3.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Dileep",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 10,
+          "wickets": 1,
+          "economyRate": "10.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Abin",
+        "batting": {
+          "runs": 31,
+          "balls": 38,
+          "fours": 0,
+          "sixers": 1,
+          "positions": [
+            null,
+            4
+          ],
+          "strikeRate": 81,
+          "isOut": true,
+          "outBall": "18.0",
+          "isRetired": false,
+          "wicketCause": "BOWLED",
+          "wicketHelper": "Swapnil",
+          "wicketMessage": "b Roshan",
+          "wicketBowler": "Roshan"
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 4,
+          "wickets": 1,
+          "economyRate": "4.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Rishabh",
+        "batting": {
+          "runs": 7,
+          "balls": 7,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            null,
+            1
+          ],
+          "strikeRate": 100,
+          "isOut": true,
+          "outBall": "18.0",
+          "isRetired": false,
+          "wicketCause": "LBW",
+          "wicketHelper": "Swapnil",
+          "wicketMessage": "lbw Sai",
+          "wicketBowler": "Sai"
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 6,
+          "wickets": 1,
+          "economyRate": "6.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Prem",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 5,
+          "wickets": 0,
+          "economyRate": "5.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Ashish joy",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 8,
+          "wickets": 0,
+          "economyRate": "8.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Ketan",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 2,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 1,
+          "economyRate": "6.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Shukla",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 3,
+          "wickets": 0,
+          "economyRate": "3.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Pooja",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 8,
+          "wickets": 1,
+          "economyRate": "8.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Vaishnavi",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 6,
+          "wickets": 0,
+          "economyRate": "6.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Teja",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 3,
+          "wickets": 0,
+          "economyRate": "3.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Azhar",
+        "batting": {
+          "runs": 0,
+          "balls": 3,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            null,
+            5
+          ],
+          "strikeRate": 0,
+          "isOut": true,
+          "outBall": "18.0",
+          "isRetired": false,
+          "wicketCause": "BOWLED",
+          "wicketHelper": "Swapnil",
+          "wicketMessage": "b Roshan",
+          "wicketBowler": "Roshan"
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 3,
+          "wickets": 0,
+          "economyRate": "3.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Swapnil",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 2,
+          "wickets": 0,
+          "economyRate": "2.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Rahit",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 7,
+          "wickets": 2,
+          "economyRate": "7.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Prafull",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 0,
+          "economyRate": "12.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Naman",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 8,
+          "wickets": 0,
+          "economyRate": "8.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Leela",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 1,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 4,
+          "wickets": 0,
+          "economyRate": "4.00",
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Ketan ",
+        "batting": {
+          "runs": 5,
+          "balls": 8,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            null,
+            2
+          ],
+          "strikeRate": 62,
+          "isOut": true,
+          "outBall": "18.0",
+          "isRetired": false,
+          "wicketCause": "BOWLED",
+          "wicketHelper": "Swapnil",
+          "wicketMessage": "b Trinangkur",
+          "wicketBowler": "Trinangkur"
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Swapnil ",
+        "batting": {
+          "runs": 16,
+          "balls": 21,
+          "fours": 2,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 76,
+          "isOut": true,
+          "outBall": "18.0",
+          "isRetired": false,
+          "wicketCause": "BOWLED",
+          "wicketHelper": "Swapnil",
+          "wicketMessage": "b Tilak",
+          "wicketBowler": "Tilak"
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Teja ",
+        "batting": {
+          "runs": 13,
+          "balls": 16,
+          "fours": 0,
+          "sixers": 1,
+          "positions": [],
+          "strikeRate": 81,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Pooja ",
+        "batting": {
+          "runs": 0,
+          "balls": 13,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            null,
+            6
+          ],
+          "strikeRate": 0,
+          "isOut": true,
+          "outBall": "18.0",
+          "isRetired": false,
+          "wicketCause": "RUN_OUT",
+          "wicketHelper": "Pritam ",
+          "wicketMessage": "runout (Pritam  / Roshan)",
+          "wicketBowler": "Roshan"
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Pritam ",
+        "batting": {
+          "runs": 0,
+          "balls": 0,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [],
+          "strikeRate": 0,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 2,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Vaisnavi ",
+        "batting": {
+          "runs": 3,
+          "balls": 10,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            null,
+            7
+          ],
+          "strikeRate": 30,
+          "isOut": true,
+          "outBall": "18.0",
+          "isRetired": false,
+          "wicketCause": "RUN_OUT",
+          "wicketHelper": "Pritam ",
+          "wicketMessage": "runout (Pritam  / Chhavi)",
+          "wicketBowler": "Chhavi"
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      },
+      {
+        "name": "Vinay Shukla ",
+        "batting": {
+          "runs": 3,
+          "balls": 5,
+          "fours": 0,
+          "sixers": 0,
+          "positions": [
+            null,
+            8
+          ],
+          "strikeRate": 60,
+          "isOut": false,
+          "outBall": "",
+          "isRetired": false,
+          "wicketCause": "",
+          "wicketHelper": "",
+          "wicketMessage": "",
+          "wicketBowler": ""
+        },
+        "bowling": {
+          "over": {
+            "over": 0,
+            "balls": 0
+          },
+          "maidens": 0,
+          "runs": 0,
+          "wickets": 0,
+          "economyRate": 0,
+          "currentOverRuns": 0
+        },
+        "fielding": {
+          "catches": 0,
+          "runOuts": 0,
+          "stumpings": 0
+        }
+      }
+    ],
+    "strikerIndex": 23,
+    "nonStrikerIndex": 19,
+    "bowlerIndex": 6,
+    "over": {
+      "over": 15,
+      "balls": 6
+    },
+    "fallOfWickets": [
+      {
+        "name": "Rishabh",
+        "runs": 13,
+        "over": "1.5",
+        "bowler": "Sai"
+      },
+      {
+        "name": "Ketan ",
+        "runs": 19,
+        "over": "2.7",
+        "bowler": "Trinangkur"
+      },
+      {
+        "name": "Swapnil ",
+        "runs": 63,
+        "over": "9.6",
+        "bowler": "Tilak"
+      },
+      {
+        "name": "Abin",
+        "runs": 78,
+        "over": "11.3",
+        "bowler": "Roshan"
+      },
+      {
+        "name": "Azhar",
+        "runs": 79,
+        "over": "11.6",
+        "bowler": "Roshan"
+      },
+      {
+        "name": "Pooja ",
+        "runs": 91,
+        "over": "11.19",
+        "bowler": "Roshan"
+      },
+      {
+        "name": "Vaisnavi ",
+        "runs": 98,
+        "over": "14.3",
+        "bowler": "Chhavi"
+      }
+    ]
+  },
+  "battingTeam": "team2",
+  "bowlingTeam": "team1",
+  "overs": 18,
+  "innings": 2,
+  "validBalls": 5,
+  "selectedTypes": {
+    "wide": false,
+    "noBall": false,
+    "byes": false,
+    "legByes": false,
+    "wicket": false,
+    "wicketType": null,
+    "wicketHelper": null,
+    "outBatsman": null
+  },
+  "selectedRuns": null,
+  "matchOver": false,
+  "matchOverMessage": "",
+  "matchWonBy": "",
+  "matchOverDialogVisible": false,
+  "wicketDialogVisible": false,
+  "runsInputDialogVisible": false,
+  "NextPlayerDialogVisible": false,
+  "inningsOverDialogVisible": false,
+  "initPlayersDialogVisible": false,
+  "needBowlerChange": false,
+  "tossWonByTeam": 2,
+  "selected": "bowling",
+  "createdTime": 1658758395401,
+  "needInningsChange": false,
+  "nextBowlerDialogVisible": false,
+  "nextBatsmanDialogVisible": false
+}

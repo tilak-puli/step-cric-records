@@ -1,6 +1,7 @@
 const fs = require("fs");
 const _ = require("underscore");
 const parseMatchPdf = require("./parseMatchPDF");
+const parseMatchJSON = require("./parseMatchJSON");
 
 const getMatchesJson = function () {
   const fileNames = fs
@@ -93,8 +94,16 @@ function convertFileNameToDate(fileName) {
 }
 
 async function getParsedMatch(fileName) {
+  let data;
+
+  if (fileName.split(".")[1] === "json") {
+    data = await parseMatchJSON("./matches/" + fileName);
+  } else {
+    data = await parseMatchPdf("./matches/" + fileName);
+  }
+
   return {
-    ...(await parseMatchPdf("./matches/pdf/" + fileName)),
+    ...data,
     matchFileNameDate: convertFileNameToDate(fileName),
     matchFileNameIdentifier: fileName,
   };
@@ -107,7 +116,7 @@ function getNewMatches(matchesJson, pdfFileNames) {
 
 const main = async () => {
   console.log("Started parsing pdfs");
-  const pdfFileNames = fs.readdirSync("./matches/pdf");
+  const pdfFileNames = fs.readdirSync("./matches");
   let matchesJson = getMatchesJson();
   const newMatchFileNames = getNewMatches(matchesJson, pdfFileNames);
 
