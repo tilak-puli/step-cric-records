@@ -10,6 +10,7 @@ import {
   Th,
   Thead,
   Tr,
+  Wrap,
 } from "@chakra-ui/react";
 import { useMemo } from "react";
 import { capitalize } from "../utils/utils";
@@ -36,7 +37,11 @@ const columns = [
   },
 ];
 
-export function BattingTable(props: { team: TeamData; date: string }) {
+export function BattingTable(props: {
+  team: TeamData;
+  extrasBowledText: string;
+  date: string;
+}) {
   const rows = useMemo(() => {
     return props.team.batting.map((b, i) => ({
       id: i,
@@ -46,7 +51,8 @@ export function BattingTable(props: { team: TeamData; date: string }) {
           direction={{ base: "column", md: "row" }}
         >
           <Text fontWeight={"bold"}>
-            {capitalize(getIndexName(b.name, props.date))}
+            {capitalize(getIndexName(b.name, props.date)) +
+              (b.notOut ? "*" : "")}
           </Text>
           <Text>{b.outReason}</Text>
         </Flex>
@@ -98,8 +104,13 @@ export function BattingTable(props: { team: TeamData; date: string }) {
             <Td py={1} px={[1, 5]} fontSize={"md"}>
               <Text>Extras</Text>
             </Td>
-            <Td py={1} px={[1, 5]} fontWeight={"bolder"} colSpan={5}>
-              {props.team.extrasGot}
+            <Td py={1} px={[1, 5]} colSpan={5}>
+              <Wrap>
+                <Text fontWeight={"bolder"}>{props.team.extrasGot}</Text>
+                <Text fontSize={"sm"}>
+                  ({props.extrasBowledText?.replace(/\([0-9]*\)/, "")})
+                </Text>
+              </Wrap>
             </Td>
           </Tr>
           <Tr>

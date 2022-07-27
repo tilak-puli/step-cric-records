@@ -42,7 +42,11 @@ function TeamScoreBoard(props: {
       <Heading p={3} fontSize="l" color="white" bg="brand.900">
         {props.name}
       </Heading>
-      <BattingTable team={props.team1} date={props.date} />
+      <BattingTable
+        team={props.team1}
+        extrasBowledText={props.team2.extrasBowledText}
+        date={props.date}
+      />
       <BowlingTable team={props.team2} date={props.date} />
       <Text bg={"gray.50"} px={5} py={3} fontWeight={"bolder"}>
         Fall of Wickets

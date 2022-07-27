@@ -82,8 +82,12 @@ function getFallWickets(lines, i) {
   i = i + 3;
   const fallOfWickets = [];
 
-  while(lines[i+1] && !isSecondTeamStartScore(lines[i+1])){
-    fallOfWickets.push({name: lines[i], score: lines[i + 1], over: lines[i + 2]});
+  while (lines[i + 1] && !isSecondTeamStartScore(lines[i + 1])) {
+    fallOfWickets.push({
+      name: lines[i],
+      score: lines[i + 1],
+      over: lines[i + 2],
+    });
     i = i + 3;
   }
 
@@ -117,7 +121,7 @@ function getBowling(lines, i) {
     bowling.push(bowler);
     if (lines[i] === "Fall of wickets") {
       hasBowler = false;
-      fallOfWickets = getFallWickets(lines, i)
+      fallOfWickets = getFallWickets(lines, i);
     }
   }
   return [bowling, i, fallOfWickets];
@@ -186,7 +190,7 @@ function getTeamScores(lines) {
   [team2.batting, i] = getBatting(lines, i);
   team2.extrasGot = getExtrasGot(lines, i);
   team2.battingRunRate = getBattingRunRate(lines, i);
-  team1.extrasBowled = team1.extrasGot;
+  team1.extrasBowled = team2.extrasGot;
   team1.extrasBowledText = lines[i + 1];
 
   i += 10;

@@ -3872,8 +3872,8 @@
                     "balls": 6,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 100,
-                    "notOut": false
+                    "runRate": 120,
+                    "notOut": true
                 },
                 {
                     "name": "Vaishnavi",
@@ -3933,7 +3933,7 @@
                     "fours": 0,
                     "sixes": 0,
                     "runRate": 0,
-                    "notOut": true
+                    "notOut": false
                 }
             ],
             "extrasGot": 26,
