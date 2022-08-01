@@ -72,7 +72,12 @@ function MVPCard(props: { mvp: MvpDetails }) {
 
 function SpecialMVPCard(props: { mvp: SpecialMvpDetails }) {
   return (
-    <CustomBox p={3} width={["100%", 220]} height={130}>
+    <CustomBox
+      p={3}
+      width={["100%", 220]}
+      minHeight={130}
+      height={"max-content"}
+    >
       <Heading mb={3} fontSize={"sm"}>
         Special MVP
       </Heading>
