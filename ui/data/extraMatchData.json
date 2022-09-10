@@ -385,8 +385,28 @@
     },
     "specialMentions": [
       "Banerjee's team's 4 players got runout",
-      "Vivek's team's batting disaster",
+      "Vivek's team's batting collapse",
       "Prafull and Govinda's duck out"
+    ]
+  },
+  "23-Aug-2022": {
+    "specialMvp": {
+      "name": "Govinda",
+      "reason": "For played 28 balls notout unforgotable innings"
+    },
+    "specialMentions": [
+      "Vivek last man standing",
+      "Rishab and Abin's duckout",
+      "Sanjana's team tight bowling"
+    ]
+  },
+  "23-Aug-2022(1)": {
+    "specialMvp": {
+      "name": "Abin",
+      "reason": "For batting from the initial overs"
+    },
+    "specialMentions": [
+      "Rishabh, Sai and Govinda's duck out"
     ]
   }
 }
