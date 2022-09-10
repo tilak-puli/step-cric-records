@@ -418,5 +418,27 @@
       "Banerjee's last over finishing",
       "Sridev played for both teams, batting, bowling and keeping"
     ]
+  },
+  "10-Sep-2022": {
+    "specialMvp": {
+      "name": "Vivek",
+      "reason": "For added quick 31 runs"
+    },
+    "specialMentions": [
+      "Sanjana's 2 wicket in 2 balls",
+      "Tanmay and Rishabh's golden duck out"
+    ]
+  },
+  "10-Sep-2022(1)": {
+    "specialMvp": {
+      "name": "Chhavi",
+      "reason": "For finishing the batting line-up of opponent team"
+    },
+    "specialMentions": [
+      "Azhar's 2 runout",
+      "Abin's golden duck",
+      "Banerjee's hattrick of 4 in tanmay's over",
+      "Game finishes with a no ball"
+    ]
   }
 }
