@@ -1,5 +1,5 @@
 import { Flex, Text, Wrap } from "@chakra-ui/react";
-import { CustomBox } from "../../components/HigherOrder/CustomBox";
+import { CustomBox } from "../HigherOrder/CustomBox";
 
 function getPlayerInfoRow(playerName, playerStats) {
   return {

@@ -1,4 +1,4 @@
-import { getAvg, getBowlingAverage, getEconomy } from "../../components";
+import { getAvg, getBowlingAverage, getEconomy } from "../index";
 import Link from "next/link";
 import { Link as ChakraLink } from "@chakra-ui/layout";
 

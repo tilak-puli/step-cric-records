@@ -6,9 +6,12 @@ import { SimpleTable } from "../../components/SimpleTable";
 import { RecentMatches } from "../../components";
 import { capitalize } from "../../utils/utils";
 import { useRouter } from "next/router";
-import { PlayerBasicInfo } from "./playerBasicInfo";
-import { PlayerNameSelector } from "./playerNameSelector";
-import { getBattingInfo, getBowlingInfo } from "./calcCareerRecords";
+import { PlayerBasicInfo } from "../../components/playerInfo/playerBasicInfo";
+import { PlayerNameSelector } from "../../components/playerInfo/playerNameSelector";
+import {
+  getBattingInfo,
+  getBowlingInfo,
+} from "../../components/playerInfo/calcCareerRecords";
 
 const battingColumns = [
   { field: "b", headerName: "Batting", width: 10 },
