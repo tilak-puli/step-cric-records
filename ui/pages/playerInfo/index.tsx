@@ -85,8 +85,9 @@ function top5BattingFigures(battingFigures) {
 
       return diff;
     })
-    .map((f) => (
+    .map((f, i) => (
       <FigureLink
+        key={i}
         text={`${f.runs}(${f.balls})${f.notOut ? "*" : ""}`}
         matchIndex={f.matchIndex}
       />
@@ -105,8 +106,9 @@ function top5BowlingFigures(battingFigures) {
 
       return diff;
     })
-    .map((f) => (
+    .map((f, i) => (
       <FigureLink
+        key={i}
         text={`${f.wickets}/${f.wicketsWithRuns}(${f.wicketsInOvers})`}
         matchIndex={f.matchIndex}
       />
@@ -124,7 +126,6 @@ function getPlayerInfoRow(playerName, playerStats) {
 }
 
 function getBattingInfoRow(batting) {
-  console.log(batting);
   return {
     runsScored: batting.runs,
     ballsFaced: batting.balls,
@@ -141,8 +142,9 @@ function getBattingInfoRow(batting) {
     recentFigures: [...batting.battingFigures]
       .slice(-5)
       .reverse()
-      .map((f) => (
+      .map((f, i) => (
         <FigureLink
+          key={i}
           text={`${f.runs}(${f.balls})${f.notOut ? "*" : ""}`}
           matchIndex={f.matchIndex}
         />
@@ -169,8 +171,9 @@ function getBowlingInfoRow(bowling) {
     recentFigures: [...bowling.bowlingFigures]
       .slice(-5)
       .reverse()
-      .map((f) => (
+      .map((f, i) => (
         <FigureLink
+          key={i}
           text={`${f.wickets}/${f.wicketsWithRuns}(${f.wicketsInOvers})`}
           matchIndex={f.matchIndex}
         />
