@@ -26,7 +26,7 @@ interface GlobalContextType {
     batting: BattingStats;
     bowling: BowlingStats;
     partnerships: Partnership[];
-    playerNames: { [name: string]: PlayerStats };
+    playerStats: { [name: string]: PlayerStats };
     total?: {
       runsScored: number;
       wicketsTaken: number;
@@ -42,7 +42,7 @@ const defaultStats = {
   batting: {},
   bowling: {},
   partnerships: [],
-  playerNames: {},
+  playerStats: {},
   total: {
     runsScored: 0,
     wicketsTaken: 0,

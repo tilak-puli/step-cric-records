@@ -27,13 +27,21 @@ function addOvers(over: string, over1: string) {
   return overNumber + "." + ballsNumber;
 }
 
+function addTags(playerStats: {}, indexName: string, tags: String[]) {
+  tags.forEach(
+    (tag) =>
+      (playerStats[indexName].tags[tag] =
+        playerStats[indexName].tags[tag] + 1 || 1)
+  );
+}
+
 export default function getStats(
   matches: Match[],
   fromYear: number,
   tags: string[]
 ) {
   const batting: BattingStats = {};
-  const playerNames = {};
+  const playerStats = {};
   const bowling: BowlingStats = {};
   let partnerships: Partnership[] = [];
   let runsScored: number = 0;
@@ -45,7 +53,6 @@ export default function getStats(
   const addBattingRecords = (
     date,
     matchIndex,
-    tags = [],
     { runs, name, balls, fours, sixes, notOut }
   ) => {
     const indexName = getIndexName(name, date);
@@ -54,7 +61,6 @@ export default function getStats(
     sixesHit += sixes;
 
     if (!batting[indexName]) {
-      playerNames[indexName] = { tags: {}, tournamentTags: new Set() };
       batting[indexName] = {
         runs: 0,
         balls: 0,
@@ -70,11 +76,6 @@ export default function getStats(
     batting[indexName].balls += balls;
 
     batting[indexName].battingFigures.push({ runs, balls, matchIndex, notOut });
-    tags?.forEach(
-      (tag) =>
-        (playerNames[indexName].tags[tag] =
-          playerNames[indexName].tags[tag] + 1 || 1)
-    );
   };
 
   const addBowlingRecords = (
@@ -109,6 +110,58 @@ export default function getStats(
     });
   };
 
+  function addMatchStats(match: Match) {
+    const team1Players = new Set();
+    const team2Players = new Set();
+
+    match.team1.batting.forEach(({ name }) => {
+      const indexName = getIndexName(name, match.matchFileNameDate);
+      team1Players.add(indexName);
+    });
+    match.team1.bowling.forEach(({ name }) => {
+      const indexName = getIndexName(name, match.matchFileNameDate);
+      team1Players.add(indexName);
+    });
+    match.team2.batting.forEach(({ name }) => {
+      const indexName = getIndexName(name, match.matchFileNameDate);
+      team2Players.add(indexName);
+    });
+    match.team2.bowling.forEach(({ name }) => {
+      const indexName = getIndexName(name, match.matchFileNameDate);
+      team2Players.add(indexName);
+    });
+
+    const team1PlayersArr = Array.from(team1Players);
+    const team2PlayersArr = Array.from(team2Players);
+    const allPlayers = team2PlayersArr.concat(team1PlayersArr);
+
+    allPlayers.forEach((name: string) => {
+      const tags = match.extraData?.tags;
+      const team1Won = match.winner === match.team1Name;
+
+      if (!playerStats[name]) {
+        playerStats[name] = {
+          tags: {},
+          tournamentTags: new Set(),
+          wins: 0,
+          matches: 0,
+        };
+      }
+
+      if (tags) {
+        addTags(playerStats, name, tags || []);
+      }
+
+      if (team1Won && team1Players.has(name)) {
+        playerStats[name].wins += 1;
+      } else if (!team1Won && team2Players.has(name)) {
+        playerStats[name].wins += 1;
+      }
+
+      playerStats[name].matches += 1;
+    });
+  }
+
   getFilteredMatches(matches, fromYear, tags)
     .map((match, index) => ({ match, index }))
     .forEach(({ match }) => {
@@ -120,20 +173,10 @@ export default function getStats(
       }
 
       match.team1.batting.forEach(
-        addBattingRecords.bind(
-          null,
-          match.matchFileNameDate,
-          match.matchIndex,
-          match.extraData?.tags
-        )
+        addBattingRecords.bind(null, match.matchFileNameDate, match.matchIndex)
       );
       match.team2.batting.forEach(
-        addBattingRecords.bind(
-          null,
-          match.matchFileNameDate,
-          match.matchIndex,
-          match.extraData?.tags
-        )
+        addBattingRecords.bind(null, match.matchFileNameDate, match.matchIndex)
       );
       match.team1.bowling.forEach(
         addBowlingRecords.bind(null, match.matchFileNameDate, match.matchIndex)
@@ -141,6 +184,8 @@ export default function getStats(
       match.team2.bowling.forEach(
         addBowlingRecords.bind(null, match.matchFileNameDate, match.matchIndex)
       );
+
+      addMatchStats(match);
 
       const team1Partnerships: Partnership[] = getPartnershipsRecords(
         match.matchFileNameDate,
@@ -164,7 +209,7 @@ export default function getStats(
     bowling,
     partnerships,
     fromYear,
-    playerNames,
+    playerStats,
     total: { runsScored, wicketsTaken, foursHit, sixesHit, highestMatchScore },
   };
 }

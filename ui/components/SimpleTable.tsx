@@ -17,8 +17,10 @@ export function SimpleTable(props: {
   columns: any[];
   headerFontSize?: number | string;
   rowP?: number;
+  rowFontSize?: number;
   textAlign?: ResponsiveValue<TextAlign>;
   transpose?: boolean;
+  colorAllHeaders?: boolean;
 }) {
   return (
     <TableContainer px={[3, 0]}>
@@ -50,7 +52,7 @@ export function SimpleTable(props: {
                     width={c.width}
                     key={k}
                     py={props.rowP || 1}
-                    fontSize={"sm"}
+                    fontSize={props.rowFontSize || "sm"}
                     textAlign={props.textAlign || "center"}
                   >
                     {r[c.field]}
@@ -73,6 +75,8 @@ function getTransposedRow(
     rows: any[];
     rowP?: number;
     textAlign?: ResponsiveValue<Property.TextAlign>;
+    colorAllHeaders?: boolean;
+    rowFontSize?: number;
   }
 ) {
   return (
@@ -81,6 +85,7 @@ function getTransposedRow(
         px={[1, 5]}
         width={c.width}
         key={0}
+        color={props.colorAllHeaders ? "brand.900" : "inherit"}
         py={props.rowP || 1}
         fontSize={"sm"}
         textAlign={props.textAlign || "center"}
@@ -93,8 +98,8 @@ function getTransposedRow(
           width={r.width}
           key={i + 1}
           py={props.rowP || 1}
-          fontSize={"sm"}
           textAlign={props.textAlign || "center"}
+          fontSize={props.rowFontSize || "sm"}
         >
           {r[c.field]}
         </Td>
@@ -110,6 +115,7 @@ function getTransposedHeader(props: {
   rowP?: number;
   textAlign?: ResponsiveValue<Property.TextAlign>;
   transpose?: boolean;
+  colorAllHeaders?: boolean;
 }) {
   return (
     <>

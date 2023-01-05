@@ -55,7 +55,7 @@ class PlayerNameSelector extends Component<{
         >
           {this.props.playerNames.sort().map((playerName) => (
             <option key={playerName} value={playerName}>
-              {playerName}
+              {capitalize(playerName)}
             </option>
           ))}
         </Select>
@@ -122,6 +122,8 @@ function getPlayerInfoRow(playerName, playerStats) {
     topTag: Object.entries(playerStats.tags).reduce((topTag, tag) =>
       tag[1] > topTag[1] ? tag : topTag
     )[0],
+    matches: playerStats.matches,
+    wins: playerStats.wins,
   };
 }
 
@@ -187,19 +189,32 @@ function getBowlingInfoRow(bowling) {
   };
 }
 
+function CommonInfo({ title, value }) {
+  return (
+    <Wrap>
+      <Text color={"brand.900"} width={130}>
+        {title}
+      </Text>
+      <Text>{value}</Text>
+    </Wrap>
+  );
+}
+
 const PlayerBasicInfo = ({ playerName, playerStats }) => {
   const info = getPlayerInfoRow(playerName, playerStats);
 
   return (
     <CustomBox width={350} p={3}>
-      <Flex direction={"column"}>
-        <Heading size={"md"} mb={3}>
+      <Flex direction={"column"} paddingLeft={2}>
+        <Heading size={"lg"} mb={3}>
           {capitalize(info.name)}
         </Heading>
-        <Wrap>
-          <Text>most with tag:</Text>
-          <Text>{info.topTag}</Text>
-        </Wrap>
+        <CommonInfo title={"most with tag:"} value={info.topTag} />
+        <CommonInfo title={"matches played:"} value={info.matches} />
+        <CommonInfo
+          title={"win percentage:"}
+          value={`${((info.wins / info.matches) * 100).toFixed(0)}%`}
+        />
       </Flex>
     </CustomBox>
   );
@@ -208,7 +223,7 @@ const PlayerBasicInfo = ({ playerName, playerStats }) => {
 const PlayerInfoHome = () => {
   const [playerName, setPlayerName] = useState(null);
   const { stats } = useContext(GlobalContext);
-  const playerStats = stats.playerNames[playerName];
+  const playerStats = stats.playerStats[playerName];
   return (
     <Wrap spacing={5} direction={"column"} p={["1em", "2em"]}>
       <Box>
@@ -217,7 +232,7 @@ const PlayerInfoHome = () => {
           onChange={(playerName) => {
             setPlayerName(playerName);
           }}
-          playerNames={Object.keys(stats.playerNames)}
+          playerNames={Object.keys(stats.playerStats)}
         />
       </Box>
 
@@ -231,7 +246,9 @@ const PlayerInfoHome = () => {
                 rows={[getBattingInfoRow(stats.batting[playerName])]}
                 textAlign={"left"}
                 transpose
+                colorAllHeaders={true}
                 headerFontSize={15}
+                rowFontSize={15}
               />
             </CustomBox>
             <CustomBox width={500} pb={3}>
@@ -240,7 +257,9 @@ const PlayerInfoHome = () => {
                 rows={[getBowlingInfoRow(stats.bowling[playerName])]}
                 textAlign={"left"}
                 transpose
+                colorAllHeaders={true}
                 headerFontSize={15}
+                rowFontSize={15}
               />
             </CustomBox>
           </Wrap>

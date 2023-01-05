@@ -25,6 +25,8 @@ export interface TagsFreq {
 export interface PlayerStats {
   tags: TagsFreq;
   tournamentTags: Set<string>;
+  wins: number;
+  matches: number;
 }
 
 export interface BattingFigure {
