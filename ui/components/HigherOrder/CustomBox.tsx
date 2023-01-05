@@ -9,7 +9,7 @@ interface HigherOrderChakraProps extends ChakraProps {
 export const CustomBox = (props: HigherOrderChakraProps) => {
   return (
     <Box
-      bg="white"
+      bg={props.bg || "white"}
       border="1px"
       borderStyle={"solid"}
       borderColor={"gray.200"}

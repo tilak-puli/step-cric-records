@@ -18,6 +18,8 @@ const columns = [
 ];
 
 export function getBowlingAverage(bowlingFigures) {
+  if (!bowlingFigures) return;
+
   let wickets = 0;
   let runs = 0;
 
@@ -28,7 +30,9 @@ export function getBowlingAverage(bowlingFigures) {
   return runs / wickets;
 }
 
-export function getEconomy(bowlingFigures) {
+export function getEconomy(bowlingFigures = []) {
+  if (!bowlingFigures) return;
+
   let balls = 0;
   let runs = 0;
 

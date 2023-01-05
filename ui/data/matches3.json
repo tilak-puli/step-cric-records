@@ -1390,7 +1390,7 @@
   },
   {
     "team1Name": "Hemanth",
-    "team2Name": "Kasim",
+    "team2Name": "Qasim",
     "team1": {
       "name": "Hemanth",
       "score": {
@@ -2124,8 +2124,8 @@
       "extrasGot": 17,
       "battingRunRate": 6.92
     },
-    "result": "Kasim won by 1 wickets.",
-    "winner": "Kasim",
+    "result": "Qasim won by 1 wickets.",
+    "winner": "Qasim",
     "matchUploadedDate": "2023-01-03T15:00:54.299Z",
     "matchFileNameDate": "03/Dec/2022",
     "matchFileNameIdentifier": "03-Dec-2022.pdf"
