@@ -126,6 +126,8 @@ function getPlayerInfoRow(playerName, playerStats) {
 }
 
 function getBattingInfoRow(batting) {
+  if (!batting) return {};
+
   return {
     runsScored: batting.runs,
     ballsFaced: batting.balls,
@@ -155,6 +157,8 @@ function getBattingInfoRow(batting) {
 }
 
 function getBowlingInfoRow(bowling) {
+  if (!bowling) return {};
+
   return {
     wickets: bowling.wickets,
     matchesBowled: bowling.matches,
