@@ -1,6 +1,7 @@
 import { Match } from "../types/match";
 import { BattingStats, BowlingStats, Partnership } from "../types/stats";
 import { getIndexName } from "../utils/utils";
+import tag from "@chakra-ui/theme/src/components/tag";
 
 function findBallBetween(lastWicketOver: string, over) {
   const overs = over.split(".")[0] - +lastWicketOver.split(".")[0];
@@ -32,6 +33,7 @@ export default function getStats(
   tags: string[]
 ) {
   const batting: BattingStats = {};
+  const playerNames = {};
   const bowling: BowlingStats = {};
   let partnerships: Partnership[] = [];
   let runsScored: number = 0;
@@ -43,6 +45,7 @@ export default function getStats(
   const addBattingRecords = (
     date,
     matchIndex,
+    tags = [],
     { runs, name, balls, fours, sixes, notOut }
   ) => {
     const indexName = getIndexName(name, date);
@@ -51,6 +54,7 @@ export default function getStats(
     sixesHit += sixes;
 
     if (!batting[indexName]) {
+      playerNames[indexName] = { tags: {}, tournamentTags: new Set() };
       batting[indexName] = {
         runs: 0,
         balls: 0,
@@ -65,7 +69,12 @@ export default function getStats(
     batting[indexName].notOuts += notOut ? 1 : 0;
     batting[indexName].balls += balls;
 
-    batting[indexName].battingFigures.push({ runs, balls, matchIndex });
+    batting[indexName].battingFigures.push({ runs, balls, matchIndex, notOut });
+    tags?.forEach(
+      (tag) =>
+        (playerNames[indexName].tags[tag] =
+          playerNames[indexName].tags[tag] + 1 || 1)
+    );
   };
 
   const addBowlingRecords = (
@@ -111,10 +120,20 @@ export default function getStats(
       }
 
       match.team1.batting.forEach(
-        addBattingRecords.bind(null, match.matchFileNameDate, match.matchIndex)
+        addBattingRecords.bind(
+          null,
+          match.matchFileNameDate,
+          match.matchIndex,
+          match.extraData?.tags
+        )
       );
       match.team2.batting.forEach(
-        addBattingRecords.bind(null, match.matchFileNameDate, match.matchIndex)
+        addBattingRecords.bind(
+          null,
+          match.matchFileNameDate,
+          match.matchIndex,
+          match.extraData?.tags
+        )
       );
       match.team1.bowling.forEach(
         addBowlingRecords.bind(null, match.matchFileNameDate, match.matchIndex)
@@ -145,6 +164,7 @@ export default function getStats(
     bowling,
     partnerships,
     fromYear,
+    playerNames,
     total: { runsScored, wicketsTaken, foursHit, sixesHit, highestMatchScore },
   };
 }

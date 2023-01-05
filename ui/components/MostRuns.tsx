@@ -18,7 +18,7 @@ const columns = [
   { accessor: "avg", Header: "Avg", width: 10, sortType: "number", px: [3] },
 ];
 
-function getAvg(runs, matches, notOuts) {
+export function getAvg(runs, matches, notOuts) {
   let avg = runs / (matches - notOuts);
 
   if (matches === notOuts) {

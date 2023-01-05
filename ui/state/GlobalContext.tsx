@@ -3,7 +3,12 @@ import { Match } from "../types/match";
 import extraDataJson from "../data/extraMatchData.json";
 import extraDataGlobalJson from "../data/extraTagsData.json";
 import getStats from "./stats";
-import { BattingStats, BowlingStats, Partnership } from "../types/stats";
+import {
+  BattingStats,
+  BowlingStats,
+  Partnership,
+  PlayerStats,
+} from "../types/stats";
 import matchesJson from "../data/allMatches";
 import { useRouter } from "next/router";
 
@@ -21,6 +26,7 @@ interface GlobalContextType {
     batting: BattingStats;
     bowling: BowlingStats;
     partnerships: Partnership[];
+    playerNames: { [name: string]: PlayerStats };
     total?: {
       runsScored: number;
       wicketsTaken: number;
@@ -36,6 +42,7 @@ const defaultStats = {
   batting: {},
   bowling: {},
   partnerships: [],
+  playerNames: {},
   total: {
     runsScored: 0,
     wicketsTaken: 0,

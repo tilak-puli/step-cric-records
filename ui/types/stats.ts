@@ -18,10 +18,20 @@ export interface BattingStats {
   [name: string]: BattingStat;
 }
 
+export interface TagsFreq {
+  [tagName: string]: number;
+}
+
+export interface PlayerStats {
+  tags: TagsFreq;
+  tournamentTags: Set<string>;
+}
+
 export interface BattingFigure {
   runs: number;
   balls: number;
   matchIndex: number;
+  notOut: boolean;
 }
 
 export interface BowlingFigure {

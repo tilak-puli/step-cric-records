@@ -17,7 +17,18 @@ const columns = [
   { accessor: "economy", Header: "ER", width: 10, sortType: "number" },
 ];
 
-function getEconomy(bowlingFigures) {
+export function getBowlingAverage(bowlingFigures) {
+  let wickets = 0;
+  let runs = 0;
+
+  for (let figure of bowlingFigures) {
+    wickets += +figure.wickets;
+    runs += +figure.wicketsWithRuns;
+  }
+  return runs / wickets;
+}
+
+export function getEconomy(bowlingFigures) {
   let balls = 0;
   let runs = 0;
 

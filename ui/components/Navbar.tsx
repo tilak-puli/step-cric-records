@@ -40,6 +40,10 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/stats",
   },
   {
+    label: "Player Info",
+    href: "/playerInfo",
+  },
+  {
     label: "Images",
     href: "/images",
   },
