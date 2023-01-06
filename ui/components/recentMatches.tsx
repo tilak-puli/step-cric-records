@@ -99,7 +99,7 @@ export function RecentMatches({ playerName, bowlingInfo, battingInfo }) {
     .map((m) => ({ index: m[0], figures: m[1] }));
 
   return (
-    <Wrap spacing={2}>
+    <Wrap spacing={2} maxW={"100%"}>
       {recentMatchesGrouped.map((m, i) => (
         <RecentMatchInfo
           key={i}

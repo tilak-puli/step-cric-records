@@ -10,7 +10,7 @@ import { PlayerBasicInfo } from "../../components/playerInfo/playerBasicInfo";
 import { PlayerNameSelector } from "../../components/playerInfo/playerNameSelector";
 import {
   getBattingInfo,
-  getBowlingInfo,
+  getBowlingInfo
 } from "../../components/playerInfo/calcCareerRecords";
 
 const battingColumns = [
@@ -20,7 +20,7 @@ const battingColumns = [
   { field: "sr", headerName: "Strike Rate", width: 10 },
   { field: "avg", headerName: "Average", width: 10 },
   { field: "matchesBatted", headerName: "Matches Batted", width: 10 },
-  { field: "topFigures", headerName: "Top Scores", width: 10 },
+  { field: "topFigures", headerName: "Top Scores", width: 10 }
 ];
 
 const bowlingColumns = [
@@ -30,16 +30,16 @@ const bowlingColumns = [
   { field: "economy", headerName: "Economy", width: 10 },
   { field: "average", headerName: "Average", width: 10 },
   { field: "matchesBowled", headerName: "Matches Bowled", width: 10 },
-  { field: "topFigures", headerName: "Top Scores", width: 10 },
+  { field: "topFigures", headerName: "Top Scores", width: 10 }
 ];
 
 function getBattingInfoRow(battingInfo) {
   const battingRow = { ...battingInfo };
 
   battingRow.topFigures = (
-    <Box>
-      {battingRow?.topFigures?.reduce((prev, curr) => [prev, ", ", curr])}
-    </Box>
+    <Wrap maxW={"100%"}>
+      {battingRow?.topFigures}
+    </Wrap>
   );
 
   return battingRow;
@@ -49,9 +49,9 @@ function getBowlingInfoRow(bowlingInfo) {
   const bowlingRow = { ...bowlingInfo };
 
   bowlingRow.topFigures = (
-    <Box>
-      {bowlingInfo?.topFigures?.reduce((prev, curr) => [prev, ", ", curr])}
-    </Box>
+    <Wrap>
+      {bowlingInfo?.topFigures}
+    </Wrap>
   );
 
   return bowlingRow;
@@ -66,9 +66,9 @@ const PlayerInfoHome = () => {
   const router = useRouter();
 
   useEffect(() => {
-    let playerName = router.query.playerName
-    if(Array.isArray(playerName)){
-      playerName = playerName[0]
+    let playerName = router.query.playerName;
+    if (Array.isArray(playerName)) {
+      playerName = playerName[0];
     }
 
     setPlayerName(playerName);
@@ -105,8 +105,8 @@ const PlayerInfoHome = () => {
           <Heading mb={3} fontSize={"m"}>
             Career Stats
           </Heading>
-          <Wrap>
-            <CustomBox width={500}>
+          <Wrap width={"calc(100vw - 3em)"} spacing={5}>
+            <CustomBox>
               <SimpleTable
                 columns={battingColumns}
                 rows={[getBattingInfoRow(battingInfo)]}
@@ -119,7 +119,7 @@ const PlayerInfoHome = () => {
               />
             </CustomBox>
 
-            <CustomBox width={500}>
+            <CustomBox>
               <SimpleTable
                 columns={bowlingColumns}
                 rows={[getBowlingInfoRow(bowlingInfo)]}
