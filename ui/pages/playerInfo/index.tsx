@@ -90,7 +90,7 @@ const PlayerInfoHome = () => {
 
       {playerStats && (
         <>
-          <Heading size={"lg"} mb={3} paddingLeft={2}>
+          <Heading size={"lg"} mb={3}>
             {capitalize(playerName)}
           </Heading>
           <PlayerBasicInfo playerName={playerName} playerStats={playerStats} />
@@ -106,7 +106,7 @@ const PlayerInfoHome = () => {
             Career Stats
           </Heading>
           <Wrap width={"calc(100vw - 3em)"} spacing={5}>
-            <CustomBox>
+            <CustomBox minW={["100%", 450]}>
               <SimpleTable
                 columns={battingColumns}
                 rows={[getBattingInfoRow(battingInfo)]}
@@ -119,7 +119,7 @@ const PlayerInfoHome = () => {
               />
             </CustomBox>
 
-            <CustomBox>
+            <CustomBox minW={["100%", 450]}>
               <SimpleTable
                 columns={bowlingColumns}
                 rows={[getBowlingInfoRow(bowlingInfo)]}
