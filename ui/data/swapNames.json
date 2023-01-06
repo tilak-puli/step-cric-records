@@ -77,20 +77,16 @@
     "name": "Qasim",
     "beforeDate": "12/01/4020"
   },
-  "Hemanth": {
-    "name": "Hement",
+  "hement": {
+    "name": "hemanth",
     "beforeDate": "12/01/4020"
   },
-  "Hemant": {
-    "name": "Hement",
+  "vidita": {
+    "name": "viditha",
     "beforeDate": "12/01/4020"
   },
-  "Viditha": {
-    "name": "Vidita",
-    "beforeDate": "12/01/4020"
-  },
-  "Gourav": {
-    "name": "Gourab",
+  "gourab": {
+    "name": "gourav",
     "beforeDate": "12/01/4020"
   },
   "trinagkur": {
@@ -112,5 +108,13 @@
   "trinu": {
     "name": "trinangkur",
     "beforeDate": "12/01/2022"
-  }
+  },
+  "suki": {
+    "name": "sukhdev",
+    "beforeDate": "12/01/2022"
+  },
+  "sukdev": {
+  "name": "sukhdev",
+  "beforeDate": "12/01/2022"
+}
 }

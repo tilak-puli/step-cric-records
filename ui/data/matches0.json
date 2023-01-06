@@ -7618,7 +7618,7 @@
                     "notOut": false
                 },
                 {
-                    "name": "Yogj",
+                    "name": "Yogi",
                     "outReason": "b Swamiji",
                     "runs": 5,
                     "balls": 6,
@@ -7910,7 +7910,7 @@
                     "over": "12.0"
                 },
                 {
-                    "name": "Yogj",
+                    "name": "Yogi",
                     "score": "112/5",
                     "over": "14.3"
                 }
@@ -9921,7 +9921,7 @@
             },
             "batting": [
                 {
-                    "name": "Rishab",
+                    "name": "Rishabh",
                     "outReason": "b ActualSai",
                     "runs": 5,
                     "balls": 6,
@@ -10261,7 +10261,7 @@
             ],
             "fallOfWickets": [
                 {
-                    "name": "Rishab",
+                    "name": "Rishabh",
                     "score": "20/1",
                     "over": "1.4"
                 },
