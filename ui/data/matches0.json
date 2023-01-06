@@ -4155,7 +4155,7 @@
                     "notOut": false
                 },
                 {
-                    "name": "Tringkur",
+                    "name": "Trinangkur",
                     "outReason": "not out",
                     "runs": 0,
                     "balls": 3,
@@ -4199,7 +4199,7 @@
                     "economy": 4
                 },
                 {
-                    "name": "Tringkur",
+                    "name": "Trinangkur",
                     "overs": 1,
                     "maidens": 0,
                     "runs": 4,
@@ -4460,7 +4460,7 @@
                 },
                 {
                     "name": "Debu",
-                    "outReason": "c Chandan b Tringkur",
+                    "outReason": "c Chandan b Trinangkur",
                     "runs": 2,
                     "balls": 4,
                     "fours": 0,

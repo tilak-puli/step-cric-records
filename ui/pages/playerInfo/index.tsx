@@ -38,7 +38,7 @@ function getBattingInfoRow(battingInfo) {
 
   battingRow.topFigures = (
     <Box>
-      {battingRow.topFigures?.reduce((prev, curr) => [prev, ", ", curr])}
+      {battingRow?.topFigures?.reduce((prev, curr) => [prev, ", ", curr])}
     </Box>
   );
 
@@ -50,7 +50,7 @@ function getBowlingInfoRow(bowlingInfo) {
 
   bowlingRow.topFigures = (
     <Box>
-      {bowlingInfo.topFigures.reduce((prev, curr) => [prev, ", ", curr])}
+      {bowlingInfo?.topFigures?.reduce((prev, curr) => [prev, ", ", curr])}
     </Box>
   );
 

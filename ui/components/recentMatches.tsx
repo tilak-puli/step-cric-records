@@ -80,11 +80,11 @@ export function RecentMatches({ playerName, bowlingInfo, battingInfo }) {
     [matchIndex: string]: { batting?: BattingFigure; bowling?: BowlingFigure };
   } = {};
 
-  battingInfo.recentFigures.forEach((f) => {
+  battingInfo?.recentFigures?.forEach((f) => {
     recentFigures[f.matchIndex] = { batting: f };
   });
 
-  bowlingInfo.recentFigures.forEach((f) => {
+  bowlingInfo?.recentFigures?.forEach((f) => {
     if (recentFigures[f.matchIndex]) {
       recentFigures[f.matchIndex].bowling = f;
     } else {
