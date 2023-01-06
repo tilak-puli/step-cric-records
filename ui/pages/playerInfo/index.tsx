@@ -58,7 +58,7 @@ function getBowlingInfoRow(bowlingInfo) {
 }
 
 const PlayerInfoHome = () => {
-  const [playerName, setPlayerName] = useState(null);
+  const [playerName, setPlayerName] = useState("");
   const { stats } = useContext(GlobalContext);
   const playerStats = stats.playerStats[playerName];
   const battingInfo = getBattingInfo(stats.batting[playerName]);
@@ -66,7 +66,12 @@ const PlayerInfoHome = () => {
   const router = useRouter();
 
   useEffect(() => {
-    setPlayerName(router.query.playerName);
+    let playerName = router.query.playerName
+    if(Array.isArray(playerName)){
+      playerName = playerName[0]
+    }
+
+    setPlayerName(playerName);
   }, [stats]);
 
   return (

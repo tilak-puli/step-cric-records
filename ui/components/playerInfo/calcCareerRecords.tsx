@@ -76,7 +76,7 @@ export function getBowlingInfo(bowling) {
     matchesBowled: bowling.matches,
     oversBowled: bowling.overs,
     economy: getEconomy(bowling.bowlingFigures),
-    average: getBowlingAverage(bowling.bowlingFigures),
+    average: getBowlingAverage(bowling.bowlingFigures)?.toFixed(2),
     topFigures: top5BowlingFigures([...bowling.bowlingFigures]),
     recentFigures: [...bowling.bowlingFigures].slice(-5).reverse(),
   };
