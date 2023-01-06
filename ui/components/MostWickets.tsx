@@ -27,7 +27,7 @@ export function getBowlingAverage(bowlingFigures) {
     wickets += +figure.wickets;
     runs += +figure.wicketsWithRuns;
   }
-  return runs / wickets;
+  return runs / (wickets || 1);
 }
 
 export function getEconomy(bowlingFigures = []) {
