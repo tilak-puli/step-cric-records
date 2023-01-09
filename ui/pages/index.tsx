@@ -27,8 +27,8 @@ function Home() {
   } = useContext(GlobalContext);
 
   return (
-    <Flex p={["1em", "2em"]} gap={10} wrap={"wrap"} direction={"row"}>
-      <CustomBox width={["100%", 400]}>
+    <Flex p={["1em", "2em"]} gap={[3, 10]} wrap={"wrap"} direction={"row"}>
+      <CustomBox width={["100%", 750]}>
         <Heading p={"1em"} size={"l"}>
           Recent Matches
         </Heading>

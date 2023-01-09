@@ -38,6 +38,7 @@ export function MatchCard(props: {
   p?: string;
   boxShadow?: string;
   disableLink?: boolean;
+  width?: string | number
 }) {
   const tags = props.match.extraData?.tags || [];
 
@@ -46,7 +47,7 @@ export function MatchCard(props: {
       <CustomBox
         p={props.p || "0.5em"}
         pb={"1em"}
-        width="100%"
+        width={props.width || "100%"}
         height={"auto"}
         boxShadow={props.boxShadow || "md"}
         cursor={!props.disableLink && "pointer"}

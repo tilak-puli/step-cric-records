@@ -1,7 +1,6 @@
 import { Match } from "../types/match";
 import { BattingStats, BowlingStats, Partnership } from "../types/stats";
 import { getIndexName } from "../utils/utils";
-import tag from "@chakra-ui/theme/src/components/tag";
 
 function findBallBetween(lastWicketOver: string, over) {
   const overs = over.split(".")[0] - +lastWicketOver.split(".")[0];
