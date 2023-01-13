@@ -474,12 +474,12 @@
       "1st match of STEP-9",
       "Most of the bowler from Qasim's team got wicket",
       "Qasim's captain's knock",
-      "Dubdutta, Milan and Vidita's 2 wicket to keep the match alive"
+      "Debdutta, Milan and Vidita's 2 wicket to keep the match alive"
     ]
   },
   "03-Dec-2022(1)": {
     "specialMentions": [
-      "Ankmma's bowling figure - 1/1/1",
+      "Ankamma's bowling figure - 1/1/1",
       "Subhanshu took 2 wicket",
       "Hement's opening fire",
       "In bowling Govinda, Milan and Prem tried to copy each other"
@@ -495,6 +495,19 @@
       "Chhavi took one maiden over",
       "Gourab's allround performance",
       "Banerjee's 3 runout"
+    ]
+  },
+  "13-Jan-2023": {
+    "specialMvp": {
+      "name": "Swagato",
+      "reason": "Unbeaten 42"
+    },
+    "specialMentions": [
+      "Second Tied match in STEP history",
+      "Swamiji became the first player to reach 1000 runs in STEP",
+      "Fighting spirit from both team even after so many up's and down's",
+      "Swagato and Gourab's partnership",
+      "Swagato's diving catch"
     ]
   }
 }
