@@ -28,6 +28,10 @@ const theme = extendTheme({
       baseStyle: { color: "brand.900" },
     },
   },
+  fonts: {
+    heading: `Roboto, sans-serif;`,
+    body: `Roboto, sans-serif;`
+  }
 });
 
 export default theme;

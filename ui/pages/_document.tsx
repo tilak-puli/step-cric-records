@@ -9,10 +9,11 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
             rel="stylesheet"
           />
+          <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet"/>
         </Head>
         <body>
-          <Main />
-          <NextScript />
+        <Main />
+        <NextScript />
         </body>
       </Html>
     );
