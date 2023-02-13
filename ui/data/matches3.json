@@ -4667,7 +4667,39 @@
       "extrasBowledText": "",
       "bowling": [
         {
+          "name": "Abin",
+          "overs": 2,
+          "maidens": 0,
+          "runs": 14,
+          "wickets": 1,
+          "economy": 7
+        },
+        {
+          "name": "Milan",
+          "overs": 2,
+          "maidens": 0,
+          "runs": 23,
+          "wickets": 1,
+          "economy": 11.5
+        },
+        {
+          "name": "Swamiji",
+          "overs": 2,
+          "maidens": 0,
+          "runs": 10,
+          "wickets": 0,
+          "economy": 5
+        },
+        {
           "name": "Ankamma",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 13,
+          "wickets": 0,
+          "economy": 13
+        },
+        {
+          "name": "Prem",
           "overs": 1,
           "maidens": 0,
           "runs": 8,
@@ -4675,125 +4707,31 @@
           "economy": 8
         },
         {
-          "name": "Debdutta",
-          "overs": 1,
+          "name": "Chhavi",
+          "overs": 2,
           "maidens": 0,
-          "runs": 16,
-          "wickets": 0,
-          "economy": 16
+          "runs": 9,
+          "wickets": 1,
+          "economy": 4.5
         },
         {
-          "name": "Dheeraj",
-          "overs": 2,
+          "name": "Rahit",
+          "overs": 1,
           "maidens": 0,
           "runs": 6,
           "wickets": 1,
-          "economy": 3
-        },
-        {
-          "name": "Vidita",
-          "overs": 1,
-          "maidens": 0,
-          "runs": 7,
-          "wickets": 0,
-          "economy": 7
-        },
-        {
-          "name": "Swamiji",
-          "overs": 2,
-          "maidens": 0,
-          "runs": 7,
-          "wickets": 2,
-          "economy": 3.5
-        },
-        {
-          "name": "Gourab",
-          "overs": 1,
-          "maidens": 0,
-          "runs": 2,
-          "wickets": 1,
-          "economy": 2
-        },
-        {
-          "name": "Barnali",
-          "overs": 1,
-          "maidens": 0,
-          "runs": 9,
-          "wickets": 0,
-          "economy": 9
-        },
-        {
-          "name": "Banerjee",
-          "overs": 1.3,
-          "maidens": 0,
-          "runs": 5,
-          "wickets": 2,
-          "economy": 3.33
+          "economy": 6
         },
         {
           "name": "Debarun",
           "overs": 1,
           "maidens": 0,
-          "runs": 3,
-          "wickets": 0,
-          "economy": 3
-        },
-        {
-          "name": "Raghu",
-          "overs": 1,
-          "maidens": 0,
-          "runs": 3,
+          "runs": 9,
           "wickets": 1,
-          "economy": 3
+          "economy": 9
         }
       ],
-      "fallOfWickets": [
-        {
-          "name": "Qasim",
-          "score": "31/1",
-          "over": "3.4"
-        },
-        {
-          "name": "Sauma",
-          "score": "37/2",
-          "over": "5.0"
-        },
-        {
-          "name": "Tilak",
-          "score": "38/3",
-          "over": "5.3"
-        },
-        {
-          "name": "Roshan",
-          "score": "59/4",
-          "over": "9.5"
-        },
-        {
-          "name": "Abin",
-          "score": "59/5",
-          "over": "10.3"
-        },
-        {
-          "name": "Prem",
-          "score": "62/6",
-          "over": "10.5"
-        },
-        {
-          "name": "Kavita",
-          "score": "66/7",
-          "over": "12.0"
-        },
-        {
-          "name": "Chhavi",
-          "score": "66/8",
-          "over": "12.1"
-        },
-        {
-          "name": "Bhawna",
-          "score": "66/9",
-          "over": "12.3"
-        }
-      ],
+      "fallOfWickets": [],
       "name": "Milan",
       "score": {
         "runs": 77,
@@ -4872,7 +4810,7 @@
           "notOut": false
         },
         {
-          "name": "Debu",
+          "name": "Debarun",
           "outReason": "Don't know",
           "runs": 2,
           "balls": 1,
