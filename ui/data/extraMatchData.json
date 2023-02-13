@@ -547,8 +547,20 @@
   },
   "09-Feb-2023": {
     "specialMvp": {
-       "name": "Barnali",
+      "name": "Barnali",
       "reason": "For crucial partnership with Sai"
     }
+  },
+  "11-Feb-2023": {
+    "specialMvp": {
+      "name": "Tilak",
+      "reason": "For taking 2 wickets and 2 runouts"
+    },
+    "specialMentions": [
+      "Swagato's Last ball finish",
+      "Trinangkur's long innings",
+      "Sauma and Dheeraj got Diamond Duck",
+      "Tight bowling from Dheeraj's team"
+    ]
   }
 }
