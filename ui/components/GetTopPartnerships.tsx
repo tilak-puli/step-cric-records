@@ -163,7 +163,7 @@ export function TopPartnerships(props: { topPartnerships: any; w?: number }) {
             </td>
             <td>
               <Text>
-                {batsman.runs}/{batsman.balls}
+                {batsman.runs}({batsman.balls})
               </Text>
             </td>
             <td>
