@@ -144,7 +144,7 @@ const PlayerInfoHome = () => {
           </Heading>
           <PlayerBasicInfo playerName={playerName} playerStats={playerStats} />
           <Heading mb={3} fontSize={"m"}>
-            Recent Form
+            Last 5 Matches
           </Heading>
           <RecentMatches
             playerName={playerName}
