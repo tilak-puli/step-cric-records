@@ -20,37 +20,42 @@ const columns = [
   { field: "overs", headerName: "Overs", width: 10 },
 ];
 
+export function sortedBowlingFigures(bowlingStats: BowlingStats) {
+  const allFigures = _.map(bowlingStats, (stat, name) =>
+    stat.bowlingFigures.map((f) => ({ name: name, figure: f }))
+  );
+
+  return _.map(_.flatten(allFigures), ({ figure, name }) => [
+    name,
+    figure.wickets,
+    figure.wicketsWithRuns,
+    figure.wicketsInOvers,
+    figure.matchIndex,
+  ]).sort((s, s1) => {
+    let diff = s1[1] - s[1];
+
+    if (diff === 0) {
+      diff = s[2] - s1[2];
+    }
+
+    if (diff === 0) {
+      diff = s[3] - s1[3];
+    }
+    return diff;
+  });
+}
+
 export function BestBowlingFigureTable(props: { bowlingStats: BowlingStats }) {
   const rows = useMemo(() => {
     if (!props.bowlingStats) {
       this.props.bowlingStats = [];
     }
-    const allFigures = _.map(props.bowlingStats, (stat, name) =>
-      stat.bowlingFigures.map((f) => ({ name: name, figure: f }))
-    );
-    const sortedStats = _.map(_.flatten(allFigures), ({ figure, name }) => [
-      capitalize(name),
-      figure.wickets,
-      figure.wicketsWithRuns,
-      figure.wicketsInOvers,
-      figure.matchIndex,
-    ]).sort((s, s1) => {
-      let diff = s1[1] - s[1];
-
-      if (diff === 0) {
-        diff = s[2] - s1[2];
-      }
-
-      if (diff === 0) {
-        diff = s[3] - s1[3];
-      }
-      return diff;
-    });
+    const sortedStats = sortedBowlingFigures(props.bowlingStats);
 
     return sortedStats
       .filter((figure) => figure[1] !== 0)
       .map(([name, wickets, wicketsWithRuns, overs, matchIndex]) => ({
-        name,
+        name: capitalize(name),
         figure: (
           <Link href={"/matches/" + matchIndex} passHref>
             <ChakraLink className={"underline"}>

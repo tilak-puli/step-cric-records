@@ -2,8 +2,10 @@ import {
   getAvg,
   getBowlingAverage,
   getEconomy,
+  sortByHighestScore,
   sortByRuns,
   sortByWickets,
+  sortedBowlingFigures,
 } from "../index";
 import Link from "next/link";
 import { Link as ChakraLink } from "@chakra-ui/layout";
@@ -64,8 +66,13 @@ export function getBattingInfo(battingRecords, playerName: string) {
   const batting = battingRecords[playerName];
   if (!batting) return {};
 
-  const rank =
+  const runsRanking =
     sortByRuns(battingRecords).findIndex(([name]) => name === playerName) + 1;
+
+  const highestScoreRanking =
+    sortByHighestScore(battingRecords).findIndex(
+      ([name]) => name === playerName
+    ) + 1;
 
   return {
     runsScored: batting.runs,
@@ -75,7 +82,8 @@ export function getBattingInfo(battingRecords, playerName: string) {
     matchesBatted: batting.matches,
     topFigures: top5BattingFigures([...batting.battingFigures]),
     recentFigures: [...batting.battingFigures].slice(-5).reverse(),
-    ranking: rank,
+    runsRanking: runsRanking,
+    highestScoreRanking: highestScoreRanking,
   };
 }
 
@@ -83,9 +91,14 @@ export function getBowlingInfo(bowlingRecords, playerName) {
   const bowling = bowlingRecords[playerName];
   if (!bowling) return {};
 
-  const rank =
+  const wicketsRank =
     sortByWickets(bowlingRecords).findIndex(([name]) => name === playerName) +
     1;
+
+  const bowlingFigureRanking =
+    sortedBowlingFigures(bowlingRecords).findIndex(
+      ([name]) => name === playerName
+    ) + 1;
 
   return {
     wickets: bowling.wickets,
@@ -95,6 +108,7 @@ export function getBowlingInfo(bowlingRecords, playerName) {
     average: getBowlingAverage(bowling.bowlingFigures)?.toFixed(2),
     topFigures: top5BowlingFigures([...bowling.bowlingFigures]),
     recentFigures: [...bowling.bowlingFigures].slice(-5).reverse(),
-    ranking: rank,
+    wicketsRanking: wicketsRank,
+    bowlingFigureRanking: bowlingFigureRanking,
   };
 }

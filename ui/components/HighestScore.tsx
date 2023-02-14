@@ -3,7 +3,6 @@ import {
   Table,
   Tbody,
   Td,
-  Text,
   Th,
   Thead,
   Tr,
@@ -42,30 +41,34 @@ export function TablePosHeader() {
   );
 }
 
+export function sortByHighestScore(battingStats: BattingStats) {
+  const allFigures = _.map(battingStats, (stat, name) =>
+    stat.battingFigures.map((f) => ({ name: name, figure: f }))
+  );
+
+  return _.map(_.flatten(allFigures), ({ figure, name }) => [
+    name,
+    figure.runs,
+    figure.balls,
+    figure.matchIndex,
+  ]).sort((s, s1) => {
+    let diff = s1[1] - s[1];
+
+    if (diff === 0) {
+      diff = s[2] - s1[2];
+    }
+
+    return diff;
+  });
+}
+
 export function HighestScoreTable(props: { battingStats: BattingStats }) {
   const rows = useMemo(() => {
-    const allFigures = _.map(props.battingStats, (stat, name) =>
-      stat.battingFigures.map((f) => ({ name: name, figure: f }))
-    );
-
-    const sortedStats = _.map(_.flatten(allFigures), ({ figure, name }) => [
-      capitalize(name),
-      figure.runs,
-      figure.balls,
-      figure.matchIndex,
-    ]).sort((s, s1) => {
-      let diff = s1[1] - s[1];
-
-      if (diff === 0) {
-        diff = s[2] - s1[2];
-      }
-
-      return diff;
-    });
+    const sortedStats = sortByHighestScore(props.battingStats);
 
     return sortedStats
       .map(([name, highestScore, highestScoreInBalls, matchIndex]) => ({
-        name,
+        name: capitalize(name),
         highestScore,
         highestScoreInBalls,
         matchIndex,

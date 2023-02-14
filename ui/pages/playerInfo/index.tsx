@@ -1,4 +1,4 @@
-import { Box, Divider, Flex, Heading, Wrap } from "@chakra-ui/react";
+import { Text, Divider, Flex, Heading, Wrap, Stack } from "@chakra-ui/react";
 import { Filter, GlobalContext, START_YEAR } from "../../state/GlobalContext";
 import { useContext, useEffect, useState } from "react";
 import { CustomBox } from "../../components/HigherOrder/CustomBox";
@@ -28,7 +28,7 @@ const battingColumns = [
   { field: "avg", headerName: "Average", width: 10 },
   { field: "matchesBatted", headerName: "Matches Batted", width: 10 },
   { field: "topFigures", headerName: "Top Scores", width: 10 },
-  { field: "ranking", headerName: "Ranking", width: 10 },
+  { field: "ranking", headerName: "Rankings", width: 10 },
 ];
 
 const bowlingColumns = [
@@ -39,14 +39,20 @@ const bowlingColumns = [
   { field: "average", headerName: "Average", width: 10 },
   { field: "matchesBowled", headerName: "Matches Bowled", width: 10 },
   { field: "topFigures", headerName: "Top Scores", width: 10 },
-  { field: "ranking", headerName: "Ranking", width: 10 },
+  { field: "ranking", headerName: "Rankings", width: 10 },
 ];
 
 function getBattingInfoRow(battingInfo) {
   const battingRow = { ...battingInfo };
 
   battingRow.topFigures = <Wrap maxW={"100%"}>{battingRow?.topFigures}</Wrap>;
-  battingRow.ranking = `#${battingRow.ranking}`;
+
+  battingRow.ranking = (
+    <Stack>
+      <Text>#{battingRow.runsRanking} in Runs scored</Text>
+      <Text>#{battingRow.highestScoreRanking} in Highest score</Text>
+    </Stack>
+  );
 
   return battingRow;
 }
@@ -55,7 +61,12 @@ function getBowlingInfoRow(bowlingInfo) {
   const bowlingRow = { ...bowlingInfo };
 
   bowlingRow.topFigures = <Wrap>{bowlingInfo?.topFigures}</Wrap>;
-  bowlingRow.ranking = `#${bowlingRow.ranking}`;
+  bowlingRow.ranking = (
+    <Stack>
+      <Text>#{bowlingRow.wicketsRanking} in Wickets taken</Text>
+      <Text>#{bowlingRow.bowlingFigureRanking} in Best bowling figure</Text>
+    </Stack>
+  );
 
   return bowlingRow;
 }
