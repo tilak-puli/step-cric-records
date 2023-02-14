@@ -28,19 +28,23 @@ export function getAvg(runs, matches, notOuts) {
   return avg.toFixed(2);
 }
 
+export function sortByRuns(battingStats: BattingStats): any[] {
+  return _.map(battingStats, (b, name) => [
+    name,
+    b.runs,
+    b.balls,
+    b.matches,
+    b.notOuts,
+  ]).sort((s, s1) => s1[1] - s[1]);
+}
+
 export function MostRunsTable(props: { battingStats: BattingStats }) {
   const data = useMemo(() => {
-    const sortedStats = _.map(props.battingStats, (b, name) => [
-      capitalize(name),
-      b.runs,
-      b.balls,
-      b.matches,
-      b.notOuts,
-    ]).sort((s, s1) => s1[1] - s[1]);
+    const sortedStats = sortByRuns(props.battingStats);
 
     return sortedStats
       .map(([name, runs, balls, matches, notOuts]) => ({
-        name,
+        name: capitalize(name),
         sr: ((runs / balls) * 100).toFixed(0),
         runs,
         matches,

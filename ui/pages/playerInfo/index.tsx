@@ -28,6 +28,7 @@ const battingColumns = [
   { field: "avg", headerName: "Average", width: 10 },
   { field: "matchesBatted", headerName: "Matches Batted", width: 10 },
   { field: "topFigures", headerName: "Top Scores", width: 10 },
+  { field: "ranking", headerName: "Ranking", width: 10 },
 ];
 
 const bowlingColumns = [
@@ -38,12 +39,14 @@ const bowlingColumns = [
   { field: "average", headerName: "Average", width: 10 },
   { field: "matchesBowled", headerName: "Matches Bowled", width: 10 },
   { field: "topFigures", headerName: "Top Scores", width: 10 },
+  { field: "ranking", headerName: "Ranking", width: 10 },
 ];
 
 function getBattingInfoRow(battingInfo) {
   const battingRow = { ...battingInfo };
 
   battingRow.topFigures = <Wrap maxW={"100%"}>{battingRow?.topFigures}</Wrap>;
+  battingRow.ranking = `#${battingRow.ranking}`;
 
   return battingRow;
 }
@@ -52,6 +55,7 @@ function getBowlingInfoRow(bowlingInfo) {
   const bowlingRow = { ...bowlingInfo };
 
   bowlingRow.topFigures = <Wrap>{bowlingInfo?.topFigures}</Wrap>;
+  bowlingRow.ranking = `#${bowlingRow.ranking}`;
 
   return bowlingRow;
 }
@@ -95,8 +99,8 @@ const PlayerInfoHome = () => {
   const [playerName, setPlayerName] = useState("");
   const { stats, filters } = useContext(GlobalContext);
   const playerStats = stats.playerStats[playerName];
-  const battingInfo = getBattingInfo(stats.batting[playerName]);
-  const bowlingInfo = getBowlingInfo(stats.bowling[playerName]);
+  const battingInfo = getBattingInfo(stats.batting, playerName);
+  const bowlingInfo = getBowlingInfo(stats.bowling, playerName);
   const router = useRouter();
 
   useEffect(() => {

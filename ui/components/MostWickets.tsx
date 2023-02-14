@@ -48,24 +48,28 @@ export function roundOver(over) {
   return over % 1 > 0.3 ? Math.ceil(over) : Math.floor(over);
 }
 
+export function sortByWickets(bowlingStats: BowlingStats) {
+  return _.map(bowlingStats, (b, name) => [
+    name,
+    b.wickets,
+    parseFloat((+b.overs).toFixed(1)),
+    getEconomy(b.bowlingFigures),
+  ]).sort((s, s1) => {
+    let diff = s1[1] - s[1];
+    if (diff === 0) {
+      diff = s[2] - s1[2];
+    }
+    return diff;
+  });
+}
+
 export function MostWicketsTable(props: { bowlingStats: BowlingStats }) {
   const rows = useMemo(() => {
-    const sortedStats = _.map(props.bowlingStats, (b, name) => [
-      capitalize(name),
-      b.wickets,
-      parseFloat((+b.overs).toFixed(1)),
-      getEconomy(b.bowlingFigures),
-    ]).sort((s, s1) => {
-      let diff = s1[1] - s[1];
-      if (diff === 0) {
-        diff = s[2] - s1[2];
-      }
-      return diff;
-    });
+    const sortedStats = sortByWickets(props.bowlingStats);
 
     return sortedStats
       .map(([name, wickets, overs, economy]) => ({
-        name,
+        name: capitalize(name),
         wickets,
         overs,
         economy,

@@ -1,4 +1,10 @@
-import { getAvg, getBowlingAverage, getEconomy } from "../index";
+import {
+  getAvg,
+  getBowlingAverage,
+  getEconomy,
+  sortByRuns,
+  sortByWickets,
+} from "../index";
 import Link from "next/link";
 import { Link as ChakraLink } from "@chakra-ui/layout";
 
@@ -54,8 +60,12 @@ function top5BowlingFigures(battingFigures) {
     .slice(0, 5);
 }
 
-export function getBattingInfo(batting) {
+export function getBattingInfo(battingRecords, playerName: string) {
+  const batting = battingRecords[playerName];
   if (!batting) return {};
+
+  const rank =
+    sortByRuns(battingRecords).findIndex(([name]) => name === playerName) + 1;
 
   return {
     runsScored: batting.runs,
@@ -65,11 +75,17 @@ export function getBattingInfo(batting) {
     matchesBatted: batting.matches,
     topFigures: top5BattingFigures([...batting.battingFigures]),
     recentFigures: [...batting.battingFigures].slice(-5).reverse(),
+    ranking: rank,
   };
 }
 
-export function getBowlingInfo(bowling) {
+export function getBowlingInfo(bowlingRecords, playerName) {
+  const bowling = bowlingRecords[playerName];
   if (!bowling) return {};
+
+  const rank =
+    sortByWickets(bowlingRecords).findIndex(([name]) => name === playerName) +
+    1;
 
   return {
     wickets: bowling.wickets,
@@ -79,5 +95,6 @@ export function getBowlingInfo(bowling) {
     average: getBowlingAverage(bowling.bowlingFigures)?.toFixed(2),
     topFigures: top5BowlingFigures([...bowling.bowlingFigures]),
     recentFigures: [...bowling.bowlingFigures].slice(-5).reverse(),
+    ranking: rank,
   };
 }
