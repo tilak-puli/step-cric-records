@@ -4660,7 +4660,48 @@
                     "economy": 6
                 }
             ],
-            "fallOfWickets": []
+            "fallOfWickets": [
+                {
+                    "name": "Abin",
+                    "score": "7/1",
+                    "over": "1.5"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "19/2",
+                    "over": "4.4"
+                },
+                {
+                    "name": "Milan",
+                    "score": "21/3",
+                    "over": "4.6"
+                },
+                {
+                    "name": "Ankamma",
+                    "score": "39/4",
+                    "over": "7.2"
+                },
+                {
+                    "name": "Prem",
+                    "score": "45/5",
+                    "over": "8.6"
+                },
+                {
+                    "name": "Rahit",
+                    "score": "67/6",
+                    "over": "11.2"
+                },
+                {
+                    "name": "Debu",
+                    "score": "75/7",
+                    "over": "12.4"
+                },
+                {
+                    "name": "Chhavi",
+                    "score": "75/8",
+                    "over": "12.5"
+                }
+            ]
         },
         "team2": {
             "extrasBowled": 25,
@@ -4731,7 +4772,38 @@
                     "economy": 9
                 }
             ],
-            "fallOfWickets": [],
+            "fallOfWickets": [
+                {
+                    "name": "Qasim",
+                    "score": "0/1",
+                    "over": "0.3"
+                },
+                {
+                    "name": "Swapnil",
+                    "score": "5/2",
+                    "over": "2.1"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "17/3",
+                    "over": "3.6"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "18/4",
+                    "over": "4.2"
+                },
+                {
+                    "name": "Trinangkur",
+                    "score": "34/5",
+                    "over": "5.6"
+                },
+                {
+                    "name": "Sai Ganesh",
+                    "score": "92/6",
+                    "over": "11.6"
+                }
+            ],
             "name": "Milan",
             "score": {
                 "runs": 77,
