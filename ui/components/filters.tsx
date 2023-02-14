@@ -14,7 +14,9 @@ import { Select as MultiSelect } from "chakra-react-select";
 export function FromYearFilter(props: { fromYear: Filter }) {
   return (
     <Flex align="center" gap="1">
-      <Heading size="sm">From Year: </Heading>
+      <Heading size="sm" marginRight={2}>
+        From Year:{" "}
+      </Heading>
       <Select
         value={props.fromYear.value}
         onChange={(e) => props.fromYear.set(e.target.value)}
@@ -41,10 +43,10 @@ export function Filters() {
   }, []);
 
   return (
-    <Wrap gap="10">
+    <Wrap spacing="10">
       <FromYearFilter fromYear={filters.fromYear} />
       <Flex align="center" gap="1" w={400}>
-        <Heading size="sm">Tags: </Heading>
+        <Heading size="sm">Tags:</Heading>
         <Container>
           <FormControl bg={"white"} w="100%">
             <MultiSelect

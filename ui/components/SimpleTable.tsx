@@ -11,6 +11,7 @@ import {
 
 import { Property } from "csstype";
 import TextAlign = Property.TextAlign;
+import { TablePosCell, TablePosHeader } from "./HighestScore";
 
 export function SimpleTable(props: {
   rows: any[];
@@ -21,12 +22,14 @@ export function SimpleTable(props: {
   textAlign?: ResponsiveValue<TextAlign>;
   transpose?: boolean;
   colorAllHeaders?: boolean;
+  showNumbering?: boolean;
 }) {
   return (
     <TableContainer px={[3, 0]}>
       <Table variant="simple">
         <Thead>
           <Tr>
+            {props.showNumbering && <TablePosHeader />}
             {!props.transpose &&
               props.columns.map((c, k) => (
                 <Th
@@ -46,6 +49,8 @@ export function SimpleTable(props: {
           {!props.transpose &&
             props.rows.map((r, k) => (
               <Tr key={k}>
+                {props.showNumbering && <TablePosCell k={k} />}
+
                 {props.columns.map((c, k) => (
                   <Td
                     px={[1, 5]}

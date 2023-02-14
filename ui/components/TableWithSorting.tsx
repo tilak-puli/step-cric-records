@@ -1,8 +1,15 @@
 import { Flex, Table, Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react";
 import { TriangleDownIcon, TriangleUpIcon } from "@chakra-ui/icons";
 import { useTable, useSortBy } from "react-table";
+import { TablePosCell, TablePosHeader } from "./HighestScore";
 
-export const TableWithSorting = ({ columns, data }) => {
+export const TableWithSorting = (props: {
+  columns: any;
+  data: any;
+  showNumbering?: Boolean;
+}) => {
+  const { columns, data, showNumbering } = props;
+
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data }, useSortBy);
 
@@ -11,6 +18,7 @@ export const TableWithSorting = ({ columns, data }) => {
       <Thead position={"sticky"} top={0} bg={"white"}>
         {headerGroups.map((headerGroup, k) => (
           <Tr key={k} {...headerGroup.getHeaderGroupProps()}>
+            {showNumbering && <TablePosHeader />}
             {headerGroup.headers.map((column, k) => (
               <Th
                 key={k}
@@ -40,6 +48,7 @@ export const TableWithSorting = ({ columns, data }) => {
           prepareRow(row);
           return (
             <Tr key={k} {...row.getRowProps()}>
+              {showNumbering && <TablePosCell k={k} />}
               {row.cells.map((cell, k) => (
                 <Td
                   key={k}

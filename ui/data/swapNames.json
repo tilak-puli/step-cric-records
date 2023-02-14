@@ -89,10 +89,6 @@
     "name": "viditha",
     "beforeDate": "12/01/4020"
   },
-  "gourab": {
-    "name": "gourav",
-    "beforeDate": "12/01/4020"
-  },
   "trinagkur": {
     "name": "trinangkur",
     "beforeDate": "12/01/2022"
@@ -120,5 +116,14 @@
   "sukdev": {
   "name": "sukhdev",
   "beforeDate": "12/01/2022"
-}
+  },
+  "gourav": {
+    "name": "gourab",
+    "beforeDate": "12/01/4020",
+    "afterDate": "01/12/2022"
+  },
+  "rajkumar": {
+    "name": "raj kumar",
+    "beforeDate": "12/01/4020"
+  }
 }

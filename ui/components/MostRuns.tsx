@@ -50,5 +50,5 @@ export function MostRunsTable(props: { battingStats: BattingStats }) {
       .slice(0, 50);
   }, [props.battingStats]);
 
-  return <TableWithSorting data={data} columns={columns} />;
+  return <TableWithSorting data={data} columns={columns} showNumbering />;
 }

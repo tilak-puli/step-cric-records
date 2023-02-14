@@ -74,5 +74,5 @@ export function MostWicketsTable(props: { bowlingStats: BowlingStats }) {
       .slice(0, 50);
   }, [props.bowlingStats]);
 
-  return <TableWithSorting data={rows} columns={columns} />;
+  return <TableWithSorting data={rows} columns={columns} showNumbering />;
 }

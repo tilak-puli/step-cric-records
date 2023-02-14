@@ -43,7 +43,7 @@ function BestPartnerships(props: { partnerships: Partnership[] }) {
     { field: "batsman2", headerName: "BatsPerson 2", width: 40 },
   ];
 
-  return <SimpleTable columns={columns} rows={partnerships} />;
+  return <SimpleTable columns={columns} rows={partnerships} showNumbering />;
 }
 
 const Stats = () => {
@@ -53,7 +53,7 @@ const Stats = () => {
     <Stack spacing={12} p={["1em", "2em"]}>
       <Filters />
       <Wrap w={"99%"} spacing={10}>
-        <CustomBox width={["100%", 400]}>
+        <CustomBox width={["90%", 430]}>
           <Heading p={2} fontSize={"md"}>
             Top Run Scorers
           </Heading>
@@ -61,7 +61,7 @@ const Stats = () => {
             <MostRunsTable battingStats={stats.batting} />
           </Box>
         </CustomBox>
-        <CustomBox width={["100%", 400]}>
+        <CustomBox width={["90%", 430]}>
           <Heading p={2} fontSize={"md"}>
             Highest Score
           </Heading>
@@ -69,7 +69,7 @@ const Stats = () => {
             <HighestScoreTable battingStats={stats.batting} />
           </Box>
         </CustomBox>
-        <CustomBox width={["100%", 400]}>
+        <CustomBox width={["90%", 430]}>
           <Heading p={2} fontSize={"md"}>
             Top Wicket Takers
           </Heading>
@@ -77,7 +77,7 @@ const Stats = () => {
             <MostWicketsTable bowlingStats={stats.bowling} />
           </Box>
         </CustomBox>
-        <CustomBox width={["100%", 400]}>
+        <CustomBox width={["90%", 430]}>
           <Heading p={2} fontSize={"md"}>
             Best Bowling Figure
           </Heading>
@@ -85,7 +85,7 @@ const Stats = () => {
             <BestBowlingFigureTable bowlingStats={stats.bowling} />
           </Box>
         </CustomBox>
-        <CustomBox width={["100%", 400]}>
+        <CustomBox width={["90%", 430]}>
           <Heading p={2} fontSize={"md"}>
             Top Partnerships
           </Heading>

@@ -3,6 +3,7 @@ import {
   Table,
   Tbody,
   Td,
+  Text,
   Th,
   Thead,
   Tr,
@@ -18,6 +19,28 @@ const columns = [
   { field: "highestScore", headerName: "Score", width: 20 },
   { field: "highestScoreInBalls", headerName: "Balls", width: 20 },
 ];
+
+export function TablePosCell(props: { k: any }) {
+  return (
+    <Td
+      py={1}
+      paddingRight={0}
+      fontSize={"sm"}
+      w={"min-content"}
+      color={"grey"}
+    >
+      {props.k + 1}
+    </Td>
+  );
+}
+
+export function TablePosHeader() {
+  return (
+    <Th w={"2px"} paddingRight={0}>
+      Pos
+    </Th>
+  );
+}
 
 export function HighestScoreTable(props: { battingStats: BattingStats }) {
   const rows = useMemo(() => {
@@ -65,6 +88,8 @@ export function HighestScoreTable(props: { battingStats: BattingStats }) {
     <Table variant="simple">
       <Thead position={"sticky"} top={0} bg={"white"}>
         <Tr>
+          {/*for numbering */}
+          <TablePosHeader />
           {columns.map((c, k) => (
             <Th key={k} width={c.width}>
               {c.headerName}
@@ -75,6 +100,7 @@ export function HighestScoreTable(props: { battingStats: BattingStats }) {
       <Tbody>
         {rows.map((r, k) => (
           <Tr key={k}>
+            <TablePosCell k={k} />
             {columns.map((c, k) => (
               <Td key={k} py={1} fontSize={"sm"}>
                 {r[c.field]}

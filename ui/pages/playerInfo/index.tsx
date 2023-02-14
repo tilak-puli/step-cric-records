@@ -75,7 +75,7 @@ function PlayerInfoFilters(props: {
   };
 }) {
   return (
-    <Wrap gap="10">
+    <Wrap spacing="10">
       <Flex align="center">
         <FromYearFilter fromYear={props.fromYear} />
       </Flex>

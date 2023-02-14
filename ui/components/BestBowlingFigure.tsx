@@ -12,6 +12,7 @@ import { useMemo } from "react";
 import _ from "underscore";
 import { capitalize } from "../utils/utils";
 import { BowlingStats } from "../types/stats";
+import { TablePosCell, TablePosHeader } from "./HighestScore";
 
 const columns = [
   { field: "name", headerName: "Name", width: 50 },
@@ -66,6 +67,8 @@ export function BestBowlingFigureTable(props: { bowlingStats: BowlingStats }) {
     <Table variant="simple">
       <Thead position={"sticky"} top={0} bg={"white"}>
         <Tr>
+          {/*for numbering */}
+          <TablePosHeader />
           {columns.map((c, k) => (
             <Th key={k} width={c.width}>
               {c.headerName}
@@ -76,6 +79,7 @@ export function BestBowlingFigureTable(props: { bowlingStats: BowlingStats }) {
       <Tbody>
         {rows.map((r, k) => (
           <Tr key={k}>
+            <TablePosCell k={k} />
             {columns.map((c, k) => (
               <Td key={k} py={1} fontSize={"sm"}>
                 {r[c.field]}
