@@ -562,5 +562,26 @@
       "Sauma and Dheeraj got Diamond Duck",
       "Tight bowling from Dheeraj's team"
     ]
+  },
+  "14-Feb-2023(1)": {
+    "specialMvp": {
+      "name": "Sai Ganesh",
+      "reason": "One man army on batting side"
+    },
+    "specialMentions": [
+      "Maiden and 4 wickets consequently by Qasim. Hat trick + 1",
+      "Tight bowling and fielding from Gourav team giving only one extra"
+    ]
+  },
+  "14-Feb-2023": {
+    "specialMvp": {
+      "name": "Tilak",
+      "reason": "Quick Cameo and tight 2 overs"
+    },
+    "specialMentions": [
+      "Tight death over from Qasim to defend 5 runs in last over and take crucial wicket",
+      "Cameo from Ankamma to take score to above par (Although he brought score below par with bowling)",
+      "Tight bowling and fielding from Gourav"
+    ]
   }
 }
