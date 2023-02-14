@@ -1,5 +1,5 @@
-import { Box, Heading, Wrap } from "@chakra-ui/react";
-import { GlobalContext } from "../../state/GlobalContext";
+import { Box, Divider, Flex, Heading, Wrap } from "@chakra-ui/react";
+import { Filter, GlobalContext, START_YEAR } from "../../state/GlobalContext";
 import { useContext, useEffect, useState } from "react";
 import { CustomBox } from "../../components/HigherOrder/CustomBox";
 import { SimpleTable } from "../../components/SimpleTable";
@@ -10,8 +10,15 @@ import { PlayerBasicInfo } from "../../components/playerInfo/playerBasicInfo";
 import { PlayerNameSelector } from "../../components/playerInfo/playerNameSelector";
 import {
   getBattingInfo,
-  getBowlingInfo
+  getBowlingInfo,
 } from "../../components/playerInfo/calcCareerRecords";
+import {
+  BattingStats,
+  BowlingStats,
+  Partnership,
+  PlayerStats,
+} from "../../types/stats";
+import { FromYearFilter } from "../../components/filters";
 
 const battingColumns = [
   { field: "b", headerName: "Batting", width: 10 },
@@ -20,7 +27,7 @@ const battingColumns = [
   { field: "sr", headerName: "Strike Rate", width: 10 },
   { field: "avg", headerName: "Average", width: 10 },
   { field: "matchesBatted", headerName: "Matches Batted", width: 10 },
-  { field: "topFigures", headerName: "Top Scores", width: 10 }
+  { field: "topFigures", headerName: "Top Scores", width: 10 },
 ];
 
 const bowlingColumns = [
@@ -30,17 +37,13 @@ const bowlingColumns = [
   { field: "economy", headerName: "Economy", width: 10 },
   { field: "average", headerName: "Average", width: 10 },
   { field: "matchesBowled", headerName: "Matches Bowled", width: 10 },
-  { field: "topFigures", headerName: "Top Scores", width: 10 }
+  { field: "topFigures", headerName: "Top Scores", width: 10 },
 ];
 
 function getBattingInfoRow(battingInfo) {
   const battingRow = { ...battingInfo };
 
-  battingRow.topFigures = (
-    <Wrap maxW={"100%"}>
-      {battingRow?.topFigures}
-    </Wrap>
-  );
+  battingRow.topFigures = <Wrap maxW={"100%"}>{battingRow?.topFigures}</Wrap>;
 
   return battingRow;
 }
@@ -48,18 +51,49 @@ function getBattingInfoRow(battingInfo) {
 function getBowlingInfoRow(bowlingInfo) {
   const bowlingRow = { ...bowlingInfo };
 
-  bowlingRow.topFigures = (
-    <Wrap>
-      {bowlingInfo?.topFigures}
-    </Wrap>
-  );
+  bowlingRow.topFigures = <Wrap>{bowlingInfo?.topFigures}</Wrap>;
 
   return bowlingRow;
 }
 
+function PlayerInfoFilters(props: {
+  value: string;
+  onPlayerNameChange: (playerName) => void;
+  fromYear: Filter;
+  stats: {
+    batting: BattingStats;
+    bowling: BowlingStats;
+    partnerships: Partnership[];
+    playerStats: { [p: string]: PlayerStats };
+    total?: {
+      runsScored: number;
+      wicketsTaken: number;
+      foursHit: number;
+      sixesHit: number;
+      highestMatchScore: number;
+    };
+  };
+}) {
+  return (
+    <Wrap gap="10">
+      <Flex align="center">
+        <FromYearFilter fromYear={props.fromYear} />
+      </Flex>
+
+      <Flex align="center">
+        <PlayerNameSelector
+          value={props.value}
+          onChange={props.onPlayerNameChange}
+          playerNames={Object.keys(props.stats.playerStats)}
+        />
+      </Flex>
+    </Wrap>
+  );
+}
+
 const PlayerInfoHome = () => {
   const [playerName, setPlayerName] = useState("");
-  const { stats } = useContext(GlobalContext);
+  const { stats, filters } = useContext(GlobalContext);
   const playerStats = stats.playerStats[playerName];
   const battingInfo = getBattingInfo(stats.batting[playerName]);
   const bowlingInfo = getBowlingInfo(stats.bowling[playerName]);
@@ -76,17 +110,17 @@ const PlayerInfoHome = () => {
 
   return (
     <Wrap spacing={5} direction={"column"} p={["1em", "2em"]}>
-      <Box>
-        <PlayerNameSelector
-          value={playerName}
-          onChange={(playerName) => {
-            setPlayerName(playerName);
-            router.query.playerName = playerName;
-            router.push(router);
-          }}
-          playerNames={Object.keys(stats.playerStats)}
-        />
-      </Box>
+      <PlayerInfoFilters
+        value={playerName}
+        onPlayerNameChange={(playerName) => {
+          setPlayerName(playerName);
+          router.query.playerName = playerName;
+          router.push(router);
+        }}
+        stats={stats}
+        fromYear={filters.fromYear}
+      />
+      <Divider />
 
       {playerStats && (
         <>

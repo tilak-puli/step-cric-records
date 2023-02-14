@@ -14,7 +14,7 @@ import { useRouter } from "next/router";
 
 export let MATCHES_DATA: Match[] = [];
 
-interface Filter {
+export interface Filter {
   value: any;
   set: Function;
 }

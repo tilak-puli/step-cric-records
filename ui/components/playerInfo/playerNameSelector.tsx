@@ -7,7 +7,7 @@ export function PlayerNameSelector(props: {
   playerNames: string[];
 }) {
   return (
-    <Flex align="center" gap="1" marginBottom={5}>
+    <Flex align="center" gap="1">
       <Heading size="sm">Search by Name: </Heading>
       <Select
         value={props.value}

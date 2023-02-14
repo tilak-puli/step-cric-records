@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import { GlobalContext, START_YEAR } from "../state/GlobalContext";
+import { Filter, GlobalContext, START_YEAR } from "../state/GlobalContext";
 import {
   Container,
   Flex,
@@ -11,6 +11,27 @@ import {
 import _ from "underscore";
 import { Select as MultiSelect } from "chakra-react-select";
 
+export function FromYearFilter(props: { fromYear: Filter }) {
+  return (
+    <Flex align="center" gap="1">
+      <Heading size="sm">From Year: </Heading>
+      <Select
+        value={props.fromYear.value}
+        onChange={(e) => props.fromYear.set(e.target.value)}
+        width={100}
+        size="md"
+        bg={"white"}
+      >
+        {_.times(new Date().getFullYear() - START_YEAR + 1, (n) => (
+          <option key={n} value={n + START_YEAR}>
+            {n + START_YEAR}
+          </option>
+        ))}
+      </Select>
+    </Flex>
+  );
+}
+
 export function Filters() {
   const { filters, matches } = useContext(GlobalContext);
   const allTags = Array.from(new Set(matches.flatMap((m) => m.extraData.tags)));
@@ -21,22 +42,7 @@ export function Filters() {
 
   return (
     <Wrap gap="10">
-      <Flex align="center" gap="1">
-        <Heading size="sm">From Year: </Heading>
-        <Select
-          value={filters.fromYear.value}
-          onChange={(e) => filters.fromYear.set(e.target.value)}
-          width={100}
-          size="md"
-          bg={"white"}
-        >
-          {_.times(new Date().getFullYear() - START_YEAR + 1, (n) => (
-            <option key={n} value={n + START_YEAR}>
-              {n + START_YEAR}
-            </option>
-          ))}
-        </Select>
-      </Flex>
+      <FromYearFilter fromYear={filters.fromYear} />
       <Flex align="center" gap="1" w={400}>
         <Heading size="sm">Tags: </Heading>
         <Container>
