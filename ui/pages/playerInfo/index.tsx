@@ -51,6 +51,10 @@ function getBattingInfoRow(battingInfo) {
     <Stack>
       <Text>#{battingRow.runsRanking} in Runs scored</Text>
       <Text>#{battingRow.highestScoreRanking} in Highest score</Text>
+      {battingRow.avgRank > 0 && <Text>#{battingRow.avgRank} in Average</Text>}
+      {battingRow.srRank > 0 && (
+        <Text>#{battingRow.srRank} in Strike Rate</Text>
+      )}
     </Stack>
   );
 
@@ -65,6 +69,9 @@ function getBowlingInfoRow(bowlingInfo) {
     <Stack>
       <Text>#{bowlingRow.wicketsRanking} in Wickets taken</Text>
       <Text>#{bowlingRow.bowlingFigureRanking} in Best bowling figure</Text>
+      {bowlingRow.economyRanking > 0 && (
+        <Text>#{bowlingRow.economyRanking} in Economy</Text>
+      )}
     </Stack>
   );
 

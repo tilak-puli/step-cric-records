@@ -28,6 +28,10 @@ export function getAvg(runs, matches, notOuts) {
   return avg.toFixed(2);
 }
 
+export function getSR(runs, balls) {
+  return ((runs / balls) * 100).toFixed(0);
+}
+
 export function sortByRuns(battingStats: BattingStats): any[] {
   return _.map(battingStats, (b, name) => [
     name,
@@ -45,7 +49,7 @@ export function MostRunsTable(props: { battingStats: BattingStats }) {
     return sortedStats
       .map(([name, runs, balls, matches, notOuts]) => ({
         name: capitalize(name),
-        sr: ((runs / balls) * 100).toFixed(0),
+        sr: getSR(runs, balls),
         runs,
         matches,
         avg: getAvg(runs, matches, notOuts),
