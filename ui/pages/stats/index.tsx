@@ -59,7 +59,7 @@ const Stats = () => {
             Batting
           </Heading>
           <Wrap spacing={10}>
-            <CustomBox width={["90%", 430]}>
+            <CustomBox width={["92vw", 430]}>
               <Heading p={2} fontSize={"md"}>
                 Top Run Scorers
               </Heading>
@@ -67,7 +67,7 @@ const Stats = () => {
                 <MostRunsTable battingStats={stats.batting} />
               </Box>
             </CustomBox>
-            <CustomBox width={["90%", 430]}>
+            <CustomBox width={["92vw", 430]}>
               <Heading p={2} fontSize={"md"}>
                 Highest Score
               </Heading>
@@ -76,7 +76,7 @@ const Stats = () => {
               </Box>
             </CustomBox>
 
-            <CustomBox width={["90%", 430]}>
+            <CustomBox width={["92vw", 430]}>
               <Heading p={2} fontSize={"md"}>
                 Top Partnerships
               </Heading>
@@ -91,7 +91,7 @@ const Stats = () => {
             Batting
           </Heading>
           <Wrap spacing={10}>
-            <CustomBox width={["90%", 430]}>
+            <CustomBox width={["92vw", 430]}>
               <Heading p={2} fontSize={"md"}>
                 Top Wicket Takers
               </Heading>
@@ -99,7 +99,7 @@ const Stats = () => {
                 <MostWicketsTable bowlingStats={stats.bowling} />
               </Box>
             </CustomBox>
-            <CustomBox width={["90%", 430]}>
+            <CustomBox width={["92vw", 430]}>
               <Heading p={2} fontSize={"md"}>
                 Best Bowling Figure
               </Heading>
