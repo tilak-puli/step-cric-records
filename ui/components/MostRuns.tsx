@@ -42,6 +42,10 @@ export function sortByRuns(battingStats: BattingStats): any[] {
   ]).sort((s, s1) => s1[1] - s[1]);
 }
 
+export function validAvg({ runs, matches }) {
+  return runs !== 0 && (matches >= 3 || runs > 30);
+}
+
 export function MostRunsTable(props: { battingStats: BattingStats }) {
   const data = useMemo(() => {
     const sortedStats = sortByRuns(props.battingStats);
@@ -54,9 +58,10 @@ export function MostRunsTable(props: { battingStats: BattingStats }) {
         matches,
         avg: getAvg(runs, matches, notOuts),
       }))
-      .filter(({ runs }) => runs !== 0)
-      .slice(0, 50);
+      .filter(validAvg);
   }, [props.battingStats]);
 
-  return <TableWithSorting data={data} columns={columns} showNumbering />;
+  return (
+    <TableWithSorting data={data} columns={columns} showNumbering limit={50} />
+  );
 }

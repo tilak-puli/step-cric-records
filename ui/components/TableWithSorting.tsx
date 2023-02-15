@@ -7,6 +7,7 @@ export const TableWithSorting = (props: {
   columns: any;
   data: any;
   showNumbering?: Boolean;
+  limit?: Number;
 }) => {
   const { columns, data, showNumbering } = props;
 
@@ -44,7 +45,7 @@ export const TableWithSorting = (props: {
         ))}
       </Thead>
       <Tbody {...getTableBodyProps()}>
-        {rows.map((row, k) => {
+        {rows.slice(0, props.limit).map((row, k) => {
           prepareRow(row);
           return (
             <Tr key={k} {...row.getRowProps()}>

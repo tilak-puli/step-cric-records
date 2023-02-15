@@ -63,6 +63,9 @@ export function sortByWickets(bowlingStats: BowlingStats) {
   });
 }
 
+export const validEconomy = ({ wickets, matches }) =>
+  wickets !== 0 && (matches >= 3 || wickets >= 3);
+
 export function MostWicketsTable(props: { bowlingStats: BowlingStats }) {
   const rows = useMemo(() => {
     const sortedStats = sortByWickets(props.bowlingStats);
@@ -74,9 +77,10 @@ export function MostWicketsTable(props: { bowlingStats: BowlingStats }) {
         overs,
         economy,
       }))
-      .filter(({ wickets }) => wickets !== 0)
-      .slice(0, 50);
+      .filter(validEconomy);
   }, [props.bowlingStats]);
 
-  return <TableWithSorting data={rows} columns={columns} showNumbering />;
+  return (
+    <TableWithSorting data={rows} columns={columns} showNumbering limit={50} />
+  );
 }

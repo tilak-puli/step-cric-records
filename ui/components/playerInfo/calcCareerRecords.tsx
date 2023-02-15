@@ -7,6 +7,8 @@ import {
   sortByRuns,
   sortByWickets,
   sortedBowlingFigures,
+  validAvg,
+  validEconomy,
 } from "../index";
 import Link from "next/link";
 import { Link as ChakraLink } from "@chakra-ui/layout";
@@ -70,6 +72,7 @@ export function sortByAvg(battingStats: BattingStats) {
   const avgs = _.map(battingStats, (stat, name) => ({
     name: name,
     avg: +getAvg(stat.runs, stat.matches, stat.notOuts),
+    runs: stat.runs,
     matches: stat.matches,
   }));
 
@@ -87,13 +90,15 @@ export function sortByAvg(battingStats: BattingStats) {
 export function sortByEconomy(bowlingStats: BowlingStats) {
   return _.map(bowlingStats, (b, name) => ({
     name,
+    wickets: b.wickets,
     matches: b.matches,
     economy: +getEconomy(b.bowlingFigures),
   })).sort((s, s1) => {
-    let diff = s1.economy - s.economy;
+    let diff = s.economy - s1.economy;
     if (diff === 0) {
-      diff = s.matches - s1.matches;
+      diff = s1.matches - s.matches;
     }
+
     return diff;
   });
 }
@@ -103,6 +108,7 @@ export function sortBySR(battingStats: BattingStats) {
     name: name,
     sr: +getSR(stat.runs, stat.balls),
     matches: stat.matches,
+    runs: stat.runs,
   }));
 
   return avgs.sort((s, s1) => {
@@ -128,13 +134,15 @@ export function getBattingInfo(battingRecords, playerName: string) {
       ([name]) => name === playerName
     ) + 1;
 
-  const avgRank = sortByAvg(battingRecords)
-    .filter(({ matches }) => matches >= 5)
-    .findIndex(({ name }) => name === playerName);
+  const avgRank =
+    sortByAvg(battingRecords)
+      .filter(validAvg)
+      .findIndex(({ name }) => name === playerName) + 1;
 
-  const srRank = sortBySR(battingRecords)
-    .filter(({ matches }) => matches >= 5)
-    .findIndex(({ name }) => name === playerName);
+  const srRank =
+    sortBySR(battingRecords)
+      .filter(validAvg)
+      .findIndex(({ name }) => name === playerName) + 1;
 
   return {
     runsScored: batting.runs,
@@ -164,9 +172,10 @@ export function getBowlingInfo(bowlingRecords, playerName) {
       ([name]) => name === playerName
     ) + 1;
 
-  const economyRanking = sortByEconomy(bowlingRecords)
-    .filter(({ matches }) => matches >= 5)
-    .findIndex(({ name }) => name === playerName);
+  const economyRanking =
+    sortByEconomy(bowlingRecords)
+      .filter(validEconomy)
+      .findIndex(({ name }) => name === playerName) + 1;
 
   return {
     wickets: bowling.wickets,
