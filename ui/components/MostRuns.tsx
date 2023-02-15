@@ -42,6 +42,18 @@ export function sortByRuns(battingStats: BattingStats): any[] {
   ]).sort((s, s1) => s1[1] - s[1]);
 }
 
+function sortByOneLastMatchRuns(battingStats: BattingStats): any[] {
+  return _.map(battingStats, (b, name) => [
+    name,
+    b.beforeLastMatchRecord?.runs || b.runs,
+    b.beforeLastMatchRecord?.balls || b.balls,
+    b.beforeLastMatchRecord?.matches || b.matches,
+    b.beforeLastMatchRecord?.notOuts || b.notOuts,
+  ])
+    .filter(([_, runs]) => runs != 0)
+    .sort((s, s1) => s1[1] - s[1]);
+}
+
 export function validAvg({ runs, matches }) {
   return runs !== 0 && (matches >= 3 || runs > 30);
 }
@@ -49,14 +61,16 @@ export function validAvg({ runs, matches }) {
 export function MostRunsTable(props: { battingStats: BattingStats }) {
   const data = useMemo(() => {
     const sortedStats = sortByRuns(props.battingStats);
+    const oneLastMatchStats = sortByOneLastMatchRuns(props.battingStats);
 
     return sortedStats
-      .map(([name, runs, balls, matches, notOuts]) => ({
+      .map(([name, runs, balls, matches, notOuts], index) => ({
         name: capitalize(name),
         sr: getSR(runs, balls),
         runs,
         matches,
         avg: getAvg(runs, matches, notOuts),
+        change: oneLastMatchStats.findIndex(([n]) => n === name) - index,
       }))
       .filter(validAvg);
   }, [props.battingStats]);

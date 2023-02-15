@@ -1,4 +1,5 @@
 export interface BattingStat {
+  beforeLastMatchRecord?: BattingStat;
   runs: number;
   balls: number;
   battingFigures: BattingFigure[];
@@ -43,6 +44,12 @@ export interface BowlingFigure {
   matchIndex: number;
 }
 export interface BowlingStat {
+  beforeLastMatchRecord?: {
+    bowlingFigures: BowlingFigure[];
+    overs: string;
+    wickets: number;
+    matches: number;
+  };
   wickets: number;
   bowlingFigures: BowlingFigure[];
   matches: number;

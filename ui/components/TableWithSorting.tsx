@@ -49,7 +49,9 @@ export const TableWithSorting = (props: {
           prepareRow(row);
           return (
             <Tr key={k} {...row.getRowProps()}>
-              {showNumbering && <TablePosCell k={k} />}
+              {showNumbering && (
+                <TablePosCell k={k} change={row?.original?.change} />
+              )}
               {row.cells.map((cell, k) => (
                 <Td
                   key={k}

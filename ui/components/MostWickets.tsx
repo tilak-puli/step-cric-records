@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import _ from "underscore";
 import { capitalize } from "../utils/utils";
-import { BowlingStats } from "../types/stats";
+import { BattingStats, BowlingStats } from "../types/stats";
 import { TableWithSorting } from "./TableWithSorting";
 import { numberOfBalls } from "../state/stats";
 
@@ -44,10 +44,6 @@ export function getEconomy(bowlingFigures = []) {
   return (6 * (runs / balls)).toFixed(2);
 }
 
-export function roundOver(over) {
-  return over % 1 > 0.3 ? Math.ceil(over) : Math.floor(over);
-}
-
 export function sortByWickets(bowlingStats: BowlingStats) {
   return _.map(bowlingStats, (b, name) => [
     name,
@@ -63,19 +59,37 @@ export function sortByWickets(bowlingStats: BowlingStats) {
   });
 }
 
+function sortByOneLastMatchWickets(bowlingStats: BowlingStats): any[] {
+  return _.map(bowlingStats, (b, name) => [
+    name,
+    b.beforeLastMatchRecord?.wickets || b.wickets,
+    b.beforeLastMatchRecord?.overs || b.overs,
+  ])
+    .filter(([_, runs]) => runs != 0)
+    .sort((s, s1) => {
+      let diff = s1[1] - s[1];
+      if (diff === 0) {
+        diff = s[2] - s1[2];
+      }
+      return diff;
+    });
+}
+
 export const validEconomy = ({ wickets, matches }) =>
   wickets !== 0 && (matches >= 3 || wickets >= 3);
 
 export function MostWicketsTable(props: { bowlingStats: BowlingStats }) {
   const rows = useMemo(() => {
     const sortedStats = sortByWickets(props.bowlingStats);
+    const oneLastMatchStats = sortByOneLastMatchWickets(props.bowlingStats);
 
     return sortedStats
-      .map(([name, wickets, overs, economy]) => ({
+      .map(([name, wickets, overs, economy], index) => ({
         name: capitalize(name),
         wickets,
         overs,
         economy,
+        change: oneLastMatchStats.findIndex(([n]) => n === name) - index,
       }))
       .filter(validEconomy);
   }, [props.bowlingStats]);

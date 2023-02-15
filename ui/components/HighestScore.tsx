@@ -6,6 +6,10 @@ import {
   Th,
   Thead,
   Tr,
+  Text,
+  Flex,
+  Spacer,
+  Box,
 } from "@chakra-ui/react";
 import Link from "next/link";
 import { useMemo } from "react";
@@ -19,7 +23,21 @@ const columns = [
   { field: "highestScoreInBalls", headerName: "Balls", width: 20 },
 ];
 
-export function TablePosCell(props: { k: any }) {
+function getChangeText(props: { k: any; change?: number }) {
+  if (props.change == undefined || props.change === 0) {
+    return;
+  }
+  const positive = props.change > 0;
+
+  return (
+    <Flex color={positive ? "green" : "red.400"} ml={1}>
+      <Text fontSize={7}>{positive ? "▲" : "▼"}</Text>
+      <Text fontSize={12}>{Math.abs(props.change)}</Text>
+    </Flex>
+  );
+}
+
+export function TablePosCell(props: { k: any; change?: number }) {
   return (
     <Td
       py={1}
@@ -28,7 +46,9 @@ export function TablePosCell(props: { k: any }) {
       w={"min-content"}
       color={"grey"}
     >
-      {props.k + 1}
+      <Flex w={8}>
+        <Text>{props.k + 1}</Text> {getChangeText(props)}
+      </Flex>
     </Td>
   );
 }
