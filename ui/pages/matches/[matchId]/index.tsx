@@ -8,12 +8,13 @@ import {
   Wrap,
 } from "@chakra-ui/react";
 import { useRouter } from "next/router";
-import { useContext, useMemo } from "react";
+import { useContext, useMemo, useState } from "react";
 import { GlobalContext } from "../../../state/GlobalContext";
 import {
   BattingTable,
   BowlingTable,
   FallOfWicketsTable,
+  LineChartBox,
   MatchCard,
 } from "../../../components";
 import { CustomBox } from "../../../components/HigherOrder/CustomBox";
@@ -30,6 +31,8 @@ import {
   getTopPartnerships,
   TopPerformers,
 } from "../../../components/GetTopPartnerships";
+import _ from "lodash";
+import Image from "next/image";
 
 function TeamScoreBoard(props: {
   name: String;
@@ -106,14 +109,37 @@ function SpecialMentionsCard(props: { specialMentions: String[] }) {
   );
 }
 
+const calcChatData = (match: Match, teamName: "team1" | "team2") => {
+  if (!match) {
+    return [];
+  }
+
+  const startingData = [{ runs: 0, over: 0 }];
+  const endingData = [
+    { runs: match[teamName].score.runs, over: match[teamName].score.overs },
+  ];
+  const fwData =
+    match[teamName === "team2" ? "team1" : "team2"].fallOfWickets.map((fw) => ({
+      runs: +fw.score.split("/")[0],
+      over: +fw.over,
+      name: fw.name,
+      score: fw.score,
+    })) || [];
+
+  return [...startingData, ...fwData, ...endingData];
+};
+
 const Match = () => {
   const router = useRouter();
   const { matchId } = router.query;
   const { matches } = useContext(GlobalContext);
+  const [team1ChartData, setTeam1ChartData] = useState([]);
+  const [team2ChartData, setTeam2ChartData] = useState([]);
   const match = matches[+matchId - 1] as Match;
 
   const mvp = useMemo(() => findMvp(match), [match]);
-
+  useMemo(() => setTeam1ChartData(calcChatData(match, "team1")), [match]);
+  useMemo(() => setTeam2ChartData(calcChatData(match, "team2")), [match]);
   return (
     <Box>
       <Box p={["1em", "2em"]}>
@@ -164,11 +190,46 @@ const Match = () => {
               topBowlers={getTopBowlers(match, 3)}
               topPartnerships={getTopPartnerships(match, 3)}
             />
+            <LineChartBox
+              title={"Runs"}
+              xAxisKey={"over"}
+              dataKey={"runs"}
+              width={700}
+              xTicks={_.times(match.team1.score.overs, (n) => n)}
+              data={team1ChartData}
+              lineType={"monotoneX"}
+              CustomTooltip={CustomTooltip}
+              showDot
+            />
+            <LineChartBox
+              title={"Runs"}
+              xAxisKey={"over"}
+              dataKey={"runs"}
+              width={700}
+              xTicks={_.times(match.team2.score.overs, (n) => n)}
+              data={team2ChartData}
+              lineType={"monotoneX"}
+              CustomTooltip={CustomTooltip}
+              showDot
+            />
           </Wrap>
         )}
       </Box>
     </Box>
   );
+};
+
+const CustomTooltip = ({ active, payload }) => {
+  if (active && payload && payload.length) {
+    return (
+      <CustomBox p={2}>
+        <Text>Wicket: {payload[0].payload.name}</Text>
+        <Text>Score: {payload[0].payload.score}</Text>
+      </CustomBox>
+    );
+  }
+
+  return null;
 };
 
 export default Match;

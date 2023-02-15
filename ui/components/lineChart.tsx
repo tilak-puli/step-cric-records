@@ -2,6 +2,7 @@ import { CustomBox } from "./HigherOrder/CustomBox";
 import { Heading } from "@chakra-ui/react";
 import {
   CartesianGrid,
+  Curve,
   Legend,
   Line,
   LineChart,
@@ -11,6 +12,7 @@ import {
   YAxis,
 } from "recharts";
 import _ from "underscore";
+import { CurveType } from "recharts/types/shape/Curve";
 
 export function LineChartBox(props: {
   title: string;
@@ -18,10 +20,11 @@ export function LineChartBox(props: {
   dataKey: string;
   xAxisKey: string;
   width?: number | string;
+  xTicks?: number[];
+  lineType?: CurveType;
+  showDot?: boolean;
+  CustomTooltip?: (prop: { active: any; payload: any }) => JSX.Element;
 }) {
-  console.log(
-    Math.ceil(_.max(props.data, (d) => d[props.dataKey])[props.dataKey]) / 10
-  );
   return (
     <CustomBox w={["100%", props.width || 1000]} h={500}>
       <Heading m={4} size={"sm"}>
@@ -38,7 +41,12 @@ export function LineChartBox(props: {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey={props.xAxisKey} tickCount={15} type="number" />
+          <XAxis
+            dataKey={props.xAxisKey}
+            tickCount={Math.min(15, props.data.length)}
+            type="number"
+            ticks={props.xTicks}
+          />
           <YAxis
             type="number"
             dataKey={props.dataKey}
@@ -49,14 +57,18 @@ export function LineChartBox(props: {
               ) * 10,
             ]}
           />
-          <Tooltip />
+          {props.CustomTooltip ? (
+            <Tooltip content={props.CustomTooltip} />
+          ) : (
+            <Tooltip />
+          )}
           <Legend />
           <Line
-            type="natural"
+            type={props.lineType || "natural"}
             dataKey={props.dataKey}
             stroke="#8884d8"
             strokeWidth={3}
-            dot={false}
+            dot={props.showDot}
           />
         </LineChart>
       </ResponsiveContainer>
