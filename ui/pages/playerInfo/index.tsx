@@ -1,4 +1,12 @@
-import { Text, Divider, Flex, Heading, Wrap, Stack } from "@chakra-ui/react";
+import {
+  Text,
+  Divider,
+  Flex,
+  Heading,
+  Wrap,
+  Stack,
+  Box,
+} from "@chakra-ui/react";
 import { Filter, GlobalContext, START_YEAR } from "../../state/GlobalContext";
 import { useContext, useEffect, useState } from "react";
 import { CustomBox } from "../../components/HigherOrder/CustomBox";
@@ -19,6 +27,17 @@ import {
   PlayerStats,
 } from "../../types/stats";
 import { FromYearFilter } from "../../components/filters";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+  Label,
+} from "recharts";
 
 const battingColumns = [
   { field: "b", headerName: "Batting", width: 10 },
@@ -82,19 +101,7 @@ function PlayerInfoFilters(props: {
   value: string;
   onPlayerNameChange: (playerName) => void;
   fromYear: Filter;
-  stats: {
-    batting: BattingStats;
-    bowling: BowlingStats;
-    partnerships: Partnership[];
-    playerStats: { [p: string]: PlayerStats };
-    total?: {
-      runsScored: number;
-      wicketsTaken: number;
-      foursHit: number;
-      sixesHit: number;
-      highestMatchScore: number;
-    };
-  };
+  playerNames: string[];
 }) {
   return (
     <Wrap spacing="10">
@@ -106,7 +113,7 @@ function PlayerInfoFilters(props: {
         <PlayerNameSelector
           value={props.value}
           onChange={props.onPlayerNameChange}
-          playerNames={Object.keys(props.stats.playerStats)}
+          playerNames={props.playerNames}
         />
       </Flex>
     </Wrap>
@@ -139,7 +146,7 @@ const PlayerInfoHome = () => {
           router.query.playerName = playerName;
           router.push(router);
         }}
-        stats={stats}
+        playerNames={Object.keys(stats.playerStats)}
         fromYear={filters.fromYear}
       />
       <Divider />
@@ -190,6 +197,40 @@ const PlayerInfoHome = () => {
           </Wrap>
         </>
       )}
+      <CustomBox w={["100%", 1000]} h={500}>
+        <Heading m={4} size={"sm"}>
+          Runs Vs Matches
+        </Heading>
+        <ResponsiveContainer width="100%" height="90%">
+          <LineChart
+            data={
+              stats.batting[playerName]?.battingStatByMatch.map((s, i) => ({
+                matchNo: i + 1,
+                ...s,
+              })) || []
+            }
+            margin={{
+              top: 5,
+              right: 30,
+              left: 20,
+              bottom: 5,
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="matchNo" tickCount={15} type="number" />
+            <YAxis type="number" name={"Runs"} />
+            <Tooltip />
+            <Legend />
+            <Line
+              type="natural"
+              dataKey="runs"
+              stroke="#8884d8"
+              strokeWidth={3}
+              dot={false}
+            />
+          </LineChart>
+        </ResponsiveContainer>
+      </CustomBox>
     </Wrap>
   );
 };

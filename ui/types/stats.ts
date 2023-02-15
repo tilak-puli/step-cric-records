@@ -5,6 +5,7 @@ export interface BattingStat {
   battingFigures: BattingFigure[];
   matches: number;
   notOuts: number;
+  battingStatByMatch: BattingStat[];
 }
 
 export interface Partnership {

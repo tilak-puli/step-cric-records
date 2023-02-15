@@ -67,6 +67,7 @@ export default function getStats(
         battingFigures: [],
         matches: 0,
         notOuts: 0,
+        battingStatByMatch: [],
       };
     }
 
@@ -80,6 +81,11 @@ export default function getStats(
     batting[indexName].balls += balls;
 
     batting[indexName].battingFigures.push({ runs, balls, matchIndex, notOut });
+    batting[indexName].battingStatByMatch.push({
+      ...batting[indexName],
+      battingStatByMatch: [],
+      battingFigures: [],
+    });
   };
 
   const addBowlingRecords = (
