@@ -52,47 +52,63 @@ const Stats = () => {
   return (
     <Stack spacing={12} p={["1em", "2em"]}>
       <Filters />
+
       <Wrap w={"99%"} spacing={10}>
-        <CustomBox width={["90%", 430]}>
-          <Heading p={2} fontSize={"md"}>
-            Top Run Scorers
+        <Box>
+          <Heading mb={4} ml={1} size={"md"}>
+            Batting
           </Heading>
-          <Box height={450} overflow={"auto"}>
-            <MostRunsTable battingStats={stats.batting} />
-          </Box>
-        </CustomBox>
-        <CustomBox width={["90%", 430]}>
-          <Heading p={2} fontSize={"md"}>
-            Highest Score
+          <Wrap spacing={10}>
+            <CustomBox width={["90%", 430]}>
+              <Heading p={2} fontSize={"md"}>
+                Top Run Scorers
+              </Heading>
+              <Box height={450} overflow={"auto"}>
+                <MostRunsTable battingStats={stats.batting} />
+              </Box>
+            </CustomBox>
+            <CustomBox width={["90%", 430]}>
+              <Heading p={2} fontSize={"md"}>
+                Highest Score
+              </Heading>
+              <Box height={450} overflow={"auto"}>
+                <HighestScoreTable battingStats={stats.batting} />
+              </Box>
+            </CustomBox>
+
+            <CustomBox width={["90%", 430]}>
+              <Heading p={2} fontSize={"md"}>
+                Top Partnerships
+              </Heading>
+              <Box height={450} overflow={"auto"}>
+                <BestPartnerships partnerships={stats.partnerships} />
+              </Box>
+            </CustomBox>
+          </Wrap>
+        </Box>
+        <Box>
+          <Heading mb={4} ml={1} size={"md"}>
+            Batting
           </Heading>
-          <Box height={450} overflow={"auto"}>
-            <HighestScoreTable battingStats={stats.batting} />
-          </Box>
-        </CustomBox>
-        <CustomBox width={["90%", 430]}>
-          <Heading p={2} fontSize={"md"}>
-            Top Wicket Takers
-          </Heading>
-          <Box height={450} overflow={"auto"}>
-            <MostWicketsTable bowlingStats={stats.bowling} />
-          </Box>
-        </CustomBox>
-        <CustomBox width={["90%", 430]}>
-          <Heading p={2} fontSize={"md"}>
-            Best Bowling Figure
-          </Heading>
-          <Box height={450} overflow={"auto"}>
-            <BestBowlingFigureTable bowlingStats={stats.bowling} />
-          </Box>
-        </CustomBox>
-        <CustomBox width={["90%", 430]}>
-          <Heading p={2} fontSize={"md"}>
-            Top Partnerships
-          </Heading>
-          <Box height={450} overflow={"auto"}>
-            <BestPartnerships partnerships={stats.partnerships} />
-          </Box>
-        </CustomBox>
+          <Wrap spacing={10}>
+            <CustomBox width={["90%", 430]}>
+              <Heading p={2} fontSize={"md"}>
+                Top Wicket Takers
+              </Heading>
+              <Box height={450} overflow={"auto"}>
+                <MostWicketsTable bowlingStats={stats.bowling} />
+              </Box>
+            </CustomBox>
+            <CustomBox width={["90%", 430]}>
+              <Heading p={2} fontSize={"md"}>
+                Best Bowling Figure
+              </Heading>
+              <Box height={450} overflow={"auto"}>
+                <BestBowlingFigureTable bowlingStats={stats.bowling} />
+              </Box>
+            </CustomBox>
+          </Wrap>
+        </Box>
       </Wrap>
     </Stack>
   );
