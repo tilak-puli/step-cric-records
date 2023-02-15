@@ -12,3 +12,4 @@ export { MatchCard } from "./MatchCard";
 export { ScoreRow } from "./MatchCard";
 export { Filters } from "./filters";
 export { RecentMatches } from "./recentMatches";
+export { LineChartBox } from "./lineChart";

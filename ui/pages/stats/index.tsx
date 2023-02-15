@@ -88,7 +88,7 @@ const Stats = () => {
         </Box>
         <Box>
           <Heading mb={4} ml={1} size={"md"}>
-            Batting
+            Bowling
           </Heading>
           <Wrap spacing={10}>
             <CustomBox width={["92vw", 430]}>

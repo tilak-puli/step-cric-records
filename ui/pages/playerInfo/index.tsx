@@ -1,17 +1,9 @@
-import {
-  Text,
-  Divider,
-  Flex,
-  Heading,
-  Wrap,
-  Stack,
-  Box,
-} from "@chakra-ui/react";
-import { Filter, GlobalContext, START_YEAR } from "../../state/GlobalContext";
+import { Divider, Flex, Heading, Stack, Text, Wrap } from "@chakra-ui/react";
+import { Filter, GlobalContext } from "../../state/GlobalContext";
 import { useContext, useEffect, useState } from "react";
 import { CustomBox } from "../../components/HigherOrder/CustomBox";
 import { SimpleTable } from "../../components/SimpleTable";
-import { RecentMatches } from "../../components";
+import { getAvg, LineChartBox, RecentMatches } from "../../components";
 import { capitalize } from "../../utils/utils";
 import { useRouter } from "next/router";
 import { PlayerBasicInfo } from "../../components/playerInfo/playerBasicInfo";
@@ -20,24 +12,7 @@ import {
   getBattingInfo,
   getBowlingInfo,
 } from "../../components/playerInfo/calcCareerRecords";
-import {
-  BattingStats,
-  BowlingStats,
-  Partnership,
-  PlayerStats,
-} from "../../types/stats";
 import { FromYearFilter } from "../../components/filters";
-import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
-  Label,
-} from "recharts";
 
 const battingColumns = [
   { field: "b", headerName: "Batting", width: 10 },
@@ -122,6 +97,7 @@ function PlayerInfoFilters(props: {
 
 const PlayerInfoHome = () => {
   const [playerName, setPlayerName] = useState("");
+  const [chartData, setChartData] = useState([]);
   const { stats, filters } = useContext(GlobalContext);
   const playerStats = stats.playerStats[playerName];
   const battingInfo = getBattingInfo(stats.batting, playerName);
@@ -134,6 +110,13 @@ const PlayerInfoHome = () => {
       playerName = playerName[0];
     }
 
+    setChartData(
+      stats.batting[playerName]?.battingStatByMatch.map((s, i) => ({
+        matchNo: i + 1,
+        avg: +getAvg(s.runs, s.matches, s.notOuts),
+        ...s,
+      })) || []
+    );
     setPlayerName(playerName);
   }, [stats]);
 
@@ -195,42 +178,24 @@ const PlayerInfoHome = () => {
               />
             </CustomBox>
           </Wrap>
+          <Wrap spacing={10}>
+            <LineChartBox
+              title={"Runs Vs Matches"}
+              xAxisKey={"matchNo"}
+              dataKey={"runs"}
+              width={700}
+              data={chartData}
+            />
+            <LineChartBox
+              title={"Avg Vs Matches"}
+              xAxisKey={"matchNo"}
+              dataKey={"avg"}
+              width={700}
+              data={chartData}
+            />
+          </Wrap>
         </>
       )}
-      <CustomBox w={["100%", 1000]} h={500}>
-        <Heading m={4} size={"sm"}>
-          Runs Vs Matches
-        </Heading>
-        <ResponsiveContainer width="100%" height="90%">
-          <LineChart
-            data={
-              stats.batting[playerName]?.battingStatByMatch.map((s, i) => ({
-                matchNo: i + 1,
-                ...s,
-              })) || []
-            }
-            margin={{
-              top: 5,
-              right: 30,
-              left: 20,
-              bottom: 5,
-            }}
-          >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="matchNo" tickCount={15} type="number" />
-            <YAxis type="number" name={"Runs"} />
-            <Tooltip />
-            <Legend />
-            <Line
-              type="natural"
-              dataKey="runs"
-              stroke="#8884d8"
-              strokeWidth={3}
-              dot={false}
-            />
-          </LineChart>
-        </ResponsiveContainer>
-      </CustomBox>
     </Wrap>
   );
 };
