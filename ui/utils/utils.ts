@@ -218,3 +218,7 @@ export function getPointsTable(matches: Match[], tournament: any) {
 
   return teams;
 }
+
+export function getPercentage(x: number, y: number) {
+  return ((x / y) * 100)?.toFixed(1) || 0;
+}

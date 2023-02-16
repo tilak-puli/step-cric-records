@@ -1,18 +1,10 @@
-import {
-  Box,
-  Divider,
-  Flex,
-  Heading,
-  Stack,
-  Text,
-  Wrap,
-} from "@chakra-ui/react";
+import { Box, Flex, Heading, Stack, Text, Wrap } from "@chakra-ui/react";
 import { Filter, GlobalContext } from "../../state/GlobalContext";
 import { useContext, useEffect, useState } from "react";
 import { CustomBox } from "../../components/HigherOrder/CustomBox";
 import { SimpleTable } from "../../components/SimpleTable";
 import { getAvg, LineChartBox, RecentMatches } from "../../components";
-import { capitalize } from "../../utils/utils";
+import { capitalize, getPercentage } from "../../utils/utils";
 import { useRouter } from "next/router";
 import { PlayerBasicInfo } from "../../components/playerInfo/playerBasicInfo";
 import { PlayerNameSelector } from "../../components/playerInfo/playerNameSelector";
@@ -67,7 +59,10 @@ function getBattingInfoRow(battingInfo) {
       <Text>50s: {battingRow["50s"]}</Text>
       <Text> 30s: {battingRow["30s"]}</Text>
       <Text> 20s:{battingRow["20s"]} </Text>
-      <Text> Ducks: {battingRow.ducks}</Text>
+      <Text>
+        Ducks: {battingRow.ducks}(
+        {getPercentage(battingRow.ducks, battingRow.matchesBatted)}%)
+      </Text>
     </Flex>
   );
 

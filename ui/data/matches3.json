@@ -2143,7 +2143,7 @@
       "batting": [
         {
           "name": "Rajkumar",
-          "outReason": "b Kabita",
+          "outReason": "b Kavita",
           "runs": 4,
           "balls": 5,
           "fours": 0,
@@ -2321,7 +2321,7 @@
           "economy": 9
         },
         {
-          "name": "Kabita",
+          "name": "Kavita",
           "overs": 1,
           "maidens": 0,
           "runs": 8,
@@ -3453,7 +3453,7 @@
         },
         {
           "name": "Tanmay",
-          "outReason": "b Kabita",
+          "outReason": "b Kavita",
           "runs": 16,
           "balls": 25,
           "fours": 0,
@@ -3646,7 +3646,7 @@
           "over": "3.4"
         },
         {
-          "name": "Kabita",
+          "name": "Kavita",
           "score": "20/5",
           "over": "3.5"
         }
@@ -3863,7 +3863,7 @@
           "notOut": true
         },
         {
-          "name": "Kabita",
+          "name": "Kavita",
           "outReason": "c Chhavi b Qasim",
           "runs": 0,
           "balls": 1,
