@@ -34,6 +34,40 @@ function addTags(playerStats: {}, indexName: string, tags: String[]) {
   );
 }
 
+function addRunsRecords(
+  runs,
+  batting: BattingStats,
+  indexName: string,
+  notOut
+) {
+  if (runs >= 50) {
+    batting[indexName].noOf50s++;
+  } else if (runs >= 30) {
+    batting[indexName].noOf30s++;
+  } else if (runs >= 20) {
+    batting[indexName].noOf20s++;
+  } else if (runs === 0 && !notOut) {
+    batting[indexName].noOfDucks++;
+  }
+}
+
+function addBowlingCountRecords(
+  wickets,
+  bowling: BowlingStats,
+  indexName: string,
+  maidens
+) {
+  if (wickets >= 3) {
+    bowling[indexName].noOf3Wickets++;
+  } else if (wickets >= 2) {
+    bowling[indexName].noOf2Wickets++;
+  }
+
+  if (maidens > 0) {
+    bowling[indexName].noOfMaidens += maidens;
+  }
+}
+
 export default function getStats(
   matches: Match[],
   fromYear: number,
@@ -68,6 +102,10 @@ export default function getStats(
         matches: 0,
         notOuts: 0,
         battingStatByMatch: [],
+        noOf20s: 0,
+        noOf30s: 0,
+        noOf50s: 0,
+        noOfDucks: 0,
       };
     }
 
@@ -79,6 +117,7 @@ export default function getStats(
     batting[indexName].matches += 1;
     batting[indexName].notOuts += notOut ? 1 : 0;
     batting[indexName].balls += balls;
+    addRunsRecords(runs, batting, indexName, notOut);
 
     batting[indexName].battingFigures.push({ runs, balls, matchIndex, notOut });
     batting[indexName].battingStatByMatch.push({
@@ -92,7 +131,7 @@ export default function getStats(
     date,
     matchIndex,
     savePreviousMatchStats,
-    { wickets, name, runs, overs }
+    { wickets, name, runs, overs, maidens }
   ) => {
     const indexName = getIndexName(name, date);
     wicketsTaken += wickets;
@@ -103,6 +142,9 @@ export default function getStats(
         matches: 0,
         overs: "0.0",
         bowlingFigures: [],
+        noOf3Wickets: 0,
+        noOfMaidens: 0,
+        noOf2Wickets: 0,
       };
     }
 
@@ -112,6 +154,7 @@ export default function getStats(
 
     bowling[indexName].wickets += wickets;
     bowling[indexName].matches += 1;
+    addBowlingCountRecords(wickets, bowling, indexName, maidens);
 
     bowling[indexName].overs = addOvers(
       overs.toFixed(1),

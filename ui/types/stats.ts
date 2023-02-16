@@ -6,6 +6,10 @@ export interface BattingStat {
   matches: number;
   notOuts: number;
   battingStatByMatch: BattingStat[];
+  noOf20s: number;
+  noOf30s: number;
+  noOf50s: number;
+  noOfDucks: number;
 }
 
 export interface Partnership {
@@ -55,6 +59,9 @@ export interface BowlingStat {
   bowlingFigures: BowlingFigure[];
   matches: number;
   overs: string;
+  noOf3Wickets: number;
+  noOfMaidens: number;
+  noOf2Wickets: number;
 }
 
 export interface BowlingStats {

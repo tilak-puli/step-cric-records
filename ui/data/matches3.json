@@ -6433,16 +6433,6 @@
           "sixes": 0,
           "runRate": 0,
           "notOut": false
-        },
-        {
-          "name": "....",
-          "outReason": "not out",
-          "runs": 0,
-          "balls": 0,
-          "fours": 0,
-          "sixes": 0,
-          "runRate": 0,
-          "notOut": true
         }
       ],
       "extrasGot": 10,

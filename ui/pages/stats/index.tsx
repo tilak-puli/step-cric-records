@@ -20,6 +20,7 @@ import { sortPartnerships } from "../../components/GetTopPartnerships";
 import { SimpleTable } from "../../components/SimpleTable";
 import { capitalize } from "../../utils/utils";
 import Link from "next/link";
+import { BattingMilestones } from "../../components/BattingMilestones";
 
 function BestPartnerships(props: { partnerships: Partnership[] }) {
   const partnerships = sortPartnerships(props.partnerships)
@@ -75,13 +76,12 @@ const Stats = () => {
                 <HighestScoreTable battingStats={stats.batting} />
               </Box>
             </CustomBox>
-
-            <CustomBox width={["92vw", 430]}>
+            <CustomBox width={["92vw", 450]}>
               <Heading p={2} fontSize={"md"}>
-                Top Partnerships
+                Milestones
               </Heading>
               <Box height={450} overflow={"auto"}>
-                <BestPartnerships partnerships={stats.partnerships} />
+                <BattingMilestones battingStats={stats.batting} />
               </Box>
             </CustomBox>
           </Wrap>
@@ -105,6 +105,15 @@ const Stats = () => {
               </Heading>
               <Box height={450} overflow={"auto"}>
                 <BestBowlingFigureTable bowlingStats={stats.bowling} />
+              </Box>
+            </CustomBox>
+
+            <CustomBox width={["92vw", 430]}>
+              <Heading p={2} fontSize={"md"}>
+                Top Partnerships
+              </Heading>
+              <Box height={450} overflow={"auto"}>
+                <BestPartnerships partnerships={stats.partnerships} />
               </Box>
             </CustomBox>
           </Wrap>

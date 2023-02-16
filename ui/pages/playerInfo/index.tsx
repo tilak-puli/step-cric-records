@@ -1,4 +1,12 @@
-import { Divider, Flex, Heading, Stack, Text, Wrap } from "@chakra-ui/react";
+import {
+  Box,
+  Divider,
+  Flex,
+  Heading,
+  Stack,
+  Text,
+  Wrap,
+} from "@chakra-ui/react";
 import { Filter, GlobalContext } from "../../state/GlobalContext";
 import { useContext, useEffect, useState } from "react";
 import { CustomBox } from "../../components/HigherOrder/CustomBox";
@@ -21,6 +29,7 @@ const battingColumns = [
   { field: "sr", headerName: "Strike Rate", width: 10 },
   { field: "avg", headerName: "Average", width: 10 },
   { field: "matchesBatted", headerName: "Matches Batted", width: 10 },
+  { field: "milestones", headerName: "Milestones", width: 10 },
   { field: "topFigures", headerName: "Top Scores", width: 10 },
   { field: "ranking", headerName: "Rankings", width: 10 },
 ];
@@ -32,6 +41,7 @@ const bowlingColumns = [
   { field: "economy", headerName: "Economy", width: 10 },
   { field: "average", headerName: "Average", width: 10 },
   { field: "matchesBowled", headerName: "Matches Bowled", width: 10 },
+  { field: "milestones", headerName: "Milestones  ", width: 10 },
   { field: "topFigures", headerName: "Top Scores", width: 10 },
   { field: "ranking", headerName: "Rankings", width: 10 },
 ];
@@ -52,6 +62,15 @@ function getBattingInfoRow(battingInfo) {
     </Stack>
   );
 
+  battingRow["milestones"] = (
+    <Flex gap={5}>
+      <Text>50s: {battingRow["50s"]}</Text>
+      <Text> 30s: {battingRow["30s"]}</Text>
+      <Text> 20s:{battingRow["20s"]} </Text>
+      <Text> Ducks: {battingRow.ducks}</Text>
+    </Flex>
+  );
+
   return battingRow;
 }
 
@@ -67,6 +86,14 @@ function getBowlingInfoRow(bowlingInfo) {
         <Text>#{bowlingRow.economyRanking} in Economy</Text>
       )}
     </Stack>
+  );
+
+  bowlingRow["milestones"] = (
+    <Flex gap={5}>
+      <Text>3W+: {bowlingRow.noOf3Wickets} </Text>
+      <Text> 2W: {bowlingRow.noOf2Wickets}</Text>
+      <Text> Maidens: {bowlingRow.maidens}</Text>
+    </Flex>
   );
 
   return bowlingRow;
@@ -121,7 +148,7 @@ const PlayerInfoHome = () => {
   }, [stats]);
 
   return (
-    <Wrap spacing={5} direction={"column"} p={["1em", "2em"]}>
+    <Wrap spacing={10} direction={"column"} p={["1em", "2em"]}>
       <PlayerInfoFilters
         value={playerName}
         onPlayerNameChange={(playerName) => {
@@ -132,22 +159,31 @@ const PlayerInfoHome = () => {
         playerNames={Object.keys(stats.playerStats)}
         fromYear={filters.fromYear}
       />
-      <Divider />
 
       {playerStats && (
         <>
-          <Heading size={"lg"} mb={3}>
-            {capitalize(playerName)}
-          </Heading>
-          <PlayerBasicInfo playerName={playerName} playerStats={playerStats} />
-          <Heading mb={3} fontSize={"m"}>
-            Last 5 Matches
-          </Heading>
-          <RecentMatches
-            playerName={playerName}
-            bowlingInfo={bowlingInfo}
-            battingInfo={battingInfo}
-          />
+          <Wrap spacing={20}>
+            <Box>
+              <Heading size={"lg"} mb={3}>
+                {capitalize(playerName)}
+              </Heading>
+              <PlayerBasicInfo
+                playerName={playerName}
+                playerStats={playerStats}
+              />
+            </Box>
+            <Box paddingTop={5}>
+              <Heading mb={3} fontSize={"m"}>
+                Last 5 Matches
+              </Heading>
+
+              <RecentMatches
+                playerName={playerName}
+                bowlingInfo={bowlingInfo}
+                battingInfo={battingInfo}
+              />
+            </Box>
+          </Wrap>
           <Heading mb={3} fontSize={"m"}>
             Career Stats
           </Heading>
@@ -178,6 +214,9 @@ const PlayerInfoHome = () => {
               />
             </CustomBox>
           </Wrap>
+          <Heading mb={3} fontSize={"m"}>
+            Charts
+          </Heading>
           <Wrap spacing={10}>
             <LineChartBox
               title={"Runs Vs Matches"}

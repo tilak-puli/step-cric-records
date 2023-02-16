@@ -14,7 +14,6 @@ import Link from "next/link";
 import { Link as ChakraLink } from "@chakra-ui/layout";
 import { BattingStats, BowlingStats } from "../../types/stats";
 import _ from "lodash";
-import matches from "../../pages/matches";
 
 function FigureLink({ text, matchIndex }) {
   return (
@@ -156,6 +155,10 @@ export function getBattingInfo(battingRecords, playerName: string) {
     highestScoreRanking: highestScoreRanking,
     avgRank: avgRank ? avgRank : null,
     srRank: srRank ? srRank : null,
+    "50s": batting.noOf50s,
+    "30s": batting.noOf30s,
+    "20s": batting.noOf20s,
+    ducks: batting.noOfDucks,
   };
 }
 
@@ -188,5 +191,8 @@ export function getBowlingInfo(bowlingRecords, playerName) {
     wicketsRanking: wicketsRank,
     bowlingFigureRanking: bowlingFigureRanking,
     economyRanking: economyRanking,
+    maidens: bowling.noOfMaidens,
+    noOf3Wickets: bowling.noOf3Wickets,
+    noOf2Wickets: bowling.noOf2Wickets,
   };
 }

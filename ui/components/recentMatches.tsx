@@ -33,7 +33,8 @@ function RecentMatchInfo(props: {
     (match.winner != match.team1Name && !partOfTeam1)
   ) {
     won = true;
-  } else if (match.winner === "Match") {
+  }
+  if (match.winner === "Match") {
     draw = true;
   }
 
@@ -45,7 +46,7 @@ function RecentMatchInfo(props: {
           height={90}
           py={5}
           borderColor={
-            won ? "brand.wonGreen" : draw ? "orange" : "brand.lostRed"
+            draw ? "orange" : won ? "brand.wonGreen" : "brand.lostRed"
           }
           fontWeight={"bold"}
           boxShadow="sm"

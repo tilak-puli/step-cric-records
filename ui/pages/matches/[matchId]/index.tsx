@@ -147,72 +147,81 @@ const Match = () => {
           <Box width={["100%", 500]}>{<Text>Match not found.</Text>}</Box>
         )}
         {match && (
-          <Wrap spacing={[5, 10]}>
-            <Flex direction={"column"}>
-              <Wrap spacing={[5, 10]} pb={[5, 10]}>
-                <Box width={["100%", 480]}>
-                  {
-                    <MatchCard
-                      p={"1em"}
-                      boxShadow={"sm"}
-                      match={match}
-                      disableLink={true}
-                    />
-                  }
-                </Box>
-                <MVPCard mvp={mvp} />
-                {match.extraData?.specialMvp && (
-                  <SpecialMVPCard mvp={match.extraData?.specialMvp} />
+          <Box>
+            <Wrap spacing={[5, 10]}>
+              <Flex direction={"column"}>
+                <Wrap spacing={[5, 10]} pb={[5, 10]}>
+                  <Box width={["100%", 480]}>
+                    {
+                      <MatchCard
+                        p={"1em"}
+                        boxShadow={"sm"}
+                        match={match}
+                        disableLink={true}
+                      />
+                    }
+                  </Box>
+                  <MVPCard mvp={mvp} />
+                  {match.extraData?.specialMvp && (
+                    <SpecialMVPCard mvp={match.extraData?.specialMvp} />
+                  )}
+                </Wrap>
+                {match.extraData?.specialMentions && (
+                  <SpecialMentionsCard
+                    specialMentions={match.extraData?.specialMentions}
+                  />
                 )}
-              </Wrap>
-              {match.extraData?.specialMentions && (
-                <SpecialMentionsCard
-                  specialMentions={match.extraData?.specialMentions}
-                />
-              )}
-              <Flex direction={"column"} gap={[10]} width={"100%"}>
-                <TeamScoreBoard
-                  name={match.team1.name}
-                  team1={match.team1}
-                  team2={match.team2}
-                  date={match.matchFileNameDate}
-                />
-                <TeamScoreBoard
-                  name={match.team2.name}
-                  team2={match.team1}
-                  team1={match.team2}
-                  date={match.matchFileNameDate}
-                />
+                <Flex direction={"column"} gap={[10]} width={"100%"}>
+                  <TeamScoreBoard
+                    name={match.team1.name}
+                    team1={match.team1}
+                    team2={match.team2}
+                    date={match.matchFileNameDate}
+                  />
+                  <TeamScoreBoard
+                    name={match.team2.name}
+                    team2={match.team1}
+                    team1={match.team2}
+                    date={match.matchFileNameDate}
+                  />
+                </Flex>
               </Flex>
-            </Flex>
-            <TopPerformers
-              topBatsman={getTopBatsman(match, 3)}
-              topBowlers={getTopBowlers(match, 3)}
-              topPartnerships={getTopPartnerships(match, 3)}
-            />
-            <LineChartBox
-              title={"Runs"}
-              xAxisKey={"over"}
-              dataKey={"runs"}
-              width={700}
-              xTicks={_.times(match.team1.score.overs, (n) => n)}
-              data={team1ChartData}
-              lineType={"monotoneX"}
-              CustomTooltip={CustomTooltip}
-              showDot
-            />
-            <LineChartBox
-              title={"Runs"}
-              xAxisKey={"over"}
-              dataKey={"runs"}
-              width={700}
-              xTicks={_.times(match.team2.score.overs, (n) => n)}
-              data={team2ChartData}
-              lineType={"monotoneX"}
-              CustomTooltip={CustomTooltip}
-              showDot
-            />
-          </Wrap>
+              <TopPerformers
+                topBatsman={getTopBatsman(match, 3)}
+                topBowlers={getTopBowlers(match, 3)}
+                topPartnerships={getTopPartnerships(match, 3)}
+              />
+            </Wrap>
+            <Box mt={10}>
+              <Heading mb={3} fontSize={"m"}>
+                Charts
+              </Heading>
+              <Wrap spacing={10}>
+                <LineChartBox
+                  title={match.team1.name}
+                  xAxisKey={"over"}
+                  dataKey={"runs"}
+                  width={700}
+                  xTicks={_.times(match.team1.score.overs, (n) => n)}
+                  data={team1ChartData}
+                  lineType={"monotoneX"}
+                  CustomTooltip={CustomTooltip}
+                  showDot
+                />
+                <LineChartBox
+                  title={match.team2.name}
+                  xAxisKey={"over"}
+                  dataKey={"runs"}
+                  width={700}
+                  xTicks={_.times(match.team2.score.overs, (n) => n)}
+                  data={team2ChartData}
+                  lineType={"monotoneX"}
+                  CustomTooltip={CustomTooltip}
+                  showDot
+                />
+              </Wrap>
+            </Box>
+          </Box>
         )}
       </Box>
     </Box>

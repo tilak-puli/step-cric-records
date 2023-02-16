@@ -8,6 +8,7 @@ export const TableWithSorting = (props: {
   data: any;
   showNumbering?: Boolean;
   limit?: Number;
+  textAlign?: string;
 }) => {
   const { columns, data, showNumbering } = props;
 
@@ -60,6 +61,7 @@ export const TableWithSorting = (props: {
                   {...cell.getCellProps()}
                   isNumeric={cell.column.isNumeric}
                   px={cell.column.px}
+                  style={{ textAlign: props.textAlign || "center" }}
                 >
                   {cell.render("Cell")}
                 </Td>
