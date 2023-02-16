@@ -16,6 +16,7 @@ function RecentMatchInfo(props: {
   const match = matches[+props.index - 1];
   let partOfTeam1: boolean;
   let won = false;
+  let draw = false;
 
   if (props.figures.batting) {
     partOfTeam1 = match.team1.batting.some(
@@ -32,6 +33,8 @@ function RecentMatchInfo(props: {
     (match.winner != match.team1Name && !partOfTeam1)
   ) {
     won = true;
+  } else if (match.winner === "Match") {
+    draw = true;
   }
 
   return (
@@ -41,7 +44,9 @@ function RecentMatchInfo(props: {
           width={110}
           height={90}
           py={5}
-          borderColor={won ? "brand.wonGreen" : "brand.lostRed"}
+          borderColor={
+            won ? "brand.wonGreen" : draw ? "orange" : "brand.lostRed"
+          }
           fontWeight={"bold"}
           boxShadow="sm"
         >
