@@ -72,10 +72,13 @@ export function LineChartBox(props: {
           />
           <YAxis
             type="number"
-            dataKey={props.lines[props.yAxisMaxDataIndex]?.key}
+            dataKey={props.lines[props.yAxisMaxDataIndex || 0]?.key}
             domain={[
               0,
-              roundedMax(props.data, props.lines[props.yAxisMaxDataIndex]?.key),
+              roundedMax(
+                props.data,
+                props.lines[props.yAxisMaxDataIndex || 0]?.key
+              ),
             ]}
           />
           {props.CustomTooltip ? (
@@ -86,6 +89,7 @@ export function LineChartBox(props: {
           <Legend />
           {props.lines.map((line, i) => (
             <Line
+              key={i}
               type={props.lineType || "natural"}
               dataKey={line.key}
               name={line.name}

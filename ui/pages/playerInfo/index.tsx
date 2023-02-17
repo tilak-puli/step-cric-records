@@ -216,14 +216,14 @@ const PlayerInfoHome = () => {
             <LineChartBox
               title={"Runs Vs Matches"}
               xAxisKey={"matchNo"}
-              dataKeys={["runs"]}
+              lines={[{ key: "runs", name: "Runs" }]}
               width={700}
               data={chartData}
             />
             <LineChartBox
               title={"Avg Vs Matches"}
               xAxisKey={"matchNo"}
-              dataKeys={["avg"]}
+              lines={[{ key: "avg", name: "Average" }]}
               width={700}
               data={chartData}
             />
