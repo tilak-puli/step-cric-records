@@ -58,10 +58,10 @@ export function LineChartBox(props: {
           />
           <YAxis
             type="number"
-            dataKey={props.lines[props.yAxisMaxDataKey]?.key}
+            dataKey={props.lines[props.yAxisMaxDataIndex]?.key}
             domain={[
               0,
-              roundedMax(props.data, props.lines[props.yAxisMaxDataKey]?.key),
+              roundedMax(props.data, props.lines[props.yAxisMaxDataIndex]?.key),
             ]}
           />
           {props.CustomTooltip ? (

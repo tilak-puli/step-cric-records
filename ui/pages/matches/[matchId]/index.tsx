@@ -32,6 +32,7 @@ import {
   TopPerformers,
 } from "../../../components/GetTopPartnerships";
 import _ from "lodash";
+import numberInput from "@chakra-ui/theme/src/components/number-input";
 
 function TeamScoreBoard(props: {
   name: String;
@@ -115,17 +116,36 @@ const calcRunsChartData = (match: Match) => {
 
   const startingData = [{ team1Runs: 0, over: 0, team2Runs: 0 }];
 
-  const team1EndData = {
-    team1Runs: match.team1.score.runs,
-    over: match.team1.score.overs,
-    score: match.team1.score.runs + "/" + match.team1.score.wickets,
-  };
+  const endData: {
+    over?: number;
+    score?: string;
+    team1Runs?: number;
+    team1Score?: string;
+    team2Name?: string;
+    team2Score?: string;
+    team2Runs?: number;
+  }[] = [
+    {
+      team2Name: match.team2Name,
+      team1Runs: match.team1.score.runs,
+      over: match.team1.score.overs,
+      score: match.team1.score.runs + "/" + match.team1.score.wickets,
+    },
+  ];
 
-  const team2EndData = {
-    team2Runs: match.team2.score.runs,
-    over: match.team2.score.overs,
-    score: match.team1.score.runs + "/" + match.team1.score.wickets,
-  };
+  if (match.team1.score.overs === match.team2.score.overs) {
+    endData[0].team2Score =
+      match.team2.score.runs + "/" + match.team2.score.wickets;
+    endData[0].team2Runs = match.team2.score.runs;
+  } else {
+    endData.push({
+      team2Name: match.team2Name,
+      over: match.team2.score.overs,
+      team2Score: match.team1.score.runs + "/" + match.team1.score.wickets,
+      score: match.team1.score.runs + "/" + match.team1.score.wickets,
+      team1Runs: match.team1.score.runs,
+    });
+  }
 
   const fwDataTeam1 =
     match["team1"].fallOfWickets.map((fw) => ({
@@ -143,13 +163,7 @@ const calcRunsChartData = (match: Match) => {
       score: fw.score,
     })) || [];
 
-  return [
-    ...startingData,
-    ...fwDataTeam1,
-    ...fwDataTeam2,
-    team1EndData,
-    team2EndData,
-  ];
+  return [...startingData, ...fwDataTeam1, ...fwDataTeam2, ...endData];
 };
 
 const Match = () => {
@@ -248,10 +262,26 @@ const Match = () => {
 
 const CustomTooltip = ({ active, payload }) => {
   if (active && payload && payload.length) {
+    const isWicketTooltip = !!payload[0].payload.name;
+    console.log(payload);
+
+    if (isWicketTooltip) {
+      return (
+        <CustomBox p={2}>
+          <Text>Wicket: {payload[0].payload.name}</Text>
+          <Text>Score: {payload[0].payload.score}</Text>
+        </CustomBox>
+      );
+    }
+
     return (
       <CustomBox p={2}>
-        <Text>Wicket: {payload[0].payload.name}</Text>
-        <Text>Score: {payload[0].payload.score}</Text>
+        <Text>
+          {payload[0].name}: {payload[0].payload.score}
+        </Text>
+        <Text>
+          {payload[0].payload.team2Name}: {payload[0].payload.team2Score}
+        </Text>
       </CustomBox>
     );
   }
