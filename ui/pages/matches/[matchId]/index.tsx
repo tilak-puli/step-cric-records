@@ -32,7 +32,6 @@ import {
   TopPerformers,
 } from "../../../components/GetTopPartnerships";
 import _ from "lodash";
-import Image from "next/image";
 
 function TeamScoreBoard(props: {
   name: String;
@@ -109,37 +108,59 @@ function SpecialMentionsCard(props: { specialMentions: String[] }) {
   );
 }
 
-const calcChatData = (match: Match, teamName: "team1" | "team2") => {
+const calcRunsChartData = (match: Match) => {
   if (!match) {
     return [];
   }
 
-  const startingData = [{ runs: 0, over: 0 }];
-  const endingData = [
-    { runs: match[teamName].score.runs, over: match[teamName].score.overs },
-  ];
-  const fwData =
-    match[teamName === "team2" ? "team1" : "team2"].fallOfWickets.map((fw) => ({
-      runs: +fw.score.split("/")[0],
+  const startingData = [{ team1Runs: 0, over: 0, team2Runs: 0 }];
+
+  const team1EndData = {
+    team1Runs: match.team1.score.runs,
+    over: match.team1.score.overs,
+    score: match.team1.score.runs + "/" + match.team1.score.wickets,
+  };
+
+  const team2EndData = {
+    team2Runs: match.team2.score.runs,
+    over: match.team2.score.overs,
+    score: match.team1.score.runs + "/" + match.team1.score.wickets,
+  };
+
+  const fwDataTeam1 =
+    match["team1"].fallOfWickets.map((fw) => ({
+      team2Runs: +fw.score.split("/")[0],
       over: +fw.over,
       name: fw.name,
       score: fw.score,
     })) || [];
 
-  return [...startingData, ...fwData, ...endingData];
+  const fwDataTeam2 =
+    match["team2"].fallOfWickets.map((fw) => ({
+      team1Runs: +fw.score.split("/")[0],
+      over: +fw.over,
+      name: fw.name,
+      score: fw.score,
+    })) || [];
+
+  return [
+    ...startingData,
+    ...fwDataTeam1,
+    ...fwDataTeam2,
+    team1EndData,
+    team2EndData,
+  ];
 };
 
 const Match = () => {
   const router = useRouter();
   const { matchId } = router.query;
   const { matches } = useContext(GlobalContext);
-  const [team1ChartData, setTeam1ChartData] = useState([]);
-  const [team2ChartData, setTeam2ChartData] = useState([]);
+  const [runsChartData, setRunsChartData] = useState([]);
   const match = matches[+matchId - 1] as Match;
 
   const mvp = useMemo(() => findMvp(match), [match]);
-  useMemo(() => setTeam1ChartData(calcChatData(match, "team1")), [match]);
-  useMemo(() => setTeam2ChartData(calcChatData(match, "team2")), [match]);
+  useMemo(() => setRunsChartData(calcRunsChartData(match)), [match]);
   return (
     <Box>
       <Box p={["1em", "2em"]}>
@@ -198,26 +219,23 @@ const Match = () => {
               </Heading>
               <Wrap spacing={10}>
                 <LineChartBox
-                  title={match.team1.name}
+                  title={"Runs"}
                   xAxisKey={"over"}
-                  dataKey={"runs"}
+                  lines={[
+                    { key: "team1Runs", name: match.team1.name },
+                    { key: "team2Runs", name: match.team2.name },
+                  ]}
                   width={700}
-                  xTicks={_.times(match.team1.score.overs, (n) => n)}
-                  data={team1ChartData}
+                  xTicks={_.times(
+                    match[match.winner === match.team1.name ? "team1" : "team2"]
+                      .score.overs,
+                    (n) => n
+                  )}
+                  data={runsChartData}
                   lineType={"monotoneX"}
                   CustomTooltip={CustomTooltip}
                   showDot
-                />
-                <LineChartBox
-                  title={match.team2.name}
-                  xAxisKey={"over"}
-                  dataKey={"runs"}
-                  width={700}
-                  xTicks={_.times(match.team2.score.overs, (n) => n)}
-                  data={team2ChartData}
-                  lineType={"monotoneX"}
-                  CustomTooltip={CustomTooltip}
-                  showDot
+                  yAxisMaxDataIndex={match.winner === match.team1.name ? 0 : 1}
                 />
               </Wrap>
             </Box>
