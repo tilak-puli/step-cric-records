@@ -32,7 +32,6 @@ import {
   TopPerformers,
 } from "../../../components/GetTopPartnerships";
 import _ from "lodash";
-import numberInput from "@chakra-ui/theme/src/components/number-input";
 
 function TeamScoreBoard(props: {
   name: String;
@@ -142,8 +141,7 @@ const calcRunsChartData = (match: Match) => {
       team2Name: match.team2Name,
       over: match.team2.score.overs,
       team2Score: match.team1.score.runs + "/" + match.team1.score.wickets,
-      score: match.team1.score.runs + "/" + match.team1.score.wickets,
-      team1Runs: match.team1.score.runs,
+      team2Runs: match.team2.score.runs,
     });
   }
 
@@ -241,8 +239,11 @@ const Match = () => {
                   ]}
                   width={700}
                   xTicks={_.times(
-                    match[match.winner === match.team1.name ? "team1" : "team2"]
-                      .score.overs,
+                    Math.ceil(
+                      match[
+                        match.winner === match.team1.name ? "team1" : "team2"
+                      ].score.overs
+                    ),
                     (n) => n
                   )}
                   data={runsChartData}
@@ -263,7 +264,6 @@ const Match = () => {
 const CustomTooltip = ({ active, payload }) => {
   if (active && payload && payload.length) {
     const isWicketTooltip = !!payload[0].payload.name;
-    console.log(payload);
 
     if (isWicketTooltip) {
       return (
@@ -276,12 +276,16 @@ const CustomTooltip = ({ active, payload }) => {
 
     return (
       <CustomBox p={2}>
-        <Text>
-          {payload[0].name}: {payload[0].payload.score}
-        </Text>
-        <Text>
-          {payload[0].payload.team2Name}: {payload[0].payload.team2Score}
-        </Text>
+        {payload[0].payload.score && (
+          <Text>
+            {payload[0].name}: {payload[0].payload.score}
+          </Text>
+        )}
+        {payload[0].payload.team2Score && (
+          <Text>
+            {payload[0].payload.team2Name}: {payload[0].payload.team2Score}
+          </Text>
+        )}
       </CustomBox>
     );
   }

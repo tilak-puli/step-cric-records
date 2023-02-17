@@ -22,6 +22,20 @@ export interface LineData {
   name: string;
 }
 
+const CHART_COLOR_SCHEME = [
+  "#2161b4",
+  "#2a9d8f",
+  "#e9c46a",
+  "#f4a261",
+  "#e76f51",
+];
+
+const getChartColor = (n: number) => {
+  return CHART_COLOR_SCHEME[
+    (n % CHART_COLOR_SCHEME.length || CHART_COLOR_SCHEME.length) - 1
+  ];
+};
+
 export function LineChartBox(props: {
   title: string;
   data: any[];
@@ -75,7 +89,7 @@ export function LineChartBox(props: {
               type={props.lineType || "natural"}
               dataKey={line.key}
               name={line.name}
-              stroke={["#8884d8", "rgba(50,191,50,0.81)"][i]}
+              stroke={getChartColor(i + 1)}
               strokeWidth={3}
               dot={props.showDot}
               connectNulls
