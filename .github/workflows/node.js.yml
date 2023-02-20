@@ -4,7 +4,7 @@
 name: Update Tuvali Version
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       tag_version:
         description: 'Tag version of Tuvali'
