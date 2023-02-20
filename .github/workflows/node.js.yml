@@ -1,0 +1,40 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Update Tuvali Version
+
+on:
+  workflow_call:
+    inputs:
+      tag_version:
+        description: 'Tag version of Tuvali'
+        required: true
+        type: string
+      branch_name:
+        description: 'Release branch name'
+        required: true
+        type: string
+        
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        refs: develop
+        
+    - name: Use Node.js 14
+      uses: actions/setup-node@v3
+      with:
+        node-version: 14
+        cache: 'npm'
+    - run: npm install github:mosip/tuvali#${{inputs.tag_version}}
+    
+    - uses: EndBug/add-and-commit@v9 
+      with: 
+        add: package*.json
+        author_name: Github Actions
+        message: 'chore: bumping tuvali version to ${{ inputs.tag_version }}'
+        new_branch: ${{ inputs.branch_name }}
