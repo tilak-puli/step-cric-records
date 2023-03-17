@@ -6919,5 +6919,666 @@
     "matchUploadedDate": "2023-02-16T17:22:11.584Z",
     "matchFileNameDate": "16/Feb/2023",
     "matchFileNameIdentifier": "16-Feb-2023.pdf"
+  },
+  {
+    "team1Name": "Banerjee",
+    "team2Name": "Tilak",
+    "team1": {
+      "name": "Banerjee",
+      "score": {
+        "runs": 52,
+        "wickets": 7,
+        "overs": 9.5
+      },
+      "batting": [
+        {
+          "name": "Debarun",
+          "outReason": "Run out (Raghu)",
+          "runs": 6,
+          "balls": 12,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 50,
+          "notOut": false
+        },
+        {
+          "name": "Chandan",
+          "outReason": "c & b Swamiji",
+          "runs": 3,
+          "balls": 9,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 33.33,
+          "notOut": false
+        },
+        {
+          "name": "Swapnil Lothe",
+          "outReason": "lbw b Chauhan",
+          "runs": 3,
+          "balls": 8,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 37.5,
+          "notOut": false
+        },
+        {
+          "name": "Banerjee",
+          "outReason": "lbw b Chauhan",
+          "runs": 27,
+          "balls": 11,
+          "fours": 3,
+          "sixes": 2,
+          "runRate": 245.45,
+          "notOut": false
+        },
+        {
+          "name": "Govinda",
+          "outReason": "b Phanindra",
+          "runs": 4,
+          "balls": 13,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 30.77,
+          "notOut": false
+        },
+        {
+          "name": "Prem",
+          "outReason": "b Phanindra",
+          "runs": 3,
+          "balls": 5,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 60,
+          "notOut": false
+        },
+        {
+          "name": "Salman",
+          "outReason": "lbw b Phanindra",
+          "runs": 0,
+          "balls": 3,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 0,
+          "notOut": false
+        }
+      ],
+      "extrasGot": 6,
+      "battingRunRate": 5.29,
+      "extrasBowled": 5,
+      "extrasBowledText": "(5) 0 B, 0 LB, 3 WD, 2 NB, 0 P",
+      "bowling": [
+        {
+          "name": "Salman",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 18,
+          "wickets": 0,
+          "economy": 18
+        },
+        {
+          "name": "Chandan",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 7,
+          "wickets": 0,
+          "economy": 7
+        },
+        {
+          "name": "Swapnil Lothe",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 4,
+          "wickets": 0,
+          "economy": 4
+        },
+        {
+          "name": "Banerjee",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 7,
+          "wickets": 0,
+          "economy": 7
+        },
+        {
+          "name": "Debarun",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 11,
+          "wickets": 0,
+          "economy": 11
+        },
+        {
+          "name": "Prem",
+          "overs": 0.5,
+          "maidens": 0,
+          "runs": 9,
+          "wickets": 1,
+          "economy": 10.8
+        }
+      ],
+      "fallOfWickets": [
+        {
+          "name": "Raghu",
+          "score": "35/1",
+          "over": "3.5"
+        },
+        {
+          "name": "Mustakim",
+          "score": "48/2",
+          "over": "5.2"
+        }
+      ]
+    },
+    "team2": {
+      "extrasBowled": 6,
+      "extrasBowledText": "(6) 0 B, 0 LB, 4 WD, 2 NB, 0 P",
+      "bowling": [
+        {
+          "name": "Barnali",
+          "overs": 2,
+          "maidens": 0,
+          "runs": 6,
+          "wickets": 0,
+          "economy": 3
+        },
+        {
+          "name": "Phanindra",
+          "overs": 1.5,
+          "maidens": 0,
+          "runs": 2,
+          "wickets": 3,
+          "economy": 1.09
+        },
+        {
+          "name": "Mustakim",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 7,
+          "wickets": 0,
+          "economy": 7
+        },
+        {
+          "name": "Swamiji",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 14,
+          "wickets": 1,
+          "economy": 14
+        },
+        {
+          "name": "Tilak",
+          "overs": 2,
+          "maidens": 0,
+          "runs": 7,
+          "wickets": 0,
+          "economy": 3.5
+        },
+        {
+          "name": "Raghu",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 14,
+          "wickets": 0,
+          "economy": 14
+        },
+        {
+          "name": "Chauhan",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 2,
+          "wickets": 2,
+          "economy": 2
+        }
+      ],
+      "fallOfWickets": [
+        {
+          "name": "Debarun",
+          "score": "13/1",
+          "over": "3.0"
+        },
+        {
+          "name": "Chandan",
+          "score": "13/2",
+          "over": "3.2"
+        },
+        {
+          "name": "Swapnil Lothe",
+          "score": "44/3",
+          "over": "6.1"
+        },
+        {
+          "name": "Banerjee",
+          "score": "45/4",
+          "over": "6.3"
+        },
+        {
+          "name": "Prem",
+          "score": "52/5",
+          "over": "9.1"
+        },
+        {
+          "name": "Salman",
+          "score": "52/6",
+          "over": "9.4"
+        },
+        {
+          "name": "Govinda",
+          "score": "52/7",
+          "over": "9.5"
+        }
+      ],
+      "name": "Tilak",
+      "score": {
+        "runs": 56,
+        "wickets": 2,
+        "overs": 6
+      },
+      "batting": [
+        {
+          "name": "Raghu",
+          "outReason": "Run out (Chandan)",
+          "runs": 18,
+          "balls": 18,
+          "fours": 0,
+          "sixes": 1,
+          "runRate": 100,
+          "notOut": false
+        },
+        {
+          "name": "Mustakim",
+          "outReason": "lbw b Prem",
+          "runs": 23,
+          "balls": 11,
+          "fours": 3,
+          "sixes": 1,
+          "runRate": 209.09,
+          "notOut": false
+        },
+        {
+          "name": "Tilak",
+          "outReason": "not out",
+          "runs": 9,
+          "balls": 6,
+          "fours": 0,
+          "sixes": 1,
+          "runRate": 150,
+          "notOut": true
+        },
+        {
+          "name": "Swamiji",
+          "outReason": "not out",
+          "runs": 1,
+          "balls": 2,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 50,
+          "notOut": true
+        }
+      ],
+      "extrasGot": 5,
+      "battingRunRate": 9.33
+    },
+    "result": "Tilak won by 5 wickets.",
+    "winner": "Tilak",
+    "matchUploadedDate": "2023-03-17T06:28:13.697Z",
+    "matchFileNameDate": "04/Mar/2023",
+    "matchFileNameIdentifier": "04-Mar-2023.pdf"
+  },
+  {
+    "team1Name": "Tilak",
+    "team2Name": "Banerjee",
+    "team1": {
+      "name": "Tilak",
+      "score": {
+        "runs": 53,
+        "wickets": 7,
+        "overs": 6.5
+      },
+      "batting": [
+        {
+          "name": "Tilak",
+          "outReason": "b Prem",
+          "runs": 0,
+          "balls": 2,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 0,
+          "notOut": false
+        },
+        {
+          "name": "Swamiji",
+          "outReason": "b Salman",
+          "runs": 17,
+          "balls": 13,
+          "fours": 2,
+          "sixes": 1,
+          "runRate": 130.77,
+          "notOut": false
+        },
+        {
+          "name": "Phanindra",
+          "outReason": "Run out (Govinda)",
+          "runs": 7,
+          "balls": 7,
+          "fours": 1,
+          "sixes": 0,
+          "runRate": 100,
+          "notOut": false
+        },
+        {
+          "name": "Mustakim",
+          "outReason": "lbw b Swapnil Lothe",
+          "runs": 0,
+          "balls": 1,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 0,
+          "notOut": false
+        },
+        {
+          "name": "Raghu",
+          "outReason": "b Banerjee",
+          "runs": 23,
+          "balls": 10,
+          "fours": 0,
+          "sixes": 3,
+          "runRate": 230,
+          "notOut": false
+        },
+        {
+          "name": "Barnali",
+          "outReason": "b Govinda",
+          "runs": 0,
+          "balls": 2,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 0,
+          "notOut": false
+        },
+        {
+          "name": "Chauhan",
+          "outReason": "b Govinda",
+          "runs": 0,
+          "balls": 7,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 0,
+          "notOut": false
+        }
+      ],
+      "extrasGot": 6,
+      "battingRunRate": 7.75,
+      "extrasBowled": 8,
+      "extrasBowledText": "(8) 0 B, 0 LB, 6 WD, 2 NB, 0 P",
+      "bowling": [
+        {
+          "name": "Barnali",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 0,
+          "economy": 12
+        },
+        {
+          "name": "Tilak",
+          "overs": 2,
+          "maidens": 0,
+          "runs": 8,
+          "wickets": 2,
+          "economy": 4
+        },
+        {
+          "name": "Swamiji",
+          "overs": 2,
+          "maidens": 0,
+          "runs": 16,
+          "wickets": 0,
+          "economy": 8
+        },
+        {
+          "name": "Mustakim",
+          "overs": 1.1,
+          "maidens": 0,
+          "runs": 6,
+          "wickets": 0,
+          "economy": 5.14
+        },
+        {
+          "name": "Phanindra",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 4,
+          "wickets": 1,
+          "economy": 4
+        },
+        {
+          "name": "Chauhan",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 6,
+          "wickets": 0,
+          "economy": 6
+        },
+        {
+          "name": "Raghu",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 3,
+          "wickets": 1,
+          "economy": 3
+        }
+      ],
+      "fallOfWickets": [
+        {
+          "name": "Banerjee",
+          "score": "38/1",
+          "over": "4.0"
+        },
+        {
+          "name": "Chandan",
+          "score": "41/2",
+          "over": "4.5"
+        },
+        {
+          "name": "Debarun",
+          "score": "48/3",
+          "over": "6.1"
+        },
+        {
+          "name": "Swapnil Lothe",
+          "score": "51/4",
+          "over": "7.1"
+        },
+        {
+          "name": "Prem",
+          "score": "51/5",
+          "over": "7.2"
+        }
+      ]
+    },
+    "team2": {
+      "extrasBowled": 6,
+      "extrasBowledText": "(6) 0 B, 0 LB, 5 WD, 1 NB, 0 P",
+      "bowling": [
+        {
+          "name": "Prem",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 6,
+          "wickets": 1,
+          "economy": 6
+        },
+        {
+          "name": "Chandan",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 0,
+          "economy": 12
+        },
+        {
+          "name": "Swapnil Lothe",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 4,
+          "wickets": 1,
+          "economy": 4
+        },
+        {
+          "name": "Debarun",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 10,
+          "wickets": 0,
+          "economy": 10
+        },
+        {
+          "name": "Banerjee",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 1,
+          "economy": 12
+        },
+        {
+          "name": "Salman",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 7,
+          "wickets": 1,
+          "economy": 7
+        },
+        {
+          "name": "Govinda",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 2,
+          "wickets": 2,
+          "economy": 2
+        }
+      ],
+      "fallOfWickets": [
+        {
+          "name": "Tilak",
+          "score": "1/1",
+          "over": "0.2"
+        },
+        {
+          "name": "Phanindra",
+          "score": "19/2",
+          "over": "2.3"
+        },
+        {
+          "name": "Mustakim",
+          "score": "19/3",
+          "over": "2.4"
+        },
+        {
+          "name": "Raghu",
+          "score": "44/4",
+          "over": "4.5"
+        },
+        {
+          "name": "Swamiji",
+          "score": "51/5",
+          "over": "5.3"
+        },
+        {
+          "name": "Barnali",
+          "score": "51/6",
+          "over": "6.1"
+        },
+        {
+          "name": "Chauhan",
+          "score": "53/7",
+          "over": "6.5"
+        }
+      ],
+      "name": "Banerjee",
+      "score": {
+        "runs": 55,
+        "wickets": 5,
+        "overs": 9.1
+      },
+      "batting": [
+        {
+          "name": "Banerjee",
+          "outReason": "Run out (Tilak)",
+          "runs": 29,
+          "balls": 20,
+          "fours": 1,
+          "sixes": 3,
+          "runRate": 145,
+          "notOut": false
+        },
+        {
+          "name": "Swapnil Lothe",
+          "outReason": "b Tilak",
+          "runs": 6,
+          "balls": 15,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 40,
+          "notOut": false
+        },
+        {
+          "name": "Chandan",
+          "outReason": "b Phanindra",
+          "runs": 2,
+          "balls": 4,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 50,
+          "notOut": false
+        },
+        {
+          "name": "Debarun",
+          "outReason": "lbw b Raghu",
+          "runs": 5,
+          "balls": 4,
+          "fours": 1,
+          "sixes": 0,
+          "runRate": 125,
+          "notOut": false
+        },
+        {
+          "name": "Govinda",
+          "outReason": "not out",
+          "runs": 1,
+          "balls": 3,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 33.33,
+          "notOut": true
+        },
+        {
+          "name": "Prem",
+          "outReason": "b Tilak",
+          "runs": 0,
+          "balls": 1,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 0,
+          "notOut": false
+        },
+        {
+          "name": "Salman",
+          "outReason": "not out",
+          "runs": 4,
+          "balls": 10,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 40,
+          "notOut": true
+        }
+      ],
+      "extrasGot": 8,
+      "battingRunRate": 6
+    },
+    "result": "Banerjee won by 5 wickets.",
+    "winner": "Banerjee",
+    "matchUploadedDate": "2023-03-17T06:29:03.758Z",
+    "matchFileNameDate": "04/Mar/2023",
+    "matchFileNameIdentifier": "04-Mar-2023(1).pdf"
   }
 ]
