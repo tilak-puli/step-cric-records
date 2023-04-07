@@ -32,7 +32,7 @@
                 },
                 {
                     "name": "Swamiji",
-                    "outReason": "lbw b Banerjee",
+                    "outReason": "Hit Outside b Banerjee",
                     "runs": 15,
                     "balls": 20,
                     "fours": 0,
@@ -42,7 +42,7 @@
                 },
                 {
                     "name": "Vivek",
-                    "outReason": "lbw b Tanmay",
+                    "outReason": "Hit Outside b Tanmay",
                     "runs": 15,
                     "balls": 19,
                     "fours": 0,
@@ -583,7 +583,7 @@
                 },
                 {
                     "name": "Azhar",
-                    "outReason": "lbw b Roshan",
+                    "outReason": "Hit Outside b Roshan",
                     "runs": 13,
                     "balls": 10,
                     "fours": 0,
@@ -593,7 +593,7 @@
                 },
                 {
                     "name": "Prem",
-                    "outReason": "lbw b Chhavi",
+                    "outReason": "Hit Outside b Chhavi",
                     "runs": 9,
                     "balls": 19,
                     "fours": 0,
@@ -603,7 +603,7 @@
                 },
                 {
                     "name": "Abin",
-                    "outReason": "lbw b Vivek",
+                    "outReason": "Hit Outside b Vivek",
                     "runs": 8,
                     "balls": 10,
                     "fours": 0,
@@ -870,7 +870,7 @@
                 },
                 {
                     "name": "Vivek",
-                    "outReason": "lbw b Abin",
+                    "outReason": "Hit Outside b Abin",
                     "runs": 4,
                     "balls": 8,
                     "fours": 0,
@@ -900,7 +900,7 @@
                 },
                 {
                     "name": "Roshan",
-                    "outReason": "lbw b Ankamma",
+                    "outReason": "Hit Outside b Ankamma",
                     "runs": 2,
                     "balls": 6,
                     "fours": 0,
@@ -951,7 +951,7 @@
             "batting": [
                 {
                     "name": "Aashish Joy",
-                    "outReason": "lbw b Rishabh",
+                    "outReason": "Hit Outside b Rishabh",
                     "runs": 7,
                     "balls": 7,
                     "fours": 1,
@@ -971,7 +971,7 @@
                 },
                 {
                     "name": "Ketan",
-                    "outReason": "lbw b Teja",
+                    "outReason": "Hit Outside b Teja",
                     "runs": 35,
                     "balls": 34,
                     "fours": 5,
@@ -981,7 +981,7 @@
                 },
                 {
                     "name": "Vivek",
-                    "outReason": "lbw b Banerjee",
+                    "outReason": "Hit Outside b Banerjee",
                     "runs": 4,
                     "balls": 7,
                     "fours": 0,
@@ -1320,7 +1320,7 @@
                 },
                 {
                     "name": "Swapnil",
-                    "outReason": "lbw b Aashish Joy",
+                    "outReason": "Hit Outside b Aashish Joy",
                     "runs": 15,
                     "balls": 21,
                     "fours": 1,
@@ -1411,7 +1411,7 @@
                 },
                 {
                     "name": "Milan",
-                    "outReason": "lbw b Ankamma",
+                    "outReason": "Hit Outside b Ankamma",
                     "runs": 4,
                     "balls": 6,
                     "fours": 0,
@@ -1727,7 +1727,7 @@
                 },
                 {
                     "name": "Milan",
-                    "outReason": "lbw b Ankamma",
+                    "outReason": "Hit Outside b Ankamma",
                     "runs": 10,
                     "balls": 6,
                     "fours": 2,
@@ -1737,7 +1737,7 @@
                 },
                 {
                     "name": "Hemanth",
-                    "outReason": "lbw b Gourab",
+                    "outReason": "Hit Outside b Gourab",
                     "runs": 7,
                     "balls": 6,
                     "fours": 0,
@@ -2153,7 +2153,7 @@
                 },
                 {
                     "name": "Utsab",
-                    "outReason": "lbw b Debdutta",
+                    "outReason": "Hit Outside b Debdutta",
                     "runs": 2,
                     "balls": 2,
                     "fours": 0,
@@ -2865,7 +2865,7 @@
                 },
                 {
                     "name": "Qasim",
-                    "outReason": "lbw b Hement",
+                    "outReason": "Hit Outside b Hement",
                     "runs": 7,
                     "balls": 4,
                     "fours": 1,
@@ -2986,7 +2986,7 @@
                 },
                 {
                     "name": "Gourab",
-                    "outReason": "lbw b Debdutta",
+                    "outReason": "Hit Outside b Debdutta",
                     "runs": 0,
                     "balls": 2,
                     "fours": 0,
@@ -3312,7 +3312,7 @@
                 },
                 {
                     "name": "Debdutta",
-                    "outReason": "lbw b Aashish Joy",
+                    "outReason": "Hit Outside b Aashish Joy",
                     "runs": 25,
                     "balls": 28,
                     "fours": 1,
@@ -3413,7 +3413,7 @@
             "batting": [
                 {
                     "name": "Milan",
-                    "outReason": "lbw b Trinangkur",
+                    "outReason": "Hit Outside b Trinangkur",
                     "runs": 0,
                     "balls": 3,
                     "fours": 0,
@@ -3443,7 +3443,7 @@
                 },
                 {
                     "name": "Sai Ganesh",
-                    "outReason": "lbw b Gourab",
+                    "outReason": "Hit Outside b Gourab",
                     "runs": 8,
                     "balls": 20,
                     "fours": 1,
@@ -3814,7 +3814,7 @@
             "batting": [
                 {
                     "name": "Trinangkur",
-                    "outReason": "lbw b Chhavi",
+                    "outReason": "Hit Outside b Chhavi",
                     "runs": 0,
                     "balls": 1,
                     "fours": 0,
@@ -4075,7 +4075,7 @@
                 },
                 {
                     "name": "Sai Ganesh",
-                    "outReason": "lbw b Bhawna",
+                    "outReason": "Hit Outside b Bhawna",
                     "runs": 6,
                     "balls": 6,
                     "fours": 1,
@@ -4156,7 +4156,7 @@
                 },
                 {
                     "name": "Abin",
-                    "outReason": "lbw b Dheeraj",
+                    "outReason": "Hit Outside b Dheeraj",
                     "runs": 7,
                     "balls": 13,
                     "fours": 1,
@@ -4442,7 +4442,7 @@
             "batting": [
                 {
                     "name": "Dheeraj",
-                    "outReason": "lbw b Qasim",
+                    "outReason": "Hit Outside b Qasim",
                     "runs": 4,
                     "balls": 15,
                     "fours": 0,
@@ -4924,7 +4924,7 @@
                 },
                 {
                     "name": "Trinangkur",
-                    "outReason": "lbw b Banerjee",
+                    "outReason": "Hit Outside b Banerjee",
                     "runs": 24,
                     "balls": 34,
                     "fours": 3,
@@ -5369,7 +5369,7 @@
                 },
                 {
                     "name": "Banerjee",
-                    "outReason": "lbw b Ankamma",
+                    "outReason": "Hit Outside b Ankamma",
                     "runs": 6,
                     "balls": 5,
                     "fours": 1,
@@ -5379,7 +5379,7 @@
                 },
                 {
                     "name": "Rajkumar",
-                    "outReason": "lbw b Qasim",
+                    "outReason": "Hit Outside b Qasim",
                     "runs": 0,
                     "balls": 2,
                     "fours": 0,
@@ -6953,7 +6953,7 @@
                 },
                 {
                     "name": "Swapnil Lothe",
-                    "outReason": "lbw b Chauhan",
+                    "outReason": "Hit Outside b Chauhan",
                     "runs": 3,
                     "balls": 8,
                     "fours": 0,
@@ -6963,7 +6963,7 @@
                 },
                 {
                     "name": "Banerjee",
-                    "outReason": "lbw b Chauhan",
+                    "outReason": "Hit Outside b Chauhan",
                     "runs": 27,
                     "balls": 11,
                     "fours": 3,
@@ -6993,7 +6993,7 @@
                 },
                 {
                     "name": "Salman",
-                    "outReason": "lbw b Phanindra",
+                    "outReason": "Hit Outside b Phanindra",
                     "runs": 0,
                     "balls": 3,
                     "fours": 0,
@@ -7186,7 +7186,7 @@
                 },
                 {
                     "name": "Mustakim",
-                    "outReason": "lbw b Prem",
+                    "outReason": "Hit Outside b Prem",
                     "runs": 23,
                     "balls": 11,
                     "fours": 3,
@@ -7267,7 +7267,7 @@
                 },
                 {
                     "name": "Mustakim",
-                    "outReason": "lbw b Swapnil Lothe",
+                    "outReason": "Hit Outside b Swapnil Lothe",
                     "runs": 0,
                     "balls": 1,
                     "fours": 0,
@@ -7533,7 +7533,7 @@
                 },
                 {
                     "name": "Debarun",
-                    "outReason": "lbw b Raghu",
+                    "outReason": "Hit Outside b Raghu",
                     "runs": 5,
                     "balls": 4,
                     "fours": 1,
@@ -7829,9 +7829,9 @@
             ],
             "fallOfWickets": [
                 {
-                  "name": "Rajkumar",
-                  "score": "1/1",
-                  "over": "0.2"
+                    "name": "Rajkumar",
+                    "score": "1/1",
+                    "over": "0.2"
                 },
                 {
                     "name": "Qasim",
@@ -7955,5 +7955,725 @@
         "matchUploadedDate": "2023-03-26T05:05:49.832Z",
         "matchFileNameDate": "25/Mar/2023",
         "matchFileNameIdentifier": "25-Mar-2023.pdf"
+    },
+    {
+        "team1Name": "Gaurav",
+        "team2Name": "Qasim",
+        "team1": {
+            "name": "Gaurav",
+            "score": {
+                "runs": 10,
+                "wickets": 10,
+                "overs": 5
+            },
+            "batting": [
+                {
+                    "name": "Shridev",
+                    "outReason": "b Qasim",
+                    "runs": 0,
+                    "balls": 5,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Dheeraj",
+                    "outReason": "c Qasim b Keerthy",
+                    "runs": 0,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Kavita",
+                    "outReason": "not out",
+                    "runs": 0,
+                    "balls": 4,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": true
+                },
+                {
+                    "name": "Raghu",
+                    "outReason": "b Milan",
+                    "runs": 5,
+                    "balls": 4,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 125,
+                    "notOut": false
+                },
+                {
+                    "name": "Kanishka",
+                    "outReason": "Hit Outside b Lakshmi",
+                    "runs": 1,
+                    "balls": 5,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 20,
+                    "notOut": false
+                },
+                {
+                    "name": "Tilak",
+                    "outReason": "Hit Outside b Lakshmi",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Gourab",
+                    "outReason": "b Lakshmi",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Musta",
+                    "outReason": "b Swagato",
+                    "runs": 1,
+                    "balls": 2,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 50,
+                    "notOut": false
+                },
+                {
+                    "name": "Manikanta",
+                    "outReason": "b Swagato",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Shama",
+                    "outReason": "c Swamiji b Swagato",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Manjeet",
+                    "outReason": "c & b Swagato",
+                    "runs": 0,
+                    "balls": 2,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                }
+            ],
+            "extrasGot": 3,
+            "battingRunRate": 2,
+            "extrasBowled": 2,
+            "extrasBowledText": "(2) 0 B, 0 LB, 1 WD, 1 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Gourab",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 2,
+                    "economy": 2
+                },
+                {
+                    "name": "Tilak",
+                    "overs": 0.4,
+                    "maidens": 0,
+                    "runs": 9,
+                    "wickets": 0,
+                    "economy": 13.5
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Vijay",
+                    "score": "1/1",
+                    "over": "0.2"
+                },
+                {
+                    "name": "Milan",
+                    "score": "2/2",
+                    "over": "1.0"
+                },
+                {
+                    "name": "Swapnil",
+                    "score": "2/3",
+                    "over": "1.1"
+                },
+                {
+                    "name": "Swagato",
+                    "score": "2/4",
+                    "over": "1.2"
+                }
+            ]
+        },
+        "team2": {
+            "extrasBowled": 3,
+            "extrasBowledText": "(3) 0 B, 0 LB, 3 WD, 0 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Qasim",
+                    "overs": 1,
+                    "maidens": 1,
+                    "runs": 0,
+                    "wickets": 1,
+                    "economy": 0
+                },
+                {
+                    "name": "Keerthy",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 6,
+                    "wickets": 1,
+                    "economy": 6
+                },
+                {
+                    "name": "Milan",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 1,
+                    "economy": 2
+                },
+                {
+                    "name": "Lakshmi",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 1,
+                    "wickets": 3,
+                    "economy": 1
+                },
+                {
+                    "name": "Swagato",
+                    "overs": 0.5,
+                    "maidens": 0,
+                    "runs": 1,
+                    "wickets": 4,
+                    "economy": 1.2
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Shridev",
+                    "score": "0/1",
+                    "over": "0.5"
+                },
+                {
+                    "name": "Dheeraj",
+                    "score": "1/2",
+                    "over": "1.3"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "7/3",
+                    "over": "2.2"
+                },
+                {
+                    "name": "Kanishka",
+                    "score": "8/4",
+                    "over": "3.2"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "8/5",
+                    "over": "3.3"
+                },
+                {
+                    "name": "Gourab",
+                    "score": "8/6",
+                    "over": "3.4"
+                },
+                {
+                    "name": "Musta",
+                    "score": "9/7",
+                    "over": "4.1"
+                },
+                {
+                    "name": "Manikanta",
+                    "score": "9/8",
+                    "over": "4.2"
+                },
+                {
+                    "name": "Shama",
+                    "score": "9/9",
+                    "over": "4.3"
+                },
+                {
+                    "name": "Manjeet",
+                    "score": "10/10",
+                    "over": "4.5"
+                }
+            ],
+            "name": "Qasim",
+            "score": {
+                "runs": 11,
+                "wickets": 4,
+                "overs": 1.5
+            },
+            "batting": [
+                {
+                    "name": "Vijay",
+                    "outReason": "b Gourab",
+                    "runs": 0,
+                    "balls": 2,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Milan",
+                    "outReason": "Hit Outside b Gourab",
+                    "runs": 0,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Swagato",
+                    "outReason": "Run out (Shama)",
+                    "runs": 1,
+                    "balls": 2,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 50,
+                    "notOut": false
+                },
+                {
+                    "name": "Swapnil",
+                    "outReason": "Run out (Adarsh)",
+                    "runs": 0,
+                    "balls": 0,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Swamiji",
+                    "outReason": "not out",
+                    "runs": 8,
+                    "balls": 4,
+                    "fours": 2,
+                    "sixes": 0,
+                    "runRate": 200,
+                    "notOut": true
+                },
+                {
+                    "name": "Qasim",
+                    "outReason": "not out",
+                    "runs": 0,
+                    "balls": 0,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 2,
+            "battingRunRate": 6
+        },
+        "result": "Qasim won by 6 wickets.",
+        "winner": "Qasim",
+        "matchUploadedDate": "2023-04-07T10:41:48.009Z",
+        "matchFileNameDate": "07/Apr/2023",
+        "matchFileNameIdentifier": "07-Apr-2023(1).pdf"
+    },
+    {
+        "team1Name": "Swagato",
+        "team2Name": "Gourab",
+        "team1": {
+            "name": "Swagato",
+            "score": {
+                "runs": 43,
+                "wickets": 7,
+                "overs": 8
+            },
+            "batting": [
+                {
+                    "name": "Qasim",
+                    "outReason": "c Gourab b Kavitha",
+                    "runs": 10,
+                    "balls": 12,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 83.33,
+                    "notOut": false
+                },
+                {
+                    "name": "Rajkumar",
+                    "outReason": "b Debu",
+                    "runs": 0,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Milan",
+                    "outReason": "Run out (Gourab)",
+                    "runs": 7,
+                    "balls": 5,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 140,
+                    "notOut": false
+                },
+                {
+                    "name": "Swamiji",
+                    "outReason": "Hit Outside b Dheeraj",
+                    "runs": 2,
+                    "balls": 7,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 28.57,
+                    "notOut": false
+                },
+                {
+                    "name": "Arif",
+                    "outReason": "c Milan b Kavitha",
+                    "runs": 1,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 33.33,
+                    "notOut": false
+                },
+                {
+                    "name": "Keerthy",
+                    "outReason": "Run out (Dheeraj)",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Swagat",
+                    "outReason": "not out",
+                    "runs": 8,
+                    "balls": 13,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 61.54,
+                    "notOut": true
+                },
+                {
+                    "name": "Utsab",
+                    "outReason": "Hit Outside b Gourab",
+                    "runs": 7,
+                    "balls": 6,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 116.67,
+                    "notOut": false
+                },
+                {
+                    "name": "Vijay",
+                    "outReason": "not out",
+                    "runs": 6,
+                    "balls": 4,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 150,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 2,
+            "battingRunRate": 5.38,
+            "extrasBowled": 13,
+            "extrasBowledText": "(13) 0 B, 0 LB, 11 WD, 2 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Qasim",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 0,
+                    "economy": 3
+                },
+                {
+                    "name": "Arif",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 12,
+                    "wickets": 0,
+                    "economy": 12
+                },
+                {
+                    "name": "Rajkumar",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 0,
+                    "economy": 7
+                },
+                {
+                    "name": "Swamiji",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 1,
+                    "economy": 3
+                },
+                {
+                    "name": "Vijay",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 1,
+                    "economy": 3
+                },
+                {
+                    "name": "Milan",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 1,
+                    "economy": 2
+                },
+                {
+                    "name": "Utsab",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 0,
+                    "economy": 7
+                },
+                {
+                    "name": "Keerthy",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 4,
+                    "wickets": 0,
+                    "economy": 4
+                },
+                {
+                    "name": "Laxmi",
+                    "overs": 0.4,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 0,
+                    "economy": 4.5
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Manjeet",
+                    "score": "23/1",
+                    "over": "3.5"
+                },
+                {
+                    "name": "Shridev",
+                    "score": "26/2",
+                    "over": "4.3"
+                },
+                {
+                    "name": "Debu",
+                    "score": "29/3",
+                    "over": "5.3"
+                }
+            ]
+        },
+        "team2": {
+            "extrasBowled": 2,
+            "extrasBowledText": "(2) 0 B, 0 LB, 1 WD, 1 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Raghu",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 1,
+                    "wickets": 0,
+                    "economy": 1
+                },
+                {
+                    "name": "Debu",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 9,
+                    "wickets": 1,
+                    "economy": 9
+                },
+                {
+                    "name": "Tilak",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 8,
+                    "wickets": 0,
+                    "economy": 8
+                },
+                {
+                    "name": "Kavitha",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 2,
+                    "economy": 2
+                },
+                {
+                    "name": "Kanishka",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 0,
+                    "economy": 2
+                },
+                {
+                    "name": "Sauma",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 1,
+                    "wickets": 0,
+                    "economy": 1
+                },
+                {
+                    "name": "Dheeraj",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 9,
+                    "wickets": 1,
+                    "economy": 9
+                },
+                {
+                    "name": "Gourab",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 1,
+                    "economy": 7
+                },
+                {
+                    "name": "Shridev",
+                    "overs": 0.5,
+                    "maidens": 0,
+                    "runs": 4,
+                    "wickets": 0,
+                    "economy": 4.8
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Rajkumar",
+                    "score": "7/1",
+                    "over": "1.3"
+                },
+                {
+                    "name": "Milan",
+                    "score": "18/2",
+                    "over": "3.1"
+                },
+                {
+                    "name": "Qasim",
+                    "score": "18/3",
+                    "over": "3.2"
+                },
+                {
+                    "name": "Arif",
+                    "score": "20/4",
+                    "over": "4.0"
+                },
+                {
+                    "name": "Keerthy",
+                    "score": "21/5",
+                    "over": "4.4"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "23/6",
+                    "over": "6.1"
+                },
+                {
+                    "name": "Utsab",
+                    "score": "33/7",
+                    "over": "7.3"
+                }
+            ],
+            "name": "Gourab",
+            "score": {
+                "runs": 44,
+                "wickets": 3,
+                "overs": 8.4
+            },
+            "batting": [
+                {
+                    "name": "Debu",
+                    "outReason": "b Milan",
+                    "runs": 8,
+                    "balls": 17,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 47.06,
+                    "notOut": false
+                },
+                {
+                    "name": "Manjeet",
+                    "outReason": "b Swamiji",
+                    "runs": 10,
+                    "balls": 9,
+                    "fours": 2,
+                    "sixes": 0,
+                    "runRate": 111.11,
+                    "notOut": false
+                },
+                {
+                    "name": "Shridev",
+                    "outReason": "c Swagato b Vijay",
+                    "runs": 1,
+                    "balls": 4,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 25,
+                    "notOut": false
+                },
+                {
+                    "name": "Dheeraj",
+                    "outReason": "not out",
+                    "runs": 5,
+                    "balls": 16,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 31.25,
+                    "notOut": true
+                },
+                {
+                    "name": "Sauma",
+                    "outReason": "not out",
+                    "runs": 7,
+                    "balls": 8,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 87.5,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 13,
+            "battingRunRate": 5.08
+        },
+        "result": "Gourab won by 7 wickets.",
+        "winner": "Gourab",
+        "matchUploadedDate": "2023-04-07T10:41:48.061Z",
+        "matchFileNameDate": "08/Apr/2023",
+        "matchFileNameIdentifier": "08-Apr-2023.pdf"
     }
 ]
