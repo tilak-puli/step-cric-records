@@ -8782,8 +8782,8 @@
             "extrasGot": 13,
             "battingRunRate": 5.08
         },
-        "result": "Gourab won by 7 wickets.",
-        "winner": "Gourab",
+        "result": "Swagato won by 2 runs.",
+        "winner": "Swagato",
         "matchUploadedDate": "2023-04-10T05:11:04.101Z",
         "matchFileNameDate": "06/Apr/2023",
         "matchFileNameIdentifier": "06-Apr-2023.pdf"
@@ -8800,7 +8800,7 @@
             },
             "batting": [
                 {
-                    "name": "Sauma",
+                    "name": "Dheeraj",
                     "outReason": "b Vaishnavi",
                     "runs": 26,
                     "balls": 16,
