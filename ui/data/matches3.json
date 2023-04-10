@@ -8858,7 +8858,7 @@
                     "overs": 1.4,
                     "maidens": 0,
                     "runs": 1,
-                    "wickets": 4,
+                    "wickets": 3,
                     "economy": 0.6
                 },
                 {
@@ -8937,11 +8937,6 @@
                     "name": "Swamiji",
                     "score": "57/7",
                     "over": "7.2"
-                },
-                {
-                    "name": "Xyz",
-                    "score": "57/8",
-                    "over": "7.4"
                 }
             ]
         },
@@ -9022,7 +9017,7 @@
             "score": {
                 "runs": 57,
                 "wickets": 8,
-                "overs": 7.4
+                "overs": 7.2
             },
             "batting": [
                 {
@@ -9094,26 +9089,6 @@
                     "sixes": 0,
                     "runRate": 150,
                     "notOut": false
-                },
-                {
-                    "name": ".",
-                    "outReason": "not out",
-                    "runs": 0,
-                    "balls": 0,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": true
-                },
-                {
-                    "name": "Xyz",
-                    "outReason": "b Dheeraj",
-                    "runs": 0,
-                    "balls": 2,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": false
                 }
             ],
             "extrasGot": 4,
@@ -9133,18 +9108,18 @@
             "score": {
                 "runs": 67,
                 "wickets": 2,
-                "overs": 10
+                "overs": 6
             },
             "batting": [
                 {
                     "name": "Milan",
-                    "outReason": "b Dh",
+                    "outReason": "not out",
                     "runs": 23,
                     "balls": 15,
                     "fours": 2,
                     "sixes": 0,
                     "runRate": 153.33,
-                    "notOut": false
+                    "notOut": true
                 },
                 {
                     "name": "Gaurav",
@@ -9165,20 +9140,10 @@
                     "sixes": 0,
                     "runRate": 109.68,
                     "notOut": true
-                },
-                {
-                    "name": "Swapni",
-                    "outReason": "not out",
-                    "runs": 0,
-                    "balls": 11,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": true
                 }
             ],
             "extrasGot": 7,
-            "battingRunRate": 6.7,
+            "battingRunRate": 11.1,
             "extrasBowled": 1,
             "extrasBowledText": "(1) 0 B, 0 LB, 1 WD, 0 NB, 0 P",
             "bowling": [
@@ -9229,38 +9194,6 @@
                     "runs": 14,
                     "wickets": 0,
                     "economy": 14
-                },
-                {
-                    "name": "Hx",
-                    "overs": 1,
-                    "maidens": 1,
-                    "runs": 0,
-                    "wickets": 0,
-                    "economy": 0
-                },
-                {
-                    "name": "Gd",
-                    "overs": 1,
-                    "maidens": 1,
-                    "runs": 0,
-                    "wickets": 0,
-                    "economy": 0
-                },
-                {
-                    "name": "Bxbdb",
-                    "overs": 1,
-                    "maidens": 1,
-                    "runs": 0,
-                    "wickets": 0,
-                    "economy": 0
-                },
-                {
-                    "name": "Bdhd",
-                    "overs": 1,
-                    "maidens": 1,
-                    "runs": 0,
-                    "wickets": 0,
-                    "economy": 0
                 }
             ],
             "fallOfWickets": [
@@ -9332,38 +9265,6 @@
                     "runs": 15,
                     "wickets": 0,
                     "economy": 15
-                },
-                {
-                    "name": "Dh",
-                    "overs": 1,
-                    "maidens": 1,
-                    "runs": 0,
-                    "wickets": 1,
-                    "economy": 0
-                },
-                {
-                    "name": "Manj",
-                    "overs": 1,
-                    "maidens": 1,
-                    "runs": 0,
-                    "wickets": 0,
-                    "economy": 0
-                },
-                {
-                    "name": "Ii",
-                    "overs": 1,
-                    "maidens": 1,
-                    "runs": 0,
-                    "wickets": 0,
-                    "economy": 0
-                },
-                {
-                    "name": "J",
-                    "overs": 1,
-                    "maidens": 1,
-                    "runs": 0,
-                    "wickets": 0,
-                    "economy": 0
                 }
             ],
             "fallOfWickets": [
@@ -9371,18 +9272,13 @@
                     "name": "Gaurav",
                     "score": "4/1",
                     "over": "1.1"
-                },
-                {
-                    "name": "Milan",
-                    "score": "67/2",
-                    "over": "6.1"
                 }
             ],
             "name": "Suama",
             "score": {
                 "runs": 53,
                 "wickets": 3,
-                "overs": 10
+                "overs": 6
             },
             "batting": [
                 {
@@ -9437,7 +9333,7 @@
                 }
             ],
             "extrasGot": 1,
-            "battingRunRate": 5.3
+            "battingRunRate": 8.83
         },
         "result": "Qasim won by 14 runs.",
         "winner": "Qasim",
