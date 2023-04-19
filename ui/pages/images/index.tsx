@@ -1,15 +1,30 @@
-import { Box, Heading, Wrap } from "@chakra-ui/react";
+import {Box, Heading, Wrap} from "@chakra-ui/react";
 import IMAGES from "../../data/images";
 import Image from "next/image";
 import ReactPlayer from "react-player/lazy";
+import {useRef} from "react";
 
 function ImageBox(props: { img: any }) {
+  if (props.img.external) {
+    return <a target={"_blank"}
+      href={props.img.value}
+    >
+      <ReactPlayer
+        url={props.img.value}
+        controls
+        light={props.img.thumbnail}
+        width={600}
+        height={400}
+      />
+    </a>
+  }
+
   if (props.img.type === "video") {
     return (
       <ReactPlayer
         url={props.img.value}
         controls
-        light={"/images/thumbnail1.png"}
+        light={props.img.thumbnail}
         width={600}
         height={400}
       />
@@ -34,7 +49,7 @@ export function ImagesList(props: { images: any }) {
           <Heading fontSize={"md"} mb={2}>
             {img.name}
           </Heading>
-          <ImageBox img={img} />
+          <ImageBox img={img}/>
         </Box>
       ))}
     </Wrap>
@@ -44,7 +59,7 @@ export function ImagesList(props: { images: any }) {
 const Images = () => {
   return (
     <Box p={["1em", "2em"]}>
-      <ImagesList images={IMAGES} />
+      <ImagesList images={IMAGES}/>
     </Box>
   );
 };
