@@ -2,12 +2,12 @@ import {Box, Heading, Wrap} from "@chakra-ui/react";
 import IMAGES from "../../data/images";
 import Image from "next/image";
 import ReactPlayer from "react-player/lazy";
-import {useRef} from "react";
 
 function ImageBox(props: { img: any }) {
   if (props.img.external) {
     return <a target={"_blank"}
-      href={props.img.value}
+              rel="noreferrer"
+              href={props.img.value}
     >
       <ReactPlayer
         url={props.img.value}
