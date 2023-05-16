@@ -4052,18 +4052,23 @@
             ],
             "fallOfWickets": [
                 {
+                    "name": "Abin",
+                    "score": "28/1",
+                    "over": "4.6"
+                },
+                {
                     "name": "Tilak",
-                    "score": "71/1",
+                    "score": "71/2",
                     "over": "8.4"
                 },
                 {
                     "name": "Sauma",
-                    "score": "82/2",
+                    "score": "82/3",
                     "over": "9.5"
                 },
                 {
                     "name": "Vivek",
-                    "score": "89/3",
+                    "score": "89/4",
                     "over": "11.5"
                 }
             ]
@@ -4152,7 +4157,7 @@
                     "over": "5.0"
                 },
                 {
-                    "name": "Chandan",
+                    "name": "Dheeraj",
                     "score": "55/2",
                     "over": "7.4"
                 },
@@ -4167,7 +4172,7 @@
                     "over": "11.3"
                 },
                 {
-                    "name": "Dheeraj",
+                    "name": "Chandan",
                     "score": "89/5",
                     "over": "11.4"
                 }
