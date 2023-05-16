@@ -2986,5 +2986,253 @@
     "matchUploadedDate": "2023-05-13T13:16:03.349Z",
     "matchFileNameDate": "09/May/2023",
     "matchFileNameIdentifier": "09-May-2023.pdf"
+  },
+  {
+    "team1Name": "Chandan",
+    "team2Name": "Banerjee",
+    "team1": {
+      "name": "Chandan",
+      "score": {
+        "runs": 50,
+        "wickets": 4,
+        "overs": 6
+      },
+      "batting": [
+        {
+          "name": "Dheeraj",
+          "outReason": "Run out (Ankamma)",
+          "runs": 2,
+          "balls": 2,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 100,
+          "notOut": false
+        },
+        {
+          "name": "Chandan",
+          "outReason": "lbw b Ankamma",
+          "runs": 27,
+          "balls": 14,
+          "fours": 2,
+          "sixes": 2,
+          "runRate": 192.86,
+          "notOut": false
+        },
+        {
+          "name": "Debarun",
+          "outReason": "not out",
+          "runs": 18,
+          "balls": 9,
+          "fours": 0,
+          "sixes": 2,
+          "runRate": 66.67,
+          "notOut": true
+        },
+        {
+          "name": "Dileep",
+          "outReason": "Run out (Banerjee)",
+          "runs": 0,
+          "balls": 3,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 0,
+          "notOut": false
+        },
+        {
+          "name": "Vaishnavi",
+          "outReason": "Run out (Banerjee)",
+          "runs": 1,
+          "balls": 6,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 216.67,
+          "notOut": false
+        },
+        {
+          "name": "Chhavi",
+          "outReason": "not out",
+          "runs": 0,
+          "balls": 2,
+          "fours": 0,
+          "sixes": 0,
+          "runRate": 0,
+          "notOut": true
+        }
+      ],
+      "extrasGot": 2,
+      "battingRunRate": 8.33,
+      "extrasBowled": 7,
+      "extrasBowledText": "(7) 0 B, 4 LB, 2 WD, 1 NB, 0 P",
+      "bowling": [
+        {
+          "name": "Vaishnavi",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 8,
+          "wickets": 0,
+          "economy": 8
+        },
+        {
+          "name": "Dileep",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 17,
+          "wickets": 1,
+          "economy": 17
+        },
+        {
+          "name": "Debarun",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 0,
+          "economy": 12
+        },
+        {
+          "name": "Chandan",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 9,
+          "wickets": 0,
+          "economy": 9
+        },
+        {
+          "name": "Dheeraj",
+          "overs": 0.1,
+          "maidens": 0,
+          "runs": 1,
+          "wickets": 0,
+          "economy": 6
+        }
+      ],
+      "fallOfWickets": [
+        {
+          "name": "Raghu",
+          "score": "25/1",
+          "over": "1.5"
+        }
+      ]
+    },
+    "team2": {
+      "extrasBowled": 2,
+      "extrasBowledText": "(2) 0 B, 0 LB, 2 WD, 0 NB, 0 P",
+      "bowling": [
+        {
+          "name": "Barnali",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 4,
+          "wickets": 0,
+          "economy": 4
+        },
+        {
+          "name": "Ketan",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 6,
+          "wickets": 0,
+          "economy": 6
+        },
+        {
+          "name": "Raghu",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 13,
+          "wickets": 0,
+          "economy": 13
+        },
+        {
+          "name": "Ankamma",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 11,
+          "wickets": 1,
+          "economy": 11
+        },
+        {
+          "name": "Banerjee",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 2,
+          "wickets": 0,
+          "economy": 2
+        },
+        {
+          "name": "Lakshmi",
+          "overs": 1,
+          "maidens": 0,
+          "runs": 14,
+          "wickets": 0,
+          "economy": 14
+        }
+      ],
+      "fallOfWickets": [
+        {
+          "name": "Dheeraj",
+          "score": "2/1",
+          "over": "0.2"
+        },
+        {
+          "name": "Chandan",
+          "score": "34/2",
+          "over": "3.4"
+        },
+        {
+          "name": "Dileep",
+          "score": "35/3",
+          "over": "4.2"
+        },
+        {
+          "name": "Vaishnavi",
+          "score": "49/4",
+          "over": "5.4"
+        }
+      ],
+      "name": "Banerjee",
+      "score": {
+        "runs": 51,
+        "wickets": 1,
+        "overs": 4.1
+      },
+      "batting": [
+        {
+          "name": "Ketan",
+          "outReason": "not out",
+          "runs": 13,
+          "balls": 10,
+          "fours": 0,
+          "sixes": 1,
+          "runRate": 130,
+          "notOut": true
+        },
+        {
+          "name": "Raghu",
+          "outReason": "lbw b Dileep",
+          "runs": 18,
+          "balls": 8,
+          "fours": 1,
+          "sixes": 2,
+          "runRate": 225,
+          "notOut": false
+        },
+        {
+          "name": "Banerjee",
+          "outReason": "not out",
+          "runs": 13,
+          "balls": 8,
+          "fours": 1,
+          "sixes": 1,
+          "runRate": 162.5,
+          "notOut": true
+        }
+      ],
+      "extrasGot": 7,
+      "battingRunRate": 12.24
+    },
+    "result": "Banerjee won by 5 wickets.",
+    "winner": "Banerjee",
+    "matchUploadedDate": "2023-05-16T03:43:07.576Z",
+    "matchFileNameDate": "10/May/2023",
+    "matchFileNameIdentifier": "10-May-2023.pdf"
   }
 ]
