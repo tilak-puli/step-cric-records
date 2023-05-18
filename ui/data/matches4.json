@@ -4283,7 +4283,7 @@
                     "fours": 11,
                     "sixes": 0,
                     "runRate": 200,
-                    "notOut": true
+                    "notOut": false
                 },
                 {
                     "name": "Azhar",
