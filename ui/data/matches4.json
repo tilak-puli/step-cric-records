@@ -4629,7 +4629,7 @@
     },
     {
         "team1Name": "Qasim",
-        "team2Name": "Chandan",
+        "team2Name": "Azhar",
         "team1": {
             "name": "Qasim",
             "score": {
@@ -5035,7 +5035,7 @@
                     "over": "14.5"
                 }
             ],
-            "name": "Chandan",
+            "name": "Azhar",
             "score": {
                 "runs": 76,
                 "wickets": 8,
@@ -5359,11 +5359,19 @@
                 },
                 {
                     "name": "Tilak",
-                    "overs": 2,
+                    "overs": 1,
                     "maidens": 0,
-                    "runs": 14,
-                    "wickets": 1,
-                    "economy": 7
+                    "runs": 4,
+                    "wickets": 0,
+                    "economy": 4
+                },
+                {
+                    "name": "Raj",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 10,
+                    "wickets": 0,
+                    "economy": 10
                 },
                 {
                     "name": "Milan",
@@ -5480,12 +5488,12 @@
                     "over": "8.1"
                 },
                 {
-                    "name": "Debarun",
+                    "name": "Sneha",
                     "score": "61/9",
                     "over": "11.0"
                 },
                 {
-                    "name": "Sneha",
+                    "name": "Debarun",
                     "score": "81/10",
                     "over": "14.3"
                 },
@@ -5610,6 +5618,11 @@
                     "name": "Qasim",
                     "score": "0/1",
                     "over": "0.1"
+                },
+                {
+                    "name": "Milan",
+                    "score": "37/1",
+                    "over": "7.0"
                 }
             ],
             "name": "Azhar",
@@ -5671,12 +5684,12 @@
                 },
                 {
                     "name": "Debarun",
-                    "outReason": "b Tilak",
-                    "runs": 17,
-                    "balls": 18,
+                    "outReason": "Run out (Swamiji)",
+                    "runs": 27,
+                    "balls": 27,
                     "fours": 2,
                     "sixes": 0,
-                    "runRate": 94.44,
+                    "runRate": 100,
                     "notOut": false
                 },
                 {
@@ -5711,12 +5724,12 @@
                 },
                 {
                     "name": "Sneha",
-                    "outReason": "Run out (Swamiji)",
-                    "runs": 11,
-                    "balls": 19,
+                    "outReason": "Run out (Tilak)",
+                    "runs": 1,
+                    "balls": 10,
                     "fours": 0,
                     "sixes": 0,
-                    "runRate": 57.89,
+                    "runRate": 10,
                     "notOut": false
                 },
                 {
