@@ -5771,5 +5771,399 @@
         "matchUploadedDate": "2023-05-20T15:53:52.983Z",
         "matchFileNameDate": "20/May/2023",
         "matchFileNameIdentifier": "20-May-2023.pdf"
+    },
+    {
+        "team1Name": "Qasim",
+        "team2Name": "Azhar",
+        "team1": {
+            "name": "Qasim",
+            "score": {
+                "runs": 64,
+                "wickets": 8,
+                "overs": 10
+            },
+            "batting": [
+                {
+                    "name": "Vivek",
+                    "outReason": "b Debu",
+                    "runs": 10,
+                    "balls": 11,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 90.91,
+                    "notOut": false
+                },
+                {
+                    "name": "Qasim",
+                    "outReason": "Run out (Azhar)",
+                    "runs": 6,
+                    "balls": 9,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 66.67,
+                    "notOut": false
+                },
+                {
+                    "name": "Tilak",
+                    "outReason": "Run out (Debu)",
+                    "runs": 21,
+                    "balls": 24,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 87.5,
+                    "notOut": false
+                },
+                {
+                    "name": "Ankamma",
+                    "outReason": "Run out (Azhar)",
+                    "runs": 9,
+                    "balls": 5,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 180,
+                    "notOut": false
+                },
+                {
+                    "name": "Dileep",
+                    "outReason": "b Sai Ganesh",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Chhavi",
+                    "outReason": "c & b Sai Ganesh",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Tanmay",
+                    "outReason": "Run out (Sai Ganesh)",
+                    "runs": 4,
+                    "balls": 7,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 57.14,
+                    "notOut": false
+                },
+                {
+                    "name": "Govinda",
+                    "outReason": "c Sai Ganesh b Suresh",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Sanjana",
+                    "outReason": "not out",
+                    "runs": 0,
+                    "balls": 4,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": true
+                },
+                {
+                    "name": ".",
+                    "outReason": "not out",
+                    "runs": 0,
+                    "balls": 0,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 14,
+            "battingRunRate": 6.4,
+            "extrasBowled": 11,
+            "extrasBowledText": "(11) 0 B, 0 LB, 9 WD, 2 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Chhavi",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 18,
+                    "wickets": 0,
+                    "economy": 18
+                },
+                {
+                    "name": "Tilak",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 5,
+                    "wickets": 0,
+                    "economy": 5
+                },
+                {
+                    "name": "Qasim",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 1,
+                    "economy": 2
+                },
+                {
+                    "name": "Vivek",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 1,
+                    "economy": 3
+                },
+                {
+                    "name": "Tanmay",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 5,
+                    "wickets": 1,
+                    "economy": 5
+                },
+                {
+                    "name": "Ankamma",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 0,
+                    "economy": 7
+                },
+                {
+                    "name": "Dileep",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 9,
+                    "wickets": 0,
+                    "economy": 9
+                },
+                {
+                    "name": "Govinda",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 0,
+                    "economy": 13
+                },
+                {
+                    "name": "Sanjana",
+                    "overs": 0.1,
+                    "maidens": 0,
+                    "runs": 4,
+                    "wickets": 0,
+                    "economy": 24
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Utsab",
+                    "score": "25/1",
+                    "over": "3.0"
+                },
+                {
+                    "name": "Prem",
+                    "score": "28/2",
+                    "over": "4.0"
+                },
+                {
+                    "name": "Azhar",
+                    "score": "33/3",
+                    "over": "5.0"
+                }
+            ]
+        },
+        "team2": {
+            "extrasBowled": 14,
+            "extrasBowledText": "(14) 0 B, 0 LB, 11 WD, 3 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Prajakta",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 0,
+                    "economy": 3
+                },
+                {
+                    "name": "Kanishka",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 11,
+                    "wickets": 0,
+                    "economy": 11
+                },
+                {
+                    "name": "Azhar",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 5,
+                    "wickets": 0,
+                    "economy": 2.5
+                },
+                {
+                    "name": "Debu",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 1,
+                    "economy": 3
+                },
+                {
+                    "name": "Prem",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 6,
+                    "wickets": 0,
+                    "economy": 6
+                },
+                {
+                    "name": "Rishabh",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 0,
+                    "economy": 13
+                },
+                {
+                    "name": "Sai Ganesh",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 2,
+                    "economy": 7
+                },
+                {
+                    "name": "Utsab",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 5,
+                    "wickets": 0,
+                    "economy": 5
+                },
+                {
+                    "name": "Suresh",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 11,
+                    "wickets": 1,
+                    "economy": 11
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Qasim",
+                    "score": "16/1",
+                    "over": "2.5"
+                },
+                {
+                    "name": "Vivek",
+                    "score": "19/2",
+                    "over": "4.0"
+                },
+                {
+                    "name": "Ankamma",
+                    "score": "31/3",
+                    "over": "5.3"
+                },
+                {
+                    "name": "Dileep",
+                    "score": "38/4",
+                    "over": "6.1"
+                },
+                {
+                    "name": "Chhavi",
+                    "score": "39/5",
+                    "over": "6.2"
+                },
+                {
+                    "name": "Tanmay",
+                    "score": "50/6",
+                    "over": "8.0"
+                },
+                {
+                    "name": "Govinda",
+                    "score": "56/7",
+                    "over": "8.3"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "64/8",
+                    "over": "10.0"
+                }
+            ],
+            "name": "Azhar",
+            "score": {
+                "runs": 66,
+                "wickets": 3,
+                "overs": 8.1
+            },
+            "batting": [
+                {
+                    "name": "Sai Ganesh",
+                    "outReason": "not out",
+                    "runs": 40,
+                    "balls": 31,
+                    "fours": 4,
+                    "sixes": 0,
+                    "runRate": 129.03,
+                    "notOut": true
+                },
+                {
+                    "name": "Utsab",
+                    "outReason": "b Qasim",
+                    "runs": 6,
+                    "balls": 11,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 54.55,
+                    "notOut": false
+                },
+                {
+                    "name": "Prem",
+                    "outReason": "b Vivek",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Azhar",
+                    "outReason": "c Tilak b Tanmay",
+                    "runs": 3,
+                    "balls": 4,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 75,
+                    "notOut": false
+                },
+                {
+                    "name": "Rishabh",
+                    "outReason": "not out",
+                    "runs": 6,
+                    "balls": 4,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 150,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 11,
+            "battingRunRate": 8.08
+        },
+        "result": "Azhar won by 7 wickets.",
+        "winner": "Azhar",
+        "matchUploadedDate": "2023-05-27T12:07:57.815Z",
+        "matchFileNameDate": "26/May/2023",
+        "matchFileNameIdentifier": "26-May-2023.pdf"
     }
 ]
