@@ -7665,5 +7665,275 @@
         "matchUploadedDate": "2023-06-06T04:34:56.409Z",
         "matchFileNameDate": "03/Jun/2023",
         "matchFileNameIdentifier": "03-Jun-2023.pdf"
+    },
+    {
+        "team1Name": "Dheeraj",
+        "team2Name": "Sai Ganesh",
+        "team1": {
+            "name": "Dheeraj",
+            "score": {
+                "runs": 56,
+                "wickets": 3,
+                "overs": 5
+            },
+            "batting": [
+                {
+                    "name": "Azhar",
+                    "outReason": "lbw b Sai Ganesh",
+                    "runs": 20,
+                    "balls": 11,
+                    "fours": 2,
+                    "sixes": 0,
+                    "runRate": 181.82,
+                    "notOut": false
+                },
+                {
+                    "name": "Vivek",
+                    "outReason": "Run out (Abin)",
+                    "runs": 20,
+                    "balls": 13,
+                    "fours": 2,
+                    "sixes": 0,
+                    "runRate": 153.85,
+                    "notOut": false
+                },
+                {
+                    "name": "Phaneendra",
+                    "outReason": "Run out (Abin)",
+                    "runs": 3,
+                    "balls": 4,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 75,
+                    "notOut": false
+                },
+                {
+                    "name": "Dheeraj",
+                    "outReason": "not out",
+                    "runs": 6,
+                    "balls": 3,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 200,
+                    "notOut": true
+                },
+                {
+                    "name": "Swapnil",
+                    "outReason": "not out",
+                    "runs": 0,
+                    "balls": 0,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 7,
+            "battingRunRate": 11.2,
+          "extrasBowled": 4,
+          "extrasBowledText": "(4) 0 B, 0 LB, 4 WD, 0 NB, 0 P",
+          "bowling": [
+            {
+              "name": "Azhar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 8
+            },
+            {
+              "name": "Dheeraj",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 0,
+              "economy": 9
+            },
+            {
+              "name": "Vivek",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 12
+            },
+            {
+              "name": "Phaneendra",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 4
+            },
+            {
+              "name": "Chhavi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 3,
+              "wickets": 1,
+              "economy": 3
+            }
+          ],
+          "fallOfWickets": [
+            {
+              "name": "Swamiji",
+              "score": "17/1",
+              "over": "2.0"
+            },
+            {
+              "name": "Sai Ganesh",
+              "score": "30/2",
+              "over": "3.1"
+            },
+            {
+              "name": "Abin",
+              "score": "33/3",
+              "over": "3.5"
+            },
+            {
+              "name": "Tilak",
+              "score": "35/4",
+              "over": "4.5"
+            }
+          ]
+        },
+        "team2": {
+            "extrasBowled": 7,
+            "extrasBowledText": "(7) 0 B, 0 LB, 6 WD, 1 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Sanjana",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 14,
+                    "wickets": 0,
+                    "economy": 14
+                },
+                {
+                    "name": "Qasim",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 0,
+                    "economy": 13
+                },
+                {
+                    "name": "Tilak",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 12,
+                    "wickets": 0,
+                    "economy": 12
+                },
+                {
+                    "name": "Sai Ganesh",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 10,
+                    "wickets": 1,
+                    "economy": 10
+                },
+                {
+                    "name": "Abin",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 0,
+                    "economy": 7
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Azhar",
+                    "score": "46/1",
+                    "over": "3.3"
+                },
+                {
+                    "name": "Phaneendra",
+                    "score": "49/2",
+                    "over": "4.2"
+                },
+                {
+                    "name": "Vivek",
+                    "score": "50/3",
+                    "over": "4.3"
+                }
+            ],
+            "batting": [
+                {
+                    "name": "Abin",
+                    "outReason": "Run out (Vivek)",
+                    "runs": 9,
+                    "balls": 8,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 112.5,
+                    "notOut": false
+                },
+                {
+                    "name": "Swamiji",
+                    "outReason": "Run out (Dheeraj)",
+                    "runs": 11,
+                    "balls": 9,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 122.22,
+                    "notOut": false
+                },
+                {
+                    "name": "Sai Ganesh",
+                    "outReason": "Run out (Vivek)",
+                    "runs": 8,
+                    "balls": 4,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 200,
+                    "notOut": false
+                },
+                {
+                    "name": "Tilak",
+                    "outReason": "c Dheeraj b Chhavi",
+                    "runs": 3,
+                    "balls": 7,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 42.86,
+                    "notOut": false
+                },
+                {
+                    "name": "Qasim",
+                    "outReason": "not out",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": true
+                },
+                {
+                    "name": "Sanjana",
+                    "outReason": "not out",
+                    "runs": 1,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 100,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 4,
+            "battingRunRate": 0,
+            "name": "Sai Ganesh",
+            "score": {
+                "runs": 36,
+                "wickets": 4,
+                "overs": 5
+            }
+        },
+        "result": "Dheeraj won by 20 runs.",
+        "winner": "Dheeraj",
+        "matchUploadedDate": "2023-06-06T04:54:12.467Z",
+        "matchFileNameDate": "03/Jun/2023",
+        "matchFileNameIdentifier": "03-Jun-2023(1).pdf"
     }
 ]
