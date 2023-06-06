@@ -173,6 +173,8 @@ const Match = () => {
 
   const mvp = useMemo(() => findMvp(match), [match]);
   useMemo(() => setRunsChartData(calcRunsChartData(match)), [match]);
+  console.log(runsChartData)
+
   return (
     <Box>
       <Box p={["1em", "2em"]}>

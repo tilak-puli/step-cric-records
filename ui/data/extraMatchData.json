@@ -827,15 +827,27 @@
     ]
   },
   "28-May-2023": {
-  "specialMvp": {
-    "name": "Milan & Swapnil",
-    "reason": "for 84 run partnership"
+    "specialMvp": {
+      "name": "Milan & Swapnil",
+      "reason": "for 84 run partnership"
+    },
+    "specialMentions": [
+      "27 runs in a over from vivek",
+      "Rishabh team scored 60 in first 6 overs and remaining 60 in last 10 overs",
+      "Misfields and weak bowling in second innings",
+      "Sai Ganesh finishing calmly"
+    ]
   },
-  "specialMentions": [
-    "27 runs in a over from vivek",
-    "Rishabh team scored 60 in first 6 overs and remaining 60 in last 10 overs",
-    "Misfields and weak bowling in second innings",
-    "Sai Ganesh finishing calmly"
-  ]
-}
+  "03-Jun-2023": {
+    "specialMvp": {
+      "name": "Milan",
+      "reason": "for 5 wicket haul"
+    },
+    "specialMentions": [
+      "Banerjee's 26 runs in first over",
+      "Banerjee scoring 50 runs in just 17 balls",
+      "Contribution from remaining batsman's taking Sai Ganesh team score to 151 in 15 overs",
+      "Milan's 5 wickets to crumbling Dheeraj's team"
+    ]
+  }
 }
