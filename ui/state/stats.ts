@@ -106,6 +106,7 @@ export default function getStats(
         noOf30s: 0,
         noOf50s: 0,
         noOfDucks: 0,
+        matchIndex: 0
       };
     }
 
