@@ -13,6 +13,7 @@ import {
   getBowlingInfo,
 } from "../../components/playerInfo/calcCareerRecords";
 import { FromYearFilter } from "../../components/filters";
+import {ComposedChartGraph} from "../../components/lineChart";
 
 const battingColumns = [
   { field: "b", headerName: "Batting", width: 10 },
@@ -127,16 +128,15 @@ const PlayerInfoHome = () => {
   const router = useRouter();
 
   useEffect(() => {
-    let playerName = router.query.playerName;
-    if (Array.isArray(playerName)) {
-      playerName = playerName[0];
-    }
+    let playerName: string = Array.isArray(router.query.playerName) ? router.query.playerName[0] : router.query.playerName;
 
     setChartData(
       stats.batting[playerName]?.battingStatByMatch.map((s, i) => ({
         matchNo: i + 1,
         avg: +getAvg(s.runs, s.matches, s.notOuts),
         ...s,
+        totalRuns: s.runs,
+        runs: s.runs - (stats.batting[playerName]?.battingStatByMatch[i-1]?.runs || 0),
       })) || []
     );
     setPlayerName(playerName);
@@ -216,16 +216,21 @@ const PlayerInfoHome = () => {
             <LineChartBox
               title={"Runs Vs Matches"}
               xAxisKey={"matchNo"}
-              lines={[{ key: "runs", name: "Runs" }]}
-              width={700}
+              lines={[{ key: "totalRuns", name: "Runs" }]}
+              width={1000}
               data={chartData}
             />
-            <LineChartBox
+            <ComposedChartGraph
               title={"Avg Vs Matches"}
               xAxisKey={"matchNo"}
-              lines={[{ key: "avg", name: "Average" }]}
-              width={700}
+              width={1000}
               data={chartData}
+              barName={"Runs"}
+              lineName={"Average"}
+              barKey={"runs"}
+              lineKey={"avg"}
+              showDot={false}
+              onClick={(data: any) => router.push("/matches/" + data.matchIndex)}
             />
           </Wrap>
         </>

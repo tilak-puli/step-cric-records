@@ -122,6 +122,7 @@ export default function getStats(
     batting[indexName].battingFigures.push({ runs, balls, matchIndex, notOut });
     batting[indexName].battingStatByMatch.push({
       ...batting[indexName],
+      matchIndex,
       battingStatByMatch: [],
       battingFigures: [],
     });

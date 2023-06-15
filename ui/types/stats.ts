@@ -10,6 +10,7 @@ export interface BattingStat {
   noOf30s: number;
   noOf50s: number;
   noOfDucks: number;
+  matchIndex: number;
 }
 
 export interface Partnership {
