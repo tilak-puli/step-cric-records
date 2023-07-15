@@ -9054,16 +9054,6 @@
                     "sixes": 0,
                     "runRate": 0,
                     "notOut": true
-                },
-                {
-                    "name": "Fjdj",
-                    "outReason": "not out",
-                    "runs": 0,
-                    "balls": 0,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": true
                 }
             ],
             "extrasGot": 3,
@@ -9280,16 +9270,6 @@
                     "outReason": "not out",
                     "runs": 0,
                     "balls": 2,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": true
-                },
-                {
-                    "name": "Xbej",
-                    "outReason": "not out",
-                    "runs": 0,
-                    "balls": 0,
                     "fours": 0,
                     "sixes": 0,
                     "runRate": 0,
