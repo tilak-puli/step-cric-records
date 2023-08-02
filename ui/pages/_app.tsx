@@ -12,6 +12,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <ChakraProvider theme={theme}>
         <Head>
           <title>Step Cricket Scores</title>
+          <meta name={"title"} content={"Step Cricket Records"}/>
+          <meta name={"description"} content={"A website to show records and stats of STEP cricket"}/>
+          <meta property={"og:title"} content={"Step Cricket Records"}/>
+          <meta property={"og:type"} content={"website"}/>
+          <meta property={"og:url"} content={"https://step-cric-records.vercel.app/"}/>
         </Head>
         <NavBar />
         <Component {...pageProps} />
