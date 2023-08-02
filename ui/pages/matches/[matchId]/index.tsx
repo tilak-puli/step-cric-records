@@ -32,6 +32,7 @@ import {
   TopPerformers,
 } from "../../../components/GetTopPartnerships";
 import _ from "lodash";
+import Head from "next/head";
 
 function TeamScoreBoard(props: {
   name: String;
@@ -173,10 +174,13 @@ const Match = () => {
 
   const mvp = useMemo(() => findMvp(match), [match]);
   useMemo(() => setRunsChartData(calcRunsChartData(match)), [match]);
-  console.log(runsChartData)
 
   return (
     <Box>
+      <Head>
+        <meta property={"og:description"} content={`Match between ${match.team1.name}(${match.team1.score.runs}/${match.team1.score.wickets}) vs ${match.team2.name}(${match.team2.score.runs}/${match.team2.score.wickets})`}/>
+        <title>{match.team1.name} vs {match.team2.name}</title>
+      </Head>
       <Box p={["1em", "2em"]}>
         {!match && (
           <Box width={["100%", 500]}>{<Text>Match not found.</Text>}</Box>
