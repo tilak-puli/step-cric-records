@@ -173,7 +173,7 @@ function getRandomInt(min, max) {
 }
 
 const descriptions = [
-  "You know who is the MVP (clue: not the owner of this website)",
+  "Guess the MVP",
   "I was sick before the match",
   "Complete stories first",
   "Don't deploy from the ground"
