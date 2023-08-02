@@ -178,8 +178,8 @@ const Match = () => {
   return (
     <Box>
       <Head>
-        <meta property={"og:description"} content={`Match between ${match.team1.name}(${match.team1.score.runs}/${match.team1.score.wickets}) vs ${match.team2.name}(${match.team2.score.runs}/${match.team2.score.wickets})`}/>
-        <title>{match.team1.name} vs {match.team2.name}</title>
+        <meta property={"og:description"} content={`Match between ${match?.team1?.name}(${match?.team1?.score?.runs}/${match?.team1?.score?.wickets}) vs ${match?.team2?.name}(${match?.team2?.score?.runs}/${match?.team2?.score?.wickets})`}/>
+        <title>{match?.team1?.name} vs {match?.team2?.name}</title>
       </Head>
       <Box p={["1em", "2em"]}>
         {!match && (
