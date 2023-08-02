@@ -173,11 +173,9 @@ function getRandomInt(min, max) {
 }
 
 const descriptions = [
-  "Jayanth said so",
   "You know who is the MVP (clue: not the owner of this website)",
-  "Swamiji didn't get batting which means..",
   "I was sick before the match",
-  "Complete assignments first",
+  "Complete stories first",
   "Don't deploy from the ground"
 ]
 
