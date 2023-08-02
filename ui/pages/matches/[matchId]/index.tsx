@@ -165,6 +165,22 @@ const calcRunsChartData = (match: Match) => {
   return [...startingData, ...fwDataTeam1, ...fwDataTeam2, ...endData];
 };
 
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+const descriptions = [
+  "Jayanth said so",
+  "You know who is the MVP (clue: not the owner of this website)",
+  "Swamiji didn't get batting which means..",
+  "I was sick before the match",
+  "Complete assignments first",
+  "Don't deploy from the ground"
+]
+
 const Match = () => {
   const router = useRouter();
   const { matchId } = router.query;
@@ -178,6 +194,7 @@ const Match = () => {
   return (
     <Box>
       <Head>
+        <meta property={"og:description"} content={descriptions[getRandomInt(0, descriptions.length - 1)]}/>
         <title>{match?.team1?.name} vs {match?.team2?.name}</title>
       </Head>
       <Box p={["1em", "2em"]}>
