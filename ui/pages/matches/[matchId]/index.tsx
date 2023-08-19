@@ -9,7 +9,7 @@ import {getTopBatsman, getTopBowlers, getTopPartnerships, TopPerformers,} from "
 import _ from "lodash";
 import Head from "next/head";
 import summaries from "../../../data/aiSummaries.json";
-import {AISummary, calcRunsChartData, MVPCard, SpecialMentionsCard, SpecialMVPCard, TeamScoreBoard} from "./components";
+import {AISummary, calcRunsChartData, MVPCard, SpecialMentionsCard, SpecialMVPCard, TeamScoreBoard} from "../../../components/MatchPageComponents";
 
 const Match = () => {
   const router = useRouter();

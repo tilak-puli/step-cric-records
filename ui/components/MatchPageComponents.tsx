@@ -1,9 +1,9 @@
-import {Match, MvpDetails, SpecialMvpDetails, TeamData} from "../../../types/match";
-import {CustomBox} from "../../../components/HigherOrder/CustomBox";
+import {Match, MvpDetails, SpecialMvpDetails, TeamData} from "../types/match";
+import {CustomBox} from "./HigherOrder/CustomBox";
 import {Box, Flex, Heading, ListItem, Text, UnorderedList} from "@chakra-ui/react";
-import {capitalize} from "../../../utils/utils";
-import summaries from "../../../data/aiSummaries.json";
-import {BattingTable, BowlingTable, FallOfWicketsTable} from "../../../components";
+import {capitalize} from "../utils/utils";
+import summaries from "../data/aiSummaries.json";
+import {BattingTable, BowlingTable, FallOfWicketsTable} from ".";
 
 export function TeamScoreBoard(props: {
   name: String;
@@ -146,5 +146,4 @@ export function AISummary(props: { match: Match }) {
       <Heading fontSize={"md"}>Bard AI(Experimental)</Heading></Flex>
     <Text whiteSpace={"pre-wrap"} as={"pre"}>{summaries[props.match.matchFileNameDate]?.summary?.trim()}</Text>
   </CustomBox>
-    ;
 }
