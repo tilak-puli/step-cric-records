@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bard-api-node": "^1.3.0",
+    "bard-api-node": "github:tilak-puli/bard-api-node",
     "node": "^17.7.2",
     "pdfreader": "^1.4.0",
     "underscore": "^1.13.4"
