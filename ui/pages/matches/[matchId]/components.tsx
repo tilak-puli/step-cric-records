@@ -141,9 +141,10 @@ export function AISummary(props: { match: Match }) {
     <Flex pb={[2, 5]}>
       <Heading fontSize={"md"}>Summary from &nbsp;</Heading>
       <img style={{height: "20px"}}
-           src={"https://www.gstatic.com/lamda/images/sparkle_resting_v2_darkmode_2bdb7df2724e450073ede.gif"} alt={"bard icon"}/>
+           src={"https://www.gstatic.com/lamda/images/sparkle_resting_v2_darkmode_2bdb7df2724e450073ede.gif"}
+           alt={"bard icon"}/>
       <Heading fontSize={"md"}>Bard AI(Experimental)</Heading></Flex>
-    <pre style={{textWrap: "balance"}}>{summaries[props.match.matchFileNameDate]?.summary?.trim()}</pre>
+    <Text whiteSpace={"pre-wrap"} as={"pre"}>{summaries[props.match.matchFileNameDate]?.summary?.trim()}</Text>
   </CustomBox>
     ;
 }
