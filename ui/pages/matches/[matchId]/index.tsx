@@ -25,6 +25,7 @@ const Match = () => {
     <Box>
       <Head>
         <meta property={"og:description"} content={"Match Score and Stats"}/>
+        <meta property={"og:image"} content={`https://step-cric-records.vercel.app/metaImages/scoreboard_${+matchId-1}.svg`}/>
         <title>{match?.team1?.name} vs {match?.team2?.name}</title>
       </Head>
 
