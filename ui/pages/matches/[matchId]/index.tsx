@@ -9,7 +9,14 @@ import {getTopBatsman, getTopBowlers, getTopPartnerships, TopPerformers,} from "
 import _ from "lodash";
 import Head from "next/head";
 import summaries from "../../../data/aiSummaries.json";
-import {AISummary, calcRunsChartData, MVPCard, SpecialMentionsCard, SpecialMVPCard, TeamScoreBoard} from "../../../components/MatchPageComponents";
+import {
+  AISummary,
+  calcRunsChartData,
+  MVPCard,
+  SpecialMentionsCard,
+  SpecialMVPCard,
+  TeamScoreBoard
+} from "../../../components/MatchPageComponents";
 
 const Match = () => {
   const router = useRouter();
@@ -24,11 +31,13 @@ const Match = () => {
   return (
     <Box>
       <Head>
-        <meta property={"og:description"} content={"Match Score and Stats"}/>
-        <meta property={"og:image"} content={`https://step-cric-records.vercel.app/metaImages/scoreboard_${+matchId-1}.svg`}/>
         <title>{match?.team1?.name} vs {match?.team2?.name}</title>
+        {match && <>
+          <meta property={"og:description"} content={"Match Score and Stats"}/>
+          <meta property={"og:image"}
+                content={`https://step-cric-records.vercel.app/metaImages/scoreboard_${+matchId - 1}.svg`}/>
+        </>}
       </Head>
-
       <Box p={["1em", "2em"]}>
         {!match && (
           <Box width={["100%", 500]}>{<Text>Match not found.</Text>}</Box>
@@ -47,7 +56,13 @@ const Match = () => {
   );
 };
 
-function ScoreSection(props: { match: Match, mvp: MvpDetails }) {
+function ScoreSection(props:
+                        {
+                          match: Match, mvp
+                            :
+                            MvpDetails
+                        }
+) {
   return <Flex direction={"column"}>
     <Wrap spacing={[5, 10]} pb={[5, 10]}>
       <Box width={["100%", 480]}>
@@ -87,7 +102,11 @@ function ScoreSection(props: { match: Match, mvp: MvpDetails }) {
   </Flex>;
 }
 
-function Stats(props: { match: Match }) {
+function Stats(props:
+                 {
+                   match: Match
+                 }
+) {
   return <Flex direction={"column"} gap={5}>
     <TopPerformers
       topBatsman={getTopBatsman(props.match, 3)}
@@ -99,7 +118,15 @@ function Stats(props: { match: Match }) {
   </Flex>;
 }
 
-function Charts(props: { match: Match, iteratee: (n) => number, data: any[] }) {
+function Charts(props:
+                  {
+                    match: Match, iteratee
+                      :
+                      (n) => number, data
+                      :
+                      any[]
+                  }
+) {
   return <Box mt={10}>
     <Heading mb={3} fontSize={"m"}>
       Charts
