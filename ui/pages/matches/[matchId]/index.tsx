@@ -1,5 +1,4 @@
 import {Box, Flex, Heading, Text, Wrap,} from "@chakra-ui/react";
-import {useRouter} from "next/router";
 import {useContext, useMemo, useState} from "react";
 import {GlobalContext} from "../../../state/GlobalContext";
 import {CustomTooltip, LineChartBox, MatchCard,} from "../../../components";
@@ -18,9 +17,24 @@ import {
   TeamScoreBoard
 } from "../../../components/MatchPageComponents";
 
-const Match = () => {
-  const router = useRouter();
-  const {matchId} = router.query;
+export async function getStaticProps(context) {
+  const matchId = context.params.matchId;
+
+  return {
+    props: {
+      matchId
+    }
+  }
+}
+
+export const getStaticPaths = async () => {
+  return {
+    paths: [], //indicates that no page needs be created at build time
+    fallback: 'blocking' //indicates the type of fallback
+  }
+}
+
+const Match = ({matchId}) => {
   const {matches} = useContext(GlobalContext);
   const [runsChartData, setRunsChartData] = useState([]);
   const match = matches[+matchId - 1] as Match;
