@@ -178,16 +178,18 @@ const main = async () => {
 
   let matchesJson = getMatchesJson();
   const newMatchFileNames = getNewMatches(matchesJson, pdfFileNames);
-  const missingMetaImagesIndexes = getMissingMetaImagesIndexes(getMetaImagesIndexList(), matchesJson);
 
   for (const fileName of newMatchFileNames) {
     matchesJson.push(await getParsedMatch(fileName));
   }
 
-  for (const missingIndex of missingMetaImagesIndexes) {
-    const svg = await createMetaSvg(matchesJson[missingIndex]);
-    fs.writeFileSync(`./ui/public/metaImages/scoreboard_${missingIndex}.svg`, svg, "utf-8")
-  }
+  // const missingMetaImagesIndexes = getMissingMetaImagesIndexes(getMetaImagesIndexList(), matchesJson);
+
+  //
+  // for (const missingIndex of missingMetaImagesIndexes) {
+  //   const svg = await createMetaSvg(matchesJson[missingIndex]);
+  //   fs.writeFileSync(`./ui/public/metaImages/scoreboard_${missingIndex}.svg`, svg, "utf-8")
+  // }
 
   checkDuplicate(matchesJson);
 

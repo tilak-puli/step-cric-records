@@ -16,25 +16,13 @@ import {
   SpecialMVPCard,
   TeamScoreBoard
 } from "../../../components/MatchPageComponents";
+import {useRouter} from "next/router";
 
-export async function getStaticProps(context) {
-  const matchId = context.params.matchId;
+//TODO: Follow this https://www.bytesizedpieces.com/posts/og-dynamic-image to add og image
 
-  return {
-    props: {
-      matchId
-    }
-  }
-}
-
-export const getStaticPaths = async () => {
-  return {
-    paths: [], //indicates that no page needs be created at build time
-    fallback: 'blocking' //indicates the type of fallback
-  }
-}
-
-const Match = ({matchId}) => {
+const Match = () => {
+  const router = useRouter();
+  const {matchId} = router.query
   const {matches} = useContext(GlobalContext);
   const [runsChartData, setRunsChartData] = useState([]);
   const match = matches[+matchId - 1] as Match;
@@ -46,11 +34,7 @@ const Match = ({matchId}) => {
     <Box>
       <Head>
         <title>{match?.team1?.name} vs {match?.team2?.name}</title>
-        {match && <>
-          <meta property={"og:description"} content={"Match Score and Stats"}/>
-          <meta property={"og:image"}
-                content={`https://step-cric-records.vercel.app/metaImages/scoreboard_${+matchId - 1}.svg`}/>
-        </>}
+        <meta property={"og:description"} content={"Match Score and Stats"}/>
       </Head>
       <Box p={["1em", "2em"]}>
         {!match && (
