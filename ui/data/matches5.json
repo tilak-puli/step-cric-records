@@ -4196,9 +4196,9 @@
             "score": {
                 "runs": 56,
                 "wickets": 4,
-                "overs": 12
+                "overs": 11.5
             },
-            "batting": [
+            "batting":  [
                 {
                     "name": "Debdutta",
                     "outReason": "b Bittu",
