@@ -919,5 +919,33 @@
       "Dheeraj's fast paced innings made the chase easier",
       "Tilak's and Utsab's crucial runs to finish the match"
     ]
+  },
+  "07-Oct-2023": {
+    "specialMvp": {
+      "name": "Dheeraj",
+      "reason": "for highest runs"
+    },
+    "specialMentions": [
+      "Dheeraj scoring most of runs in first innings and being part of runouts",
+      "Raj tight bowling with crucial wicket and milan taking wickets to restrict the score",
+      "Debu's tight fielding covering full leg side",
+      "Bittu's first over with 2 wickets to put pressure",
+      "Tilak's steady innings(with some luck) until the end",
+      "Riya holding the wicket until the end and Swagato's scoring finishing runs",
+      "Extras from Qasim team helping the chase and especially the wide+2 in last over"
+    ]
+  },
+  "07-Oct-2023(1)": {
+    "specialMvp": {
+      "name": "Qasim",
+      "reason": "for 2 wickets and crucial runs"
+    },
+    "specialMentions": [
+      "Milan and Swagato hitting boundaries to take score close to par",
+      "Good fielding and bowling from Qasim team to restrict the score to 34",
+      "Debu's tight fielding to get dheeraj run out",
+      "Sauma and Qasim partnership to rebuild the innings",
+      "Milan's tight bowling to defend 9 runs in last over by taking 3 wickets"
+    ]
   }
 }
