@@ -139,6 +139,10 @@ export const findMvp = (match: Match) => {
 };
 
 function getSwappedName(swapConfig, date, name) {
+  if(date === "15/Jun/2023" ){
+    debugger;
+  }
+
   if (
     swapConfig?.afterDate &&
     new Date(swapConfig?.afterDate) &&
@@ -146,8 +150,7 @@ function getSwappedName(swapConfig, date, name) {
   ) {
     return name.toLowerCase();
   }
-
-  return new Date(date) < new Date(swapConfig?.beforeDate)
+  return new Date(date) < new Date(swapConfig?.beforeDate || "01/01/2100")
     ? swapConfig?.name?.toLowerCase()
     : name.toLowerCase();
 }
@@ -163,6 +166,8 @@ export function getIndexName(name, date) {
         return swappedName;
       }
     }
+
+    return name.toLowerCase();
   }
 
   return getSwappedName(swapConfig, date, name);

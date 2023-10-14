@@ -57,10 +57,38 @@
     "name": "Gulshan",
     "beforeDate": "12/01/2021"
   },
-  "rishab": {
-    "name": "Rishab 6",
-    "beforeDate": "12/01/2021"
-  },
+  "rishab": [
+    {
+      "name": "Rishabh 6",
+      "beforeDate": "12/01/2021"
+    },
+    {
+      "name": "Rishabh 8",
+      "afterDate": "12/02/2021",
+      "beforeDate": "07/03/2023"
+    },
+    {
+      "name": "Rishabh 9",
+      "afterDate": "07/03/2023",
+      "beforeDate": "11/03/2023"
+    }
+  ],
+  "rishabh": [
+    {
+      "name": "Rishabh 6",
+      "beforeDate": "12/01/2021"
+    },
+    {
+      "name": "Rishabh 8",
+      "afterDate": "12/02/2021",
+      "beforeDate": "07/03/2023"
+    },
+    {
+      "name": "Rishabh 9",
+      "afterDate": "07/03/2023",
+      "beforeDate": "11/03/2023"
+    }
+  ],
   "sourav banerjee": {
     "name": "Banerjee",
     "beforeDate": "12/01/4020"
@@ -114,8 +142,8 @@
     "beforeDate": "12/01/2022"
   },
   "sukdev": {
-  "name": "sukhdev",
-  "beforeDate": "12/01/2022"
+    "name": "sukhdev",
+    "beforeDate": "12/01/2022"
   },
   "gourav": {
     "name": "gourab",
@@ -128,6 +156,10 @@
   },
   "manjit": {
     "name": "manjeet",
+    "beforeDate": "12/01/4020"
+  },
+  "deburan": {
+    "name": "Debarun",
     "beforeDate": "12/01/4020"
   }
 }

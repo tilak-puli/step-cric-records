@@ -1339,7 +1339,7 @@
                     "economy": 2
                 },
                 {
-                    "name": "Rishabh - 9",
+                    "name": "Rishabh 9",
                     "overs": 1,
                     "maidens": 0,
                     "runs": 7,
@@ -1538,7 +1538,7 @@
             "batting": [
                 {
                     "name": "Dheeraj",
-                    "outReason": "b Rishabh - 9",
+                    "outReason": "b Rishabh 9",
                     "runs": 9,
                     "balls": 11,
                     "fours": 0,
@@ -4632,7 +4632,7 @@
                     "notOut": false
                 },
                 {
-                    "name": "Debuarun",
+                    "name": "Debarun",
                     "outReason": "not out",
                     "runs": 8,
                     "balls": 5,
@@ -4698,7 +4698,7 @@
                     "economy": 8
                 },
                 {
-                    "name": "Debuarun",
+                    "name": "Debarun",
                     "overs": 1,
                     "maidens": 0,
                     "runs": 9,
