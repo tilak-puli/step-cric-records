@@ -12,7 +12,7 @@ import {
 } from "../index";
 import Link from "next/link";
 import { Link as ChakraLink } from "@chakra-ui/layout";
-import { BattingStats, BowlingStats } from "../../types/stats";
+import { BattingFigure, BattingStats, BowlingStats } from "../../types/stats";
 import _ from "lodash";
 
 function FigureLink({ text, matchIndex }) {
@@ -121,6 +121,30 @@ export function sortBySR(battingStats: BattingStats) {
   });
 }
 
+function convertToOutCause(outReason) {
+  const causesRegex = [
+    { regex: /^b .*$/, cause: "Bowled" },
+    { regex: /^c .* b .*$/, cause: "Caught" },
+    { regex: /.*Run out.*/i, cause: "Run Out" },
+    { regex: /^st.*/i, cause: "Stump Out" },
+    { regex: /^lbw .*$/, cause: "Hit Outside" },
+    { regex: /.*Six.*/i, cause: "Hit Outside" },
+    { regex: /.*Outside.*/i, cause: "Hit Outside" },
+    { regex: /.*Wall.*/i, cause: "Hit Outside" },
+    { regex: /.*Wicket.*/i, cause: "Hit Wicket" },
+  ];
+
+  return causesRegex.find(c => c.regex.test(outReason))?.cause || (outReason !== "not out" && console.log("Failed to find regex for " + outReason));
+}
+
+function getOutCausesCount(recentFigures: BattingFigure[]) {
+  if(!recentFigures) {return []}
+
+  const outCauses = recentFigures?.map(f => convertToOutCause(f.outReason)).filter(c => c);
+
+  return  _.countBy(outCauses);
+}
+
 export function getBattingInfo(battingRecords, playerName: string) {
   const batting = battingRecords[playerName];
   if (!batting) return {};
@@ -143,6 +167,8 @@ export function getBattingInfo(battingRecords, playerName: string) {
       .filter(validAvg)
       .findIndex(({ name }) => name === playerName) + 1;
 
+  const outCausesCount = getOutCausesCount(battingRecords[playerName]?.battingFigures);
+
   return {
     runsScored: batting.runs,
     ballsFaced: batting.balls,
@@ -159,6 +185,7 @@ export function getBattingInfo(battingRecords, playerName: string) {
     "30s": batting.noOf30s,
     "20s": batting.noOf20s,
     ducks: batting.noOfDucks,
+    outCausesCount: outCausesCount || {}
   };
 }
 

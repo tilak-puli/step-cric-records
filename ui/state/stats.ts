@@ -87,7 +87,7 @@ export default function getStats(
     date,
     matchIndex,
     savePreviousMatchStats,
-    { runs, name, balls, fours, sixes, notOut }
+    { runs, name, balls, fours, sixes, notOut, outReason }
   ) => {
     const indexName = getIndexName(name, date);
     runsScored += runs;
@@ -120,7 +120,7 @@ export default function getStats(
     batting[indexName].balls += balls;
     addRunsRecords(runs, batting, indexName, notOut);
 
-    batting[indexName].battingFigures.push({ runs, balls, matchIndex, notOut });
+    batting[indexName].battingFigures.push({ runs, balls, matchIndex, notOut, outReason });
     batting[indexName].battingStatByMatch.push({
       ...batting[indexName],
       matchIndex,

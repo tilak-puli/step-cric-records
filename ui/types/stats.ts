@@ -41,6 +41,7 @@ export interface BattingFigure {
   balls: number;
   matchIndex: number;
   notOut: boolean;
+  outReason: string
 }
 
 export interface BowlingFigure {

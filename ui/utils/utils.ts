@@ -139,10 +139,6 @@ export const findMvp = (match: Match) => {
 };
 
 function getSwappedName(swapConfig, date, name) {
-  if(date === "15/Jun/2023" ){
-    debugger;
-  }
-
   if (
     swapConfig?.afterDate &&
     new Date(swapConfig?.afterDate) &&
@@ -225,5 +221,5 @@ export function getPointsTable(matches: Match[], tournament: any) {
 }
 
 export function getPercentage(x: number, y: number) {
-  return ((x / y) * 100)?.toFixed(1) || 0;
+  return ((x / y) * 100)?.toFixed(1) || '0';
 }

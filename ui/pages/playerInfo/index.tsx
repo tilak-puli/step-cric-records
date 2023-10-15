@@ -8,12 +8,10 @@ import { capitalize, getPercentage } from "../../utils/utils";
 import { useRouter } from "next/router";
 import { PlayerBasicInfo } from "../../components/playerInfo/playerBasicInfo";
 import { PlayerNameSelector } from "../../components/playerInfo/playerNameSelector";
-import {
-  getBattingInfo,
-  getBowlingInfo,
-} from "../../components/playerInfo/calcCareerRecords";
+import { getBattingInfo, getBowlingInfo } from "../../components/playerInfo/calcCareerRecords";
 import { FromYearFilter } from "../../components/filters";
-import {ComposedChartGraph} from "../../components/lineChart";
+import { ComposedChartGraph } from "../../components/lineChart";
+import _ from "lodash";
 
 const battingColumns = [
   { field: "b", headerName: "Batting", width: 10 },
@@ -24,7 +22,8 @@ const battingColumns = [
   { field: "matchesBatted", headerName: "Matches Batted", width: 10 },
   { field: "milestones", headerName: "Milestones", width: 10 },
   { field: "topFigures", headerName: "Top Scores", width: 10 },
-  { field: "ranking", headerName: "Rankings", width: 10 },
+  { field: "mostOutBy", headerName: "Most Out By", width: 10 },
+  { field: "ranking", headerName: "Rankings", width: 10 }
 ];
 
 const bowlingColumns = [
@@ -36,11 +35,27 @@ const bowlingColumns = [
   { field: "matchesBowled", headerName: "Matches Bowled", width: 10 },
   { field: "milestones", headerName: "Milestones  ", width: 10 },
   { field: "topFigures", headerName: "Top Scores", width: 10 },
-  { field: "ranking", headerName: "Rankings", width: 10 },
+  { field: "ranking", headerName: "Rankings", width: 10 }
 ];
+
+function getOutCausePercentages(outCausesCount: Map<string, number>) {
+  if (!outCausesCount) {
+    return [];
+  }
+
+  const totalOuts = Object.values(outCausesCount || {}).reduce((acc, val) => acc + val, 0);
+
+  console.log(outCausesCount)
+  return _.map(outCausesCount, (count: number, cause) => ({
+    cause,
+    percentage: parseFloat(getPercentage(count, totalOuts)),
+  }));
+}
 
 function getBattingInfoRow(battingInfo) {
   const battingRow = { ...battingInfo };
+
+  const outCausePercentages = getOutCausePercentages(battingInfo?.outCausesCount) || {};
 
   battingRow.topFigures = <Wrap maxW={"100%"}>{battingRow?.topFigures}</Wrap>;
 
@@ -64,6 +79,14 @@ function getBattingInfoRow(battingInfo) {
         Ducks: {battingRow.ducks}(
         {getPercentage(battingRow.ducks, battingRow.matchesBatted)}%)
       </Text>
+    </Flex>
+  );
+
+  const topCauses = _.sortBy(outCausePercentages, "percentage")?.slice(-3).reverse();
+
+  battingRow["mostOutBy"] = (
+    <Flex gap={1}>
+      {topCauses.map((cause, i) => <Text key={i}>{cause?.cause}({cause?.percentage}%)</Text>)}
     </Flex>
   );
 
@@ -136,7 +159,7 @@ const PlayerInfoHome = () => {
         avg: +getAvg(s.runs, s.matches, s.notOuts),
         ...s,
         totalRuns: s.runs,
-        runs: s.runs - (stats.batting[playerName]?.battingStatByMatch[i-1]?.runs || 0),
+        runs: s.runs - (stats.batting[playerName]?.battingStatByMatch[i - 1]?.runs || 0)
       })) || []
     );
     setPlayerName(playerName);
