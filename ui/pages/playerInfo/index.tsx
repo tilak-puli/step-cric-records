@@ -86,7 +86,7 @@ function getBattingInfoRow(battingInfo) {
 
   battingRow["mostOutBy"] = (
     <Flex gap={1}>
-      {topCauses.map((cause, i) => <Text key={i}>{cause?.cause}({cause?.percentage}%)</Text>)}
+      {topCauses.map((cause: any, i) => <Text key={i}>{cause?.cause}({cause?.percentage}%)</Text>)}
     </Flex>
   );
 
