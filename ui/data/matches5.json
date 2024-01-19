@@ -4899,7 +4899,7 @@
                 },
                 {
                     "name": "Bhavani",
-                    "outReason": "b Debu",
+                    "outReason": "b Debarun",
                     "runs": 0,
                     "balls": 5,
                     "fours": 0,
@@ -4909,7 +4909,7 @@
                 },
                 {
                     "name": "Bittu",
-                    "outReason": "b Debu",
+                    "outReason": "b Debarun",
                     "runs": 0,
                     "balls": 1,
                     "fours": 0,
@@ -5012,7 +5012,7 @@
                     "over": "4.3"
                 },
                 {
-                    "name": "Debu",
+                    "name": "Debarun",
                     "score": "15/5",
                     "over": "5.1"
                 },
@@ -5073,7 +5073,7 @@
                     "economy": 1
                 },
                 {
-                    "name": "Debu",
+                    "name": "Debarun",
                     "overs": 1,
                     "maidens": 0,
                     "runs": 3,
@@ -5184,7 +5184,7 @@
                     "notOut": true
                 },
                 {
-                    "name": "Debu",
+                    "name": "Debarun",
                     "outReason": "lbw b Bhavani",
                     "runs": 1,
                     "balls": 3,
@@ -5265,7 +5265,7 @@
                     "notOut": false
                 },
                 {
-                    "name": "Debu",
+                    "name": "Debarun",
                     "outReason": "b Swamiji",
                     "runs": 8,
                     "balls": 6,
@@ -5302,11 +5302,11 @@
             "bowling": [
                 {
                     "name": "Debdutta",
-                    "overs": 1,
+                    "overs": 2,
                     "maidens": 0,
-                    "runs": 4,
+                    "runs": 11,
                     "wickets": 1,
-                    "economy": 4
+                    "economy": 5.5
                 },
                 {
                     "name": "Milan",
@@ -5323,14 +5323,6 @@
                     "runs": 1,
                     "wickets": 1,
                     "economy": 1
-                },
-                {
-                    "name": "Debu",
-                    "overs": 1,
-                    "maidens": 0,
-                    "runs": 7,
-                    "wickets": 0,
-                    "economy": 7
                 },
                 {
                     "name": "Ankur",
@@ -5463,7 +5455,7 @@
                     "over": "6.5"
                 },
                 {
-                    "name": "Debu",
+                    "name": "Debdutta",
                     "score": "47/4",
                     "over": "7.1"
                 }
@@ -5567,7 +5559,7 @@
             },
             "batting": [
                 {
-                    "name": "Debu",
+                    "name": "Debarun",
                     "outReason": "c & b Qasim",
                     "runs": 0,
                     "balls": 3,
@@ -5713,7 +5705,7 @@
                     "economy": 3
                 },
                 {
-                    "name": "Debu",
+                    "name": "Debarun",
                     "overs": 1,
                     "maidens": 0,
                     "runs": 11,
@@ -5893,7 +5885,7 @@
             ],
             "fallOfWickets": [
                 {
-                    "name": "Debu",
+                    "name": "Debarun",
                     "score": "0/1",
                     "over": "0.3"
                 },
@@ -5972,7 +5964,7 @@
                 },
                 {
                     "name": "Milan",
-                    "outReason": "lbw b Debu",
+                    "outReason": "lbw b Debarun",
                     "runs": 7,
                     "balls": 13,
                     "fours": 1,
@@ -6133,7 +6125,7 @@
                 },
                 {
                     "name": "Debdutta",
-                    "outReason": "c Gaurav b Debu",
+                    "outReason": "c Gaurav b Debarun",
                     "runs": 2,
                     "balls": 13,
                     "fours": 0,
@@ -6143,7 +6135,7 @@
                 },
                 {
                     "name": "Naman",
-                    "outReason": "c Gaurav b Debu",
+                    "outReason": "c Gaurav b Debarun",
                     "runs": 10,
                     "balls": 8,
                     "fours": 1,
@@ -6318,7 +6310,7 @@
                     "over": "9.0"
                 },
                 {
-                    "name": "Debu",
+                    "name": "Debarun",
                     "score": "39/7",
                     "over": "9.2"
                 },
@@ -6400,7 +6392,7 @@
                     "economy": 13.5
                 },
                 {
-                    "name": "Debu",
+                    "name": "Debarun",
                     "overs": 2,
                     "maidens": 0,
                     "runs": 14,
@@ -6554,7 +6546,7 @@
                     "notOut": false
                 },
                 {
-                    "name": "Debu",
+                    "name": "Debarun",
                     "outReason": "c Swamiji b Swamiji",
                     "runs": 0,
                     "balls": 1,
