@@ -120,7 +120,7 @@ export default function getStats(
     batting[indexName].balls += balls;
     addRunsRecords(runs, batting, indexName, notOut);
 
-    batting[indexName].battingFigures.push({ runs, balls, matchIndex, notOut, outReason });
+    batting[indexName].battingFigures.push({ runs, balls, matchIndex, notOut, outReason, date });
     batting[indexName].battingStatByMatch.push({
       ...batting[indexName],
       matchIndex,

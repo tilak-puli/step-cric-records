@@ -12,8 +12,22 @@ import {
 } from "../index";
 import Link from "next/link";
 import { Link as ChakraLink } from "@chakra-ui/layout";
-import { BattingFigure, BattingStats, BowlingStats } from "../../types/stats";
+import { BattingFigure, BattingStats, BowlingStats, OutCause } from "../../types/stats";
 import _ from "lodash";
+import { getIndexName } from "../../utils/utils";
+
+const causesRegex = [
+  { regex: /^b (.*?)$/, cause: "Bowled" },
+  { regex: /^c .* b (.*?)$/, cause: "Caught" },
+  { regex: /.*Run out \((.*?)\)/i, cause: "Run Out" },
+  { regex: /.*Run out\((.*?)\)/i, cause: "Run Out" },
+  { regex: /^st .* b (.*?)$/i, cause: "Stump Out" },
+  { regex: /^lbw b (.*?)$/, cause: "Hit Outside" },
+  { regex: /.*Six b (.*?)$/i, cause: "Hit Outside" },
+  { regex: /.*Outside b (.*?)$/i, cause: "Hit Outside" },
+  { regex: /.*Wall b (.*?)$/i, cause: "Hit Outside" },
+  { regex: /.*Wicket.*/i, cause: "Hit Wicket" },
+];
 
 function FigureLink({ text, matchIndex }) {
   return (
@@ -121,29 +135,42 @@ export function sortBySR(battingStats: BattingStats) {
   });
 }
 
-function convertToOutCause(outReason) {
-  const causesRegex = [
-    { regex: /^b .*$/, cause: "Bowled" },
-    { regex: /^c .* b .*$/, cause: "Caught" },
-    { regex: /.*Run out.*/i, cause: "Run Out" },
-    { regex: /^st.*/i, cause: "Stump Out" },
-    { regex: /^lbw .*$/, cause: "Hit Outside" },
-    { regex: /.*Six.*/i, cause: "Hit Outside" },
-    { regex: /.*Outside.*/i, cause: "Hit Outside" },
-    { regex: /.*Wall.*/i, cause: "Hit Outside" },
-    { regex: /.*Wicket.*/i, cause: "Hit Wicket" },
-  ];
+function convertToOutCause(outReason, date) {
+  const matchedRegex = causesRegex.find(c => c.regex.test(outReason));
 
-  return causesRegex.find(c => c.regex.test(outReason))?.cause || (outReason !== "not out" && console.log("Failed to find regex for " + outReason));
+  outReason !== "not out" && !matchedRegex && console.log("Failed to find regex for " + outReason);
+  const player = matchedRegex?.regex && outReason.match(matchedRegex?.regex)?.[1]
+
+  matchedRegex?.regex && !player && console.log("Failed to find player regex for " + outReason);
+  
+  return {
+    cause: matchedRegex?.cause,
+    player: matchedRegex?.cause === 'Hit Wicket' ? 'self' : player ? getIndexName(player, date) : "None"
+  } 
 }
 
-function getOutCausesCount(recentFigures: BattingFigure[]) {
+function getOutCauses(recentFigures: BattingFigure[]) {
   if(!recentFigures) {return []}
 
-  const outCauses = recentFigures?.map(f => convertToOutCause(f.outReason)).filter(c => c);
+  const outCauses = recentFigures?.map(f => convertToOutCause(f.outReason, f.date)).filter(c => c.cause);
+
+  return outCauses;
+}
+
+
+export function getOutCausesCount(causes: OutCause[]) {
+  const outCauses = causes?.map(f => f.cause);
 
   return  _.countBy(outCauses);
 }
+
+
+export function getOutCausePlayerCount(causes: OutCause[]) {
+  const outCauses = causes?.map(f => f.player);
+
+  return  _.countBy(outCauses);
+}
+
 
 export function getBattingInfo(battingRecords, playerName: string) {
   const batting = battingRecords[playerName];
@@ -167,7 +194,7 @@ export function getBattingInfo(battingRecords, playerName: string) {
       .filter(validAvg)
       .findIndex(({ name }) => name === playerName) + 1;
 
-  const outCausesCount = getOutCausesCount(battingRecords[playerName]?.battingFigures);
+  const outCauses = getOutCauses(battingRecords[playerName]?.battingFigures);
 
   return {
     runsScored: batting.runs,
@@ -185,7 +212,7 @@ export function getBattingInfo(battingRecords, playerName: string) {
     "30s": batting.noOf30s,
     "20s": batting.noOf20s,
     ducks: batting.noOfDucks,
-    outCausesCount: outCausesCount || {}
+    outCauses: outCauses || []
   };
 }
 

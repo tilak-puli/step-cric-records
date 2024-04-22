@@ -36,12 +36,18 @@ export interface PlayerStats {
   matches: number;
 }
 
+export interface OutCause {
+  cause: string;
+  player: string;
+}
+
 export interface BattingFigure {
   runs: number;
   balls: number;
   matchIndex: number;
   notOut: boolean;
   outReason: string
+  date: string;
 }
 
 export interface BowlingFigure {

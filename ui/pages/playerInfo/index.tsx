@@ -8,7 +8,7 @@ import { capitalize, getPercentage } from "../../utils/utils";
 import { useRouter } from "next/router";
 import { PlayerBasicInfo } from "../../components/playerInfo/playerBasicInfo";
 import { PlayerNameSelector } from "../../components/playerInfo/playerNameSelector";
-import { getBattingInfo, getBowlingInfo } from "../../components/playerInfo/calcCareerRecords";
+import { getBattingInfo, getBowlingInfo, getOutCausePlayerCount, getOutCausesCount } from "../../components/playerInfo/calcCareerRecords";
 import { FromYearFilter } from "../../components/filters";
 import { ComposedChartGraph } from "../../components/lineChart";
 import _ from "lodash";
@@ -23,6 +23,7 @@ const battingColumns = [
   { field: "milestones", headerName: "Milestones", width: 10 },
   { field: "topFigures", headerName: "Top Scores", width: 10 },
   { field: "mostOutBy", headerName: "Most Out By", width: 10 },
+  { field: "mostOutByPlayer", headerName: "Most Out By", width: 10 },
   { field: "ranking", headerName: "Rankings", width: 10 }
 ];
 
@@ -38,14 +39,13 @@ const bowlingColumns = [
   { field: "ranking", headerName: "Rankings", width: 10 }
 ];
 
-function getOutCausePercentages(outCausesCount: Map<string, number>) {
+function getOutCausePercentages(outCausesCount: _.Dictionary<number>) {
   if (!outCausesCount) {
     return [];
   }
 
   const totalOuts = Object.values(outCausesCount || {}).reduce((acc, val) => acc + val, 0);
 
-  console.log(outCausesCount)
   return _.map(outCausesCount, (count: number, cause) => ({
     cause,
     percentage: parseFloat(getPercentage(count, totalOuts)),
@@ -54,8 +54,10 @@ function getOutCausePercentages(outCausesCount: Map<string, number>) {
 
 function getBattingInfoRow(battingInfo) {
   const battingRow = { ...battingInfo };
+  console.log(battingInfo?.outCauses)
 
-  const outCausePercentages = getOutCausePercentages(battingInfo?.outCausesCount) || {};
+  const outCausePercentages = getOutCausePercentages(getOutCausesCount(battingInfo?.outCauses || [])) || {};
+  const outPlayerCausePercentages = getOutCausePercentages(getOutCausePlayerCount(battingInfo?.outCauses || [])) || {};
 
   battingRow.topFigures = <Wrap maxW={"100%"}>{battingRow?.topFigures}</Wrap>;
 
@@ -83,12 +85,20 @@ function getBattingInfoRow(battingInfo) {
   );
 
   const topCauses = _.sortBy(outCausePercentages, "percentage")?.slice(-3).reverse();
+  const topPlayerCause = _.sortBy(outPlayerCausePercentages, "percentage")?.slice(-3).reverse();
 
   battingRow["mostOutBy"] = (
     <Flex gap={1}>
       {topCauses.map((cause: any, i) => <Text key={i}>{cause?.cause}({cause?.percentage}%)</Text>)}
     </Flex>
   );
+
+  battingRow["mostOutByPlayer"] = (
+    <Flex gap={1}>
+      {topPlayerCause.map((cause: any, i) => <Text key={i}>{cause?.cause}({cause?.percentage}%)</Text>)}
+    </Flex>
+  );
+
 
   return battingRow;
 }
