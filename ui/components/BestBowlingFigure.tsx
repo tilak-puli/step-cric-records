@@ -39,7 +39,7 @@ export function sortedBowlingFigures(bowlingStats: BowlingStats) {
     }
 
     if (diff === 0) {
-      diff = s[3] - s1[3];
+      diff = s1[3] - s[3];
     }
     return diff;
   });
