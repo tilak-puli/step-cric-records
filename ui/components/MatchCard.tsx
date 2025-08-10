@@ -1,8 +1,8 @@
-import { Match, Score } from "../types/match";
-import Link from "next/link";
-import { CustomBox } from "./HigherOrder/CustomBox";
 import { Flex, Text, Wrap } from "@chakra-ui/react";
+import Link from "next/link";
+import { Match, Score } from "../types/match";
 import { formatDate } from "../utils/utils";
+import { CustomBox } from "./HigherOrder/CustomBox";
 
 export function ScoreRow(props: { name: String; score: Score }) {
   return (
@@ -38,15 +38,14 @@ export function MatchCard(props: {
   p?: string;
   boxShadow?: string;
   disableLink?: boolean;
-  width?: string | number
+  width?: string | number;
 }) {
   const tags = props.match.extraData?.tags || [];
 
   return (
     <Link href={"/matches/" + props.match.matchIndex} passHref>
       <CustomBox
-        p={props.p || "0.5em"}
-        pb={"1em"}
+        p={props.p || "1em"}
         width={props.width || "100%"}
         height={"auto"}
         boxShadow={props.boxShadow || "md"}

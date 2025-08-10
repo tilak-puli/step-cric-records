@@ -3685,5 +3685,2048 @@
         "matchUploadedDate": "2025-05-26T05:06:24.477Z",
         "matchFileNameDate": "25/May/2025",
         "matchFileNameIdentifier": "25-May-2025(3).pdf"
+    },
+    {
+        "team1Name": "Praneet",
+        "team2Name": "Priyanshu",
+        "team1": {
+            "name": "Praneet",
+            "score": {
+                "runs": 71,
+                "wickets": 1,
+                "overs": 11
+            },
+            "batting": [
+                {
+                    "name": "Praneet",
+                    "outReason": "c Milan b Priyansgu",
+                    "runs": 2,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 66.67,
+                    "notOut": false
+                },
+                {
+                    "name": "Qasim",
+                    "outReason": "not out",
+                    "runs": 43,
+                    "balls": 31,
+                    "fours": 3,
+                    "sixes": 2,
+                    "runRate": 138.71,
+                    "notOut": true
+                },
+                {
+                    "name": "Tilak",
+                    "outReason": "not out",
+                    "runs": 19,
+                    "balls": 33,
+                    "fours": 1,
+                    "sixes": 1,
+                    "runRate": 57.58,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 7,
+            "battingRunRate": 6.45,
+            "extrasBowled": 10,
+            "extrasBowledText": "(10) 0 B, 0 LB, 9 WD, 1 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Praneet",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 9,
+                    "wickets": 1,
+                    "economy": 4.5
+                },
+                {
+                    "name": "Tilak",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 16,
+                    "wickets": 0,
+                    "economy": 8
+                },
+                {
+                    "name": "Abu",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 11,
+                    "wickets": 0,
+                    "economy": 5.5
+                },
+                {
+                    "name": "Qasim",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 1,
+                    "economy": 3.5
+                },
+                {
+                    "name": "Charan",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 6,
+                    "wickets": 1,
+                    "economy": 6
+                },
+                {
+                    "name": "Mounika",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 0,
+                    "economy": 7
+                },
+                {
+                    "name": "Sarup",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 0,
+                    "economy": 13
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Phane",
+                    "score": "19/1",
+                    "over": "3.5"
+                },
+                {
+                    "name": "Teja",
+                    "score": "27/2",
+                    "over": "4.5"
+                },
+                {
+                    "name": "Milan",
+                    "score": "63/3",
+                    "over": "9.2"
+                }
+            ]
+        },
+        "team2": {
+            "extrasBowled": 7,
+            "extrasBowledText": "(7) 0 B, 0 LB, 6 WD, 1 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Priyansgu",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 5,
+                    "wickets": 1,
+                    "economy": 5
+                },
+                {
+                    "name": "Phane",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 12,
+                    "wickets": 0,
+                    "economy": 12
+                },
+                {
+                    "name": "Teja",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 5,
+                    "wickets": 0,
+                    "economy": 2.5
+                },
+                {
+                    "name": "Milan",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 10,
+                    "wickets": 0,
+                    "economy": 5
+                },
+                {
+                    "name": "Dinesh",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 4,
+                    "wickets": 0,
+                    "economy": 4
+                },
+                {
+                    "name": "Pradeep",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 12,
+                    "wickets": 0,
+                    "economy": 12
+                },
+                {
+                    "name": "Rishabh",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 6,
+                    "wickets": 0,
+                    "economy": 6
+                },
+                {
+                    "name": "Asma",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 0,
+                    "economy": 3
+                },
+                {
+                    "name": "Priyankush",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 14,
+                    "wickets": 0,
+                    "economy": 14
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Praneet",
+                    "score": "3/1",
+                    "over": "0.2"
+                }
+            ],
+            "name": "Priyanshu",
+            "score": {
+                "runs": 69,
+                "wickets": 3,
+                "overs": 11
+            },
+            "batting": [
+                {
+                    "name": "Phane",
+                    "outReason": "b Qasim",
+                    "runs": 3,
+                    "balls": 11,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 27.27,
+                    "notOut": false
+                },
+                {
+                    "name": "Teja",
+                    "outReason": "b Charan",
+                    "runs": 16,
+                    "balls": 18,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 88.89,
+                    "notOut": false
+                },
+                {
+                    "name": "Milan",
+                    "outReason": "b Praneet",
+                    "runs": 26,
+                    "balls": 19,
+                    "fours": 2,
+                    "sixes": 1,
+                    "runRate": 136.84,
+                    "notOut": false
+                },
+                {
+                    "name": "Priyankush",
+                    "outReason": "not out",
+                    "runs": 12,
+                    "balls": 14,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 85.71,
+                    "notOut": true
+                },
+                {
+                    "name": "Rishabh",
+                    "outReason": "not out",
+                    "runs": 2,
+                    "balls": 5,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 40,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 10,
+            "battingRunRate": 6.27
+        },
+        "result": "Praneet won by 2 runs.",
+        "winner": "Praneet",
+        "matchUploadedDate": "2025-08-10T10:03:40.748Z",
+        "matchFileNameDate": "06/Jul/2025",
+        "matchFileNameIdentifier": "06-Jul-2025.pdf"
+    },
+    {
+        "team1Name": "Banerjee",
+        "team2Name": "Swamiji",
+        "team1": {
+            "name": "Banerjee",
+            "score": {
+                "runs": 77,
+                "wickets": 4,
+                "overs": 12
+            },
+            "batting": [
+                {
+                    "name": "Qasim",
+                    "outReason": "c Milan b Swamiji",
+                    "runs": 8,
+                    "balls": 5,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 160,
+                    "notOut": false
+                },
+                {
+                    "name": "Banerjee",
+                    "outReason": "st Praneeth b Utsab",
+                    "runs": 8,
+                    "balls": 9,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 88.89,
+                    "notOut": false
+                },
+                {
+                    "name": "Priyankush",
+                    "outReason": "b Shubham",
+                    "runs": 0,
+                    "balls": 4,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Tilak",
+                    "outReason": "b Utsab",
+                    "runs": 16,
+                    "balls": 19,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 84.21,
+                    "notOut": false
+                },
+                {
+                    "name": "Arif",
+                    "outReason": "not out",
+                    "runs": 23,
+                    "balls": 23,
+                    "fours": 0,
+                    "sixes": 2,
+                    "runRate": 100,
+                    "notOut": true
+                },
+                {
+                    "name": "Phani",
+                    "outReason": "not out",
+                    "runs": 15,
+                    "balls": 12,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 125,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 7,
+            "battingRunRate": 6.42,
+            "extrasBowled": 10,
+            "extrasBowledText": "(10) 0 B, 0 LB, 9 WD, 1 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Raghu",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 22,
+                    "wickets": 0,
+                    "economy": 11
+                },
+                {
+                    "name": "Arif",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 2,
+                    "economy": 3
+                },
+                {
+                    "name": "Priyankush",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 10,
+                    "wickets": 0,
+                    "economy": 10
+                },
+                {
+                    "name": "Qasim",
+                    "overs": 1.5,
+                    "maidens": 0,
+                    "runs": 24,
+                    "wickets": 0,
+                    "economy": 13.09
+                },
+                {
+                    "name": "Saurabh",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 6,
+                    "wickets": 1,
+                    "economy": 6
+                },
+                {
+                    "name": "Phani",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 1,
+                    "economy": 2
+                },
+                {
+                    "name": "Kirti",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 4,
+                    "wickets": 0,
+                    "economy": 4
+                },
+                {
+                    "name": "Tilak",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 1,
+                    "economy": 7
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Shubham",
+                    "score": "9/1",
+                    "over": "1.2"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "10/2",
+                    "over": "1.4"
+                },
+                {
+                    "name": "Milan",
+                    "score": "29/3",
+                    "over": "4.5"
+                },
+                {
+                    "name": "Praneeth",
+                    "score": "29/4",
+                    "over": "5.1"
+                },
+                {
+                    "name": "Rishabh",
+                    "score": "36/5",
+                    "over": "7.3"
+                }
+            ]
+        },
+        "team2": {
+            "extrasBowled": 7,
+            "extrasBowledText": "(7) 0 B, 0 LB, 7 WD, 0 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Swamiji",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 10,
+                    "wickets": 1,
+                    "economy": 10
+                },
+                {
+                    "name": "Shubham",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 1,
+                    "wickets": 1,
+                    "economy": 1
+                },
+                {
+                    "name": "Priyankush",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 11,
+                    "wickets": 0,
+                    "economy": 5.5
+                },
+                {
+                    "name": "Utsab",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 18,
+                    "wickets": 2,
+                    "economy": 9
+                },
+                {
+                    "name": "Praneeth",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 6,
+                    "wickets": 0,
+                    "economy": 6
+                },
+                {
+                    "name": "Moni",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 0,
+                    "economy": 2
+                },
+                {
+                    "name": "Abu",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 0,
+                    "economy": 6.5
+                },
+                {
+                    "name": "Milan",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 16,
+                    "wickets": 0,
+                    "economy": 8
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Qasim",
+                    "score": "10/1",
+                    "over": "0.5"
+                },
+                {
+                    "name": "Priyankush",
+                    "score": "11/2",
+                    "over": "2.0"
+                },
+                {
+                    "name": "Banerjee",
+                    "score": "22/3",
+                    "over": "3.4"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "47/4",
+                    "over": "8.3"
+                }
+            ],
+            "name": "Swamiji",
+            "score": {
+                "runs": 78,
+                "wickets": 5,
+                "overs": 9.5
+            },
+            "batting": [
+                {
+                    "name": "Praneeth",
+                    "outReason": "c & b Phani",
+                    "runs": 18,
+                    "balls": 14,
+                    "fours": 1,
+                    "sixes": 1,
+                    "runRate": 128.57,
+                    "notOut": false
+                },
+                {
+                    "name": "Shubham",
+                    "outReason": "c Phani b Arif",
+                    "runs": 0,
+                    "balls": 2,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Priyankush",
+                    "outReason": "c Priyankush b Arif",
+                    "runs": 0,
+                    "balls": 2,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Milan",
+                    "outReason": "b Saurabh",
+                    "runs": 5,
+                    "balls": 13,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 38.46,
+                    "notOut": false
+                },
+                {
+                    "name": "Abu",
+                    "outReason": "not out",
+                    "runs": 38,
+                    "balls": 16,
+                    "fours": 1,
+                    "sixes": 5,
+                    "runRate": 237.5,
+                    "notOut": true
+                },
+                {
+                    "name": "Swamiji",
+                    "outReason": "c Saurabh b Tilak",
+                    "runs": 3,
+                    "balls": 10,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 30,
+                    "notOut": false
+                },
+                {
+                    "name": "Utsab",
+                    "outReason": "not out",
+                    "runs": 4,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 133.33,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 10,
+            "battingRunRate": 7.93
+        },
+        "result": "Swamiji won by 7 wickets.",
+        "winner": "Swamiji",
+        "matchUploadedDate": "2025-08-10T10:03:40.879Z",
+        "matchFileNameDate": "26/Jul/2025",
+        "matchFileNameIdentifier": "26-Jul-2025(1).pdf"
+    },
+    {
+        "team1Name": "Swamiji",
+        "team2Name": "Banerjee",
+        "team1": {
+            "name": "Swamiji",
+            "score": {
+                "runs": 47,
+                "wickets": 0,
+                "overs": 3
+            },
+            "batting": [
+                {
+                    "name": "Abu",
+                    "outReason": "not out",
+                    "runs": 29,
+                    "balls": 10,
+                    "fours": 0,
+                    "sixes": 4,
+                    "runRate": 290,
+                    "notOut": true
+                },
+                {
+                    "name": "Praneeth",
+                    "outReason": "not out",
+                    "runs": 17,
+                    "balls": 8,
+                    "fours": 1,
+                    "sixes": 1,
+                    "runRate": 212.5,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 1,
+            "battingRunRate": 15.67,
+            "extrasBowled": 1,
+            "extrasBowledText": "(1) 0 B, 0 LB, 1 WD, 0 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Milan",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 1,
+                    "economy": 3
+                },
+                {
+                    "name": "Priyankush",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 1,
+                    "economy": 7
+                },
+                {
+                    "name": "Abu",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 10,
+                    "wickets": 1,
+                    "economy": 10
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Banerjee",
+                    "score": "3/1",
+                    "over": "1.0"
+                },
+                {
+                    "name": "Phani",
+                    "score": "10/2",
+                    "over": "2.0"
+                },
+                {
+                    "name": "Priyankush",
+                    "score": "20/3",
+                    "over": "3.0"
+                }
+            ]
+        },
+        "team2": {
+            "extrasBowled": 1,
+            "extrasBowledText": "(1) 0 B, 0 LB, 1 WD, 0 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Banerjee",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 19,
+                    "wickets": 0,
+                    "economy": 19
+                },
+                {
+                    "name": "Tilak",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 14,
+                    "wickets": 0,
+                    "economy": 14
+                },
+                {
+                    "name": "Phani",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 14,
+                    "wickets": 0,
+                    "economy": 14
+                }
+            ],
+            "fallOfWickets": [],
+            "name": "Banerjee",
+            "score": {
+                "runs": 20,
+                "wickets": 3,
+                "overs": 3
+            },
+            "batting": [
+                {
+                    "name": "Priyankush",
+                    "outReason": "c Utsab b Abu",
+                    "runs": 16,
+                    "balls": 11,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 145.45,
+                    "notOut": false
+                },
+                {
+                    "name": "Banerjee",
+                    "outReason": "b Milan",
+                    "runs": 1,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 33.33,
+                    "notOut": false
+                },
+                {
+                    "name": "Phani",
+                    "outReason": "b Priyankush",
+                    "runs": 1,
+                    "balls": 2,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 50,
+                    "notOut": false
+                },
+                {
+                    "name": "Qasim",
+                    "outReason": "not out",
+                    "runs": 1,
+                    "balls": 2,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 50,
+                    "notOut": true
+                },
+                {
+                    "name": ".",
+                    "outReason": "not out",
+                    "runs": 0,
+                    "balls": 0,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 1,
+            "battingRunRate": 6.67
+        },
+        "result": "Swamiji won by 27 runs.",
+        "winner": "Swamiji",
+        "matchUploadedDate": "2025-08-10T10:03:40.895Z",
+        "matchFileNameDate": "26/Jul/2025",
+        "matchFileNameIdentifier": "26-Jul-2025(2).pdf"
+    },
+    {
+        "team1Name": "Banerjee",
+        "team2Name": "Swamiji",
+        "team1": {
+            "name": "Banerjee",
+            "score": {
+                "runs": 69,
+                "wickets": 6,
+                "overs": 12
+            },
+            "batting": [
+                {
+                    "name": "Phani",
+                    "outReason": "b Priyankush",
+                    "runs": 5,
+                    "balls": 6,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 83.33,
+                    "notOut": false
+                },
+                {
+                    "name": "Qasim",
+                    "outReason": "c Priyankush b Shubham",
+                    "runs": 7,
+                    "balls": 6,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 116.67,
+                    "notOut": false
+                },
+                {
+                    "name": "Banerjee",
+                    "outReason": "c Phaneendra b Utsab",
+                    "runs": 6,
+                    "balls": 5,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 120,
+                    "notOut": false
+                },
+                {
+                    "name": "Priyankush",
+                    "outReason": "c Praneeth b Abu",
+                    "runs": 16,
+                    "balls": 14,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 114.29,
+                    "notOut": false
+                },
+                {
+                    "name": "Tilak",
+                    "outReason": "not out",
+                    "runs": 22,
+                    "balls": 31,
+                    "fours": 1,
+                    "sixes": 1,
+                    "runRate": 70.97,
+                    "notOut": true
+                },
+                {
+                    "name": "Raghu",
+                    "outReason": "Run out (Utsab)",
+                    "runs": 6,
+                    "balls": 8,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 75,
+                    "notOut": false
+                },
+                {
+                    "name": "Arif",
+                    "outReason": "Run out (Praneeth)",
+                    "runs": 4,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 133.33,
+                    "notOut": false
+                },
+                {
+                    "name": ".",
+                    "outReason": "not out",
+                    "runs": 0,
+                    "balls": 0,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 3,
+            "battingRunRate": 5.75,
+            "extrasBowled": 8,
+            "extrasBowledText": "(8) 0 B, 0 LB, 8 WD, 0 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Kirti",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 4,
+                    "wickets": 0,
+                    "economy": 4
+                },
+                {
+                    "name": "Qasim",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 1,
+                    "economy": 2
+                },
+                {
+                    "name": "Raghu",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 8,
+                    "wickets": 1,
+                    "economy": 8
+                },
+                {
+                    "name": "Tilak",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 16,
+                    "wickets": 1,
+                    "economy": 8
+                },
+                {
+                    "name": "Arif",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 3,
+                    "wickets": 0,
+                    "economy": 3
+                },
+                {
+                    "name": "Phani",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 11,
+                    "wickets": 0,
+                    "economy": 11
+                },
+                {
+                    "name": "Saurabh",
+                    "overs": 1.3,
+                    "maidens": 0,
+                    "runs": 20,
+                    "wickets": 0,
+                    "economy": 13.33
+                },
+                {
+                    "name": "Priyankush",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 6,
+                    "wickets": 0,
+                    "economy": 6
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Utsab",
+                    "score": "5/1",
+                    "over": "1.4"
+                },
+                {
+                    "name": "Moni",
+                    "score": "6/2",
+                    "over": "2.3"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "12/3",
+                    "over": "2.5"
+                },
+                {
+                    "name": "Praneeth",
+                    "score": "18/4",
+                    "over": "4.0"
+                },
+                {
+                    "name": "Milan",
+                    "score": "37/5",
+                    "over": "6.4"
+                },
+                {
+                    "name": "Abu",
+                    "score": "56/6",
+                    "over": "8.5"
+                }
+            ]
+        },
+        "team2": {
+            "extrasBowled": 3,
+            "extrasBowledText": "(3) 0 B, 0 LB, 2 WD, 1 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Milan",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 0,
+                    "economy": 3.5
+                },
+                {
+                    "name": "Priyankush",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 12,
+                    "wickets": 1,
+                    "economy": 6
+                },
+                {
+                    "name": "Utsab",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 1,
+                    "economy": 13
+                },
+                {
+                    "name": "Shubham",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 1,
+                    "economy": 2
+                },
+                {
+                    "name": "Praneeth",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 15,
+                    "wickets": 0,
+                    "economy": 7.5
+                },
+                {
+                    "name": "Moni",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 0,
+                    "economy": 2
+                },
+                {
+                    "name": "Abu",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 6,
+                    "wickets": 1,
+                    "economy": 3
+                },
+                {
+                    "name": "Swamiji",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 12,
+                    "wickets": 0,
+                    "economy": 12
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Phani",
+                    "score": "5/1",
+                    "over": "1.3"
+                },
+                {
+                    "name": "Banerjee",
+                    "score": "18/2",
+                    "over": "2.4"
+                },
+                {
+                    "name": "Qasim",
+                    "score": "24/3",
+                    "over": "3.1"
+                },
+                {
+                    "name": "Priyankush",
+                    "score": "38/4",
+                    "over": "7.0"
+                },
+                {
+                    "name": "Raghu",
+                    "score": "62/5",
+                    "over": "11.0"
+                },
+                {
+                    "name": "Arif",
+                    "score": "69/6",
+                    "over": "12.0"
+                }
+            ],
+            "name": "Swamiji",
+            "score": {
+                "runs": 70,
+                "wickets": 6,
+                "overs": 9.3
+            },
+            "batting": [
+                {
+                    "name": "Moni",
+                    "outReason": "Run out (Raghu)",
+                    "runs": 4,
+                    "balls": 9,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 44.44,
+                    "notOut": false
+                },
+                {
+                    "name": "Utsab",
+                    "outReason": "b Qasim",
+                    "runs": 0,
+                    "balls": 4,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Priyankush",
+                    "outReason": "b Raghu",
+                    "runs": 6,
+                    "balls": 4,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 150,
+                    "notOut": false
+                },
+                {
+                    "name": "Praneeth",
+                    "outReason": "b Tilak",
+                    "runs": 4,
+                    "balls": 6,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 66.67,
+                    "notOut": false
+                },
+                {
+                    "name": "Milan",
+                    "outReason": "Run out (Kirti)",
+                    "runs": 8,
+                    "balls": 10,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 80,
+                    "notOut": false
+                },
+                {
+                    "name": "Abu",
+                    "outReason": "Run out (Saurabh)",
+                    "runs": 24,
+                    "balls": 15,
+                    "fours": 0,
+                    "sixes": 3,
+                    "runRate": 160,
+                    "notOut": false
+                },
+                {
+                    "name": "Swamiji",
+                    "outReason": "not out",
+                    "runs": 2,
+                    "balls": 6,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 33.33,
+                    "notOut": true
+                },
+                {
+                    "name": "Shubham",
+                    "outReason": "not out",
+                    "runs": 14,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 2,
+                    "runRate": 466.67,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 8,
+            "battingRunRate": 7.37
+        },
+        "result": "Swamiji won by 6 wickets.",
+        "winner": "Swamiji",
+        "matchUploadedDate": "2025-08-10T10:03:40.921Z",
+        "matchFileNameDate": "26/Jul/2025",
+        "matchFileNameIdentifier": "26-Jul-2025.pdf"
+    },
+    {
+        "team1Name": "Swamiji",
+        "team2Name": "Tilak",
+        "team1": {
+            "name": "Swamiji",
+            "score": {
+                "runs": 84,
+                "wickets": 5,
+                "overs": 10
+            },
+            "batting": [
+                {
+                    "name": "Priyankush",
+                    "outReason": "c Qasim b Dolly",
+                    "runs": 26,
+                    "balls": 15,
+                    "fours": 1,
+                    "sixes": 2,
+                    "runRate": 173.33,
+                    "notOut": false
+                },
+                {
+                    "name": "Swamiji",
+                    "outReason": "c Qasim b Roshan",
+                    "runs": 0,
+                    "balls": 5,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Shubham",
+                    "outReason": "Run out (Debarun)",
+                    "runs": 16,
+                    "balls": 19,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 84.21,
+                    "notOut": false
+                },
+                {
+                    "name": "Keerthy",
+                    "outReason": "c Roshan b Arif",
+                    "runs": 24,
+                    "balls": 9,
+                    "fours": 1,
+                    "sixes": 3,
+                    "runRate": 266.67,
+                    "notOut": false
+                },
+                {
+                    "name": "Pradeep",
+                    "outReason": "Run out (Tilak)",
+                    "runs": 5,
+                    "balls": 8,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 62.5,
+                    "notOut": false
+                },
+                {
+                    "name": "Rishabh",
+                    "outReason": "not out",
+                    "runs": 3,
+                    "balls": 5,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 60,
+                    "notOut": true
+                },
+                {
+                    "name": "Hello",
+                    "outReason": "not out",
+                    "runs": 0,
+                    "balls": 0,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 10,
+            "battingRunRate": 8.4,
+            "extrasBowled": 13,
+            "extrasBowledText": "(13) 0 B, 0 LB, 13 WD, 0 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Rishabh",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 18,
+                    "wickets": 0,
+                    "economy": 9
+                },
+                {
+                    "name": "Shubham",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 1,
+                    "economy": 2
+                },
+                {
+                    "name": "Pradeep",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 8,
+                    "wickets": 0,
+                    "economy": 8
+                },
+                {
+                    "name": "Keerthy",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 20,
+                    "wickets": 0,
+                    "economy": 10
+                },
+                {
+                    "name": "Swamiji",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 20,
+                    "wickets": 1,
+                    "economy": 10
+                },
+                {
+                    "name": "Priyankush",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 17,
+                    "wickets": 0,
+                    "economy": 8.5
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Qasim",
+                    "score": "9/1",
+                    "over": "1.4"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "10/2",
+                    "over": "2.3"
+                },
+                {
+                    "name": "Abu",
+                    "score": "53/3",
+                    "over": "6.3"
+                }
+            ]
+        },
+        "team2": {
+            "extrasBowled": 10,
+            "extrasBowledText": "(10) 0 B, 0 LB, 9 WD, 1 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Roshan",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 1,
+                    "economy": 2
+                },
+                {
+                    "name": "Tilak",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 0,
+                    "economy": 6.5
+                },
+                {
+                    "name": "Abu",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 8,
+                    "wickets": 0,
+                    "economy": 4
+                },
+                {
+                    "name": "Qasim",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 18,
+                    "wickets": 0,
+                    "economy": 9
+                },
+                {
+                    "name": "Dolly",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 18,
+                    "wickets": 1,
+                    "economy": 18
+                },
+                {
+                    "name": "Debarun",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 11,
+                    "wickets": 0,
+                    "economy": 11
+                },
+                {
+                    "name": "Arif",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 14,
+                    "wickets": 1,
+                    "economy": 14
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Swamiji",
+                    "score": "2/1",
+                    "over": "1.0"
+                },
+                {
+                    "name": "Priyankush",
+                    "score": "33/2",
+                    "over": "4.2"
+                },
+                {
+                    "name": "Keerthy",
+                    "score": "72/3",
+                    "over": "6.5"
+                },
+                {
+                    "name": "Pradeep",
+                    "score": "77/4",
+                    "over": "8.4"
+                },
+                {
+                    "name": "Shubham",
+                    "score": "84/5",
+                    "over": "10.0"
+                }
+            ],
+            "name": "Tilak",
+            "score": {
+                "runs": 85,
+                "wickets": 3,
+                "overs": 10
+            },
+            "batting": [
+                {
+                    "name": "Qasim",
+                    "outReason": "b Shubham",
+                    "runs": 6,
+                    "balls": 8,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 75,
+                    "notOut": false
+                },
+                {
+                    "name": "Arif",
+                    "outReason": "not out",
+                    "runs": 30,
+                    "balls": 21,
+                    "fours": 1,
+                    "sixes": 2,
+                    "runRate": 142.86,
+                    "notOut": true
+                },
+                {
+                    "name": "Tilak",
+                    "outReason": "Run out (Priyankush)",
+                    "runs": 0,
+                    "balls": 3,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Abu",
+                    "outReason": "b Swamiji",
+                    "runs": 18,
+                    "balls": 17,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 105.88,
+                    "notOut": false
+                },
+                {
+                    "name": "Debu",
+                    "outReason": "not out",
+                    "runs": 18,
+                    "balls": 11,
+                    "fours": 1,
+                    "sixes": 1,
+                    "runRate": 163.64,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 13,
+            "battingRunRate": 8.5
+        },
+        "result": "Tilak won by 9 wickets.",
+        "winner": "Tilak",
+        "matchUploadedDate": "2025-08-10T10:03:40.788Z",
+        "matchFileNameDate": "10/Aug/2025",
+        "matchFileNameIdentifier": "10-Aug-2025(1).pdf"
+    },
+    {
+        "team1Name": "Tilak",
+        "team2Name": "Swamiji",
+        "team1": {
+            "name": "Tilak",
+            "score": {
+                "runs": 117,
+                "wickets": 5,
+                "overs": 10
+            },
+            "batting": [
+                {
+                    "name": "Qasim",
+                    "outReason": "c Priyankush b Swamiji",
+                    "runs": 10,
+                    "balls": 12,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 83.33,
+                    "notOut": false
+                },
+                {
+                    "name": "Arif",
+                    "outReason": "c Pradeep b Rishabh",
+                    "runs": 4,
+                    "balls": 2,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 200,
+                    "notOut": false
+                },
+                {
+                    "name": "Roshan",
+                    "outReason": "not out",
+                    "runs": 25,
+                    "balls": 19,
+                    "fours": 0,
+                    "sixes": 3,
+                    "runRate": 131.58,
+                    "notOut": true
+                },
+                {
+                    "name": "Debu",
+                    "outReason": "c Rishabh b Priyankush",
+                    "runs": 2,
+                    "balls": 5,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 40,
+                    "notOut": false
+                },
+                {
+                    "name": "Dolly",
+                    "outReason": "c Swamiji b Priyankush",
+                    "runs": 0,
+                    "balls": 2,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Tilak",
+                    "outReason": "c Debu b Priyankush",
+                    "runs": 0,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Abu",
+                    "outReason": "not out",
+                    "runs": 63,
+                    "balls": 22,
+                    "fours": 0,
+                    "sixes": 9,
+                    "runRate": 286.36,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 13,
+            "battingRunRate": 11.7,
+            "extrasBowled": 7,
+            "extrasBowledText": "(7) 0 B, 0 LB, 7 WD, 0 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Keerthy",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 2,
+                    "wickets": 0,
+                    "economy": 2
+                },
+                {
+                    "name": "Debu",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 30,
+                    "wickets": 0,
+                    "economy": 15
+                },
+                {
+                    "name": "Tilak",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 25,
+                    "wickets": 1,
+                    "economy": 12.5
+                },
+                {
+                    "name": "Abu",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 12,
+                    "wickets": 1,
+                    "economy": 6
+                },
+                {
+                    "name": "Arif",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 15,
+                    "wickets": 0,
+                    "economy": 15
+                },
+                {
+                    "name": "Qasim",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 7,
+                    "wickets": 0,
+                    "economy": 7
+                },
+                {
+                    "name": "Roshan",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 1,
+                    "economy": 13
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Keerthy",
+                    "score": "29/1",
+                    "over": "3.3"
+                },
+                {
+                    "name": "Rishabh",
+                    "score": "64/2",
+                    "over": "7.0"
+                },
+                {
+                    "name": "Swamiji",
+                    "score": "77/3",
+                    "over": "8.3"
+                }
+            ]
+        },
+        "team2": {
+            "extrasBowled": 13,
+            "extrasBowledText": "(13) 0 B, 0 LB, 10 WD, 3 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Keerthy",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 10,
+                    "wickets": 0,
+                    "economy": 10
+                },
+                {
+                    "name": "Rishabh",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 10,
+                    "wickets": 1,
+                    "economy": 10
+                },
+                {
+                    "name": "Swamiji",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 16,
+                    "wickets": 1,
+                    "economy": 8
+                },
+                {
+                    "name": "Shubham",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 30,
+                    "wickets": 0,
+                    "economy": 15
+                },
+                {
+                    "name": "Priyankush",
+                    "overs": 2,
+                    "maidens": 0,
+                    "runs": 25,
+                    "wickets": 3,
+                    "economy": 12.5
+                },
+                {
+                    "name": "B",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 4,
+                    "wickets": 0,
+                    "economy": 4
+                },
+                {
+                    "name": "Pradeep",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 22,
+                    "wickets": 0,
+                    "economy": 22
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Arif",
+                    "score": "14/1",
+                    "over": "1.2"
+                },
+                {
+                    "name": "Qasim",
+                    "score": "25/2",
+                    "over": "2.5"
+                },
+                {
+                    "name": "Debu",
+                    "score": "42/3",
+                    "over": "4.4"
+                },
+                {
+                    "name": "Dolly",
+                    "score": "44/4",
+                    "over": "4.5"
+                },
+                {
+                    "name": "Tilak",
+                    "score": "45/5",
+                    "over": "5.0"
+                }
+            ],
+            "name": "Swamiji",
+            "score": {
+                "runs": 104,
+                "wickets": 3,
+                "overs": 10
+            },
+            "batting": [
+                {
+                    "name": "Keerthy",
+                    "outReason": "b Abu",
+                    "runs": 3,
+                    "balls": 5,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 60,
+                    "notOut": false
+                },
+                {
+                    "name": "Priyankush",
+                    "outReason": "not out",
+                    "runs": 75,
+                    "balls": 37,
+                    "fours": 1,
+                    "sixes": 8,
+                    "runRate": 202.7,
+                    "notOut": true
+                },
+                {
+                    "name": "Rishabh",
+                    "outReason": "c Abu b Roshan",
+                    "runs": 0,
+                    "balls": 8,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 0,
+                    "notOut": false
+                },
+                {
+                    "name": "Swamiji",
+                    "outReason": "c Roshan b Tilak",
+                    "runs": 7,
+                    "balls": 5,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 140,
+                    "notOut": false
+                },
+                {
+                    "name": "Pradeep",
+                    "outReason": "not out",
+                    "runs": 12,
+                    "balls": 5,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 240,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 7,
+            "battingRunRate": 10.4
+        },
+        "result": "Tilak won by 13 runs.",
+        "winner": "Tilak",
+        "matchUploadedDate": "2025-08-10T10:03:40.827Z",
+        "matchFileNameDate": "10/Aug/2025",
+        "matchFileNameIdentifier": "10-Aug-2025(2).pdf"
+    },
+    {
+        "team1Name": "Swamiji",
+        "team2Name": "Tilak",
+        "team1": {
+            "name": "Swamiji",
+            "score": {
+                "runs": 89,
+                "wickets": 1,
+                "overs": 6
+            },
+            "batting": [
+                {
+                    "name": "Swamiji",
+                    "outReason": "c Abu b Debu",
+                    "runs": 54,
+                    "balls": 24,
+                    "fours": 1,
+                    "sixes": 8,
+                    "runRate": 225,
+                    "notOut": false
+                },
+                {
+                    "name": "Pradeep",
+                    "outReason": "not out",
+                    "runs": 25,
+                    "balls": 11,
+                    "fours": 1,
+                    "sixes": 1,
+                    "runRate": 227.27,
+                    "notOut": true
+                },
+                {
+                    "name": "Priyankush",
+                    "outReason": "not out",
+                    "runs": 6,
+                    "balls": 1,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 600,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 4,
+            "battingRunRate": 14.83,
+            "extrasBowled": 5,
+            "extrasBowledText": "(5) 0 B, 0 LB, 4 WD, 1 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Rishabh",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 25,
+                    "wickets": 0,
+                    "economy": 25
+                },
+                {
+                    "name": "Priyankush",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 10,
+                    "wickets": 0,
+                    "economy": 10
+                },
+                {
+                    "name": "Keerthy",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 12,
+                    "wickets": 0,
+                    "economy": 12
+                },
+                {
+                    "name": "Swamiji",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 0,
+                    "economy": 13
+                },
+                {
+                    "name": "Pradeep",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 11,
+                    "wickets": 0,
+                    "economy": 11
+                },
+                {
+                    "name": "Shubham",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 13,
+                    "wickets": 1,
+                    "economy": 13
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Tilak",
+                    "score": "29/1",
+                    "over": "1.4"
+                },
+                {
+                    "name": "Abu",
+                    "score": "78/2",
+                    "over": "5.4"
+                }
+            ]
+        },
+        "team2": {
+            "extrasBowled": 4,
+            "extrasBowledText": "(4) 0 B, 0 LB, 4 WD, 0 NB, 0 P",
+            "bowling": [
+                {
+                    "name": "Abu",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 6,
+                    "wickets": 0,
+                    "economy": 6
+                },
+                {
+                    "name": "Arif",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 15,
+                    "wickets": 0,
+                    "economy": 15
+                },
+                {
+                    "name": "Tilak",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 20,
+                    "wickets": 0,
+                    "economy": 20
+                },
+                {
+                    "name": "Qasim",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 19,
+                    "wickets": 0,
+                    "economy": 19
+                },
+                {
+                    "name": "Dolly",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 17,
+                    "wickets": 0,
+                    "economy": 17
+                },
+                {
+                    "name": "Debu",
+                    "overs": 1,
+                    "maidens": 0,
+                    "runs": 12,
+                    "wickets": 1,
+                    "economy": 12
+                }
+            ],
+            "fallOfWickets": [
+                {
+                    "name": "Swamiji",
+                    "score": "83/1",
+                    "over": "5.5"
+                }
+            ],
+            "name": "Tilak",
+            "score": {
+                "runs": 84,
+                "wickets": 2,
+                "overs": 6
+            },
+            "batting": [
+                {
+                    "name": "Tilak",
+                    "outReason": "Run out (Rishabh)",
+                    "runs": 4,
+                    "balls": 4,
+                    "fours": 0,
+                    "sixes": 0,
+                    "runRate": 100,
+                    "notOut": false
+                },
+                {
+                    "name": "Abu",
+                    "outReason": "b Shubham",
+                    "runs": 51,
+                    "balls": 19,
+                    "fours": 0,
+                    "sixes": 7,
+                    "runRate": 268.42,
+                    "notOut": false
+                },
+                {
+                    "name": "Roshan",
+                    "outReason": "not out",
+                    "runs": 18,
+                    "balls": 12,
+                    "fours": 1,
+                    "sixes": 0,
+                    "runRate": 150,
+                    "notOut": true
+                },
+                {
+                    "name": "Qasim",
+                    "outReason": "not out",
+                    "runs": 6,
+                    "balls": 2,
+                    "fours": 0,
+                    "sixes": 1,
+                    "runRate": 300,
+                    "notOut": true
+                }
+            ],
+            "extrasGot": 5,
+            "battingRunRate": 14
+        },
+        "result": "Swamiji won by 5 runs.",
+        "winner": "Swamiji",
+        "matchUploadedDate": "2025-08-10T10:03:40.851Z",
+        "matchFileNameDate": "10/Aug/2025",
+        "matchFileNameIdentifier": "10-Aug-2025.pdf"
     }
 ]

@@ -34,7 +34,8 @@ axios@^1.4.0:
 
 "bard-api-node@github:tilak-puli/bard-api-node":
   version "1.3.0"
-  resolved "git+ssh://git@github.com/tilak-puli/bard-api-node.git#4fe591d2e232b7d8347107af4d23e6f1ef46be1f"
+  resolved "git+ssh://git@github.com/tilak-puli/bard-api-node.git"
+  integrity sha512-HenpoIBmCOCiorVWnnNTTk9H0KwZC5mLarqz607cz1+73UrtgHIg21+beA1dEuNOvVNCNnZDwUj4zWYDpGVA8w==
   dependencies:
     axios "^1.4.0"
     qs "^6.11.2"
@@ -160,18 +161,6 @@ mime-types@^2.1.12:
   integrity sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==
   dependencies:
     mime-db "1.52.0"
-
-node-bin-setup@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.1.0.tgz"
-  integrity sha512-pTeU6NgUrexiLNtd+AKwvg6cngHMvj5FZ5e2bbv2ogBSIc9yhkXSSaTScfSRZnwHIh5YFmYSYlemLWkiKD7rog==
-
-node@^17.7.2:
-  version "17.7.2"
-  resolved "https://registry.npmjs.org/node/-/node-17.7.2.tgz"
-  integrity sha512-1hLwQfuA39nUDxCTwKqS8l27E9OEzfAdK5xU4Wcr3h2FrQao6qWNnurgWn4GJn9g6tfHuuupyrBl1lvMLNnecw==
-  dependencies:
-    node-bin-setup "^1.0.0"
 
 object-inspect@^1.9.0:
   version "1.12.3"

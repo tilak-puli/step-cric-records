@@ -9,9 +9,11 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "bard-api-node": "github:tilak-puli/bard-api-node",
-    "node": "^17.7.2",
     "pdfreader": "^1.4.0",
     "underscore": "^1.13.4"
   }
