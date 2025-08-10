@@ -4947,16 +4947,6 @@
                     "sixes": 0,
                     "runRate": 60,
                     "notOut": true
-                },
-                {
-                    "name": "Hello",
-                    "outReason": "not out",
-                    "runs": 0,
-                    "balls": 0,
-                    "fours": 0,
-                    "sixes": 0,
-                    "runRate": 0,
-                    "notOut": true
                 }
             ],
             "extrasGot": 10,
@@ -5137,20 +5127,20 @@
                     "notOut": false
                 },
                 {
-                    "name": "Arif",
+                    "name": "Tilak",
                     "outReason": "not out",
                     "runs": 30,
-                    "balls": 21,
+                    "balls": 22,
                     "fours": 1,
                     "sixes": 2,
                     "runRate": 142.86,
                     "notOut": true
                 },
                 {
-                    "name": "Tilak",
+                    "name": "Arif",
                     "outReason": "Run out (Priyankush)",
                     "runs": 0,
-                    "balls": 3,
+                    "balls": 2,
                     "fours": 0,
                     "sixes": 0,
                     "runRate": 0,
@@ -5393,7 +5383,7 @@
                     "economy": 12.5
                 },
                 {
-                    "name": "B",
+                    "name": "Pradeep",
                     "overs": 1,
                     "maidens": 0,
                     "runs": 4,
